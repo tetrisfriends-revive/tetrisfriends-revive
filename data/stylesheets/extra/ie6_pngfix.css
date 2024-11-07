@@ -1,0 +1,10 @@
+/* IE6 PNG Fix Rules */
+/* ================= */
+
+/* IE6 Workarounds */
+div.game_results_rank_change_arrow
+{
+	display: none;	
+}
+
+

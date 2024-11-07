@@ -1,0 +1,764 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv='X-UA-Compatible' content='IE=EmulateIE7' /><!-- Tetris Friends Header META Data (_headMeta.inc) -->
+		<title>Tetris Survival - Free online Tetris game at Tetris Friends</title>
+		<meta name="description" content="Play Tetris Survival online for FREE! Survive through 20 Levels in this browser-based authentic Tetris game mode." />
+		<meta name="google-site-verification" content="PUFXUZk_dDxsvRXfLGX-iQW6nvA1O-T-FhN-G9mORJw" />
+		<meta name="y_key" content="3282811995aadfa5" />
+		<meta name="keywords" content="tetris, friends, online, games, free, official, authorized, play, simple, fun, flash, multiplayer, puzzle, alexey, pajitnov, live, tetrimino, t-spin, harddrop, freetetris, tetrislive, nintendo, gameboy, authentic, wii, ds, henk, " />
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+		<!-- Tetris Friend Common Header (_head.inc) -->
+		<!--[if IE]>
+			<meta http-equiv="Pragma" content="no-cache" />
+			<meta http-equiv="Expires" content="-1" />
+		<![endif]-->
+		<link rel="shortcut icon" href="../../data/images/favicon.ico" />
+		<link rel='stylesheet' href='../../data/stylesheets/boxes.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tetris.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tool_tip.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/buttons.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tabs.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/scrollable.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/friends.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/homepage.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/gamemenu.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/gallery.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/gamesPage.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/game_normal.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/game_results.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/game_scrollable.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/leaderboard.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/legal.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/profile.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/messages.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/missions.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/registration.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/shop.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tetrishelp.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tetristips_btns.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tetristips.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/user_stats.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/popup.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/news.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/fb.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/sitemap.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/shadowbox.css' type='text/css' media='screen' />		<script type='text/javascript' src='../../data/javascripts/jquery-1.2.6.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/jeditable.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/jquery.cookie.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/jquery.jpager.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/shadowbox3/shadowbox.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/tetrisfriends.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/tools.scrollable-1.0.5.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/swfobject.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/unityobject.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/AC_OETags.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/detect.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/ads.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/fb.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/jquery.xmldom-1.0.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/jquery.qtip-1.0.0-rc3.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/jquery.cycle.all.js' charset='utf-8'></script>		<script type='text/javascript'>
+			shadowboxInit(true, false,'../../data/javascripts/shadowbox3/players/flvplayer4_3_1.swf');
+		</script><script type='text/javascript'>	var AD_AKAMAI_PATH = '../../data';	var TOA_IS_LOGGED_IN = false;  var TF_UID = 0;</script>
+		<script language="javascript" type="text/javascript">
+			<!--
+			var jsVersion = 10;
+			-->
+		</script>
+		<script language="javascript1.1" type="text/javascript"> <script src="https://unpkg.com/@ruffle-rs/ruffle@0.1.0-nightly.2024.11.7/ruffle.js"></script>
+		</script>
+		<script language="javascript" type="text/javascript">
+			<!--
+			OAS_INIT('', 'XE&amp;status=active&amp;ar=-1&amp;gg=-1&amp;us=0&amp;XE', 'results/survival', jsVersion);
+			checkGuest('75.87.161.207', 'tetrisfriends-revive.github.io', '/games/Survival/game.php', '1381169477663');
+			-->
+		</script>
+		<script src="https://unpkg.com/@ruffle-rs/ruffle@0.1.0-nightly.2024.11.7/ruffle.js"></script>
+<script type='text/javascript' src='/ads/toa_ads.js.php?listpos=x79&XE&amp;status=active&amp;ar=-1&amp;gg=-1&amp;us=0&amp;XE&productId=12'></script>
+		<!--[if lt IE 7]>
+			<link rel="stylesheet" href="../../data/stylesheets/extra/ie6_pngfix.css" type="text/css" media="screen" />
+		<![endif]-->
+		
+ 		<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script>
+		<script type='text/javascript'>
+					
+			$(document).ready(function() {
+				try {
+					initFBConnect("116327968403965","","",false,false,"2af283afd78f85c6eebe351578798830","http://tetrisfriends-revive.github.io");
+				} catch (ex) {
+				} 
+			});
+		</script>
+
+
+
+<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'></script>
+<script type='text/javascript'>
+	GS_googleAddAdSenseService("ca-pub-3122361475569593");
+	GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+	GA_googleAddSlot("ca-pub-3122361475569593", "TetrisFriends_OW_160x600_ROS_LS");
+	GA_googleAddSlot("ca-pub-3122361475569593", "TetrisFriends_OW_160x600_ROS_RS");
+	GA_googleAddSlot("ca-pub-3122361475569593", "TetrisFriends_OW_300x250_HP_RM");
+	GA_googleAddSlot("ca-pub-3122361475569593", "TetrisFriends_OW_300x250_ROS_ATF");
+	GA_googleAddSlot("ca-pub-3122361475569593", "TetrisFriends_OW_728x90_ROS_ATF");
+	
+	// The following ads are handled in /ads/google_dfp_results_ads.html
+	//GA_googleAddSlot("ca-pub-3122361475569593", "TetrisFriends_OW_300x250_RESULTS_L");
+	//GA_googleAddSlot("ca-pub-3122361475569593", "TetrisFriends_OW_300x250_RESULTS_M");
+	//GA_googleAddSlot("ca-pub-3122361475569593", "TetrisFriends_OW_300x250_RESULTS_R");
+</script>
+<script type='text/javascript'>
+	GA_googleFetchAds();
+</script>
+
+
+
+
+
+
+
+
+		<style type="text/css">
+			div.game_results_mini_profile a.home_profile_avatar img,
+			div.game_results_mini_profile a img.home_profile_avatar,
+			div.game_results_mini_profile img.home_profile_avatar
+			{
+				position: absolute;
+				top: 8px;
+				left: 6px;
+				height: 60px;
+				width: 60px;
+			}
+		</style>
+	</head>
+
+	<body>
+				<!-- Tetris Friends Top Navigation Bar (_topnav.inc) -->
+		<div id='fb_notice' class='fb_notice'></div>
+		<div id='tetris_token_notice' class='tetris_token_notice'></div>	
+						
+
+		<div id="header" class="tetris_header tetris_game_header" >
+			<div id="tetris_header_mouseover" class="tetris_header_mouseover"></div>
+			<div class="tetris_friends_logo">
+				<a href="/" title="Play Free Games at Tetris Friends"><h1>Tetris Friends</h1></a>
+			</div>
+			<div class="tetris_header_description tetris_hide_text">Online Games</div>
+			<div class="tetris_games_counter">&nbsp;</div>
+			<div class="tetris_top_nav">
+				<ul>
+					<li class="home"><a href="/" title="Return Home">Home</a></li>
+					<li class="gamesPage"><a href="/games/index.php" title="Play Free Games">Tetris Games</a></li>
+					<li class="profile"><a href="/users/profile.php?linkTag=nav" title="Visit Your Profile">My Profile</a></li>
+					<li class="friends"><a href="/friends/index.php" title="Visit Your Tetris Friends List">Friends</a></li>
+					<li class="shop"><a href="/shop/index.php" title="Customize Your Tetris Experience">Tetris Shop</a></li>
+					<li class="missions"><a href="/missions/index.php" title="Challenge Yourself to Tetris Missions">Tetris Missions</a></li>
+					<li class="community">
+						<div class="tetris_sub_menu" onmouseover='$(this).addClass("tetris_sub_menu_hover");' onmouseout='$(this).removeClass("tetris_sub_menu_hover");'>
+							<a href="javascript:void(0)" title="Be a part of the Tetris Community">Community</a>
+							<ul class="tetris_sub_menu_items">
+								<li class="leaderboard"><a href="/leaderboard/index.php" title="View the Tetris Leaderboards">Tetris Leaderboard</a></li>
+								<li class="gallery"><a href="/gallery/index.php" title="View the Tetris Gallery">Tetris Gallery</a></li>
+								<li class="news"><a href="/news/index.php" title="View Latest Tetris News">Tetris News</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="help"><a href="/help/tips.php" title="Learn Tetris Tips and Strategies">Tetris Tips</a></li>
+				</ul>
+				
+				
+				
+			</div>
+			<div class="tetris_login_area">
+				<table>
+					<tr>
+						<td valign="top">
+							<div class="fb_top_nav" style="display: none">
+   <a href="javascript:void(0)" class="fbconnect_login_button" onclick="fb_login()"></a>							</div>
+						</td>
+						<td valign="top">
+							<a class="button button_small_grey button_small_grey_login" href="javascript:void(0)" onclick="fb_siteLogin()" title="Login">Login</a>
+						</td>
+						<td valign="top">
+							<a class="button button_small_grey button_small_grey_register" href="http://tetrisfriends-revive.github.io/users/register.php?saveGame=true&linkTag=nav" title="Register">Sign-up</a>						</td>
+						<td valign="top">
+							<a class="button button_small_grey button_small_grey_help" href="/help/help.php" title="View the Help Section">Help</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="tetris_login_form">
+				<table>
+					<tr>
+						<td valign="top">
+							<form action="/users/process.php" method="post">
+								<table>
+									<tr>
+										<td>
+											<input style="height: auto; border: 0;" type="checkbox" value="1" name="remember_me"/> Remember me</td>
+										<td>
+											<input type="hidden" name="login" value="1"></input>
+										</td>
+										<td>
+											<input class="textfield idle" name="email" value="Enter e-mail address" onfocus="if (this.value == 'Enter e-mail address') { this.value = ''; var tl_pwd = document.getElementById('tetris_login_password'); if (tl_pwd.value == 'password') { tl_pwd.value = ''; } }"></input>
+										</td>
+										<td>
+											<input id='tetris_login_password' class="textfield idle" name="password" type="password" value="password" onfocus="if (this.value == 'password') { this.value = ''; } "></input>
+										</td>
+										<td>
+											<input class="button button_small_grey button_small_grey_login" type="submit" title="Login" value=""></input>
+										</td>
+										<td >
+											<a class="button button_small_grey button_small_grey_x" href="javascript:void(0)" onclick="displayLoginForm(false)" title="Cancel">&nbsp;</a>
+										</td>
+									</tr>
+								</table>
+							</form>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="fb-root"></div>
+		<div id="wrapper">
+			
+<div id="rail_left">
+	<script type='text/javascript'>
+		GA_googleFillSlot("TetrisFriends_OW_160x600_ROS_LS");	
+	</script>
+</div>
+
+<div id="rail_right">
+	<script type='text/javascript'>
+		GA_googleFillSlot("TetrisFriends_OW_160x600_ROS_RS");	
+	</script>
+</div>
+			<div id="container">
+								<div id="home_custom_ad_container" class="home_custom_ad_container" align="center" style="height: auto; padding-bottom: 10px;">
+				  	<div id="home_custom_ad_content" class="home_custom_ad_content">
+					<script language="JavaScript" type="text/javascript">	OAS_AD("x69");</script>					</div>
+				</div>
+				<div id="game_container" class="game_container">
+					<div id = 'game_side_menu' class = 'game_side_menu'>
+<div id = 'game_side_buttons' class = 'game_side_buttons'><a id = 'game_tutorial' href='javascript:tetrisGameInstructions()'		 class='button button_round_side button_round_tutorial game_tutorial_button' ></a><a id = 'game_options' href='javascript:tetrisGameOptions()' class='button button_round_side button_round_options game_options_button' ></a></div>&nbsp;
+</div>					
+					<!-- Content -->
+					<div id="game_swf" class="game_swf">
+						<div id="contentFlash">
+							<div id="errorMessage">
+								<noscript>Tetris Friends requires that Javascript is enabled in order to
+								properly display. <br />
+								Please check that your browser has Javascript enabled and reload the
+								page.</noscript>
+							</div>
+						</div>
+						<div id="contentUnity">
+							<div class = 'unity_install_box'>
+								<h1>You may not have Unity Web Player Installed!</h1>
+								<div class = 'unity_install'>
+									<a href = "" id = 'unityInstall'>
+										<div class = 'unity_install_logo'>
+											<img src='http://webplayer.unity3d.com/installation/getunity.png' border='0'/>
+										</div>
+									</a>
+									<div class = 'unity_upsell'>
+										<p>      To play this demo please install this trusted software. Similar to Flash, this plugin is a quick download and allows for much better 3D graphics!</p>
+									</div>
+								</div>
+								<div class = 'unity_robot'>
+								</div>
+								<div class ='clear'></div>
+								<div class = 'unity_learn'>
+									<a href='http://unity3d.com/webplayer/'>LEARN about UNITY</a>
+								</div>
+								<div class = 'unity_why'>
+									<h3>IF you decide not to install Unity Web Player, please tell us why. Thank you.</h3>
+								</div>
+								<div class = 'unity_install'>
+									<ul class = 'unity_why_list'>
+									<li><a href='/../users/ajax/addUnityFailure.php?rejected_why=1&failed_why=0'>I do NOT have Administrator priviledges on this machine.</a></li>
+									<li><a href='/../users/ajax/addUnityFailure.php?rejected_why=2&failed_why=0'>No thanks, I do not want to install.</a></li>
+									<li><a href='/../users/ajax/addUnityFailure.php?rejected_why=3&failed_why=0'>I'd like to learn more about UNITY 3D.</a></li>
+									<li><a href='/../users/ajax/addUnityFailure.php?rejected_why=4&failed_why=0'>Don't see your reason listed here? Please email and tell us why.</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="game_hidden_swf" class="game_hidden_swf">
+						<div id="contentHiddenFlash">
+						</div>
+					</div>
+					
+						<div class='game_loading_anim'>
+							<div class='game_loading_header' style='background: url(../../data/images/games/Loading_Survival_logo.png) no-repeat;'></div>
+							<div class='game_loading_sub_header'></div>
+						</div>
+						<iframe id='game_preroll_container' class='game_preroll_container' frameborder='0' scrolling='no' align='center' width='800' height='385' allowTransparency='true'></iframe>
+						<div class='game_loading_footer'></div>
+					</div>
+				</div>
+
+				<br />
+				<div class="clear"></div>
+
+				
+				<!-- Tetris Friends Footer SEO Data (_footerSEO.php) -->
+<br /><div class='home_seo_text'>Tetris&reg; is one of the most popular electronic games of all time. Like Tetris Marathon, the goal in Tetris Survival is to work your ways through the levels until you reach the end; however, unlike Tetris Marathon, there are 20 Levels, and then a special bonus level that allows you to play for as long as you can survive! To improve your score, try mastering techniques and strategies that will give you the highest reward for your efforts. Performing Doubles, Triples, Combos, T&ndash;Spins, and the well&ndash;known Tetris move will greatly increase your chances of raising your final score to new heights. Tetris Survival is FREE to play and doesn&rsquo;t require any special downloads to install.</div>				
+				<!-- Bottom Navigation Bar (_bottomnav.inc) -->
+				<div id="footer" class="tetris_footer">
+					<div class="tetris_authentic_logo">
+						<a href="http://www.tetris.com" title="Visit Tetris.com" target="_blank">Tetris</a>
+					</div>
+					<div class="tetris_copyright">
+						<img width="585px" height="56px" src="../../data/images/bottom/copyright.png" alt="Tetris" />
+					</div>
+					<div class="tetris_bottom_nav">
+						<ul>
+							<li><a id="footerSupportLink" href="mailto:support@tetrisonline.com" title="Contact Support">support@tetrisonline.com</a></li>
+							<li class="footerAboutListItem"><a href="http://www.tetrisonline.com" target="_blank">About Us</a></li>
+							<li><a href="/sitemap/" target="_blank" title="View Tetris Friends Sitemap">Sitemap</a></li>
+							<li class="last"><a href="/legal/tou.php" target="_blank" title="View Tetris Friends Terms of Use">Terms of Use</a></li>
+						</ul>
+
+						<span id="share">
+							<a class="button button_small_grey button_small_grey_sharethisgame" href="javascript:void(0)" onclick="displayShareThisPopup()">&nbsp;</a>
+						</span>
+					</div>
+				</div>
+				<div class="tetris_gradient_blue">&nbsp;</div><div class="tetris_gradient_purple">&nbsp;</div><div class="tetris_gradient_violet">&nbsp;</div><div class="tetris_gradient_red">&nbsp;</div>
+				<div class="clear"></div>			</div> <!-- container -->
+			<div id="home_ad_left_rail" class="home_ad_left_rail png_fix"></div>
+			<div id="home_ad_right_rail" class="home_ad_right_rail png_fix"></div>
+			
+		</div> <!-- wrapper -->
+
+		<div id='game_preroll_script' style='display:none;'>
+			<iframe id='game_preroll_script_iframe' frameborder='0' scrolling='no' align='center'></iframe>
+		</div>
+		
+				<br /><br />
+array(25) {
+  ["referrer"]=>
+  string(24) "/games/Survival/game.php"
+  ["force_flash_login"]=>
+  string(5) "false"
+  ["current_product_id"]=>
+  int(12)
+  ["guestTokens"]=>
+  int(0)
+  ["guestId"]=>
+  int(24180882)
+  ["guest_sfx_id"]=>
+  int(3000)
+  ["guest_vox_id"]=>
+  int(4001)
+  ["guest_mino_id"]=>
+  int(0)
+  ["guest_ghost_id"]=>
+  int(1)
+  ["guest_wintone_id"]=>
+  int(5000)
+  ["guest_wingrafix_id"]=>
+  int(6000)
+  ["isIpChecked"]=>
+  bool(true)
+  ["actionToken"]=>
+  string(32) "2af283afd78f85c6eebe351578798830"
+  ["userAccessoryIds"]=>
+  array(0) {
+  }
+  ["userMissionsIds"]=>
+  array(0) {
+  }
+  ["userMissionsExpiredIds"]=>
+  array(0) {
+  }
+  ["userMissionsActiveIds"]=>
+  array(0) {
+  }
+  ["userMissionsBoughtIds"]=>
+  array(0) {
+  }
+  ["userMissionsCompletedIds"]=>
+  array(0) {
+  }
+  ["userMissionsUnlockedHiddenIds"]=>
+  array(0) {
+  }
+  ["homepageTab"]=>
+  string(5) "games"
+  ["errors"]=>
+  array(0) {
+  }
+  ["show_alternative_handles"]=>
+  bool(false)
+  ["preroll_secret_key"]=>
+  int(18737888)
+  ["bypassPreroll"]=>
+  int(0)
+}
+
+		<!-- Common Page elements added just before the body tag is closed (_bodyend.inc) -->
+		<!-- Start Google tag -->
+		<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			var pageTracker = _gat._getTracker("UA-886022-5");
+			pageTracker._trackPageview();
+
+					</script>
+		<!-- End Google tag -->
+		
+
+		<script type="text/javascript">
+			updateSupportLinks('Guest');		</script>
+		
+				<!-- Begin comScore Tag -->
+		
+		<script>
+		    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+		</script>
+		
+		<script>
+		  // obtain page location then remove http:// and PHP query params
+		  var pageLocation = window.location.href;
+		  pageLocation = pageLocation.replace(/http:\/\//, "");
+		  pageLocation = pageLocation.split("?");
+		  pageLocation = pageLocation[0];  
+		
+		  COMSCORE.beacon({
+		    c1:2,
+		    c2:5619092,
+		    c3:"",
+		    c4:pageLocation,
+		    c5:"",
+		    c6:"",
+		    c15:""
+		  });
+		
+		</script>
+		
+		<noscript>
+		  <img src="http://b.scorecardresearch.com/b?c1=2&c2=5619092&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+		</noscript>
+		
+		<!-- End comScore Tag -->		
+		<script type='text/javascript'>
+		    // New status and CACHE TIMEOUTS are now in place, so we need to trigger
+		    // this reload session more often... if in-game it will run indefinitely,
+		    // if on any other page, it will stop after timeout specified below.
+			var keepAliveMSEC = 30 * 1000; // half of cache timeout
+			var keepAliveLimitMSEC = -1; // 15 min timeout if not in-game
+			var keepAliveCount = 0;
+			var reloadIntervalId = -1;
+
+		    
+		    function startReloadSessionInterval() {
+				reloadIntervalId = setInterval("triggerReloadSession()", keepAliveMSEC);
+			}
+	
+			function stopReloadSessionInterval() {
+				if (reloadIntervalId) {
+					clearInterval(reloadIntervalId);
+				}
+			}
+			
+			function triggerReloadSession() {
+				if (keepAliveLimitMSEC == -1 || (keepAliveCount < (keepAliveLimitMSEC/keepAliveMSEC))) {
+					$.ajax({
+						type: "GET",
+						url: "/users/ajax/reload_session.php",
+						dataType: "text",
+						success: function(response){
+							//alert("Response: " + response);
+						}
+					});
+				} else {
+					stopReloadSessionInterval();
+				}
+				keepAliveCount++;
+			}
+
+			$(document).ready(function() {
+				fb_pushCommand(fb_showGuestUpsell);			});
+		</script>
+		<!-- JavaScript -->
+		<script language="JavaScript" type="text/javascript">
+			productId = replayProductId = 12;
+			productName = "Survival";
+			productUrl  = "http://tetrisfriends-revive.github.io/games/Survival/game.php";
+			productDesc = "Survive through 20 levels of Tetris and earn as many points as you can!";
+			
+			isReplayReady = false;
+			windowHasFocus = true;
+			sk = 0;
+
+			window.document.onfocus = function() { windowHasFocus = true; }
+			window.document.onblur  = function() { windowHasFocus = false; }
+
+			function js_tetrisUpdateGuestSettings(currentSfxId, currentVoxId) {
+				if (currentSfxId != "undefined" &&
+						currentSfxId != "undefined" &&
+						currentVoxId != undefined &&
+						currentVoxId != undefined) {
+					$.get("/users/ajax/guest_settings.php?guest_sfx_id="+this.currentSfxId+"&guest_vox_id="+currentVoxId);
+				}
+			}
+
+			function tetrisShowResults(inResults, inIsMultiplayer, inIsAd, inWinAnimId, inWinToneId, inWinAnimName, inWinToneName, inWinnerName) 
+			{
+				var path = '../../data';
+				var userAvatar =  "0.gif";
+				var username   = "Guest";
+				var isAdEnabled = inIsAd;
+				var isEmailVerified = 0;
+
+								if (path == "") {
+					path = null;
+				}
+				$('#home_custom_ad_container').css('padding-bottom', '45px');
+				gameShowResults(inResults, '','/games/Survival/game.php', inIsMultiplayer, '', username, userAvatar, path, isAdEnabled, isEmailVerified, inWinAnimId, inWinToneId, inWinAnimName, inWinToneName, inWinnerName, '1');
+			}
+			
+			function js_tetrisShowResults(inResults, inIsMultiplayer, inIsAd, inWinnerId, inWinnerName)
+			{
+				var callbackFunc = function (inResults, inIsMultiplayer, inIsAd, inWinnerId, inWinnerName) {
+					if (inIsMultiplayer) {
+						$.get("/users/ajax/get_current_win_effect.php?id=" + inWinnerId,
+								function(data){
+									var res = data.split(",");
+									tetrisShowResults(inResults, inIsMultiplayer, inIsAd, res[1], res[0], res[3], res[2], inWinnerName)
+								});
+					} else {
+						tetrisShowResults(inResults, inIsMultiplayer, inIsAd, 0, 0, 0, 0, inWinnerName)
+					}
+				};
+				
+				popUpRegisterPopup(function() { callbackFunc(inResults, inIsMultiplayer, inIsAd, inWinnerId, inWinnerName); });			}
+
+			function js_tetrisShowHome(errorCode, errorMsg, errorRQ, errorRS) {
+				
+			   	if (errorCode == undefined || errorCode == "undefined") {
+			   		errorCode = 1000;
+			   	}
+			   	if (errorMsg == undefined || errorMsg == "undefined") {
+			   		errorMsg = '---';
+			   	}
+
+			   	popUpGameErrorNotice('Guest', errorCode, errorMsg, errorRQ, errorRS, false);
+			}
+
+			function js_tetrisShowMissionPopup(inXml) {
+								
+				gameResultMissions = new Array();
+				
+				$.xmlDOM(inXml).find('UserMission')
+					.each(function(i) {gameResultMissions.push(new GameResultMission(this));});
+				var headerHtml = "<link rel='stylesheet' href='../../data/stylesheets/boxes.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tetris.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tool_tip.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/buttons.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tabs.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/scrollable.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/friends.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/homepage.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/gamemenu.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/gallery.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/gamesPage.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/game_normal.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/game_results.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/game_scrollable.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/leaderboard.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/legal.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/profile.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/messages.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/missions.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/registration.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/shop.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tetrishelp.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tetristips_btns.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tetristips.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/user_stats.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/popup.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/news.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/fb.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/sitemap.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/shadowbox.css' type='text/css' media='screen' />";
+				headerHtml = headerHtml + "<script type='text/javascript' src='../../data/javascripts/jquery-1.2.6.js' charset='utf-8'><\/script>		<script type='text/javascript' src='../../data/javascripts/jeditable.js' charset='utf-8'><\/script>		<script type='text/javascript' src='../../data/javascripts/jquery.cookie.js' charset='utf-8'><\/script>		<script type='text/javascript' src='../../data/javascripts/jquery.jpager.js' charset='utf-8'><\/script>		<script type='text/javascript' src='../../data/javascripts/shadowbox3/shadowbox.js' charset='utf-8'><\/script>		<script type='text/javascript' src='../../data/javascripts/tetrisfriends.js' charset='utf-8'><\/script>		<script type='text/javascript' src='../../data/javascripts/tools.scrollable-1.0.5.js' charset='utf-8'><\/script>		<script type='text/javascript' src='../../data/javascripts/swfobject.js' charset='utf-8'><\/script>		<script type='text/javascript' src='../../data/javascripts/unityobject.js' charset='utf-8'><\/script>		<script type='text/javascript' src='../../data/javascripts/AC_OETags.js' charset='utf-8'><\/script>		<script type='text/javascript' src='../../data/javascripts/detect.js' charset='utf-8'><\/script>		<script type='text/javascript' src='../../data/javascripts/ads.js' charset='utf-8'><\/script>		<script type='text/javascript' src='../../data/javascripts/fb.js' charset='utf-8'><\/script>		<script type='text/javascript' src='../../data/javascripts/jquery.xmldom-1.0.js' charset='utf-8'><\/script>		<script type='text/javascript' src='../../data/javascripts/jquery.qtip-1.0.0-rc3.js' charset='utf-8'><\/script>		<script type='text/javascript' src='../../data/javascripts/jquery.cycle.all.js' charset='utf-8'><\/script>";
+				gameResultsDisplayAchievementPopups(AD_AKAMAI_PATH, true, headerHtml);
+			}
+
+			function replayReady()
+			{
+
+			}
+
+			function js_replayReady()
+			{
+								isReplayReady = true;
+
+				if (replayProductId != 85 && replayProductId != 11 && replayProductId != 4)
+				{
+					if (replayProductId != "undefined" &&
+					    gameResultsGameData != "undefined" &&
+					    replayProductId != undefined &&
+					    gameResultsGameData != undefined) {
+	
+						replayLoad(replayProductId, '../../data');
+					}
+
+					if (gameResultsIsMultiplayer) {
+						setTimeout("replayStartMP(gameResultsGameData, '../../data')", 0);
+					} else {
+						setTimeout("replayStart(gameResultsGameData)", 0);
+					}
+					isReplayReady = false;
+				}
+			}
+
+		    function renderFlash(showStartBtn, prerollEnabled) {
+			  			  var isPlay = '1';
+			  var theStartParam = 'play';
+			  var isClickToPlay = true;
+			  var windowMode = "window";
+			  var analyticsEnabled = true;
+
+			  if (typeof(showStartBtn) == 'undefined' || showStartBtn == '') {
+				  showStartBtn = false;
+			  }
+			  if (typeof(prerollEnabled) == 'undefined' || prerollEnabled == '') {
+				  prerollEnabled = false;
+			  }
+			  
+			  if (12 == 85) {
+					$('#game_side_buttons').hide();
+			  }
+			  
+			  jQuery.each(jQuery.browser, function(i) {
+			  	  if($.browser.msie){
+			  			isClickToPlay = false;
+			  	  }else if($.browser.mozilla && jQuery.browser.version.substr(0,3) == "1.9"){
+			  			isClickToPlay = false;
+			  	  }else if($.browser.mozilla){
+				  	  if (replayProductId != 101 && replayProductId != 100){
+					  	  isClickToPlay = true;
+				  	  }
+				  	  else{
+					  	  isClickToPlay = false;
+				  	  }
+			  			windowMode = "opaque";
+			  	  }else if($.browser.safari){
+				  	  if (replayProductId != 101 && replayProductId != 100){
+					  	  isClickToPlay = true;
+					  }
+					  else{
+						  isClickToPlay = false;
+					  }
+				  	  analyticsEnabled = false;
+			  	  }else if($.browser.opera){
+			  			isClickToPlay = false;
+			  			analyticsEnabled = false;
+			  	  }else{
+			  			isClickToPlay = false;
+			  	  }
+			  	});
+
+			  if (showStartBtn && replayProductId != 101 && replayProductId != 100 && replayProductId != 3) {
+				  isClickToPlay = true;
+			  }
+			  if (isPlay&& isClickToPlay) {
+				theStartParam = "clickToPlay";
+			  }
+
+			  var theExternalId = getExternalId('u7tpFP8R0Cg=');
+			  var theLoginId = getLoginId(0);
+
+			  
+			  flashVars = {
+				theGamePath: '',
+				sessionId: encodeURIComponent('u7tpFP8R0Cg='),
+				startParam: theStartParam,
+				isForceLogin: 'false',
+				isDemo: '',
+		        ip: '75.87.161.207',
+		        externalId: theExternalId,
+		        loginId: theLoginId,
+		        channelId: 1381169477,
+		        numGamesToPlayAd: 6,
+		        isPrerollEnabled: prerollEnabled,
+		        isAnalyticsEnabled: analyticsEnabled,
+		        autoJoinRoomId: $.cookie("autoJoinRoomId"),
+		        autoJoinRoomName: $.cookie("autoJoinRoomName"),
+		        apiUrl: encodeURIComponent('http://api.tetrisdev.com/api'),
+		        showChallenge: 0,
+		        prerollId: 18737888		        
+				, guestId: 24180882, currentSfxId: 3000, currentVoxId: 4001		      };
+
+			  if (replayProductId == 3) {
+				  if (prerollEnabled) {
+					  pageTracker._trackPageview('/games/Arena/loadingPagePreroll');
+				  } else {
+				      pageTracker._trackPageview('/games/Arena/loadingPage');
+				  }
+			  }
+			  
+		      swfobject.embedSWF("../../data/games/Survival/OWGameSurvival.swf?version=3", "contentFlash", "760", "560", "9.0.0", {}, flashVars, {wmode: windowMode}, {allowscriptaccess: "always"}, {id:"OWGame", name:"OWGame"});
+
+			  		      
+		      '';
+		      '';
+
+				function setFocusOnFlash() {
+					setTimeout('var fl = document.getElementById("contentFlash"); if (fl) { fl.focus(); }', 3000);
+				}
+
+				if (jQuery.browser.msie) {
+					  swfobject.addDomLoadEvent(setFocusOnFlash);
+				} else {
+					if (window.onload) {
+						var func = window.onload;
+						window.onload = function() {
+							func();
+							setFocusOnFlash();
+						}
+					} else {
+						window.onload = function() {
+							setFocusOnFlash();
+						}
+					}
+				}
+				if (false == true) {
+					$.cookie("autoJoinRoomId", -1, {expires:'', path:'/'});
+					$.cookie("autoJoinRoomName", "", {expires:'', path:'/'});
+				}
+		    }
+
+		   var isSwf = '1';
+		   var isUnity = '';
+
+		   if (isSwf)
+		   {
+			   $('#contentUnity').hide();
+			   
+			    // Checks if user has the correct version of Flash
+			    var hasReqestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+	
+			    // If user does, render flash, else display error message
+			    if (hasReqestedVersion) {
+				    $(document).ready(function() {
+						    				sk = 18737888;
+											setTimeout('gameTriggerPrerollVideo();', 0);
+										  });renderFlash(true, true);			    	
+			    } else {
+			    	var errorMsg = document.getElementById('errorMessage');
+					errorMsg.innerHTML = 'If the game does not load or you experience problems\nUpgrade your version of Flash';
+			    }
+		   }
+		   else if (isUnity)
+		   {
+			   $('#contentUnity').show();
+			   var hadUnity = false;
+			   
+			   function js_unityReady(inParam)
+			   {
+				   var api = '';
+				   var dataPath = '../../data';
+				   var unityParams = 'u7tpFP8R0Cg=' + "," + api + "," + dataPath + "," + hadUnity;
+				   uniObj.msg(inParam.split(",")[0], inParam.split(",")[1], unityParams);
+			   }
+			   var div = $('#contentUnity'); 
+			   var installAnchor = $('#unityInstall'); 
+			   var uniObj = new UnityObject('', 'Survival', "760", "560", div, installAnchor);
+
+			   uniObj.write();
+			   if (uniObj.detectUnityWebPlayer())
+			   {
+				   hadUnity = true;
+			   }
+		   }
+
+		   	function gameTriggerPrerollComplete() {
+				var el = document.getElementById('game_preroll_script_iframe');
+				var fn;
+				if (el.contentWindow) {
+					fn = el.contentWindow.OAS_VIDEO;
+				} else if (el.contentDocument) {
+					fn = el.contentDocument.OAS_VIDEO;
+				}
+				console.debug("game_preroll_script_iframe.onload " + fn);
+				gameLoadDFPPrerollVideo(fn);
+			}
+		   	function gameTriggerPrerollVideo() {
+				console.group("gameTriggerPrerollVideo() for %s", productName);
+				$('#game_container').css('height', '560px');
+				$('#contentFlash').css('visibility', 'Yes');
+				$('.game_loading').show();
+				$('#game_preroll_script_iframe').attr('src', '/ads/google_dfp_video_ad.html');
+/*				
+				// IE7 and IE8 don't seem to trigger onload (see http://www.nczonline.net/blog/2009/09/15/iframes-onload-and-documentdomain/)
+				iframeEl = document.getElementById('game_preroll_script_iframe');
+				if (iframeEl.attachEvent) {
+					iframeEl.attachEvent("onload", gameTriggerPrerollComplete);
+				} else {
+					iframeEl.onload = gameTriggerPrerollComplete;
+				}
+
+				// This doesn't work on IE7 and IE8
+				document.getElementById('game_preroll_script_iframe').onload = 
+					function () {
+						var el = document.getElementById('game_preroll_script_iframe');
+						var fn;
+						if (el.contentWindow) {
+							fn = el.contentWindow.OAS_VIDEO;
+						} else if (el.contentDocument) {
+							fn = el.contentDocument.OAS_VIDEO;
+						}
+						console.debug("game_preroll_script_iframe.onload " + fn);
+						gameLoadDFPPrerollVideo(fn);
+					};
+*/
+					
+//				gameLoadOASPrerollVideo();
+			}
+		  
+			GET_TOA_AD('x79');
+		</script>
+	</body>
+</html>

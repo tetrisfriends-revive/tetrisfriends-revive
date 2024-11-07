@@ -1,0 +1,905 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<!-- Tetris Friends Header META Data (_headMeta.inc) -->
+		<title>Tetris Help - Tetris Friends</title>
+		<meta name="description" content="Help for how to use Tetris Friends Online Games." />
+		<meta name="google-site-verification" content="PUFXUZk_dDxsvRXfLGX-iQW6nvA1O-T-FhN-G9mORJw" />
+		<meta name="y_key" content="3282811995aadfa5" />
+		<meta name="keywords" content="tetris, friends, online, games, free, official, authorized, play, simple, fun, flash, multiplayer, puzzle, alexey, pajitnov, live, tetrimino, t-spin, harddrop, freetetris, tetrislive, nintendo, gameboy, authentic, wii, ds, henk, " />
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+		<!-- Tetris Friend Common Header (_head.inc) -->
+		<!--[if IE]>
+			<meta http-equiv="Pragma" content="no-cache" />
+			<meta http-equiv="Expires" content="-1" />
+		<![endif]-->
+		<link rel="shortcut icon" href="../../data/images/favicon.ico" />
+		<link rel='stylesheet' href='../../data/stylesheets/boxes.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tetris.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tool_tip.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/buttons.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tabs.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/scrollable.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/friends.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/homepage.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/gamemenu.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/gallery.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/gamesPage.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/game_normal.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/game_results.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/game_scrollable.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/leaderboard.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/legal.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/profile.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/messages.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/missions.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/registration.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/shop.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tetrishelp.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tetristips_btns.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/tetristips.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/user_stats.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/popup.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/news.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/fb.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/sitemap.css' type='text/css' media='screen' />		<link rel='stylesheet' href='../../data/stylesheets/shadowbox.css' type='text/css' media='screen' />		<script type='text/javascript' src='../../data/javascripts/jquery-1.2.6.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/jeditable.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/jquery.cookie.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/jquery.jpager.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/shadowbox3/shadowbox.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/tetrisfriends.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/tools.scrollable-1.0.5.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/swfobject.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/unityobject.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/AC_OETags.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/detect.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/ads.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/fb.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/jquery.xmldom-1.0.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/jquery.qtip-1.0.0-rc3.js' charset='utf-8'></script>		<script type='text/javascript' src='../../data/javascripts/jquery.cycle.all.js' charset='utf-8'></script>		<script type='text/javascript'>
+			shadowboxInit(true, false,'../../data/javascripts/shadowbox3/players/flvplayer4_3_1.swf');
+		</script><script type='text/javascript'>	var AD_AKAMAI_PATH = '../../data';	var TOA_IS_LOGGED_IN = false;  var TF_UID = 0;</script>
+		<script language="javascript" type="text/javascript">
+			<!--
+			var jsVersion = 10;
+			-->
+		</script>
+		<script language="javascript1.1" type="text/javascript"> <script src="https://unpkg.com/@ruffle-rs/ruffle@0.1.0-nightly.2024.11.7/ruffle.js"></script>
+		</script>
+		<script language="javascript" type="text/javascript">
+			<!--
+			OAS_INIT('', 'XE&amp;status=active&amp;ar=-1&amp;gg=-1&amp;us=0&amp;XE', 'home', jsVersion);
+			checkGuest('75.87.161.207', 'tetrisfriends-revive.github.io', '/help/help.php?linkTag=mp', '1381169478801');
+			-->
+		</script>
+
+<script type='text/javascript' src='/ads/toa_ads.js.php?listpos=x66&XE&amp;status=active&amp;ar=-1&amp;gg=-1&amp;us=0&amp;XE'></script>
+		<!--[if lt IE 7]>
+			<link rel="stylesheet" href="../../data/stylesheets/extra/ie6_pngfix.css" type="text/css" media="screen" />
+		<![endif]-->
+		
+ 		<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script>
+		<script type='text/javascript'>
+					
+			$(document).ready(function() {
+				try {
+					initFBConnect("116327968403965","","",false,false,"2af283afd78f85c6eebe351578798830","http://tetrisfriends-revive.github.io");
+				} catch (ex) {
+				} 
+			});
+		</script>
+
+
+
+<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'></script>
+<script type='text/javascript'>
+	GS_googleAddAdSenseService("ca-pub-3122361475569593");
+	GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+	GA_googleAddSlot("ca-pub-3122361475569593", "TetrisFriends_OW_160x600_ROS_LS");
+	GA_googleAddSlot("ca-pub-3122361475569593", "TetrisFriends_OW_160x600_ROS_RS");
+	GA_googleAddSlot("ca-pub-3122361475569593", "TetrisFriends_OW_300x250_HP_RM");
+	GA_googleAddSlot("ca-pub-3122361475569593", "TetrisFriends_OW_300x250_ROS_ATF");
+	GA_googleAddSlot("ca-pub-3122361475569593", "TetrisFriends_OW_728x90_ROS_ATF");
+	
+	// The following ads are handled in /ads/google_dfp_results_ads.html
+	//GA_googleAddSlot("ca-pub-3122361475569593", "TetrisFriends_OW_300x250_RESULTS_L");
+	//GA_googleAddSlot("ca-pub-3122361475569593", "TetrisFriends_OW_300x250_RESULTS_M");
+	//GA_googleAddSlot("ca-pub-3122361475569593", "TetrisFriends_OW_300x250_RESULTS_R");
+</script>
+<script type='text/javascript'>
+	GA_googleFetchAds();
+</script>
+
+
+
+
+
+
+
+
+		
+		<!--[if lt IE 7]>
+
+		<style type='text/css'>
+			div.help_content {
+				!width:628px;
+			}
+			div.tips_btm_right_corner {
+				right: 1px;
+			}
+		</style>
+
+		<![endif]-->
+	</head>
+
+	<body>
+				<!-- Tetris Friends Top Navigation Bar (_topnav.inc) -->
+		<div id='fb_notice' class='fb_notice'></div>
+		<div id='tetris_token_notice' class='tetris_token_notice'></div>	
+						
+
+		<div id="header" class="tetris_header" style="z-index: 50">
+			<div id="tetris_header_mouseover" class="tetris_header_mouseover"></div>
+			<div class="tetris_friends_logo">
+				<a href="/" title="Play Free Games at Tetris Friends"><h1>Tetris Friends</h1></a>
+			</div>
+			<div class="tetris_header_description tetris_hide_text">Online Games</div>
+			<div class="tetris_games_counter">&nbsp;</div>
+			<div class="tetris_top_nav">
+				<ul>
+					<li class="home"><a href="/" title="Return Home">Home</a></li>
+					<li class="gamesPage"><a href="/games/index.php" title="Play Free Games">Tetris Games</a></li>
+					<li class="profile"><a href="/users/profile.php?linkTag=nav" title="Visit Your Profile">My Profile</a></li>
+					<li class="friends"><a href="/friends/index.php" title="Visit Your Tetris Friends List">Friends</a></li>
+					<li class="shop"><a href="/shop/index.php" title="Customize Your Tetris Experience">Tetris Shop</a></li>
+					<li class="missions"><a href="/missions/index.php" title="Challenge Yourself to Tetris Missions">Tetris Missions</a></li>
+					<li class="community">
+						<div class="tetris_sub_menu" onmouseover='$(this).addClass("tetris_sub_menu_hover");' onmouseout='$(this).removeClass("tetris_sub_menu_hover");'>
+							<a href="javascript:void(0)" title="Be a part of the Tetris Community">Community</a>
+							<ul class="tetris_sub_menu_items">
+								<li class="leaderboard"><a href="/leaderboard/index.php" title="View the Tetris Leaderboards">Tetris Leaderboard</a></li>
+								<li class="gallery"><a href="/gallery/index.php" title="View the Tetris Gallery">Tetris Gallery</a></li>
+								<li class="news"><a href="/news/index.php" title="View Latest Tetris News">Tetris News</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="help"><a href="/help/tips.php" title="Learn Tetris Tips and Strategies">Tetris Tips</a></li>
+				</ul>
+				
+				
+				
+			</div>
+			<div class="tetris_login_area">
+				<table>
+					<tr>
+						<td valign="top">
+							<div class="fb_top_nav" style="">
+   <a href="javascript:void(0)" class="fbconnect_login_button" onclick="fb_login()"></a>							</div>
+						</td>
+						<td valign="top">
+							<a class="button button_small_grey button_small_grey_login" href="javascript:void(0)" onclick="fb_siteLogin()" title="Login">Login</a>
+						</td>
+						<td valign="top">
+							<a class="button button_small_grey button_small_grey_register" href="http://tetrisfriends-revive.github.io/users/register.php?saveGame=true&linkTag=nav" title="Register">Sign-up</a>						</td>
+						<td valign="top">
+							<a class="button button_small_grey button_small_grey_help" href="/help/help.php" title="View the Help Section">Help</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="tetris_login_form">
+				<table>
+					<tr>
+						<td valign="top">
+							<form action="/users/process.php" method="post">
+								<table>
+									<tr>
+										<td>
+											<input style="height: auto; border: 0;" type="checkbox" value="1" name="remember_me"/> Remember me</td>
+										<td>
+											<input type="hidden" name="login" value="1"></input>
+										</td>
+										<td>
+											<input class="textfield idle" name="email" value="Enter e-mail address" onfocus="if (this.value == 'Enter e-mail address') { this.value = ''; var tl_pwd = document.getElementById('tetris_login_password'); if (tl_pwd.value == 'password') { tl_pwd.value = ''; } }"></input>
+										</td>
+										<td>
+											<input id='tetris_login_password' class="textfield idle" name="password" type="password" value="password" onfocus="if (this.value == 'password') { this.value = ''; } "></input>
+										</td>
+										<td>
+											<input class="button button_small_grey button_small_grey_login" type="submit" title="Login" value=""></input>
+										</td>
+										<td >
+											<a class="button button_small_grey button_small_grey_x" href="javascript:void(0)" onclick="displayLoginForm(false)" title="Cancel">&nbsp;</a>
+										</td>
+									</tr>
+								</table>
+							</form>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="fb-root"></div>
+		<div id="wrapper">
+
+
+
+			<!-- modified container -->
+			<div id="tetris_main_content" style="width:653px;" class="marginleft_10px">
+
+			<!-- NOTE: Build your page content here! -->
+
+			<div class="help_live_area">
+			<div class="tips_top_right_corner" style="background-image:url(../../data/help/images/round_corner_TR.png); background-repeat:no-repeat;"></div>
+			<div class="tips_top_left_corner" style="background-image:url(../../data/help/images/round_corner_TL.png); background-repeat:no-repeat;"></div>
+			<div class="help_content">
+				<br /><h1 class="help_big_headline">Tetris Friends Help</h1>
+					<p class="help_intro"><span class="help_emphasis_body">Find help here on how to take advantage of all the features of Tetris Friends.</span><br />Looking for gameplay help? Check out our extensive <a href="tips.php">Tutorials section</a>.</p><br />
+
+					<div style="margin: 10px;">
+						<a href='#help_section_system_reqs'><u>System Requirements</u></a>
+						<br />
+						<br />
+						
+						<a href='#help_section_user_acct_info'><u>User Account Information</u></a>
+						<ul class="tetrishelp_listtab">
+							<li><a href='#help_section_user_acct_info_q1'>How do I change the email address registered to my account?</a></li>
+							<li><a href='#help_section_user_acct_info_q2'>I forgot my password. Is there a way to easily retrieve it?</a></li>
+							<li><a href='#help_section_user_acct_info_q3'>How do I change my screen name?</a></li>
+							<li><a href='#help_section_user_acct_info_q3'>How do I save my progress (Minos earned, high scores, etc.)?</a></li>
+						</ul>
+						<br />
+
+						<a href='#help_section_shop'><u>Tetris Friends Shop</u></a>
+						<ul class="tetrishelp_listtab">
+							<li><img src='../../data/images/ruby_icon.png' align='top' width='15px' height='15px' /> <a href='#help_section_rubies'>Rubies</a>
+								<ul class="tetrishelp_listtab" style="list-style-type: circle;">
+									<li><a href='#help_section_rubies_q1'>What are Rubies?</a></li>
+									<li><a href='#help_section_rubies_q2'>How do I get Rubies?</a></li>
+									<li><a href='#help_section_rubies_q3'>Can I use Tokens to acquire Rubies?</a></li>
+									<li><a href='#help_section_rubies_q4'>Can I send Rubies as a gift?</a></li>
+									<li><a href='#help_section_rubies_q5'>Payment Processing Issues</a></li>
+								</ul>
+							</li>
+							
+							<li><img src='../../data/images/token_icon.png' align='top' width='15px' height='15px' /> <a href='#help_section_tokens'>Tokens</a>
+								<ul class="tetrishelp_listtab" style="list-style-type: circle;">
+									<li><a href='#help_section_tokens_q1'>What are Tokens?</a></li>
+									<li><a href='#help_section_tokens_q2'>How do I get Tokens?</a></li>
+									<li><a href='#help_section_tokens_q3'>Why am I not earning Tokens?</a></li>
+								</ul>
+							</li>
+
+							<li><a href='#help_section_items'>Items</a>
+								<ul class="tetrishelp_listtab" style="list-style-type: circle;">
+									<li><a href='#help_section_items_q1'>What are Items?</a></li>
+									<li><a href='#help_section_items_q2'>How do I buy or unlock an Item?</a></li>
+									<li><a href='#help_section_items_q3'>How do I preview an Item before buying or unlocking it?</a></li>
+									<li><a href='#help_section_items_q4'>Now that I have an Item, how do I use it?</a></li>
+								</ul>
+							</li>
+						</ul>
+						<br />
+
+						<a href='#help_section_missions'><u>Missions</u></a>
+						<ul class="tetrishelp_listtab">
+							<li><a href='#help_section_missions_q1'>What are Missions?</a></li>
+							<li><a href='#help_section_missions_q2'>How do I activate a Mission?</a></li>
+							<li><a href='#help_section_missions_q3'>What happens if I don't complete a Mission in the allotted time?</a></li>
+							<li><a href='#help_section_missions_q4'>How many Missions can I activate at a time?</a></li>
+							<li><a href='#help_section_missions_q5'>What are Mission Paks?</a></li>
+							<li><a href='#help_section_missions_q6'>How long do I have to complete a Mission?</a></li>
+							<li><a href='#help_section_missions_q7'>How do I know what Missions are currently available?</a></li>
+							<li><a href='#help_section_missions_q8'>Can I complete a Mission more than once?</a></li>
+							<li><a href='#help_section_missions_q9'>What is the purpose of the Mission rating system?</a></li>
+							<li><a href='#help_section_missions_q10'>What is the purpose of the &quot;My Grid&quot;?</a></li>
+						</ul>
+						<br />
+
+						<a href='#help_section_badges'><u>Badges</u></a>
+						<ul class="tetrishelp_listtab">
+							<li><a href='#help_section_badges_q1'>What are Badges?</a></li>
+							<li><a href='#help_section_badges_q2'>Where do I see the Badges I've earned?</a></li>
+							<li><a href='#help_section_badges_q3'>How do I choose "My Favorite Badge"?</a></li>
+						</ul>	
+					</div>
+					<br />
+
+					<a name="help_section_system_reqs" ></a>
+					<div class="help_category_banner"><h1 class="help_category_headline">System Requirements</h1></div>
+							<div class="tetrishelp_onetab">
+								<p class="help_question">What are the minimum system requirements to play games at TetrisFriends.com?</p><br />
+
+								<b>Windows&reg; Operating System</b>
+								<ul class="tetrishelp_listtab">
+									<li><a href="http://www.adobe.com/products/flashplayer/">Adobe Flash Player 9</a></li>
+									<li>Firefox or Internet Explorer with JavaScript enabled</li>
+								</ul><br />
+
+								<b>Mac OS X 10.3+</b>
+								<ul class="tetrishelp_listtab">
+									<li><a href="http://www.adobe.com/products/flashplayer/">Adobe Flash Player 9</a></li>
+									<li>Firefox or Safari with JavaScript enabled</li>
+								</ul><br />
+
+								<b>Linux</b>
+								<ul class="tetrishelp_listtab">
+									<li><a href="http://www.adobe.com/products/flashplayer/">Adobe Flash Player 9</a></li>
+									<li>Firefox or comparable browser with JavaScript enabled</li>
+								</ul>
+								<br />
+								<p><i class="help_note"><strong>Note:</strong> In order to install these components, you will need to be logged into an account with Administrative privileges.
+								On most standard computers, this will be the default &quot;Owner&quot; or &quot;Admin&quot; that was created at the time the computer was set up originally.</i></p><br />
+
+							</div>
+
+					<a name="help_section_user_acct_info" ></a>
+					<div class="help_category_banner"><h1 class="help_category_headline">User Account Information</h1></div>
+							<div class="tetrishelp_onetab">
+								<a name="help_section_user_acct_info_q1"></a>
+								<p class="help_question">How do I change the email address registered to my account?</p>
+								<p class="help_body">You can change your email settings in the Profile page.</p>
+								<ul class="tetrishelp_listtab">
+									<li>Go to the <a href="/users/profile.php">Profile page</a>.</li>
+									<li>Click on &quot;<b>Edit</b>&quot;.</li>
+									<li>Input the new email address.</li>
+									<li>Click on &quot;<b>Save Changes</b>&quot;.</li>
+									<li>You will receive an email at the new address to confirm the change.</li>
+								</ul>
+								<br />
+
+								<a name="help_section_user_acct_info_q2"></a>
+								<p class="help_question">I lost my password. Is there a way to easily retrieve it?</p>
+								<p class="help_body">Click on &quot;<b>Forgot Password</b>&quot; on the login page, or <a href="/users/forgot.php">click here</a> and it will take you to the page where you can request to setup a new password.</p>
+								<br />
+
+								<a name="help_section_user_acct_info_q3"></a>
+								<p class="help_question">How do I change my screen name?</p>
+								<p class="help_body">Once you have created your account, you cannot change your screen name.</p>
+								<br />
+
+								<a name="help_section_user_acct_info_q4"></a>
+								<p class="help_question">How do I save my progress (Minos earned, high scores, etc.)?</p>
+								<p class="help_body">You have to be a <a href="/users/register.php">Registered User</a> to be able to save your progress. If you have already created an account, be sure that you are logged in. Click "Log In" at the top right corner of the page to go to the login page.</p>
+								<br /><br />
+							</div>
+							<br />
+
+					<a name="help_section_shop"></a>
+					<div class="help_category_banner"><h1 class="help_category_headline">Tetris Friends Shop</h1></div>
+							<div class="marginleft_10px">
+								<a href='#help_section_shop'><u>Tetris Friends Shop</u></a>
+								<ul class="tetrishelp_listtab">
+									<li><img src='../../data/images/ruby_icon.png' align='top' width='15px' height='15px' /> <a href='#help_section_rubies'>Rubies</a>
+										<ul class="tetrishelp_listtab" style="list-style-type: circle;">
+											<li><a href='#help_section_rubies_q1'>What are Rubies?</a></li>
+											<li><a href='#help_section_rubies_q2'>How do I get Rubies?</a></li>
+											<li><a href='#help_section_rubies_q3'>Can I use Tokens to acquire Rubies?</a></li>
+											<li><a href='#help_section_rubies_q4'>Can I send Rubies as a gift?</a></li>
+											<li><a href='#help_section_rubies_q5'>Payment Processing Issues</a></li>
+										</ul>
+									</li>
+									
+									<li><img src='../../data/images/token_icon.png' align='top' width='15px' height='15px' /> <a href='#help_section_tokens'>Tokens</a>
+										<ul class="tetrishelp_listtab" style="list-style-type: circle;">
+											<li><a href='#help_section_tokens_q1'>What are Tokens?</a></li>
+											<li><a href='#help_section_tokens_q2'>How do I get Tokens?</a></li>
+											<li><a href='#help_section_tokens_q3'>Why am I not earning Tokens?</a></li>
+										</ul>
+									</li>
+		
+									<li><a href='#help_section_items'>Items</a>
+										<ul class="tetrishelp_listtab" style="list-style-type: circle;">
+											<li><a href='#help_section_items_q1'>What are Items?</a></li>
+											<li><a href='#help_section_items_q2'>How do I buy or unlock an Item?</a></li>
+											<li><a href='#help_section_items_q3'>How do I preview an Item before buying or unlocking it?</a></li>
+											<li><a href='#help_section_items_q4'>Now that I have an Item, how do I use it?</a></li>
+										</ul>
+									</li>
+								</ul>
+								<br />
+							</div>
+
+
+					<a name='help_section_rubies'></a>
+					<div class="help_category_banner">
+						<h1 class="help_category_headline">
+							<img src='../../data/images/ruby_icon.png' align='top' width='25px' height='25px'> Rubies </img>
+													</h1>						
+					</div>	
+							<div class="tetrishelp_onetab">
+							
+								<a name='help_section_rubies_q1'></a>
+								<p class="help_question">What are Rubies?</p>
+								<p class="help_body">Rubies are used to buy premium <a href='#help_section_items'>Items</a> or <a href='#help_section_missions'>Missions</a> on Tetris Friends Online Games.</p><br />
+	
+								<a name='help_section_rubies_q2'></a>
+								<p class="help_question">How do I get Rubies?</p>
+								<p class="help_body">You may buy Rubies from the <a href='/shop/index.php'>Tetris Friends Shop</a> using your credit card or an alternative payment option, such as PayPal. All transactions are final. </p><br />
+								<p class="help_body">You can also earn free Rubies by taking advantage of sponsored offers provided by TrialPay. Simply find an offer that works best for you, and then you'll receive free Rubies as soon as you meet the specified requirements of the offer you&rsquo;ve chosen. <a href="/shop/earn_rubies.php?ref=from-help">MORE INFO</a></p><br />
+
+								<a name='help_section_rubies_q3'></a>	
+								<p class="help_question">Can I use Tokens to acquire Rubies?</p>
+								<p class="help_body">No, <a href='#help_section_tokens'>Tokens</a> can only be used to unlock non-premium Items or Missions.</p><br />
+
+								<a name='help_section_rubies_q4'></a>
+								<p class="help_question">Can I send Rubies as a gift?</p>
+								<p class="help_body">Not at this time; however, we do plan to support &quot;gifting&quot; in the future.</p><br />
+	
+								<a name='help_section_rubies_q5'></a>
+								<p class="help_question">Payment Processing Issues</p>
+								<p class="help_body">To check your transaction history, please visit the <a href='/shop/index.php'>Shop</a>, click 'PURCHASE RUBIES' and then select the 'Missing Rubies?' link on the right side of the pop-up.</p><br />
+								<p class="help_body">Payment processing is powered by gWallet, a service provided by <a href='http://www.radiumone.com'>Radium One.</a> For payment related questions or concerns, please contact <a href='mailto:support@radiumone.com'>support@radiumone.com</a>. All other questions can be sent to <a href='mailto:support@tetrisonline.com'>support@tetrisonline.com</a>.</p><br />
+							</div>
+							<br />
+
+					<a name='help_section_tokens'></a>
+					<div class="help_category_banner"><h1 class="help_category_headline"><img src='../../data/images/token_icon.png' align='top' width='25px' height='25px' /> Tokens</h1></div>	
+							<div class="tetrishelp_onetab">
+
+								<a name='help_section_tokens_q1'></a>
+								<p class="help_question">What are Tokens?</p>
+								<p class="help_body">Tokens are used to unlock non-premium <a href='#help_section_items'>Items</a> or <a href='#help_section_missions'>Missions</a> on Tetris Friends Online Games.</p><br />
+	
+								<a name='help_section_tokens_q2'></a>
+								<p class="help_question">How do I get Tokens?</p>
+								<p class="help_body">Tokens are completely FREE, but you&rsquo;ll need to be a registered user in order to begin collecting them. <a href='/users/register.php'>Sign-up today</a> to begin earning Tokens just by playing our games. 
+									<br /><br />
+									Check out all the ways you can earn Tokens at Tetris Friends Online Games.
+								</p><br />
+
+								<div class="token_chart">
+									<table summary="A list of all the ways the player can earn Tokens" cellspacing="0" cellpadding="0" border="0">
+										<tr class="help_tokens_banner">
+											<th>Accomplishment</th>
+											<th>Description</th>
+											<th>Relevant Game</th>
+											<th width="75px">Value</th>
+										</tr>
+				
+										<tr>
+											<td>First play of the day</td>
+											<td>Played the first game of the day</td>
+											<td>All Games</td>
+											<td>10<br />(once a day)</td>
+									  </tr>
+				
+										<tr>
+											<td>Good game!</td>
+											<td>Earn a decent score or complete game.</td>
+											<td>All Games</td>
+											<td>5</td>
+										</tr>
+				
+										<tr>
+											<td>Your all-time best!</td>
+											<td>You surpassed an all-time record or played the game for the first time</td>
+											<td>All Single Player Games</td>
+											<td>50<br />(once a day, <br />
+										    per mode)</td>
+									  </tr>
+				
+										<tr>
+											<td>Rank in today&rsquo;s top 100</td>
+											<td>Finish among the top 100 on today&rsquo;s leaderboard</td>
+											<td>All Single Player Games</td>
+											<td>10</td>
+										</tr>
+				
+										<tr>
+											<td>Rank in the all-time top 100</td>
+											<td> Finish among the top 100 on the all-time leaderboard</td>
+											<td><p>All Single Player Games</p></td>
+											<td>100</td>
+										</tr>
+				
+										<tr class="cellshade">
+											<td>Complete Marathon</td>
+											<td>Play through all 15 levels of Marathon mode</td>
+											<td>Marathon</td>
+											<td>40</td>
+										</tr>
+				
+										<tr class="cellshade">
+											<td>Survive 20 Levels</td>
+											<td>Finish Survival Mode on level 20 or higher</td> <!-- Does it go higher than 20? -->
+											<td>Survival</td>
+											<td>40</td>
+										</tr>
+				
+										<tr class="cellshade">
+											<td>Great Score</td>
+											<td>Score over 400,000 points</td>
+											<td>N-Blox</td>
+											<td>40</td>
+										</tr>
+				
+										<tr class="cellshade">
+											<td>Great Score</td>
+											<td>Score over 200,000 points</td>
+											<td>1989</td>
+											<td>40</td>
+										</tr>
+				
+										<tr>
+											<td>Ranked 1st Place</td>
+											<td>Finish in 1st place</td>
+											<td>Sprint 5P<br />Battle 6P<br />Rally 8P</td>
+											<td>5</td>
+										</tr>
+				
+										<tr>
+											<td>Win by KO</td>
+											<td>Beat your opponent with 1 or 2 KOs</td>
+											<td>Battle 2P</td>
+											<td>5</td>
+										</tr>
+				
+										<tr>
+											<td>Win by 3KO</td>
+											<td>Beat your opponent with 3 KOs</td>
+											<td>Battle 2P</td>
+											<td>10</td>
+										</tr>
+										
+										<tr>
+											<td>Lasted over 60 seconds</td>
+											<td>Last over 60 seconds</td>
+											<td>Arena</td>
+											<td>5</td>
+										</tr>
+				
+										<tr>
+											<td>Earned a KO</td>
+											<td>Earn a KO</td>
+											<td>Arena</td>
+											<td>5</td>
+										</tr>
+				
+										<tr>
+											<td>Earned 4 or more KOs</td>
+											<td>Earn 4 or more KOs</td>
+											<td>Arena</td>
+											<td>10</td>
+										</tr>										
+				
+										<tr class="cellshade">
+											<td>Visit TetrisFriends.com</td>
+											<td>Log on to Tetris Friends each day</td>
+											<td><i>none</i></td>
+											<td>15 (per day)</td>
+										</tr>
+				
+										<tr class="cellshade">
+											<td>Make an Account</td>
+											<td>Sign up for a Tetris Friends to earn quick Tokens</td>
+											<td><i>none</i></td>
+											<td>500</td>
+										</tr>
+				
+										<tr class="cellshade">
+											<td>Verify Email</td>
+											<td>Verify your email address</td>
+											<td><i>none</i></td>
+											<td>100</td>
+										</tr>
+				
+										<tr class="cellshade">
+											<td>Invite a Friend</td>
+											<td>Invite someone to join the fun at Tetris Friends</td>
+											<td><i>none</i></td>
+											<td>100</td>
+										</tr>
+				
+									</table>
+							  	</div>
+								<br />
+	
+								<a name='help_section_tokens_q3'></a>
+								<p class="help_question">Why am I not earning Tokens?</p>
+								<p class="help_body">You have to be a <a href='/users/register.php'>Registered User</a> to be able to save your progress. If you have already created an account, be sure that you are logged in. Click "Log In" at the top right corner of the page to go to the login page.</p><br />
+							</div>
+							<br />
+
+					<a name='help_section_items'></a>
+					<div class="help_category_banner"><h1 class="help_category_headline">Items</h1></div>	
+							<div class="tetrishelp_onetab">
+							
+								<a name='help_section_items_q1'></a>
+								<p class="help_question">What are Items?</p>
+								<p class="help_body">There are a variety of different Items you can access via the Tetris Friends Shop to enhance your experience on Tetris Friends Online Games.  You can buy Premium Items with <a href='#help_section_rubies'>Rubies</a>, or unlock Non-Premium Items with <a href='#help_section_tokens'>Tokens</a>.  Shown below are the different types of Items available.<br />
+								<br />
+
+								<div class="marginleft_10px">
+									<u>In-Game Customization (Customize Tetris)</u>
+									<ul class="tetrishelp_listtab">
+										<li><span class='help_mino_style'></span> <b>Mino Styles</b> &ndash; Use to change the appearance of the Tetriminos. When other users play against you in multiplayer games, they will see the Mino Style you&rsquo;ve chosen.</li>
+										<li><span class='help_ghost_style'></span> <b>Ghost Styles</b> &ndash; Use to change the appearance of the &quot;Ghost&quot; or &quot;Shadow&quot; that appears below the Tetrimino. When other users play against you in multiplayer games, they will see the Ghost Style you&rsquo;ve chosen.</li>
+										<li><span class='help_sfx_style'></span> <b>SFX Styles</b> &ndash; Use to change the sound effects you&rsquo;ll hear during the game.</li>
+										<li><span class='help_vox_style'></span> <b>Voice Styles</b> &ndash; Use to change the voice you&rsquo;ll hear during the game.</li>
+									</ul>
+									<br />
+									
+									<u>Post-Game Customization (Expressions)</u>
+									<ul class="tetrishelp_listtab">
+										<li><span class='help_wingfx_style'></span> <b>Win&ndash;Grafix</b> &ndash; Whenever you win a game, these custom animated sequences will appear in the results page for you and your opponents to see. You can also assign a specific Win-Tone to the Win-Grafix for additional effect.</li>
+										<li><span class='help_wintone_style'></span> <b>Win&ndash;Tones</b> &ndash; Whenever you win a game, these custom tones will be heard by you and your opponent(s).</li>
+									</ul>
+									<br />
+								</div>
+	
+								<a name='help_section_items_q2'></a>
+								<p class="help_question">How do I buy or unlock an Item?</p>
+								<p class="help_body">Visit the <a href='/shop/index.php'>Tetris Friends Shop</a> and select the type of Item you wish to buy or unlock. Note, if the item has a &quot;Buy&quot; button below it, you&rsquo;ll need to use <a href='#help_section_rubies'>Rubies</a>.  If the item has an &quot;Unlock&quot; button below it, you&rsquo;ll need to use <a href='#help_section_tokens'>Tokens</a>. Simply click on the button and follow the onscreen prompts. We encourage all users to preview the Items prior buying or unlocking them.</p><br />
+	
+								<a name='help_section_items_q3'></a>
+								<p class="help_question">How do I preview and Item before buying or unlocking it?</p>
+								<p class="help_body">Simply highlight and then click on the large button above the &quot;Buy&quot; or &quot;Unlock&quot; button to enter the preview screen. Once inside the preview screen, you can preview other available Items of the same type.</p><br />
+	
+								<a name='help_section_items_q4'></a>
+								<p class="help_question">Now that I have an Item, how do I use it?</p>
+								<p class="help_body">You&rsquo;ll always be prompted to &quot;Activate&quot; an Item after acquiring it; however, there are several other options to use for convenience. The easiest option is to Pause your game during play by pressing ESC, and then click on the &quot;Edit My Tetris Style&quot; to customize your available styles. As an alternative, you can activate available items directly from the Tetris Friends Shop by clicking on the &quot;Activate&quot; Button, which will only appear below Items you&rsquo;ve bought or unlocked.</p><br />
+							</div>
+							<br />
+							
+					<a name="help_section_missions"></a>
+					<div class="help_category_banner"><h1 class="help_category_headline">Missions</h1></div>	
+							<div class="tetrishelp_onetab">
+								<a name="help_section_missions_q1"></a>
+								<p class="help_question">What are Missions?</p>
+								<p class="help_body">Looking for an extra challenge? Every Monday, we&rsquo;ll reveal new Missions that are designed to test your skills in various games. When you successfully complete a Mission in the designated amount of time, you&rsquo;ll be awarded a custom <a href='#help_section_badges'>Badge</a> for your efforts. Badges will then be displayed on your profile page for everyone else to bask in your glory. The more Missions you successfully complete, the more Badges you&rsquo;ll receive! Try to collect them all. </p><br />
+	
+								<p class="help_question">Types of Missions:</p>
+								<p class="help_body">
+									<u>Mission of the Week</u> &ndash; 
+									These Missions are free and automatically activated for registered users to 
+									complete during the week of release. If you miss out on your chance to take 
+									advantage of the Mission of the Week, or you fail to complete the Mission within 
+									the specified time, you can easily reactivate it as a Personal Mission by using Tokens. 
+									<br /><br />
+									<u>Personal Missions</u> &ndash; 
+									These Missions require <a href='#help_section_tokens'>Tokens</a> to activate. Be sure to check back each week for new 
+									and exciting Missions.  
+									<br /><br />
+									<u>Premium Missions</u> &ndash; 
+									These Missions require <a href='#help_section_rubies'>Rubies</a> to activate. Premium Missions provide an extra challenge for users who are looking for more than the non-premium weekly Missions.  Users who successfully complete Premium Missions will be rewarded with Premium Badges. As an added bonus, purchasing Premium Missions will enable access to the <a href='/missions/premium_mission_list.php?tabId=my_grid'>My Grid</a> system for more ways to earn bonus Tokens and unlock hidden Missions.
+								</p><br />
+	
+								<a name="help_section_missions_q2"></a>
+								<p class="help_question">How do I activate a Mission?</p>
+								<p class="help_body">The Mission of the Week will automatically activate when it&rsquo;s revealed each Monday.  To activate a Personal Mission, visit the <a href='/missions/index.php?ref=from-help'>Missions Page</a>, and then click on the &quot;Available&quot; tab to view all of the available Missions. Once you&rsquo;ve determined which Mission you want to tackle, simply click on the &quot;Activate&quot; button, and then confirm that you&rsquo;re ready to accept the challenge. Please note Personal Missions require <a href='#help_section_tokens'>Tokens</a> to activate.</p><br />
+	
+								<a name="help_section_missions_q3"></a>
+								<p class="help_question">What happens if I don&rsquo;t complete a Mission in the allotted time?</p>
+								<p class="help_body">Don&rsquo;t sweat it! If you are unable to complete a Mission in the allotted time, you can easily reactivate the Mission by purchasing it with Tokens; however, any progress made during the previous attempt will be lost. </p><br />
+	
+								<a name="help_section_missions_q4"></a>
+								<p class="help_question">How many Missions can I activate at a time?</p>
+								<p class="help_body">In addition to the Mission of the Week, you are allowed to have one additional Personal Mission and/or one additional Premium Mission activated.</p><br />
+	
+								<a name="help_section_missions_q5"></a>
+								<p class="help_question">What are Mission Paks?</p>
+								<p class="help_body">Each Mission is a part of a larger collection. Those collections are referred to as Paks. If you are skilled enough to complete all of the Missions from a particular Pak, you will receive bonus Tokens for your efforts.</p><br />
+	
+								<a name="help_section_missions_q6"></a>
+								<p class="help_question">How long do I have to complete a Mission?</p>
+								<p class="help_body">It depends on the particular Mission. Each Mission will indicate the amount of time you have in order to successfully complete it. To monitor your progress, visit the <a href='/missions/index.php?ref=from-help'>Missions page</a>, and then click on the &quot;Active&quot; tab to see how much you&rsquo;ve accomplished.</p><br />
+	
+								<a name="help_section_missions_q7"></a>
+								<p class="help_question">How do I know what Missions are currently available?</p>
+								<p class="help_body">You can either click on the &quot;Available&quot; tab located in the lower&ndash;right corner of the Home page, or you can visit the Missions page to review all of the &quot;Available&quot; Missions.  New Missions are released every Monday, so if you&rsquo;ve completed all of the available Missions, be sure to come back on the following Monday to take advantage of the newest Mission.</p><br />
+	
+								<a name="help_section_missions_q8"></a>
+								<p class="help_question">Can I complete a Mission more than once?</p>
+								<p class="help_body">Nope.  Once you&rsquo;ve successfully completed a Mission, you cannot reactivate it again.</p><br />
+	
+								<a name="help_section_missions_q9"></a>
+								<p class="help_question">What is the purpose of the Mission rating system?</p>
+								<p class="help_body">This is a great way to let other users know how difficult you think a particular Mission was.</p><br />
+								
+								<a name="help_section_missions_q10"></a>
+								<p class="help_question">What is the purpose of the &quot;<a href='/missions/premium_mission_list.php?tabId=my_grid'>My Grid</a>&quot;?</p>
+								<p class="help_body">My Grid is your personal game within a game.  As you purchase <a href='/missions/premium_mission_list.php'>Premium Missions</a>, you'll be able to strategically fill in the squares within the Grid in order to complete Tetrimino shapes for bonus Tokens and eventually entire Lines to reveal hidden Missions. </p><br />
+							</div>
+							<br />
+
+					<a name="help_section_badges"></a>
+					<div class="help_category_banner"><h1 class="help_category_headline">Badges</h1></div>	
+							<div class="tetrishelp_onetab">
+								<a name="help_section_badges_q1"></a>
+								<p class="help_question">What are Badges?</p>
+								<p class="help_body">Badges are awarded to players who successfully complete <a href='#help_section_missions'>Missions</a>. Each Mission has a unique Badge associated with it. Players are encouraged to earn as many Badges as possible to showcase their skills on Tetris Friends Online Games.</p><br />
+	
+								<a name="help_section_badges_q2"></a>
+								<p class="help_question">Where do I see the Badges I&rsquo;ve earned?</p>
+								<p class="help_body">You can see all of the Badges you&rsquo;ve earned by visiting your <a href='/users/profile.php'>Profile Page</a>, and then click on the &quot;My Badges&quot; tab.  You can also visit other players&rsquo; profile pages to see which Badges they have earned. </p><br />
+	
+								<a name="help_section_badges_q3"></a>
+								<p class="help_question">How do I choose &quot;My Favorite Badge&quot;?</p>
+								<p class="help_body">Visit the Missions page, and then click on the &quot;Complete&quot; tab to see all of the Missions you&rsquo;ve completed.  Click on the &quot;Set as Favorite&quot; button on any Mission that you&rsquo;d like to declare as your favorite.  This will display the Badge from that particular Mission as your Favorite Badge.</p><br />
+	
+							</div>							
+							<br />
+			</div>
+			<div class="tips_btm_right_corner" style="background-image:url(../../data/help/images/round_corner_BR.png); background-repeat:no-repeat;"></div>
+			<div class="tips_btm_left_corner" style="background-image:url(../../data/help/images/round_corner_BL.png); background-repeat:no-repeat;"></div></div>
+			</div>
+			<div id="tetris_side_content" class="marginleft_10px">
+				<div class='tetris_house_ad_container'>
+					<script language"JavaScript" type="text/javascript">
+						<!--
+						document.write(GET_TOA_AD('x66'));
+						-->
+					</script>
+				</div>
+				
+				<div id='google_translate_box' align='center' style='position: relative; height: 100px; border: 1px solid #ccc; padding: 10px 0; margin-top: 10px;'>
+					<h2>Translate this page</h2>
+					<div id="google_translate_element"></div><script>
+addLoadingAnimation("#google_translate_box");
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    gaTrack: true
+  }, 'google_translate_element');
+  removeLoadingAnimation("#google_translate_box");
+}
+</script>
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>				</div>
+			</div>
+			<div class='clear'></div>
+
+
+            <div id="container">
+				
+				<!-- Tetris Friends Footer SEO Data (_footerSEO.php) -->
+				
+				<!-- Bottom Navigation Bar (_bottomnav.inc) -->
+				<div id="footer" class="tetris_footer">
+					<div class="tetris_authentic_logo">
+						<a href="http://www.tetris.com" title="Visit Tetris.com" target="_blank">Tetris</a>
+					</div>
+					<div class="tetris_copyright">
+						<img width="585px" height="56px" src="../../data/images/bottom/copyright.png" alt="Tetris" />
+					</div>
+					<div class="tetris_bottom_nav">
+						<ul>
+							<li><a id="footerSupportLink" href="mailto:support@tetrisonline.com" title="Contact Support">support@tetrisonline.com</a></li>
+							<li class="footerAboutListItem"><a href="http://www.tetrisonline.com" target="_blank">About Us</a></li>
+							<li><a href="/sitemap/" target="_blank" title="View Tetris Friends Sitemap">Sitemap</a></li>
+							<li class="last"><a href="/legal/tou.php" target="_blank" title="View Tetris Friends Terms of Use">Terms of Use</a></li>
+						</ul>
+
+						<span id="share">
+							<a class="button button_small_grey button_small_grey_sharethissite" href="javascript:void(0)" onclick="displayShareThisPopup()">&nbsp;</a>
+						</span>
+					</div>
+				</div>
+				<div class="tetris_gradient_blue">&nbsp;</div><div class="tetris_gradient_purple">&nbsp;</div><div class="tetris_gradient_violet">&nbsp;</div><div class="tetris_gradient_red">&nbsp;</div>
+				<div class="clear"></div>			</div> <!-- container -->
+		</div> <!-- wrapper -->
+
+
+
+
+
+				<br /><br />
+array(25) {
+  ["referrer"]=>
+  string(14) "/help/help.php"
+  ["force_flash_login"]=>
+  string(5) "false"
+  ["current_product_id"]=>
+  int(12)
+  ["guestTokens"]=>
+  int(0)
+  ["guestId"]=>
+  int(24180882)
+  ["guest_sfx_id"]=>
+  int(3000)
+  ["guest_vox_id"]=>
+  int(4001)
+  ["guest_mino_id"]=>
+  int(0)
+  ["guest_ghost_id"]=>
+  int(1)
+  ["guest_wintone_id"]=>
+  int(5000)
+  ["guest_wingrafix_id"]=>
+  int(6000)
+  ["isIpChecked"]=>
+  bool(true)
+  ["actionToken"]=>
+  string(32) "2af283afd78f85c6eebe351578798830"
+  ["userAccessoryIds"]=>
+  array(0) {
+  }
+  ["userMissionsIds"]=>
+  array(0) {
+  }
+  ["userMissionsExpiredIds"]=>
+  array(0) {
+  }
+  ["userMissionsActiveIds"]=>
+  array(0) {
+  }
+  ["userMissionsBoughtIds"]=>
+  array(0) {
+  }
+  ["userMissionsCompletedIds"]=>
+  array(0) {
+  }
+  ["userMissionsUnlockedHiddenIds"]=>
+  array(0) {
+  }
+  ["homepageTab"]=>
+  string(5) "games"
+  ["errors"]=>
+  array(0) {
+  }
+  ["show_alternative_handles"]=>
+  bool(false)
+  ["preroll_secret_key"]=>
+  int(18737888)
+  ["bypassPreroll"]=>
+  int(0)
+}
+
+		<!-- Common Page elements added just before the body tag is closed (_bodyend.inc) -->
+		<!-- Start Google tag -->
+		<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			var pageTracker = _gat._getTracker("UA-886022-5");
+			pageTracker._trackPageview();
+
+					</script>
+		<!-- End Google tag -->
+		
+
+		<script type="text/javascript">
+			updateSupportLinks('Guest');		</script>
+		
+				<!-- Begin comScore Tag -->
+		
+		<script>
+		    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+		</script>
+		
+		<script>
+		  // obtain page location then remove http:// and PHP query params
+		  var pageLocation = window.location.href;
+		  pageLocation = pageLocation.replace(/http:\/\//, "");
+		  pageLocation = pageLocation.split("?");
+		  pageLocation = pageLocation[0];  
+		
+		  COMSCORE.beacon({
+		    c1:2,
+		    c2:5619092,
+		    c3:"",
+		    c4:pageLocation,
+		    c5:"",
+		    c6:"",
+		    c15:""
+		  });
+		
+		</script>
+		
+		<noscript>
+		  <img src="http://b.scorecardresearch.com/b?c1=2&c2=5619092&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+		</noscript>
+		
+		<!-- End comScore Tag -->		
+		<script type='text/javascript'>
+		    // New status and CACHE TIMEOUTS are now in place, so we need to trigger
+		    // this reload session more often... if in-game it will run indefinitely,
+		    // if on any other page, it will stop after timeout specified below.
+			var keepAliveMSEC = 30 * 1000; // half of cache timeout
+			var keepAliveLimitMSEC = 900000; // 15 min timeout if not in-game
+			var keepAliveCount = 0;
+			var reloadIntervalId = -1;
+
+		    
+		    function startReloadSessionInterval() {
+				reloadIntervalId = setInterval("triggerReloadSession()", keepAliveMSEC);
+			}
+	
+			function stopReloadSessionInterval() {
+				if (reloadIntervalId) {
+					clearInterval(reloadIntervalId);
+				}
+			}
+			
+			function triggerReloadSession() {
+				if (keepAliveLimitMSEC == -1 || (keepAliveCount < (keepAliveLimitMSEC/keepAliveMSEC))) {
+					$.ajax({
+						type: "GET",
+						url: "/users/ajax/reload_session.php",
+						dataType: "text",
+						success: function(response){
+							//alert("Response: " + response);
+						}
+					});
+				} else {
+					stopReloadSessionInterval();
+				}
+				keepAliveCount++;
+			}
+
+			$(document).ready(function() {
+				fb_pushCommand(fb_showGuestUpsell);			});
+		</script>
+		<!-- TODO: Add any end-of-body code here! -->
+		<script language="JavaScript" type="text/javascript">
+			function popupBuyRuby() {
+					  			
+				popUpBoxByUrl("/shop/shop_popup.php?rdir=/help/help.php", 650, 640, "", null)
+			}
+		</script>
+	</body>
+</html>

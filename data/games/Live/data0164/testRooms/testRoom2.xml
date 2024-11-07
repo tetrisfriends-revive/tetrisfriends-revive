@@ -1,0 +1,14 @@
+<TestRoom>
+	<Revision>
+		<Id>0</Id>
+		<ComboSystem />
+		<GenerationMethod>kGENERATIONMETHOD_TDG2009b</GenerationMethod>
+		<AttackTable>
+			<Lines>0,1,2,4,2,1,1,2,1,4,2,6,3,10</Lines>
+			<Combos>0,1,1,2,2,3,3,4,4</Combos>
+		</AttackTable>
+		<IsAvoidOSZStart>true</IsAvoidOSZStart>
+		<IsDDA />
+		<GameParams />
+	</Revision>
+</TestRoom>

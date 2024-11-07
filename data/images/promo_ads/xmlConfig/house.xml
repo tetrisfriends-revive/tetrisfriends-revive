@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<house_ads>
+	<house_ad>
+		<id>1</id>
+		<name>Twitter (Site Ad)</name>
+		<file>http://videoads.tetrisfriends.com/inHouse_ads/TetrisFriends_twitter01_300x250.swf</file>
+		<format>swf</format>
+		<click_tag>?clickTAG=http://www.twitter.com/tetrisfriends</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x61,x66</pos>
+		<product_id></product_id>
+		<date_visible>2009-09-11 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target></segment_target>
+		<frequency></frequency>
+		<frequency_scope></frequency_scope>
+		<priority></priority>
+	</house_ad>
+	<house_ad>
+		<id>2</id>
+		<name>Twitter (Game Results Ad)</name>
+		<file>http://videoads.tetrisfriends.com/inHouse_ads/TetrisFriends_twitter01_300x250.swf</file>
+		<format>swf</format>
+		<click_tag>?clickTAG=http://www.twitter.com/tetrisfriends</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x62a,x62b,x62c</pos>
+		<product_id></product_id>
+		<date_visible>2009-09-11 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target></segment_target>
+		<frequency>3</frequency>
+		<frequency_scope>daily</frequency_scope>
+		<priority>10</priority>
+	</house_ad>
+	<house_ad>
+		<id>3</id>
+		<name>No-Ad Item</name>
+		<file>http://videoads.tetrisfriends.com/inHouse_ads/noVideoADs_300x250.swf</file>
+		<format>swf</format>
+		<click_tag>?clickTAG=http://tetrisfriends.com/shop/index.php?accessoryId=7000%26accessoryType=7%26ref%3Dfrom-ad</click_tag>
+		<click_dest>_parent</click_dest>
+		<pos>x62c</pos>
+		<product_id></product_id>
+		<date_visible>2010-02-03 13:10:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target></segment_target>
+	</house_ad>
+	<house_ad>
+		<id>5</id>
+		<name>Tuning Style</name>
+		<file>http://videoads.tetrisfriends.com/inHouse_ads/tuningStyle_300x250.swf</file>
+		<format>swf</format>
+		<click_tag>?clickTAG=http://www.tetrisfriends.com/shop/index.php?accessoryId=8003%26accessoryType=8</click_tag>
+		<click_dest>_parent</click_dest>
+		<pos>x61,x62b,x66</pos>
+		<product_id></product_id>
+		<date_visible>2010-04-16 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target></segment_target>
+		<frequency></frequency>
+		<frequency_scope></frequency_scope>
+		<priority></priority>
+	</house_ad>
+	<house_ad>
+		<id>7</id>
+		<name>Arena Armor</name>
+		<file>http://videoads.tetrisfriends.com/inHouse_ads/arenaArmor_300x250.swf</file>
+		<format>swf</format>
+		<click_tag>?clickTAG=http://www.tetrisfriends.com/shop/earn_rubies.php?promo_code%3Dmothers_day%26ref%3Dfrom-ad</click_tag>
+		<click_dest>_parent</click_dest>
+		<pos>x61,x62b,x62c,x66</pos>
+		<product_id></product_id>
+		<date_visible>2010-04-16 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target></segment_target>
+		<frequency></frequency>
+		<frequency_scope></frequency_scope>
+		<priority></priority>
+	</house_ad>
+	<house_ad>
+		<id>9</id>
+		<name>Arena Background</name>
+		<file>http://videoads.tetrisfriends.com/inHouse_ads/arenaBackgroundBanners_300x250.swf</file>
+		<format>swf</format>
+		<click_tag>?clickTAG=http://www.tetrisfriends.com/shop/index.php?accessoryType=8</click_tag>
+		<click_dest>_parent</click_dest>
+		<pos>x61,x62a,x62b,x62c,x66</pos>
+		<product_id></product_id>
+		<date_visible>2010-05-10 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target></segment_target>
+		<frequency></frequency>
+		<frequency_scope></frequency_scope>
+		<priority></priority>
+	</house_ad>
+	<house_ad>
+		<id>105</id>
+		<name>Win_Graphix - Funny Bunny</name>
+		<file>http://videoads.tetrisfriends.com/inHouse_ads/FunnyBunny_300x250.swf</file>
+		<format>swf</format>
+		<click_tag>?clickTAG=http%3A%2F%2Fwww.tetrisfriends.com%2Fshop%2Findex.php%3FaccessoryType%3D6%26accessoryId%3D6011%26ref%3Dfrom-ad</click_tag>
+		<click_dest>_parent</click_dest>
+		<pos>x62a,x62b,x62c,x66</pos>
+		<product_id></product_id>
+		<accessory_id>6011</accessory_id>
+		<date_visible>2009-09-11 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target></segment_target>
+	</house_ad>
+	<house_ad>
+		<id>200</id>
+		<name>Premium Mission - Limbo</name>
+		<file>http://videoads.tetrisfriends.com/inHouse_ads/Limbo_300x250.swf</file>
+		<format>swf</format>
+		<click_tag>?clickTAG=http%3A%2F%2Fwww.tetrisfriends.com%2Fmissions%2Fpremium_mission_list.php%3FtabId%3Davailable%26missionId=5015%26ref%3Dfrom-ad</click_tag>
+		<click_dest>_parent</click_dest>
+		<pos>x62a,x62b,x62c,x66</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<date_visible>2009-09-11 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>0</is_visible>
+		<segment_target></segment_target>
+	</house_ad>
+	<house_ad>
+		<id>201</id>
+		<name>Party - DS</name>
+		<file>http://videoads.tetrisfriends.com/inHouse_ads/TP_DeluxeDSAd_300x250_2.swf</file>
+		<format>swf</format>
+		<click_tag>?clickTAG=http%3A%2F%2Fwww.tetrisparty.com%2F</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x62a,x62b,x62c,x66</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<date_visible>2009-09-11 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>cc="US" OR cc="CA"</segment_target>
+	</house_ad>
+	<house_ad>
+		<id>202</id>
+		<name>Party - Wii</name>
+		<file>http://videoads.tetrisfriends.com/inHouse_ads/TP_DeluxeWiiAd_300x250_2.swf</file>
+		<format>swf</format>
+		<click_tag>?clickTAG=http%3A%2F%2Fwww.tetrisparty.com%2F</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x62a,x62b,x62c,x66</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<date_visible>2009-09-11 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>cc="US" OR cc="CA"</segment_target>
+	</house_ad>
+	
+	<house_ad>
+		<id>203</id>
+		<name>IE9</name>
+		<file>http://videoads.tetrisfriends.com/inHouse_ads/IE9-tetris.jpg</file>
+		<format>img</format>
+		<click_tag><![CDATA[http://panel.gwallet.com/network-node/click-servlet?userId=%USER_ID%&gw=5vci-434-ll1v19-0&s=71d7d9c91adcb27c]]></click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x61,x62a,x62b,x62c,x66</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<date_visible>2009-09-11 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us!=0</segment_target>
+		<priority>1000</priority>
+	</house_ad>
+	
+
+
+	<house_ad>
+		<id>500</id>
+		<name>Discounted Rubies - 25</name>
+		<file>
+			<![CDATA[
+			$(document).ready(function () {
+				var TOA_AKAMAI_PATH       = getAdAkamaiPath();
+
+				var TOA_AD_STYLE = "position: absolute; top: 0;";
+				var TOA_AD_HEIGHT = "100";
+				var TOA_IS_ANIMATED = "true";
+				var TOA_MOUSEOVER = "onBannerMouseOver(0, 976, 100, 0)";
+				var TOA_MOUSEOUT = "onBannerMouseOut(0, 976, 100, 0)";
+				var TOA_AKAMAI_PATH = getAdAkamaiPath();
+
+				var TFSMFlash_OASCLICK="http%3A%2F%2Fwww.tetrisfriends.com%2Fshop%2Findex.php%3FshowPurchasePopup%3D1%26promoCode%3Djambool_discount_25%26ref%3Dfrom-strip";
+				var TFSMFlash_SWFCLICKVARIABLE="?clickTAG="+TFSMFlash_OASCLICK+"&percentage=25";
+				var TFSMFlash_SWFFILE="http://videoads.tetrisfriends.com/inHouse_ads/summerSpecial3_976x100.swf"+TFSMFlash_SWFCLICKVARIABLE;
+				var TOA_CALLBACK_FUNC='swfobject.embedSWF("' + TFSMFlash_SWFFILE+ '", "home_custom_ad_content", 976, 100, "9.0.0", {}, {}, {wmode: "transparent"}, {allowscriptaccess: "always"}, {id:"customAdUnit", name:"customAdUnit"});';
+
+				initPromoAd(TOA_AD_STYLE, TOA_AD_HEIGHT, TOA_IS_ANIMATED, TOA_MOUSEOVER, TOA_MOUSEOUT, TOA_CALLBACK_FUNC);
+
+				try {
+					pageTracker._trackPageview('/promotion/promo_strip_discount_25');
+				} catch (err) {	}
+			});
+			]]>
+		</file>
+		<format>js</format>
+		<click_tag></click_tag>
+		<click_dest></click_dest>
+		<pos>x69</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-07-28 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us!=0 AND ABTest("ODD_IP")</segment_target>
+		<frequency></frequency>
+		<frequency_scope></frequency_scope>
+		<priority>100</priority>
+	</house_ad>
+	<house_ad>
+		<id>501</id>
+		<name>Discounted Rubies - 50</name>
+		<file>
+			<![CDATA[
+			$(document).ready(function () {
+				var TOA_AKAMAI_PATH       = getAdAkamaiPath();
+
+				var TOA_AD_STYLE = "position: absolute; top: 0;";
+				var TOA_AD_HEIGHT = "100";
+				var TOA_IS_ANIMATED = "true";
+				var TOA_MOUSEOVER = "onBannerMouseOver(0, 976, 100, 0)";
+				var TOA_MOUSEOUT = "onBannerMouseOut(0, 976, 100, 0)";
+				var TOA_AKAMAI_PATH = getAdAkamaiPath();
+
+				var TFSMFlash_OASCLICK="http%3A%2F%2Fwww.tetrisfriends.com%2Fshop%2Findex.php%3FshowPurchasePopup%3D1%26promoCode%3Djambool_discount_50%26ref%3Dfrom-strip";
+				var TFSMFlash_SWFCLICKVARIABLE="?clickTAG="+TFSMFlash_OASCLICK+"&percentage=50";
+				var TFSMFlash_SWFFILE="http://videoads.tetrisfriends.com/inHouse_ads/summerSpecial3_976x100.swf"+TFSMFlash_SWFCLICKVARIABLE;
+				var TOA_CALLBACK_FUNC='swfobject.embedSWF("' + TFSMFlash_SWFFILE+ '", "home_custom_ad_content", 976, 100, "9.0.0", {}, {}, {wmode: "transparent"}, {allowscriptaccess: "always"}, {id:"customAdUnit", name:"customAdUnit"});';
+
+				initPromoAd(TOA_AD_STYLE, TOA_AD_HEIGHT, TOA_IS_ANIMATED, TOA_MOUSEOVER, TOA_MOUSEOUT, TOA_CALLBACK_FUNC);
+
+				try {
+					pageTracker._trackPageview('/promotion/promo_strip_discount_50');
+				} catch (err) {	}
+			});
+			]]>
+		</file>
+		<format>js</format>
+		<click_tag></click_tag>
+		<click_dest></click_dest>
+		<pos>x69</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-07-28 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us!=0 AND ABTest("EVEN_IP")</segment_target>
+		<frequency></frequency>
+		<frequency_scope></frequency_scope>
+		<priority>100</priority>
+	</house_ad>
+
+	<house_ad>
+		<id>519</id>
+		<name>Blobby</name>
+		<file>
+			<![CDATA[
+			$(document).ready(function () {
+				var TOA_AKAMAI_PATH       = getAdAkamaiPath();
+
+				var TOA_AD_STYLE = "position: absolute; top: 0;";
+				var TOA_AD_HEIGHT = "288";
+				var TOA_IS_ANIMATED = "true";
+				var TOA_MOUSEOVER = "onBannerMouseOver(0, 976, 288, 0)";
+				var TOA_MOUSEOUT = "onBannerMouseOut(0, 976, 288, 0)";
+				var TOA_AKAMAI_PATH = getAdAkamaiPath();
+
+				var TFSMFlash_OASCLICK="http%3A%2F%2Fwww.tetrisfriends.com%2Fmissions%2Fpremium_mission_list.php%3FtabId%3Davailable%26missionId%3D5031%26ref%3Dfrom-strip";
+				var TFSMFlash_SWFCLICKVARIABLE="?clickTAG="+TFSMFlash_OASCLICK;
+				var TFSMFlash_SWFFILE="http://videoads.tetrisfriends.com/inHouse_ads/PIMP_Blobby_AD_976x288.swf"+TFSMFlash_SWFCLICKVARIABLE;
+				var TOA_CALLBACK_FUNC='swfobject.embedSWF("' + TFSMFlash_SWFFILE+ '", "home_custom_ad_content", 976, 288, "9.0.0", {}, {}, {wmode: "transparent"}, {allowscriptaccess: "always"}, {id:"customAdUnit", name:"customAdUnit"});';
+
+				initPromoAd(TOA_AD_STYLE, TOA_AD_HEIGHT, TOA_IS_ANIMATED, TOA_MOUSEOVER, TOA_MOUSEOUT, TOA_CALLBACK_FUNC);
+
+				try {
+					pageTracker._trackPageview('/promotion/Blobby');
+				} catch (err) {	}
+			});
+			]]>
+		</file>
+		<format>js</format>
+		<click_tag></click_tag>
+		<click_dest></click_dest>
+		<pos>x69</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<mission_id>5031</mission_id>
+		<date_visible>2010-07-28 00:00:00</date_visible>
+		<date_expires>2010-08-04 00:00:00</date_expires>
+		<is_visible>0</is_visible>
+		<segment_target></segment_target>
+		<frequency>4</frequency>
+		<frequency_scope>daily</frequency_scope>
+		<priority>50</priority>
+	</house_ad>	
+	
+	<house_ad>
+		<id>520</id>
+		<name>Arena Challenge</name>
+		<file>
+			<![CDATA[
+			$(document).ready(function () {
+				var TOA_AKAMAI_PATH       = getAdAkamaiPath();
+
+				var TOA_AD_STYLE = "position: absolute; top: 0;";
+				var TOA_AD_HEIGHT = "288";
+				var TOA_IS_ANIMATED = "true";
+				var TOA_MOUSEOVER = "onBannerMouseOver(0, 976, 288, 0)";
+				var TOA_MOUSEOUT = "onBannerMouseOut(0, 976, 288, 0)";
+				var TOA_AKAMAI_PATH = getAdAkamaiPath();
+
+				var TFSMFlash_OASCLICK="http%3A%2F%2Fwww.tetrisfriends.com%2Fgames%2FLive%2Fgame.php%3FshowChallenge%3D1%26ref%3Dfrom-strip";
+				var TFSMFlash_SWFCLICKVARIABLE="?clickTAG="+TFSMFlash_OASCLICK+"&clickDEST=_parent";
+				var TFSMFlash_SWFFILE="http://videoads.tetrisfriends.com/inHouse_ads/arenaChallenge_AD_976x288.swf"+TFSMFlash_SWFCLICKVARIABLE;
+				var TOA_CALLBACK_FUNC='swfobject.embedSWF("' + TFSMFlash_SWFFILE+ '", "home_custom_ad_content", 976, 288, "9.0.0", {}, {}, {wmode: "transparent"}, {allowscriptaccess: "always"}, {id:"customAdUnit", name:"customAdUnit"});';
+
+				initPromoAd(TOA_AD_STYLE, TOA_AD_HEIGHT, TOA_IS_ANIMATED, TOA_MOUSEOVER, TOA_MOUSEOUT, TOA_CALLBACK_FUNC);
+
+				try {
+					pageTracker._trackPageview('/promotion/Challenge');
+				} catch (err) {	}
+			});
+			]]>
+		</file>
+		<format>js</format>
+		<click_tag></click_tag>
+		<click_dest></click_dest>
+		<pos>x69</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-07-23 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>0</is_visible>
+		<segment_target></segment_target>
+		<frequency></frequency>
+		<frequency_scope></frequency_scope>
+		<priority></priority>
+	</house_ad>		
+
+
+
+
+	<house_ad>
+		<id>601</id>
+		<name>Discounted Rubies Banner - 25</name>
+		<file>http://videoads.tetrisfriends.com/inHouse_ads/summerSpecial3A_872x100.png</file>
+		<format>notice</format>
+		<click_tag>
+			<![CDATA[
+				http://www.tetrisfriends.com/shop/index.php?showPurchasePopup=1&promoCode=jambool_discount_25&ref=from-banner
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<analytics_tag>promo_banner_discount_25</analytics_tag>
+		<params></params>
+		<pos>x79</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-07-28 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>0</is_visible>
+		<segment_target>us!=0</segment_target>
+		<frequency></frequency>
+		<frequency_scope></frequency_scope>
+		<priority></priority>
+	</house_ad>	
+	<house_ad>
+		<id>602</id>
+		<name>Discounted Rubies Banner - 50</name>
+		<file>http://videoads.tetrisfriends.com/inHouse_ads/summerSpecial3B_872x100.png</file>
+		<format>notice</format>
+		<click_tag>
+			<![CDATA[
+				/shop/index.php?showPurchasePopup=1&promoCode=jambool_discount_50&ref=from-banner
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<analytics_tag>promo_banner_discount_50</analytics_tag>
+		<params></params>
+		<pos>x79</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-07-28 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>0</is_visible>
+		<segment_target>us!=0</segment_target>
+		<frequency></frequency>
+		<frequency_scope></frequency_scope>
+		<priority></priority>
+	</house_ad>	
+
+	<house_ad>
+		<id>620</id>
+		<name>Blobby Premium Mission</name>
+		<file>http://videoads.tetrisfriends.com/inHouse_ads/PIMP_Blobby_AD_872x100.png</file>
+		<format>notice</format>
+		<click_tag>
+			<![CDATA[
+				/missions/premium_mission_list.php?tabId=available&missionId=5031&ref=from-banner
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<analytics_tag>Go_Getter</analytics_tag>
+		<params></params>
+		<pos>x79</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<mission_id>5030</mission_id>
+		<date_visible>2010-07-28 00:00:00</date_visible>
+		<date_expires>2010-08-04 00:00:00</date_expires>
+		<is_visible>1</is_visible>
+		<segment_target></segment_target>
+		<frequency></frequency>
+		<frequency_scope></frequency_scope>
+		<priority></priority>
+	</house_ad>	
+	<house_ad>
+		<id>621</id>
+		<name>Challenge</name>
+		<file>http://videoads.tetrisfriends.com/inHouse_ads/arenaChallenge_AD_872x100.png</file>
+		<format>notice</format>
+		<click_tag>
+			<![CDATA[
+				/games/Live/game.php?showChallenge=1&ref=from-strip
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<analytics_tag>Challenge</analytics_tag>
+		<params></params>
+		<pos>x79</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-07-23 00:00:00</date_visible>
+		<date_expires>2010-07-26 00:00:00</date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us!=0</segment_target>
+		<frequency></frequency>
+		<frequency_scope></frequency_scope>
+		<priority></priority>
+	</house_ad>	
+		
+	<house_ad>
+		<id>590</id>
+		<name>Earth Day Rails</name>
+		<file>
+			<![CDATA[
+			$(document).ready(function () {
+				var TOA_LEFT_RAIL_BG      = "transparent";
+				var TOA_LEFT_RAIL_URL     = "http://owdata.tetrisfriends.com/data6_2//images/promo_ads/holidays/earthDayRailLeft.png";
+				var TOA_LEFT_RAIL_REPEAT  = "no-repeat";
+				var TOA_LEFT_RAIL_POS     = "-75,-302,325,1000";
+				var TOA_RIGHT_RAIL_BG     = "transparent";
+				var TOA_RIGHT_RAIL_URL    = "http://owdata.tetrisfriends.com/data6_2//images/promo_ads/holidays/earthDayRailRight.png";
+				var TOA_RIGHT_RAIL_REPEAT = "no-repeat";
+				var TOA_RIGHT_RAIL_POS    = "-75,-303,325,1000";
+
+				var TOA_RAIL_CALLBACK     = "$('body').css('background', '#D8E7A2');";
+
+				// DO NOT MODIFY
+				var TOA_LEFT_RAIL_CONCAT  = TOA_LEFT_RAIL_BG + " url(" + TOA_LEFT_RAIL_URL + ") " + TOA_LEFT_RAIL_REPEAT;
+				var TOA_RIGHT_RAIL_CONCAT = TOA_RIGHT_RAIL_BG + " url(" + TOA_RIGHT_RAIL_URL + ") " + TOA_RIGHT_RAIL_REPEAT;
+
+				initRailAds(TOA_LEFT_RAIL_CONCAT, TOA_LEFT_RAIL_POS, TOA_RIGHT_RAIL_CONCAT, TOA_RIGHT_RAIL_POS, TOA_RAIL_CALLBACK);
+			});
+			]]>
+		</file>
+		<format>js</format>
+		<click_tag></click_tag>
+		<click_dest></click_dest>
+		<pos>x69,x69b</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<date_visible>2010-04-16 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>0</is_visible>
+		<segment_target></segment_target>
+		<frequency></frequency>
+		<frequency_scope></frequency_scope>
+		<priority>2000</priority>
+	</house_ad>
+	
+	<house_ad>
+		<id>600</id>
+		<name>Mothers Day Rails</name>
+		<file>
+			<![CDATA[
+			$(document).ready(function () {
+				var TOA_LEFT_RAIL_BG      = "transparent";
+				var TOA_LEFT_RAIL_URL     = "http://owdata.tetrisfriends.com/data6_2//images/promo_ads/holidays/mothersDayRailLeft.png";
+				var TOA_LEFT_RAIL_REPEAT  = "no-repeat";
+				var TOA_LEFT_RAIL_POS     = "-91,-289,288,970";
+				var TOA_RIGHT_RAIL_BG     = "transparent";
+				var TOA_RIGHT_RAIL_URL    = "http://owdata.tetrisfriends.com/data6_2//images/promo_ads/holidays/mothersDayRailRight.png";
+				var TOA_RIGHT_RAIL_REPEAT = "no-repeat";
+				var TOA_RIGHT_RAIL_POS    = "-91,-289,288,970";
+
+				var TOA_RAIL_CALLBACK     = "$('body').css('background', '#fff url(http://owdata.tetrisfriends.com/data6_2//images/promo_ads/holidays/mothersDayGradient.png) repeat-x');";
+
+				// DO NOT MODIFY
+				var TOA_LEFT_RAIL_CONCAT  = TOA_LEFT_RAIL_BG + " url(" + TOA_LEFT_RAIL_URL + ") " + TOA_LEFT_RAIL_REPEAT;
+				var TOA_RIGHT_RAIL_CONCAT = TOA_RIGHT_RAIL_BG + " url(" + TOA_RIGHT_RAIL_URL + ") " + TOA_RIGHT_RAIL_REPEAT;
+
+				initRailAds(TOA_LEFT_RAIL_CONCAT, TOA_LEFT_RAIL_POS, TOA_RIGHT_RAIL_CONCAT, TOA_RIGHT_RAIL_POS, TOA_RAIL_CALLBACK);
+			});
+			]]>
+		</file>
+		<format>js</format>
+		<click_tag></click_tag>
+		<click_dest></click_dest>
+		<pos>x69,x69b</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<date_visible>2010-04-16 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>0</is_visible>
+		<segment_target></segment_target>
+		<frequency></frequency>
+		<frequency_scope></frequency_scope>
+		<priority>2000</priority>
+	</house_ad>
+
+	<house_ad>
+		<id>10001</id>
+		<name>Leaderboard Ad with Thanksgiving Rails</name>
+		<file>
+			<![CDATA[
+			$(document).ready(function () {
+				var TOA_AKAMAI_PATH       = getAdAkamaiPath();
+				var TOA_LEFT_RAIL_BG      = "transparent";
+				var TOA_LEFT_RAIL_URL     = "/images/promo_ads/holidays/thanksgivingRailLeft.png";
+				var TOA_LEFT_RAIL_REPEAT  = "no-repeat";
+				var TOA_LEFT_RAIL_POS     = "-91,-218,232,847";
+				var TOA_RIGHT_RAIL_BG     = "transparent";
+				var TOA_RIGHT_RAIL_URL    = "/images/promo_ads/holidays/thanksgivingRailRight.png";
+				var TOA_RIGHT_RAIL_REPEAT = "no-repeat";
+				var TOA_RIGHT_RAIL_POS    = "-91,-214,232,847";
+				var TOA_RAIL_CALLBACK     = "$('body').css('background', '#fff url(" + TOA_AKAMAI_PATH + "/images/promo_ads/holidays/thanksgivingGradient.jpg) repeat-x'); $('#home_ad_left_rail').css('z-index', '100');";
+				
+				var TOA_LEFT_RAIL_CONCAT  = TOA_LEFT_RAIL_BG + " url(" + TOA_AKAMAI_PATH + TOA_LEFT_RAIL_URL + ") " + TOA_LEFT_RAIL_REPEAT;
+				var TOA_RIGHT_RAIL_CONCAT = TOA_RIGHT_RAIL_BG + " url(" + TOA_AKAMAI_PATH + TOA_RIGHT_RAIL_URL + ") " + TOA_RIGHT_RAIL_REPEAT;
+
+				initRailAds(TOA_LEFT_RAIL_CONCAT, TOA_LEFT_RAIL_POS, TOA_RIGHT_RAIL_CONCAT, TOA_RIGHT_RAIL_POS, TOA_RAIL_CALLBACK);	
+				
+				var TOA_AD_STYLE = "";
+				var TOA_AD_HEIGHT = "95";
+				var TOA_IS_ANIMATED = "false";
+				var TOA_MOUSEOVER = "";
+				var TOA_MOUSEOUT = "";
+
+				var TOA_CALLBACK_FUNC='';
+
+				var ad_content = $("#home_custom_ad_content").html();
+
+				if ( $.browser.msie ) {
+					$("#home_custom_ad_content").attr("align", "center");
+				}
+
+				if (!ad_content.match('empty.gif') && trim(ad_content) != "") {
+					initPromoAd(TOA_AD_STYLE, TOA_AD_HEIGHT, TOA_IS_ANIMATED, TOA_MOUSEOVER, TOA_MOUSEOUT, TOA_CALLBACK_FUNC);
+				}
+			});
+			]]>
+		</file>
+		<format>js</format>
+		<click_tag></click_tag>
+		<click_dest></click_dest>
+		<pos>x69b</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<date_visible>2010-11-23 00:00:00</date_visible>
+		<date_expires>2010-11-27 00:00:00</date_expires>
+		<is_visible>0</is_visible>
+		<segment_target>cc="US"</segment_target>
+		<frequency></frequency>
+		<frequency_scope>daily</frequency_scope>
+		<priority>200</priority>
+	</house_ad>
+
+	
+	<house_ad>
+		<id>10000</id>
+		<name>Leaderboard Ad</name>
+		<file>
+			<![CDATA[
+			$(document).ready(function () {
+				var TOA_AKAMAI_PATH       = getAdAkamaiPath();
+
+				var TOA_AD_STYLE = "";
+				var TOA_AD_HEIGHT = "95";
+				var TOA_IS_ANIMATED = "false";
+				var TOA_MOUSEOVER = "";
+				var TOA_MOUSEOUT = "";
+
+				var TOA_CALLBACK_FUNC='';
+				
+				var ad_content = $("#home_custom_ad_content").html();
+				
+				if ( $.browser.msie ) {
+					$("#home_custom_ad_content").attr("align", "center");
+				}
+
+				if (!ad_content.match('empty.gif')) {
+					initPromoAd(TOA_AD_STYLE, TOA_AD_HEIGHT, TOA_IS_ANIMATED, TOA_MOUSEOVER, TOA_MOUSEOUT, TOA_CALLBACK_FUNC);
+				}
+			});
+			]]>
+		</file>
+		<format>js</format>
+		<click_tag></click_tag>
+		<click_dest></click_dest>
+		<pos>x69b</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<date_visible>2010-11-27 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>0</is_visible>
+		<segment_target></segment_target>
+		<frequency></frequency>
+		<frequency_scope>daily</frequency_scope>
+		<priority>20</priority>
+	</house_ad>
+	
+	<house_ad>
+		<id>20000</id>
+		<name>FB Feevo Ad</name>
+		<file>
+			<![CDATA[
+			$(document).ready(function () {
+				var TOA_AKAMAI_PATH = getAdAkamaiPath();
+
+				fb_pushCommand(function() {
+					var isDailySpin = false;
+					if (fb_logged_in) {
+						var fbAdId = $.cookie("TFPROMO");
+
+						if ($("body").html().indexOf("popUpDailySpin") != -1) {
+							isDailySpin = true;
+						}
+
+						if (!fbAdId && !isDailySpin) {
+							$.cookie("TFPROMO", "1", {expires: 30, path: '/'});
+							var html = "<a class='button button_small_grey button_small_grey_close floatright' href='javascript:void(0)' onclick='closePopup()'></a>";
+							html += "<a style='position: relative; top: 5px;' href='http://apps.facebook.com/feevo-game/' onclick='closePopup()' target='_blank'><img border='0' src='http://videoads.tetrisfriends.com/inHouse_ads/feevo_FBTF.jpg' /></a>";
+							popUpBoxByHtml(html, 400, 340, "", function () {}, function () {});
+						}
+					}
+				});
+			});
+			]]>
+		</file>
+		<format>js</format>
+		<click_tag></click_tag>
+		<click_dest></click_dest>
+		<pos>x69b</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<date_visible>2010-11-27 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>0</is_visible>
+		<segment_target>us!=0</segment_target>
+		<frequency></frequency>
+		<frequency_scope></frequency_scope>
+		<priority>200</priority>
+	</house_ad>
+	
+	<house_ad>
+		<id>20001</id>
+		<name>Feevo HD Ad</name>
+		<file>
+			<![CDATA[
+			$(document).ready(function () {
+				var TOA_AKAMAI_PATH       = "";
+				var TOA_LEFT_RAIL_BG      = "transparent";
+				var TOA_LEFT_RAIL_URL     = "http://videoads.tetrisfriends.com/inHouse_ads/feevoRailLeft.jpg";
+				var TOA_LEFT_RAIL_REPEAT  = "no-repeat";
+				var TOA_LEFT_RAIL_POS     = "-91,-303,302,1000";
+				var TOA_RIGHT_RAIL_BG     = "transparent";
+				var TOA_RIGHT_RAIL_URL    = "http://videoads.tetrisfriends.com/inHouse_ads/feevoRailRight.jpg";
+				var TOA_RIGHT_RAIL_REPEAT = "no-repeat";
+				var TOA_RIGHT_RAIL_POS    = "-91,-303,302,1000";
+				var TOA_RAIL_CALLBACK     = "";
+
+				var TOA_LEFT_RAIL_CONCAT  = TOA_LEFT_RAIL_BG + " url(" + TOA_AKAMAI_PATH + TOA_LEFT_RAIL_URL + ") " + TOA_LEFT_RAIL_REPEAT;
+				var TOA_RIGHT_RAIL_CONCAT = TOA_RIGHT_RAIL_BG + " url(" + TOA_AKAMAI_PATH + TOA_RIGHT_RAIL_URL + ") " + TOA_RIGHT_RAIL_REPEAT;
+
+				initRailAds(TOA_LEFT_RAIL_CONCAT, TOA_LEFT_RAIL_POS, TOA_RIGHT_RAIL_CONCAT, TOA_RIGHT_RAIL_POS, TOA_RAIL_CALLBACK);
+
+
+				fb_pushCommand(function() {
+					var isDailySpin = false;
+					var fbAdId = $.cookie("TFPROMO");
+
+					if ($("body").html().indexOf("popUpDailySpin") != -1) {
+						isDailySpin = true;
+					}
+
+					if (!fbAdId && !isDailySpin) {
+						$.cookie("TFPROMO", "1", {expires: 1, path: '/'});
+						var html = "<a class='button button_small_grey button_small_grey_close floatright' href='javascript:void(0)' onclick='closePopup()'></a>";
+						html += "<a style='position: relative; top: 5px;' href='javascript:void(0)' onclick='var url = \"http://itunes.apple.com/app/feevo-hd/id407806835?mt=8\"; window.open(url); try { pageTracker._trackPageview(\"/promotion/feevo_hd_popup/click\"); } catch (err) { } closePopup();'><img border='0' src='http://videoads.tetrisfriends.com/inHouse_ads/feevo_iPad_PopUp-2.png' /></a>";
+						popUpBoxByHtml(html, 400, 340, "", function () {}, function () {});
+
+						try { 
+							pageTracker._trackPageview('/promotion/feevo_hd_popup'); 
+						} catch (err) { } 
+					}
+				});
+			});
+			]]>
+		</file>
+		<format>js</format>
+		<click_tag></click_tag>
+		<click_dest></click_dest>
+		<pos>x69b</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<date_visible>2011-06-17 00:00:00</date_visible>
+		<date_expires>2011-06-24 00:00:00</date_expires>
+		<is_visible>1</is_visible>
+		<segment_target></segment_target>
+		<frequency></frequency>
+		<frequency_scope></frequency_scope>
+		<priority>2000</priority>
+	</house_ad>
+	
+	<house_ad>
+		<id>20002</id>
+		<name>Feevo Rails</name>
+		<file>
+			<![CDATA[
+			$(document).ready(function () {
+				var TOA_AKAMAI_PATH       = getAdAkamaiPath();
+				var TOA_LEFT_RAIL_BG      = "transparent";
+				var TOA_LEFT_RAIL_URL     = "/images/promo_ads/inHouse_ads/feevoRailLeft.png";
+				var TOA_LEFT_RAIL_REPEAT  = "no-repeat";
+				var TOA_LEFT_RAIL_POS     = "-91,-303,302,1000";
+				var TOA_RIGHT_RAIL_BG     = "transparent";
+				var TOA_RIGHT_RAIL_URL    = "/images/promo_ads/inHouse_ads/feevoRailRight.png";
+				var TOA_RIGHT_RAIL_REPEAT = "no-repeat";
+				var TOA_RIGHT_RAIL_POS    = "-91,-303,302,1000";
+				var TOA_RAIL_CALLBACK     = "";
+				
+				var TOA_LEFT_RAIL_CONCAT  = TOA_LEFT_RAIL_BG + " url(" + TOA_AKAMAI_PATH + TOA_LEFT_RAIL_URL + ") " + TOA_LEFT_RAIL_REPEAT;
+				var TOA_RIGHT_RAIL_CONCAT = TOA_RIGHT_RAIL_BG + " url(" + TOA_AKAMAI_PATH + TOA_RIGHT_RAIL_URL + ") " + TOA_RIGHT_RAIL_REPEAT;
+
+				initRailAds(TOA_LEFT_RAIL_CONCAT, TOA_LEFT_RAIL_POS, TOA_RIGHT_RAIL_CONCAT, TOA_RIGHT_RAIL_POS, TOA_RAIL_CALLBACK);	
+			});
+			]]>
+		</file>
+		<format>js</format>
+		<click_tag></click_tag>
+		<click_dest></click_dest>
+		<pos>x69b</pos>
+		<product_id></product_id>
+		<accessory_id></accessory_id>
+		<date_visible>2011-06-28 00:00:00</date_visible>
+		<date_expires>2011-07-05 00:00:00</date_expires>
+		<is_visible>0</is_visible>
+		<segment_target></segment_target>
+		<frequency>1</frequency>
+		<frequency_scope>daily</frequency_scope>
+		<priority>200</priority>
+	</house_ad>
+	
+	
+
+</house_ads>

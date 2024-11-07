@@ -1,0 +1,130 @@
+body
+{
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+  margin: 0px;
+}
+
+.warn_box {
+	width: 400px;
+	border: 1px solid #339933;
+	padding: 10px 0px 10px 30px;
+	margin-left: 15px;
+	background:#e2f9e3 url(../images/alertgood_icon.gif) no-repeat  2px;
+}
+.error_box {
+	width: 400px;
+	border: 1px solid #C33;
+	padding: 10px 0px 10px 30px;
+	margin-left: 15px;
+	background:#fcd9d9 url(../images/alertbad_icon.gif) no-repeat  2px;
+}
+.error {
+	color:#ff0000;
+}
+.label {
+	text-align:right;
+	font-weight:bold;
+}
+
+
+.tetris_friends_logo {
+	top: 6px;
+	left: 18px;
+	width: 93px;
+	height: 84px;
+	
+	background: url(/data/images/top/logo.gif) no-repeat 0px 0px;
+}
+
+.no_border tr td {
+    border: none;
+}
+
+.nav {
+	width:"100%";
+	padding:10px;
+	background:#336699;
+	color:#ffffff;
+}
+.nav_logout {
+   position: absolute;
+   right: 0;
+   padding-right:10px;
+   width: 50%;
+   text-align: right; /* depends on element width */
+}
+
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
+	color:#000;
+	text-decoration: none
+}
+
+
+.nav_body {
+	padding-left:10px;
+	padding-right:10px;
+}
+.nav_links {
+	border-bottom: #999 1px solid;	
+   padding:10px 10px 3px 10px;	
+}
+.nav_links a {
+   padding:10px;	
+}
+.nav_logout a {
+	color:#ffffff;
+}
+
+td {
+	font-family: arial, hevetica;
+	font-size: 12px;
+	vertical-align : top;
+	text-align : left;
+}
+
+
+.grid {
+	border:1px solid #ccc;
+	border-collapse: collapse;
+	margin-top:0px;
+}
+.grid td {
+	border:1px solid #ccc;
+	padding : 2px 2px 2px 2px;	
+	background:#f4f4f4;
+}
+
+.grid tr.gray td{
+	background:#e4e4e4;
+
+}
+
+.grid_header td{
+	border:0px solid; 
+	background: #ccc url(/data/images/bg_grid_gray.png) top left repeat-x;
+	color: #000; 
+    font: 11px arial, sans-serif;
+	text-align:center;
+	padding:2px;
+	height:20px;
+}
+
+.center {
+	text-align : center;
+}
+.center td {
+	text-align : center;
+}
+.right {
+	text-align : right;
+}
+.right td{
+	text-align : right;
+}
+
+.left {
+	text-align : left;
+}
+.left td{
+	text-align : left;
+}

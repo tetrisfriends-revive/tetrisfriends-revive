@@ -1,0 +1,29 @@
+<TestRoom>
+	<Revision>
+		<Id>0</Id>
+		<ComboSystem>kBPSComboSystem</ComboSystem>
+		<GenerationMethod>kGENERATIONMETHOD_TDG2009b</GenerationMethod>
+		<AttackTable>
+			<Lines />
+			<Combos>0,1,1,1,2,2,3,3,4,4,4,5</Combos>
+		</AttackTable>
+		<IsAvoidOSZStart>true</IsAvoidOSZStart>
+		<IsDDA>true</IsDDA>
+		<GameParams />
+	</Revision>
+	<Revision>
+		<Id>1</Id>
+		<ComboSystem>kBPSComboSystem</ComboSystem>
+		<GenerationMethod>kGENERATIONMETHOD_TDG2009b</GenerationMethod>
+		<AttackTable>
+			<Lines />
+			<Combos>0,1,1,2,2,3,3,4,4</Combos>
+		</AttackTable>
+		<IsAvoidOSZStart>true</IsAvoidOSZStart>
+		<IsDDA />
+		<GameParams>
+			<LineClearAnimation>150000</LineClearAnimation>
+			<SoftDrop>30000</SoftDrop>
+		</GameParams>
+	</Revision>
+</TestRoom>

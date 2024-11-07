@@ -1,0 +1,345 @@
+/* Box Container Style Sheet */
+/* ========================= */
+
+
+/* Rounded Box */
+/* ----------------- */
+.box {
+	/* left: 65px; */
+	width:750px;
+	background: transparent url(../images/boxes/black_bottom.gif) no-repeat bottom left;
+}
+.box h3 {
+	background: transparent url(../images/boxes/black_top.gif) no-repeat top left;
+	height:30px;
+	padding-top:10px;
+	padding-left:20px;
+}
+.box ul {
+	margin: 0px;
+	padding: 0px 20px 20px 20px;
+	list-style: none;
+}
+.box ul li {
+	margin: 0;
+	padding: 0;
+}
+
+.box_blue {
+	background: transparent url(../images/boxes/blue_bottom.gif) no-repeat bottom left;
+}
+.box_blue h3 {
+	background: transparent url(../images/boxes/blue_top.gif) no-repeat top left;
+}
+
+.box_red {
+	background: transparent url(../images/boxes/red_bottom.gif) no-repeat bottom left;
+}
+.box_red h3 {
+	background: transparent url(../images/boxes/red_top.gif) no-repeat top left;
+}
+
+.box_center {
+	margin: 0 auto;	
+}
+
+
+
+
+
+
+/* Rounded White Box */
+/* ----------------- */
+div.box_container
+{
+	position: relative;
+}
+
+div.box_left_border
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background: transparent url(../images/boxes/box_left.png) repeat-y top left;
+}
+
+div.box_right_border
+{
+	position: relative;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	background: transparent url(../images/boxes/box_right.png) repeat-y top right;
+}
+
+div.box_top_border
+{
+	position: relative;
+	height: 11px;
+	background: #fff url(../images/boxes/box_corners.png) repeat-x 0px -30px;
+	margin: 0px 11px 0px 11px;
+}
+
+div.box_top_left
+{
+	position: absolute;
+	overflow: hidden;
+	top: 0px;
+	left: -11px;
+	width: 11px;
+	height: 11px;
+	background: transparent url(../images/boxes/box_corners.png) no-repeat;
+
+}
+
+div.box_top_right
+{
+	position: absolute;
+	overflow: hidden;
+	top: 0px;
+	right: -11px;
+	width: 11px;
+	height: 11px;
+	background: transparent url(../images/boxes/box_corners.png) no-repeat -11px 0px;
+}
+
+div.box_content
+{
+	position: relative;
+	margin: 0px 3px 0px 2px;
+	background: #fff;
+}
+
+div.box_header,
+div.box_footer
+{
+	position: relative;
+	height: 20px;
+}
+
+div.box_header p
+{
+	text-indent: 15px;
+}
+
+div.box_bottom_border
+{
+	position: relative;
+	height: 6px;
+	margin: 7px 11px 0px 11px;
+	background: transparent url(../images/boxes/box_corners.png) repeat-x 0px -24px;
+}
+
+div.box_bottom_left
+{
+	position: absolute;
+	overflow: hidden;
+	bottom: 0px;
+	left: -11px;
+	width: 11px;
+	height: 13px;
+	background: transparent url(../images/boxes/box_corners.png) no-repeat 0px -11px;
+}
+
+div.box_bottom_right
+{
+	position: absolute;
+	overflow: hidden;
+	bottom: 0px;
+	right: -11px;
+	width: 11px;
+	height: 13px;
+	background: transparent url(../images/boxes/box_corners.png) no-repeat -11px -11px;
+}
+
+/* Blue Info Box */
+/* ------------- */
+div.box_blue_container
+{
+	position: relative;
+}
+
+div.box_blue_left_border
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background: transparent url(../images/boxes/info_blue_sides.gif) repeat-y top left;
+}
+
+div.box_blue_right_border
+{
+	position: relative;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	background: transparent url(../images/boxes/info_blue_sides.gif) repeat-y top right;
+}
+
+div.box_blue_content
+{
+	position: relative;
+	background: #EBF4FD;
+	margin: 0px 16px 0px 16px;
+	padding-left: 20px;
+}
+
+div.box_blue_top_border
+{
+	position: relative;
+	height: 16px;
+	background: #EBF4FD url(../images/boxes/info_blue_corners.gif) repeat-x 0px -32px;
+	margin: 0px 16px 0px 16px;
+}
+
+div.box_blue_top_left
+{
+	position: absolute;
+	overflow: hidden;
+	top: 0px;
+	left: -16px;
+	width: 16px;
+	height: 16px;
+	background: transparent url(../images/boxes/info_blue_corners.gif) no-repeat top left;
+}
+
+div.box_blue_top_right
+{
+	position: absolute;
+	overflow: hidden;
+	top: 0px;
+	right: -16px;
+	width: 16px;
+	height: 16px;
+	background: transparent url(../images/boxes/info_blue_corners.gif) no-repeat -16px 0px;
+}
+
+div.box_blue_bottom_border
+{
+	position: relative;
+	height: 16px;
+	margin: 0px 16px 0px 16px;
+	background: #EBF4FD url(../images/boxes/info_blue_corners.gif) repeat-x 0px -48px;
+}
+
+div.box_blue_bottom_left
+{
+	position: absolute;
+	overflow: hidden;
+	bottom: 0px;
+	left: -16px;
+	width: 16px;
+	height: 16px;
+	background: transparent url(../images/boxes/info_blue_corners.gif) no-repeat 0px -16px;
+}
+
+div.box_blue_bottom_right
+{
+	position: absolute;
+	overflow: hidden;
+	bottom: 0px;
+	right: -16px;
+	width: 16px;
+	height: 16px;
+	background: transparent url(../images/boxes/info_blue_corners.gif) no-repeat -16px -16px;
+}
+
+/* Red Info Box */
+/* ------------ */
+div.box_red_container
+{
+	position: relative;
+}
+
+div.box_red_left_border
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background: transparent url(../images/boxes/info_red_sides.gif) repeat-y top left;
+}
+
+div.box_red_right_border
+{
+	position: relative;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	background: transparent url(../images/boxes/info_red_sides.gif) repeat-y top right;
+}
+
+div.box_red_content
+{
+	position: relative;
+	background: #FFEFEF;
+	margin: 0px 16px 0px 16px;
+	padding-left: 20px;
+}
+
+div.box_red_top_border
+{
+	position: relative;
+	height: 16px;
+	background: #FFEFEF url(../images/boxes/info_red_corners.gif) repeat-x 0px -32px;
+	margin: 0px 16px 0px 16px;
+}
+
+div.box_red_top_left
+{
+	position: absolute;
+	overflow: hidden;
+	top: 0px;
+	left: -16px;
+	width: 16px;
+	height: 16px;
+	background: transparent url(../images/boxes/info_red_corners.gif) no-repeat top left;
+}
+
+div.box_red_top_right
+{
+	position: absolute;
+	overflow: hidden;
+	top: 0px;
+	right: -16px;
+	width: 16px;
+	height: 16px;
+	background: transparent url(../images/boxes/info_red_corners.gif) no-repeat -16px 0px;
+}
+
+div.box_red_bottom_border
+{
+	position: relative;
+	height: 16px;
+	margin: 0px 16px 0px 16px;
+	background: #FFEFEF url(../images/boxes/info_red_corners.gif) repeat-x 0px -48px;
+}
+
+div.box_red_bottom_left
+{
+	position: absolute;
+	overflow: hidden;
+	bottom: 0px;
+	left: -16px;
+	width: 16px;
+	height: 16px;
+	background: transparent url(../images/boxes/info_red_corners.gif) no-repeat 0px -16px;
+}
+
+div.box_red_bottom_right
+{
+	position: absolute;
+	overflow: hidden;
+	bottom: 0px;
+	right: -16px;
+	width: 16px;
+	height: 16px;
+	background: transparent url(../images/boxes/info_red_corners.gif) no-repeat -16px -16px;
+}
+
+img.box_icon
+{
+	left: -22px;
+}

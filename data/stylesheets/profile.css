@@ -1,0 +1,780 @@
+/* =================== */
+/* profile stylesheet  */
+/* =================== */
+
+/* Profile Nav Bar */
+/* =============== */
+.profile_nav
+{
+	position: relative;
+	width: 660px;
+	height: 28px;
+	overflow: hidden;
+	margin: 0 0 9px 0;
+}
+
+
+/* Profile User Info Box */
+/* ===================== */
+.profile_title
+{
+	text-align: left;
+	margin: 0 0 0 0;
+	font-size: 14px;
+	color: #666;
+}
+
+.profile_user_box
+{
+	position: relative;
+	width: 664px;	
+}
+
+.profile_user_box .box_content
+{
+	height: 200px;
+}
+
+.profile_user_header
+{
+	padding: 0 10px;
+	font-size: 13px;
+}
+
+.profile_user_main 
+{
+	position: relative;
+	width: 100%;
+	height: 90%;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0;
+	background: #F6F4F5;	
+}
+
+.profile_user_name
+{
+	position: relative;
+	top: 5px;
+	left: 15px;
+	width: 300px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;	
+}
+
+.profile_user_avatar
+{
+	position: absolute;
+	top: 40px;
+	left: 30px;
+	border: 1px solid #c0c0c0;	
+}
+
+.profile_status_icons
+{
+	position: absolute;
+	top: 40px; 
+	left: 8px;
+	width: 20px; 
+}
+
+.profile_status_icons div
+{
+	float: left;
+	margin-top: 10px;
+}
+
+.profile_user_tokens
+{
+	position: absolute;
+	top: 125px;
+	left: 254px;
+	width: 200px;
+	height: 40px;
+}
+
+.profile_user_badges
+{
+	position: absolute;
+	top: 125px;
+	left: 118px;
+	width: 56px;
+	height: 40px;
+	text-align: center;
+}
+
+.profile_user_rubies
+{
+	position: absolute;
+	top: 125px;
+	left: 428px;
+	width: 200px;
+	height: 40px;
+}
+
+.profile_user_badges img,
+.profile_user_tokens img,
+.profile_user_rubies img
+{
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+.profile_user_badges p,
+.profile_user_tokens p,
+.profile_user_rubies p
+{
+	position: relative;
+	left: 45px;
+	color: #b0b0b0;
+	font-size: 13px;
+}
+
+.profile_user_rubies p
+{
+	top: 6px;	
+}
+
+.profile_user_badges .badge_icon
+{
+	height: 25px;
+	width: 25px;	
+}
+
+/*----------------*/
+/*mission favorite*/
+/*----------------*/
+div.profile_mission_favorite
+{
+	background: url(../images/missions/wallpaper_01.png) repeat;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0;
+	padding: 5px 40px;
+}
+
+div.mission_badge_box {
+	height: 190px;
+	width: 230px;
+	position: relative;
+}
+
+div.mission_badge_box object,
+div.mission_badge_box img
+{
+	position: relative;
+	top: 25px;
+	left: 42px;
+}
+
+div.profile_mission_favorite div.mission_favorite_content
+{
+	background: #F6F4F5;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 1px;
+	left: 25px;
+	height: 150px;
+	width: 300px;
+	top: 25px;
+}
+
+div.profile_mission_favorite div.mission_favorite_content div.mission_collection_name
+{
+	color: #666;
+	text-align: center;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+div.profile_mission_favorite div.mission_favorite_content div.mission_name
+{
+	color: #000000;
+	text-align: center;
+	position: relative;
+	top: 5px;
+	left: 0px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+div.profile_mission_favorite div.mission_favorite_content div.mission_desc
+{
+	color: #666;
+	text-align: center;
+	position: relative;
+	font-size: 14px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	height: 3.5em;
+}
+
+div.profile_mission_favorite div.mission_favorite_content div.mission_difficulty
+{
+	color: #666;
+	position: relative;
+	font-size: 14px;
+	text-align: center;
+}
+
+div.profile_mission_favorite div.mission_favorite_content div.mission_completed
+{
+	color: #666;
+	position: relative;
+	font-size: 14px;
+	text-align: center;
+}
+
+/*--------------------------*/
+/*mission grid item tool tip*/
+/*--------------------------*/
+.mission_grid_tool_tip {
+	position: relative;
+	top: 0px;
+}
+
+div.mission_grid div.mission_grid_icon
+{
+	width: 83px;
+	height: 83px;
+	float: left;
+	margin: 5px 0px 0px 5px;
+	display: inline;
+}
+
+div.mission_text
+{
+	left: 0px;
+	position: relative;
+}
+
+div.mission_text div.mission_collection_name,
+div.mission_text div.mission_difficulty,
+div.mission_text div.mission_completed
+{
+	color: #666;
+	text-align: center;
+}
+
+div.mission_text div.mission_name
+{
+	color: #000000;
+	text-align: center;
+}
+
+div.mission_text div.mission_desc
+{
+	color: #666;
+	text-align: center;
+	margin: 5px 5px 5px 5px;
+}
+
+.profile_user_badges strong,
+.profile_user_tokens strong,
+.profile_user_rubies strong
+{
+	color: #666;
+}
+
+.profile_user_message
+{
+	position: absolute;
+	top: 30px;
+	left: 118px;	
+	width: 272px;
+	height: 56px;
+	display: inline;
+	background: transparent url(../images/profile/bubble01.png) no-repeat;
+}
+
+.profile_user_message p
+{
+	display: block;
+	height: 40px;
+	margin: 8px 18px 8px 30px;
+	font-style: italic;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.profile_user_message span.last_updated
+{
+	position: absolute;
+	top: 40px;
+	right: 10px;
+	color: #B0B0B0;
+	font-size: 10px;
+	display: block;
+}
+
+.profile_user_message .profile_jeditable input
+{
+	border: 0;
+	height: 50px;
+}
+
+.profile_user_message .profile_jeditable button
+{
+	position: absolute;
+	top: 25px;
+	right: 10px;
+	height: 18px;
+	width: 23px;
+	text-indent: -9999px;
+	background: url(../images/OK_btn.gif) no-repeat;
+	border: 0;
+}
+
+.profile_user_info 
+{
+	position: absolute;
+	top: 25px;
+	left: 425px;
+	width: 300px;
+	font-size: 13px;
+}
+
+.profile_user_info table th 
+{
+	padding-right: 5px;
+	text-align: right;	
+}
+
+.profile_user_info table td 
+{
+	padding-left: 5px;
+	text-align: left;	
+}
+
+.profile_account_info
+{
+	top: 4px;
+	left: 180px;
+	width: 600px;
+}
+
+.profile_account_info table td, .profile_account_info table th
+{
+	height: 24px;
+}
+
+.profile_private_field
+{
+	color: #b0b0b0;	
+}
+
+.profile_save_changes
+{
+	display: inline;
+	margin-left: 68px;
+}
+
+.profile_cancel
+{
+	display: inline;
+	margin-left: 10px;
+}
+
+.profile_edit_notice
+{
+	width: 664px;
+	margin-bottom: 10px;
+}
+
+a#profile_edit_avatar_button
+{
+	position: absolute;
+	top: 125px;
+	left: 30px;
+}
+
+
+/* Profile User Info - Lower Right Options */
+
+.profile_user_options, .profile_account_options
+{
+	position: absolute;
+	bottom: 10px;
+	right: 30px;	
+}
+
+
+/* Profile Game Stat Content */
+/* ========================= */
+.profile_stats
+{
+	position: relative;
+	top: 10px;
+}
+
+.profile_stats_content
+{
+	width: 664px;	
+}
+
+.profile_stats_content h1
+{
+	text-align: left;
+	padding-left: 14px;
+	padding-bottom: 8px;
+	font-size: 16px;
+	color: #666;
+}
+
+.profile_stats_box
+{
+	width: 975px;
+	margin: 0 auto;
+}
+
+.profile_stats_content h2
+{
+	text-align: left;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0;
+	background: #F0F0F0;
+	color: #666;
+	padding-left: 14px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 14px;
+}
+
+.profile_stats_box_divider
+{
+	width: 600px;
+	border: 1px solid #c0c0c0;
+	padding: 10px 0px;
+}
+
+
+/* Profile Game Stat Table */
+/* ======================= */
+
+.profile_table_box div
+{
+	text-align: center;
+}
+
+.profile_table_box table
+{
+	margin: 5px 5px;
+	border-collapse: collapse;
+	color: #666;
+	/* width:960px; */
+	
+}
+
+.profile_main_table 
+{
+	width: 649px;
+}
+
+.profile_main_table td
+{
+	background: #F6F4F5;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0;
+	width: 50px;
+	height: 15px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: top;
+}
+
+.profile_main_table td p
+{
+	font-size: 11px;
+	font-weight: normal;
+	color: #808080;
+}
+
+.profile_main_table .profile_game_logo_cell
+{
+	border-width: 1px 1px 1px 1px;
+	background: #fff;
+	width: 30px;
+	height: 50px;
+}
+
+.profile_main_table .profile_game_name_cell
+{
+	padding-top:19px;
+	width: 95px;
+	text-align: center;
+}
+
+.profile_main_table .profile_stat_cell
+{
+	padding-top: 7px;
+	width: 85px;
+}
+
+.profile_main_table .profile_stat_cell_B
+{
+	padding-top:-6px;
+	width: 85px;
+}
+
+.profile_main_table .profile_stat_cell_B p
+{
+	margin-top: 2px;
+	margin-bottom:5px;
+}
+
+.profile_main_table .profile_stat_cell_B img.rank_icon
+{
+	margin-top: -5px;
+}
+
+.profile_main_table .profile_percentile_cell
+{
+	padding-top: 7px;
+	width: 118px;
+}
+
+.profile_main_table .profile_battle_cell
+{
+	width: 200px;
+}
+
+.profile_main_table .profile_battle_cell p
+{
+	position: relative;
+	font-size: 13px;
+	font-weight: bold;
+	width: 33%;
+	left: -10px;
+	display: inline;
+}
+
+.profile_main_table .profile_battle_cell p font
+{
+	position: relative;
+	padding-left: 5px;
+	font-weight: normal;
+	text-align: right;
+}
+
+.profile_main_table .profile_trophy_cell
+{
+	padding-top: 2px;
+	width: 200px;
+	align: center;
+}
+
+.profile_main_table .profile_trophy_cell .profile_trophy
+{
+	width: 33%;
+	float: left;	
+}
+
+.profile_main_table .profile_trophy_cell div
+{
+	margin: 0 auto;	
+}
+
+.profile_main_table .profile_details_cell
+{
+	padding-top:16px;
+	width: 100px;
+	border-width: 1px 1px 1px 0px;
+}
+
+.profile_details_cell a.profile_view_replay
+{
+	margin: 0 auto;
+}
+
+.profile_table_box a.selected
+{
+	text-decoration: none;
+	color: #c0c0c0;
+}
+
+.profile_game_logo
+{
+	margin: 21px auto 0 auto;
+	width:14px;
+	height:12px;
+}
+
+.profile_game_logo_Survival
+{
+	background: url(../images/profile/T_Icon_Survival.gif) no-repeat;	
+}
+
+.profile_game_logo_Sprint
+{
+	background: url(../images/profile/T_Icon_Sprint.gif) no-repeat;	
+}
+
+.profile_game_logo_Ultra
+{
+	background: url(../images/profile/T_Icon_Ultra.gif) no-repeat;	
+}
+
+.profile_game_logo_Sprint5P
+{
+	background: url(../images/profile/T_Icon_Sprint5P.gif) no-repeat;	
+}
+
+.profile_game_logo_Battle2P
+{
+	background: url(../images/profile/T_Icon_Battle2P.gif) no-repeat;	
+}
+
+.profile_game_logo_Battle6P
+{
+	background: url(../images/profile/T_Icon_Battle6P.gif) no-repeat;	
+}
+
+.profile_game_logo_Rally8P
+{
+	background: url(../images/profile/T_Icon_Rally8P.gif) no-repeat;	
+}
+
+.profile_game_logo_Marathon
+{
+	background: url(../images/profile/T_Icon_Marathon.gif) no-repeat;	
+}
+
+.profile_game_logo_Mono
+{
+	background: url(../images/profile/T_Icon_Mono.gif) no-repeat;	
+}
+
+.profile_game_logo_NBlox
+{
+	background: url(../images/profile/T_Icon_NBlox.gif) no-repeat;	
+}
+
+.profile_game_logo_IceAge
+{
+	background: url(../images/profile/T_Icon_IceAge.gif) no-repeat;	
+}
+
+.profile_game_logo_Live
+{
+	background: url(../images/profile/T_Icon_Arena.gif) no-repeat;	
+}
+
+
+.profile_trophy_icon
+{
+	width: 32px;
+	height: 42px;
+}
+
+.profile_first_place_trophy
+{
+	background: url(../images/profile/Place.png) no-repeat 0 0;
+}
+
+.profile_second_place_trophy
+{
+	background: url(../images/profile/Place.png) no-repeat -32px 0;
+}
+
+.profile_third_place_trophy
+{
+	background: url(../images/profile/Place.png) no-repeat -64px 0;
+}
+
+.profile_trophy_badge
+{
+	width: 20px;
+	height: 40px;
+}
+
+.profile_first_place_badge
+{
+	background: url(../images/profile/placeBadge.png) no-repeat 0 0;
+}
+
+.profile_second_place_badge
+{
+	background: url(../images/profile/placeBadge.png) no-repeat -20px 0;
+}
+
+.profile_third_place_badge
+{
+	background: url(../images/profile/placeBadge.png) no-repeat -40px 0;
+}
+
+.profile_token_crown_badge
+{
+	width: 32px;
+	background: url(../images/profile/placeBadge.png) no-repeat -60px 0;
+}
+
+.profile_ruby_crown_badge
+{
+	width: 32px;
+	background: url(../images/profile/placeBadge.png) no-repeat -92px 0;
+}
+
+/* Mission Box */
+.profile_main_content
+{
+	float: left;
+	width: 672px;
+}
+.profile_side_content
+{
+	float: left;
+	width: 300px;
+	margin-top: 13px;
+}
+
+.profile_mystyle_box 
+{
+	width:664px;
+}
+
+.my_items_box
+{
+	height: 380px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.my_items_box_page
+{
+	height: 350px;
+}
+/* Advertisement */
+/* ------------- */
+
+.profile_ad_container
+{
+	position: relative;
+	overflow: visible;
+	width: 300px;
+	margin-top: -13px;
+	color: #c0c0c0;
+}
+
+img.profile_ad_header {
+	position:absolute;
+	right:0;
+	top: -5px;
+}
+
+div.profile_advertisement
+{
+	position: relative;
+	width: 300px;
+	height: 250px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #c0c0c0;
+ 	-moz-box-sizing:content-box;
+ }
+ 
+ /* Friends Module */
+ .profile_friends_module_container
+ {
+ 	margin-top: 10px;
+ }

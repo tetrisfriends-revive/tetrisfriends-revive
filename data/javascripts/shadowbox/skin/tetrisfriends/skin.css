@@ -1,0 +1,411 @@
+/**
+ * The "classic" theme CSS for Shadowbox.
+ *
+ * This file is part of Shadowbox.
+ *
+ * Shadowbox is an online media viewer application that supports all of the
+ * web's most popular media publishing formats. Shadowbox is written entirely
+ * in JavaScript and CSS and is highly customizable. Using Shadowbox, website
+ * authors can showcase a wide assortment of media in all major browsers without
+ * navigating users away from the linking page.
+ *
+ * Shadowbox is released under version 3.0 of the Creative Commons Attribution-
+ * Noncommercial-Share Alike license. This means that it is absolutely free
+ * for personal, noncommercial use provided that you 1) make attribution to the
+ * author and 2) release any derivative work under the same or a similar
+ * license.
+ *
+ * If you wish to use Shadowbox for commercial purposes, licensing information
+ * can be found at http://mjijackson.com/shadowbox/.
+ *
+ * @author      Michael J. I. Jackson <mjijackson@gmail.com>
+ * @copyright   2007-2008 Michael J. I. Jackson
+ * @license     http://creativecommons.org/licenses/by-nc-sa/3.0/
+ * @version     SVN: $Id: skin.js 91 2008-03-28 17:39:13Z mjijackson $
+ */
+
+
+/* IE6 PNG Fix Rules */
+/* ================= */
+
+img, .png_fix, .rank_icon, .userStatsStars, .profile_tokens_cell,
+	.box_top_left, .box_top_right, .box_bottom_left, .box_bottom_right,
+	#shadowbox_tl, #shadowbox_t, #shadowbox_tr,
+	#shadowbox_bl, #shadowbox_b, #shadowbox_br
+{
+	behavior: url(data/javascripts/iepngfix.htc);
+}
+
+
+/*_____________________________________________________  container & overlay  */
+#shadowbox_container, #shadowbox_overlay {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#shadowbox_container td {
+	color:#ffffff;
+}
+
+#shadowbox_container {
+  position: fixed;
+  display: block;
+  visibility: hidden;
+  z-index: 999;
+  text-align: center; /* centers #shadowbox in quirks and IE */
+}
+#shadowbox_overlay {
+  position: absolute;
+}
+
+/*_______________________________________________________________  shadowbox  */
+#shadowbox {
+  position: relative;
+  margin: 0 auto;
+  text-align: left; /* reset left alignment */
+}
+
+/*____________________________________________________________________  body  */
+#shadowbox_body {
+  position: relative;
+  margin-top: 4px;
+  padding: 0;
+  border: 1px dotted #333333;
+  overflow: visible;
+}
+#shadowbox_body_inner {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+#shadowbox_content.html {
+  height: 100%;
+  overflow: auto; /* make html content scrollable */
+}
+
+/*____________________________________________________________________  rounded border  */
+#shadowbox_tl {
+  background-image: url(javascripts/shadowbox/skin/tetrisfriends/borders/BoxCorners.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: visible;
+  height: 11px;
+  left: -10px;
+  top: -11px;
+  width: 10px;
+}
+
+#shadowbox_t {
+  background-image: url(javascripts/shadowbox/skin/tetrisfriends/borders/BoxCorners.png);
+  background-repeat: repeat-x;
+  background-position: 0px -22px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  top: -11px;
+  height: 11px;
+  width: 100%;
+}
+
+#shadowbox_tr {
+  background-image: url(javascripts/shadowbox/skin/tetrisfriends/borders/BoxCorners.png);
+  background-repeat: no-repeat;
+  background-position: -10px 0px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: visible;
+  height: 11px;
+  right: -10px;
+  top: -11px;
+  width: 10px;
+}
+
+#shadowbox_l {
+  background-image: url(javascripts/shadowbox/skin/tetrisfriends/borders/BoxLeftRight.gif);
+  background-repeat: repeat-y;
+  background-position: 0px 0px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: visible;
+  left: -10px;
+  top: 0px;
+  height: 100%;
+  width: 10px;
+}
+
+#shadowbox_r {
+  background-image: url(javascripts/shadowbox/skin/tetrisfriends/borders/BoxLeftRight.gif);
+  background-repeat: repeat-y;
+  background-position: -10px 0px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: visible;
+  right: -10px;
+  top: 0px;
+  height: 100%;
+  width: 10px;
+}
+
+#shadowbox_bl {
+  background-image: url(javascripts/shadowbox/skin/tetrisfriends/borders/BoxCorners.png);
+  background-repeat: no-repeat;
+  background-position: 0px -11px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  height: 11px;
+  left: -10px;
+  bottom: -11px;
+  width: 10px;
+}
+
+#shadowbox_b {
+  background-image: url(javascripts/shadowbox/skin/tetrisfriends/borders/BoxCorners.png);
+  background-repeat: repeat-x;
+  background-position: 0px -33px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  bottom: -11px;
+  height: 11px;
+  width: 100%;
+}
+
+#shadowbox_br {
+  background-image: url(javascripts/shadowbox/skin/tetrisfriends/borders/BoxCorners.png);
+  background-repeat: no-repeat;
+  background-position: -10px -11px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  height: 11px;
+  right: -10px;
+  bottom: -11px;
+  width: 10px;
+}
+
+/*_________________________________________________________________  loading  */
+#shadowbox_loading {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+#shadowbox_body, #shadowbox_loading {
+  background-color: #ffffff; /* should match loading image background color */
+}
+#shadowbox_loading_indicator {
+  float: left;
+  margin: 10px 0 0 10px;
+  height: 60px;
+  width: 60px;
+  background-image: url(javascripts/shadowbox/skin/tetrisfriends/loading.gif);
+  background-repeat: no-repeat;
+}
+#shadowbox_loading span {
+  font-family: 'trebuchet', Ariel, sans-serif;
+  font-size: 10px;
+  float: left;
+  margin-top: 26px;
+}
+#shadowbox_loading span a:link,
+#shadowbox_loading span a:visited {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/*____________________________________________________________  title & info  */
+#shadowbox_title, #shadowbox_info {
+  position: relative;
+  margin: 0; /* these must have no vertical margin or padding */
+  padding: 0;
+  border: 0 solid;
+  overflow: hidden;
+  display: none;
+}
+
+#shadowbox_body_title {
+	font-size: 13px;
+	font-weight: bold;
+	/* margin-bottom: 5px; */
+	padding-top: 5px;
+	display: none;
+	overflow: hidden;
+}
+
+#shadowbox_body_title a {
+  position: absolute;
+  right: 2px;
+  top: 0;
+}
+
+#shadowbox_body_more_info {
+	position: absolute;
+	top: 25px;
+	display: none;
+	background: #000000;	
+}
+
+#shadowbox_button_table {
+	position: relative;
+	width: 300px;
+	margin: 150px auto;
+	border-collpase: collapse;
+}
+
+#shadowbox_learn_more_btn {
+	margin-right: 10px;	
+}
+
+#shadowbox_continue_btn {
+	margin-left: 10px;	
+}
+
+#shadowbox_learn_more_btn, #shadowbox_continue_btn {
+   width: 166px;
+   height: 42px;
+}
+
+#shadowbox_learn_more_btn a, #shadowbox_continue_btn a {
+   display: block;
+   float: left;
+   width: 100%;
+   height: 100%;
+   text-indent: -9999px;
+   text-decoration: none;
+   background: url(images/games/LearnMore_btn.gif) no-repeat 0px 0px;
+}
+
+#shadowbox_continue_btn a {
+   background: url(images/games/Continue_btn.gif) no-repeat 0px 0px;
+}
+
+#shadowbox_learn_more_btn a:hover {
+   background-position: 0px -42px;
+}
+
+#shadowbox_continue_btn a:hover {
+   background-position: 0px -42px;
+}
+
+#shadowbox_title_inner, #shadowbox_info_inner {
+  position: relative;
+  font-family: 'trebuchet', Ariel, sans-serif;
+  font-weight: bold;
+  height: 27px;
+  top: -4px;
+}
+#shadowbox_title {
+  height: 27px;
+}
+
+#shadowbox_title_inner {
+  float:left;
+  font-size: 20px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+#shadowbox_info {
+  height: 40px; /* 20px; */
+}
+#shadowbox_info_inner {
+  font-size: 12px;
+  color: #fff;
+}
+#shadowbox_caption_inner
+{
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/*_____________________________________________________________________  nav  */
+#shadowbox_nav {
+  float: right;
+  height: 16px;
+  padding: 2px 0;
+  width: 45%;
+}
+#shadowbox_nav a {
+  display: block;
+  float: right;
+  height: 16px;
+  width: 16px;
+  margin-left: 3px;
+  cursor: pointer;
+}
+#shadowbox_nav_close {
+  background-image: url(javascripts/shadowbox/skin/tetrisfriends/icons/close.png);
+  background-repeat: no-repeat;
+}
+#shadowbox_nav_next {
+  background-image: url(javascripts/shadowbox/skin/tetrisfriends/icons/next.png);
+  background-repeat: no-repeat;
+}
+#shadowbox_nav_previous {
+  background-image: url(javascripts/shadowbox/skin/tetrisfriends/icons/previous.png);
+  background-repeat: no-repeat;
+}
+#shadowbox_nav_play {
+  background-image: url(javascripts/shadowbox/skin/tetrisfriends/icons/play.png);
+  background-repeat: no-repeat;
+}
+#shadowbox_nav_pause {
+  background-image: url(javascripts/shadowbox/skin/tetrisfriends/icons/pause.png);
+  background-repeat: no-repeat;
+}
+/*_________________________________________________________________  counter  */
+#shadowbox_counter {
+  float: left;
+  padding: 2px 0;
+  width: 45%;
+}
+#shadowbox_counter a {
+  padding: 0 4px 0 0;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+#shadowbox_counter a.shadowbox_counter_current {
+  text-decoration: underline;
+}
+
+/*___________________________________________________________________  clear  */
+div.shadowbox_clear {
+  clear: both; /* clear floating counter & nav */
+}
+
+/*________________________________________________________________  messages  */
+div.shadowbox_message {
+  font-family: 'trebuchet', Ariel, sans-serif;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
+div.shadowbox_message a:link,
+div.shadowbox_message a:visited {
+  color: #fff;
+  text-decoration: underline;
+}

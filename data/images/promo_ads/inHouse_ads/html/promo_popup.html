@@ -1,0 +1,28 @@
+	function SHOW_AD(name, swf, buttonClass, clickTag, clickDest) {
+
+		/* DO NOT MODIFY */
+
+		var popupHtml = "<div>" +
+							"<div class='box_header'>" +
+								"<a id='" + name + "_close' class='floatright button button_small_grey button_small_grey_close user_stats_close_btn' href='javascript:closePopup()'></a>" +
+							"</div>" +
+							"<br />" +
+							"<div style='border: 1px solid #c0c0c0; border-width: 1px 0 0 0;'>" +
+								getEmbedFlashHtml(swf, name, 650, 350, {}) +
+							"</div>" +
+							(buttonClass != "" ? "<a id='" + name + "' class='button button_large_blue " + buttonClass + " margincenter margintop_5px' parent='" + clickDest + "' href='" + clickTag + "'></a>" : "") +
+						"</div>";
+		popUpBoxByHtml(popupHtml, 650, 445, "", function () { },
+				function () {
+					try {
+						pageTracker._trackPageview('/promotion/' + name);
+
+						$("#" + name).click(function() {
+							pageTracker._trackPageview('/promotion/' + name + '/accept');
+						});
+						$("#" + name + "_close").click(function() {
+							pageTracker._trackPageview('/promotion/' + name + '/close');
+						});
+					} catch (err) { }
+				});
+	}

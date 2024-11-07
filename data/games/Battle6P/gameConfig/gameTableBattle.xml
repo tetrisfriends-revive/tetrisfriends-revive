@@ -1,0 +1,37 @@
+<gameTable>
+<attackDefendModeList currentMode = "0">
+<mode name="ATTACK_ONLY_MODE"></mode>
+<mode name="DEFEND_ONLY_MODE"></mode>
+<mode name="DEFEND_THEN_ATTACK_MODE"></mode>
+<mode name="ATTACK_AND_DEFEND_MODE"></mode>
+<mode name="ATTACK_DEFEND_PERCENTAGE_MODE" percentAttack="100" percentDefend="50"></mode>
+</attackDefendModeList>
+
+<tableList>
+<table>
+<mode name="DEFEND_THEN_ATTACK_MODE">
+<Single attack="0" defend="0"/>
+<Double attack="1" defend="0"/>
+<Triple attack="2" defend="0"/>
+<Tetris attack="4" defend="0"/>
+<TetrisB2B attack="6" defend="0"/>
+<PerfectClear attack="10" defend="0"/>
+
+<TSpin attack="0" defend="0"/>
+<TSpinMini attack="1" defend="0"/>
+<TSpinSingle attack="2" defend="0"/>
+<TSpinDouble attack="4" defend="0"/>
+<TSpinTriple attack="6" defend="0"/>
+
+<TSpinMiniB2B attack="2" defend="0"/>
+<TSpinSingleB2B attack="3" defend="0"/>
+<TSpinDoubleB2B attack="6" defend="0"/>
+<TSpinTripleB2B attack="9" defend="0"/>
+
+<Combo attack = "1,1,2,2,3,3,4,7" defend = "0"/>
+
+<B2B attack="0" defend="0"/>
+</mode>
+</table>
+</tableList>
+</gameTable>

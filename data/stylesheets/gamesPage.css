@@ -1,0 +1,71 @@
+/* ===================== */
+/* Games Page stylesheet */
+/* ===================== */
+div.gamesPage_wrapper
+{
+  color: #6C6C6C;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: small;
+}
+
+a.gamesPage_back_btn:hover
+{
+  background-position: 0px -21px;
+}
+
+div.gamesPage_single,
+div.gamesPage_multi,
+div.gamesPage_other
+{
+	position: relative;
+	border: none;
+	float: left;
+	margin-top: 10px;
+	width: 300px;  
+	text-align: center;
+}
+
+div.gamesPage_single
+{
+	margin-left: 15px;	
+}
+
+div.gamesPage_other
+{
+	margin-top: 5px;	
+}
+
+div.gamesPage_single div,
+div.gamesPage_multi div,
+div.gamesPage_other div
+{
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	width: 133px !important;
+}
+
+div.gamesPage_ad_container
+{
+  position: relative;
+  float: right;
+  margin-top: 5px;
+}
+
+img.gamesPage_ad_header
+{
+   position:absolute;
+   right:0;
+   top: -5px;
+}
+
+div.gamesPage_ad_content
+{
+  border: #DCDCDC solid thin;  
+  width: 300px;
+  height: 250px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c0c0c0;
+  -moz-box-sizing:content-box;
+}

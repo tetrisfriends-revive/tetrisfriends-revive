@@ -1,0 +1,613 @@
+/* ======================= */
+/* registration stylesheet */
+/* ======================= */
+div.reg_wrapper
+{
+  font-family: 'Trebuchet MS', Ariel, sans-serif;
+  font-size: small;
+}
+
+div.reg_main
+{
+  width: 90%;
+  margin: 0px auto;
+}
+
+div.reg_login_height
+{
+	height: 350px;	
+}
+
+div.reg_main div.reg_title
+{
+  color: #6C6C6C;
+  font-size: 1.80em;
+  font-weight: bold;
+  height: 1.40em;
+  margin-left: 60px;
+  width: 400px;
+}
+
+div.reg_main div.reg_avatar_box
+{
+  position: relative;
+  color: #6C6C6C;
+  font-size: 1.10em;
+  font-weight: normal;
+  left: 0px;
+  width: 100%;
+}
+
+div.reg_main div.reg_avatar_box div.reg_avatar_box_content
+{
+  position: relative;
+}
+
+a.reg_avatar_currentpage
+{
+  text-decoration: underline;
+}
+
+div.reg_avatar_title
+{
+  color: #6C6C6C;
+  font-size: 1.80em;
+  font-weight: bold;
+  height: 1.40em;
+  margin-left: 24px;
+  width: 500px;
+}
+
+div.reg_avatar_promo_box
+{
+  border: #b0b0b0 solid thin;
+  border-width: thin 0 2px 0;
+}
+
+div.reg_avatar_promo_box p
+{
+  padding-top: 5px;
+  text-align: center;
+}
+
+div.reg_avatar_header
+{
+  border-bottom: #b0b0b0 solid thin;
+  font-size: 1.20em;
+  font-weight: bold;
+  height: 1.80em;
+  text-align: center;
+}
+
+div.reg_avatar_topnav
+{
+  position: absolute;
+  top: 4px;
+  right: 8px;
+}
+
+div.reg_avatar_bottomnav
+{
+  position: absolute;
+  bottom: 4px;
+  right: 8px;
+}
+
+span.reg_disabled
+{
+  color: #D6D4D5;
+}
+
+div.reg_avatar_item
+{
+  position: relative;
+  float: left;
+  height: 90px;
+  margin: 12px;
+  text-align: center;
+  width: 80px;
+}
+
+div.reg_avatar_item_checked
+{
+  background: url("images/avatar_border.gif") no-repeat;
+  float: left;
+  height: 90px;
+  margin: 12px;
+  text-align: center;
+  width: 80px;
+}
+
+img.reg_avatar
+{
+  height: 68px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+div.reg_avatar_footer
+{
+  border-top: #DCDCDC solid thin;
+  font-size: 1.20em;
+  font-weight: bold;
+  height: 2.20em;
+  padding-top: 12px;
+  text-align: center;
+}
+
+div.reg_main div.reg_ty_message
+{
+  color: #6C6C6C;
+  font-size: 1.40em;
+  padding: 0.5em;
+  text-align: center;
+}
+
+div.reg_main div.reg_ty_playgames
+{
+  position: relative;
+  text-align: center;
+  color: #6C6C6C;
+  font-size: 1.10em;
+  font-weight: normal;
+  left: 15%;
+  width: 70%;
+}
+
+div.reg_main div.reg_ty_box
+{
+  position: relative;
+  color: #6C6C6C;
+  font-size: 1.10em;
+  font-weight: normal;
+  left: 8%;
+  width: 84%;
+}
+
+div.reg_main div.reg_ty_box div.reg_ty_box_content
+{
+  position: relative;
+  height: 200px;
+}
+
+div.reg_main div.reg_ty_box div.reg_ty_box_content div.reg_tv_box_left
+{
+  position: absolute;
+  color: #6C6C6C;
+  font-size: 1.40em;
+  text-align: center;
+  top: 20px;
+  width: 50%;
+  border-right: #6C6C6C solid thin
+}
+
+div.reg_main div.reg_ty_box div.reg_ty_box_content div.reg_tv_box_right
+{
+  position: absolute;
+  right: 0px;
+  top: 42px;
+  width: 47%;
+}
+
+a.reg_change_avatar
+{
+  position: absolute;
+  left: 132px;
+  top: 170px;
+}
+
+a.reg_play_games
+{
+  position: absolute;
+  left: 252px;
+  bottom: 0;
+}
+
+a.reg_register
+{
+  position: relative;
+  float: left;
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+a.reg_connect_with_facebook
+{
+  display: inline-block;	
+}
+
+div.reg_main div.reg_form
+{
+}
+
+div.reg_main div.reg_form_centered
+{
+  padding-left: 180px;
+}
+
+div.reg_main div.reg_form div.reg_message
+{
+  color: #6C6C6C;
+  font-size: 1.40em;
+  padding: 0.5em;
+  text-align: center;
+  width: 500px;
+}
+/*new table registration*/
+div.reg_main div.reg_form table td.label
+{
+	width: 178px;
+	padding: 0.5em 2em;
+	text-align: right;
+	font-size: 1.00em;
+	font-weight: bold;
+	vertical-align: top;
+}
+div.reg_main div.reg_form table td.ui
+{
+	padding: 0.5em 0;
+}
+div.reg_main div.reg_form table td.ui li
+{
+	list-style-type: none;
+}
+div.reg_main div.reg_form table td.ui input,
+div.reg_main div.reg_form table td.ui select
+{
+	position: relative;
+	top: -5px;
+}
+div.reg_main div.reg_form table td.ui a.tt
+{
+	padding: 0 0.5em;
+}
+div.reg_main div.reg_form table td.ui span.reg_gender
+{
+	color: #6C6C6C;
+	font-size: 0.90em;
+	font-weight: normal;
+	position: relative;
+	top: -5px;
+}
+div.reg_main div.reg_form table td.ui span.reg_private
+{
+	position: relative;
+	color: #6C6C6C;
+	font-size: 0.90em;
+	font-weight: normal;
+	width: 200px;
+	padding-top: 3px;
+	top: -5px;
+}
+div.reg_main div.reg_form table td.ui span.reg_private input,
+div.reg_main div.reg_form table td.ui input.checkbox
+{
+	top: 0;
+}
+
+/*----------------------*/
+
+div.reg_main div.reg_form div.reg_labels
+{
+  float: left;
+  width: 178px;
+  padding: 0.5em;
+  text-align: right;
+}
+
+div.reg_main div.reg_form div.reg_labels ul
+{
+  color: #6C6C6C;
+}
+
+div.reg_main div.reg_form div.reg_labels li
+{
+  font-size: 1.00em;
+  font-weight: normal;
+  list-style-type: none;
+  padding: 0.5em;
+}
+
+div.reg_main div.reg_form div.reg_labels li.label
+{
+  font-size: 1.00em;
+  font-weight: bold;
+  list-style-type: none;
+  padding: 0.5em;
+}
+
+div.reg_main div.reg_form div.reg_ui
+{
+  margin-left: 182px;
+  padding: 0.5em;
+}
+
+div.reg_main div.reg_form div.reg_ui li
+{
+  color: #6C6C6C;
+  font-size: 1.0em;
+  font-weight: normal;
+  list-style-type: none;
+  padding: 0.41em;
+}
+
+div.reg_main div.reg_form div.reg_ui li input
+{
+	vertical-align: top;
+}
+
+div.reg_main div.reg_form div.reg_edit li
+{
+  padding: 0.5em;
+}
+
+div.reg_main div.reg_form div.reg_ui li a.tt
+{
+  padding-left: 4px;
+}
+
+div.reg_main div.reg_form div.reg_ui li span.reg_gender
+{
+  color: #6C6C6C;
+  font-size: 0.90em;
+  font-weight: normal;
+}
+
+div.reg_main div.reg_form div.reg_ui li span.reg_private
+{
+  position: absolute;
+  color: #6C6C6C;
+  font-size: 0.90em;
+  font-weight: normal;
+  left: 520px;
+  width: 200px;
+  padding-top: 3px;
+}
+
+div.reg_main div.reg_form div.reg_ui li button.reg_continue
+{
+  background: url(../images/Continue_btn.gif) no-repeat;
+  font-size: 0.90em;
+  font-weight: normal;
+  right: 300px;
+  height: 21px;
+  width: 66px;
+  border: none;
+}
+
+div.reg_main div.reg_form div.reg_ui li button.reg_continue:hover
+{
+  background-position: 0px -21px;
+}
+
+div.reg_main div.reg_form div.reg_ui li button.reg_signin
+{
+  right: 300px;
+}
+
+div.reg_main div.reg_form div.reg_ui li button.reg_submit
+{
+  right: 300px;
+}
+
+div.reg_main div.reg_error
+{
+  position: relative;
+  color: #6C6C6C;
+  font-size: 1.00em;
+  font-weight: normal;
+  left: 20%;
+  top: 0px;
+  width: 526px; /* ~60%; */
+}
+
+div.reg_main div.reg_error strong
+{
+  font-size: 1.20em;
+  font-weight: bold;
+}
+
+div.reg_main div.reg_error ul
+{
+  list-style-position: inside;
+}
+
+div.reg_main div.reg_login_error
+{
+  position: relative;
+  color: #6C6C6C;
+  font-size: 1.00em;
+  font-weight: normal;
+  left: 5%;
+  top: 0px;
+  width: 472px; /* ~53% */
+}
+
+div.reg_main div.reg_login_error strong
+{
+  font-size: 1.20em;
+  font-weight: bold;
+}
+
+div.reg_main div.reg_login_error ul
+{
+  list-style-position: inside;
+}
+
+div.reg_main div.reg_info
+{
+  position: absolute;
+  color: #6C6C6C;
+  font-size: 0.9em /* 1.00em; */;
+  font-weight: normal;
+  right: 40px;
+  top: 0px;
+  width: 415px; /* 425px; */
+}
+
+div.reg_main div.reg_info_content
+{
+  /* min-height: 112px; */
+}
+
+div.reg_info_content li
+{
+	text-indent: -14px;
+	!text-indent: -15px;
+	padding-left: 16px	
+}
+
+div.reg_main div.reg_info strong
+{
+  font-size: 1.20em;
+  font-weight: bold;
+}
+
+div.reg_main div.reg_info ul
+{
+  list-style-position: inside;
+}
+
+div.reg_main div.reg_info_login
+{
+  position: absolute;
+  color: #6C6C6C;
+  font-size: 1.00em;
+  font-weight: normal;
+  right: 40px;
+  top: 0px;
+  width: 370px;
+}
+
+div.reg_main div.reg_info_login div.reg_register_title
+{
+  font-size: 1.80em;
+  font-weight: bold;
+  height: 1.40em;
+  text-align: center;
+}
+
+div.reg_main div.reg_info_login strong
+{
+  font-size: 1.20em;
+  font-weight: bold;
+}
+
+div.reg_main div.reg_info_login ul
+{
+  list-style-position: inside;
+}
+
+div.invalid_avatar_error
+{
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+}
+
+div.invalid_avatar_error strong
+{
+	font-size: 14px;
+	font-weight: normal;	
+}
+
+div.invalid_avatar_error ul
+{
+	margin-top: 5px;
+}
+
+/* Register Promo Box */
+
+.register_promo_box h2
+{
+	position: relative;
+	text-align: center;
+}
+.register_promo_content
+{
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0;	
+	background: #F6F4F5;
+}
+
+.register_promo_swf {
+	position: relative;
+	width: 350px;
+	height: 245px;
+	background: #fff;
+}
+
+.register_promo_desc {
+	position: relative;
+	width: 270px;
+	height: 260px;
+	padding-left: 10px;
+	display: inline;
+}
+
+div.register_promo_desc b
+{
+	font-size: 14px;
+}
+
+div.register_promo_desc li
+{
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+div.register_promo_desc li
+{
+	padding-left: 1px;
+	text-indent: -1px;
+}
+
+.register_promo_register_btn
+{
+	margin: 10px auto 0 auto;
+}
+
+
+
+/* Closed Beta Style Sheet */
+/* ======================= */
+
+.beta_signup_error_box
+{
+	width: 750px;
+	margin: 0 auto;	
+}
+
+.beta_signup_box p
+{
+	font-size: 18px;
+	text-align: center;
+}
+
+.beta_signup_form
+{
+	position: relative; 
+	margin: 0 auto; 
+	width: 300px;	
+}
+
+.beta_home_btn
+{
+	margin: 0 auto;
+}
+
+.beta_submit_btn
+{
+	margin: 10px 0 0 80px;
+}
+
+.beta_cancel_btn
+{
+	margin: 10px 0 0 5px;
+}
+
+.beta_cancel_btn, .beta_submit_btn
+{
+	display: inline;
+}

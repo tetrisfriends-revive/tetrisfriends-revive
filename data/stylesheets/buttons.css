@@ -1,0 +1,1750 @@
+/* Button Style Sheet */
+/* ================== */
+.button
+{
+	overflow: hidden;
+	border: 0;
+	display: block;
+	text-indent: -9999px;
+}
+
+.button:hover
+{
+	cursor: pointer;
+}
+
+/* Small Grey Buttons */
+/* ================== */
+
+/* Shared Button Sheet */ 
+/* ------------------- */
+.button_small_grey
+{
+	height: 21px;	
+}
+
+.button_small_grey_x
+{
+	width: 25px;
+	background:transparent url(../images/smallGrey_Shared_btn.png) no-repeat 0 0;
+}
+
+.button_small_grey_sharethisgame
+{
+	width: 112px;
+	background:transparent url(../images/smallGrey_Shared_btn.png) no-repeat -25px 0;
+}
+
+.button_small_grey_sharethissite
+{
+	width: 112px;
+	background:transparent url(../images/smallGrey_Shared_btn.png) no-repeat -137px 0;
+}
+
+.button_small_grey_help
+{
+	width: 42px;
+	background:transparent url(../images/smallGrey_Shared_btn.png) no-repeat -249px 0;
+}
+
+.button_small_grey_login
+{
+	width: 50px;
+	background:transparent url(../images/smallGrey_Shared_btn.png) no-repeat -291px 0;
+}
+
+.button_small_grey_signout
+{
+	width: 66px;
+	background:transparent url(../images/smallGrey_Shared_btn.png) no-repeat -341px 0;
+}
+
+.button_small_grey_set
+{
+	width: 70px;
+	background:transparent url(../images/shop/setBuyDetailActive_btn.png) no-repeat 0 0;
+}
+
+.button_small_grey_buy
+{
+	width: 70px;
+	background:transparent url(../images/shop/setBuyDetailActive_btn.png) no-repeat -70px 0;
+}
+
+.button_small_grey_detail
+{
+	width: 70px;
+	background:transparent url(../images/shop/setBuyDetailActive_btn.png) no-repeat -140px 0;
+}
+
+.button_small_grey_x:hover
+{
+	background-position: 0 -21px;
+}
+
+.button_small_grey_sharethisgame:hover
+{
+	background-position: -25px -21px;
+}
+
+.button_small_grey_sharethissite:hover
+{
+	background-position: -137px -21px;
+}
+
+.button_small_grey_help:hover
+{
+	background-position: -249px -21px;
+}
+
+.button_small_grey_login:hover
+{
+	background-position: -291px -21px;
+}
+
+.button_small_grey_signout:hover
+{
+	background-position: -341px -21px;
+}
+
+.button_small_grey_set:hover
+{
+	background-position: 0px -21px;
+}
+
+.button_small_grey_buy:hover
+{
+	background-position: -70px -21px;
+}
+
+.button_small_grey_detail:hover
+{
+	background-position: -140px -21px;
+}
+
+/* Registration Button Sheet */
+/* ------------------------- */
+.button_small_grey_signin
+{
+	width: 66px;
+	background:transparent url(../images/smallGrey_Register_btn.png) no-repeat 0 0;
+}
+
+.button_small_grey_signup
+{
+	width: 66px;
+	background:transparent url(../images/smallGrey_Register_btn.png) no-repeat -66px 0;
+}
+
+.button_small_grey_register
+{
+	width: 66px;
+	background:transparent url(../images/smallGrey_Register_btn.png) no-repeat -132px 0;
+}
+
+.button_small_grey_changeavatar
+{
+	width: 99px;
+	background:transparent url(../images/smallGrey_Register_btn.png) no-repeat -198px 0;
+}
+
+.button_small_grey_goplaygames
+{
+	width: 104px;
+	background:transparent url(../images/smallGrey_Register_btn.png) no-repeat -297px 0;
+}
+
+.button_small_grey_confirmchange
+{
+	width: 104px;
+	background:transparent url(../images/smallGrey_Register_btn.png) no-repeat -401px 0;
+}
+
+.button_small_grey_backtosignin
+{
+	width: 104px;
+	background:transparent url(../images/smallGrey_Register_btn.png) no-repeat -505px 0;
+}
+
+.button_small_grey_signin:hover
+{
+	background-position: 0 -21px;
+}
+
+.button_small_grey_signup:hover
+{
+	background-position: -66px -21px;
+}
+
+.button_small_grey_register:hover
+{
+	background-position: -132px -21px;
+}
+
+.button_small_grey_changeavatar:hover
+{
+	background-position: -198px -21px;
+}
+
+.button_small_grey_goplaygames:hover
+{
+	background-position: -297px -21px;
+}
+
+.button_small_grey_confirmchange:hover
+{
+	background-position: -401px -21px;
+}
+
+.button_small_grey_backtosignin:hover
+{
+	background-position: -505px -21px;
+}
+
+/* Profile Button Sheet */
+/* -------------------- */
+.button_small_grey_cancel
+{
+	width: 51px;
+	background:transparent url(../images/profile/smallGrey_Profile_btn.png) no-repeat 0 0;
+}
+
+.button_small_grey_changepassword
+{
+	width: 116px;
+	background:transparent url(../images/profile/smallGrey_Profile_btn.png) no-repeat -51px 0;
+}
+
+.button_small_grey_edit
+{
+	width: 50px;
+	background:transparent url(../images/profile/smallGrey_Profile_btn.png) no-repeat -167px 0;
+}
+
+.button_small_grey_editprofile
+{
+	width: 84px;
+	background:transparent url(../images/profile/smallGrey_Profile_btn.png) no-repeat -217px 0;
+}
+
+.button_small_grey_savechanges
+{
+	width: 94px;
+	background:transparent url(../images/profile/smallGrey_Profile_btn.png) no-repeat -301px 0;
+}
+
+.button_small_grey_editavatar
+{
+	width: 77px;
+	background:transparent url(../images/profile/smallGrey_Profile_btn.png) no-repeat -483px 0;
+}
+
+.button_small_grey_add
+{
+	width: 48px;
+	background:transparent url(../images/profile/smallGrey_Profile_btn.png) no-repeat -560px 0;
+}
+
+.button_small_grey_send
+{
+	width: 54px;
+	background:transparent url(../images/profile/smallGrey_Profile_btn.png) no-repeat -608px 0;
+}
+
+.button_small_grey_renew
+{
+	width: 64px;
+	background:transparent url(../images/profile/smallGrey_Profile_btn.png) no-repeat -662px 0;
+}
+
+.button_small_grey_cancel:hover
+{
+	background-position: 0 -21px;
+}
+
+.button_small_grey_changepassword:hover
+{
+	background-position: -51px -21px;
+}
+
+.button_small_grey_edit:hover
+{
+	background-position: -167px -21px;
+}
+
+.button_small_grey_editprofile:hover
+{
+	background-position: -217px -21px;
+}
+
+.button_small_grey_savechanges:hover
+{
+	background-position: -301px -21px;
+}
+
+.button_small_grey_editavatar:hover
+{
+	background-position: -483px -21px;
+}
+
+.button_small_grey_add:hover
+{
+	background-position: -560px -21px;
+}
+
+.button_small_grey_send:hover
+{
+	background-position: -608px -21px;
+}
+
+.button_small_grey_send_disabled,
+.button_small_grey_send_disabled:hover
+{
+	background-position: -608px -42px;
+}
+
+.button_small_grey_renew:hover
+{
+	background-position: -662px -21px;
+}
+
+/* Leaderboard Button Sheet */
+/* ------------------------ */
+.button_small_grey_alltime
+{
+	width: 66px;
+	background:transparent url(../images/leaderboard/smallGrey_Leaderboard_btn.png) no-repeat 0 0;
+}
+
+.button_small_grey_everyone
+{
+	width: 66px;
+	background:transparent url(../images/leaderboard/smallGrey_Leaderboard_btn.png) no-repeat -66px 0;
+}
+
+.button_small_grey_fastest
+{
+	width: 98px;
+	background:transparent url(../images/leaderboard/smallGrey_Leaderboard_btn.png) no-repeat -132px 0;
+}
+
+.button_small_grey_mostkos
+{
+	width: 98px;
+	background:transparent url(../images/leaderboard/smallGrey_Leaderboard_btn.png) no-repeat -230px 0;
+}
+
+.button_small_grey_mostplayed
+{
+	width: 98px;
+	background:transparent url(../images/leaderboard/smallGrey_Leaderboard_btn.png) no-repeat -328px 0;
+}
+
+.button_small_grey_mostskilled
+{
+	width: 98px;
+	background:transparent url(../images/leaderboard/smallGrey_Leaderboard_btn.png) no-repeat -426px 0;
+}
+
+.button_small_grey_region
+{
+	width: 66px;
+	background:transparent url(../images/leaderboard/smallGrey_Leaderboard_btn.png) no-repeat -524px 0;
+}
+
+.button_small_grey_today
+{
+	width: 66px;
+	background:transparent url(../images/leaderboard/smallGrey_Leaderboard_btn.png) no-repeat -590px 0;
+}
+
+.button_small_grey_viewdetails
+{
+	width: 88px;
+	background:transparent url(../images/leaderboard/smallGrey_Leaderboard_btn.png) no-repeat -656px 0;
+}
+
+.button_small_grey_viewreplay
+{
+	width: 88px;
+	background:transparent url(../images/leaderboard/smallGrey_Leaderboard_btn.png) no-repeat -744px 0;
+}
+
+.button_small_grey_mostwon
+{
+	width: 98px;
+	background:transparent url(../images/leaderboard/smallGrey_Leaderboard_btn.png) no-repeat -832px 0;
+}
+
+.button_small_grey_alltime:hover
+{
+	background-position: 0 -21px;
+}
+
+.button_small_grey_everyone:hover
+{
+	background-position: -66px -21px;
+}
+
+.button_small_grey_fastest:hover
+{
+	background-position: -132px -21px;
+}
+
+.button_small_grey_mostkos:hover
+{
+	background-position: -230px -21px;
+}
+
+.button_small_grey_mostplayed:hover
+{
+	background-position: -328px -21px;
+}
+
+.button_small_grey_mostskilled:hover
+{
+	background-position: -426px -21px;
+}
+
+.button_small_grey_region:hover
+{
+	background-position: -524px -21px;
+}
+
+.button_small_grey_today:hover
+{
+	background-position: -590px -21px;
+}
+
+.button_small_grey_mostwon:hover
+{
+	background-position: -832px -21px;
+}
+
+.button_small_grey_viewdetails:hover
+{
+	background-position: -656px -21px;
+}
+
+.button_small_grey_viewreplay:hover
+{
+	background-position: -744px -21px;
+}
+
+.button_small_grey_alltime_selected,
+.button_small_grey_alltime_selected:hover
+{
+	background-position: 0 -42px;
+}
+
+.button_small_grey_everyone_selected,
+.button_small_grey_everyone_selected:hover
+{
+	background-position: -66px -42px;
+}
+
+.button_small_grey_fastest_selected,
+.button_small_grey_fastest_selected:hover
+{
+	background-position: -132px -42px;
+}
+
+.button_small_grey_mostkos_selected,
+.button_small_grey_mostkos_selected:hover
+{
+	background-position: -230px -42px;
+}
+
+.button_small_grey_mostplayed_selected,
+.button_small_grey_mostplayed_selected:hover
+{
+	background-position: -328px -42px;
+}
+
+.button_small_grey_mostskilled_selected,
+.button_small_grey_mostskilled_selected:hover
+{
+	background-position: -426px -42px;
+}
+
+.button_small_grey_region_selected,
+.button_small_grey_region_selected:hover
+{
+	background-position: -524px -42px;
+}
+
+.button_small_grey_today_selected,
+.button_small_grey_today_selected:hover
+{
+	background-position: -590px -42px;
+}
+
+.button_small_grey_mostwon_selected,
+.button_small_grey_mostwon_selected:hover
+{
+	background-position: -832px -42px;
+}
+
+/* Popup Button Sheet */
+/* ------------------ */
+.button_small_grey_lifetime
+{
+	width: 111px;
+	background:transparent url(../images/popup/smallGrey_Popup_btn.png) no-repeat 0 0;
+}
+
+.button_small_grey_bestgame
+{
+	width: 111px;
+	background:transparent url(../images/popup/smallGrey_Popup_btn.png) no-repeat -111px 0;
+}
+
+.button_small_grey_gotoplayerprofile
+{
+	width: 170px;
+	background:transparent url(../images/popup/smallGrey_Popup_btn.png) no-repeat -222px 0;
+}
+
+.button_small_grey_withmaps
+{
+	width: 84px;
+	background:transparent url(../images/popup/smallGrey_Popup_btn.png) no-repeat -392px 0;
+}
+
+.button_small_grey_withoutmaps
+{
+	width: 102px;
+	background:transparent url(../images/popup/smallGrey_Popup_btn.png) no-repeat -476px 0;
+}
+
+.button_small_grey_close
+{
+	width: 70px;
+	background:transparent url(../images/popup/smallGrey_Popup_btn.png) no-repeat -578px 0;
+}
+
+.button_small_grey_continue
+{
+	background:transparent url(../images/Continue_btn.gif) no-repeat;
+	width: 66px;
+}
+
+.button_small_grey_no
+{
+	width: 53px;
+	background:transparent url(../images/popup/smallGrey_Popup_btn.png) no-repeat -648px 0;
+}
+
+.button_small_grey_unlock
+{
+	width: 70px;
+	background:transparent url(../images/popup/smallGrey_Popup_btn.png) no-repeat -701px 0;
+}
+
+.button_small_grey_usethisghost
+{
+	width: 114px;
+	background:transparent url(../images/popup/smallGrey_Popup_btn.png) no-repeat -771px 0;
+}
+
+.button_small_grey_usethismino
+{
+	width: 114px;
+	background:transparent url(../images/popup/smallGrey_Popup_btn.png) no-repeat -885px 0;
+}
+
+.button_small_grey_yes
+{
+	width: 53px;
+	background:transparent url(../images/popup/smallGrey_Popup_btn.png) no-repeat -999px 0;
+}
+
+.button_small_grey_notnow
+{
+	width: 78px;
+	background:transparent url(../images/popup/smallGrey_Popup_btn.png) no-repeat -1052px 0;
+}
+
+.button_small_grey_skip
+{
+	width: 53px;
+	background:transparent url(../images/popup/smallGrey_Popup_btn.png) no-repeat -1130px 0;
+}
+
+
+.button_small_grey_lifetime:hover
+{
+	background-position: 0 -21px;
+}
+
+.button_small_grey_bestgame:hover
+{
+	background-position: -111px -21px;
+}
+
+.button_small_grey_gotoplayerprofile:hover
+{
+	background-position: -222px -21px;
+}
+
+.button_small_grey_withmaps:hover
+{
+	background-position: -392px -21px;
+}
+
+.button_small_grey_withoutmaps:hover
+{
+	background-position: -476px -21px;
+}
+
+.button_small_grey_close:hover
+{
+	background-position: -578px -21px;
+}
+
+.button_small_grey_continue:hover
+{
+	background-position: 0px -21px;
+}
+
+.button_small_grey_no:hover
+{
+	background-position: -648px -21px;
+}
+
+.button_small_grey_unlock:hover
+{
+	background-position: -701px -21px;
+}
+
+.button_small_grey_usethisghost:hover
+{
+	background-position: -771px -21px;
+}
+
+.button_small_grey_usethismino:hover
+{
+	background-position: -885px -21px;
+}
+
+.button_small_grey_yes:hover
+{
+	background-position: -999px -21px;
+}
+
+.button_small_grey_notnow:hover
+{
+	background-position: -1052px -21px;
+}
+
+.button_small_grey_skip:hover
+{
+	background-position: -1130px -21px;
+}
+
+.button_small_grey_lifetime_selected,
+.button_small_grey_lifetime_selected:hover
+{
+	background-position: 0 -42px;
+}
+
+.button_small_grey_bestgame_selected,
+.button_small_grey_bestgame_selected:hover
+{
+	background-position: -111px -42px;
+}
+
+.button_small_grey_withmaps_selected,
+.button_small_grey_withmaps_selected:hover
+{
+	background-position: -392px -42px;
+}
+
+.button_small_grey_withoutmaps_selected,
+.button_small_grey_withoutmaps_selected:hover
+{
+	background-position: -476px -42px;
+}
+
+
+
+
+/* Invite Button Sheet */
+/* ------------------- */
+.button_small_grey_importcontacts
+{
+	width: 107px;
+	background:transparent url(../images/invite/smallGrey_Invite_btn.png) no-repeat 0 0;
+}
+
+.button_small_grey_home
+{
+	width: 45px;
+	background:transparent url(../images/invite/smallGrey_Invite_btn.png) no-repeat -107px 0;
+}
+
+.button_small_grey_addanother
+{
+	width: 182px;
+	background:transparent url(../images/invite/smallGrey_Invite_btn.png) no-repeat -199px 0;
+}
+
+.button_small_grey_clear
+{
+	width: 50px;
+	background:transparent url(../images/invite/smallGrey_Invite_btn.png) no-repeat -381px 0;
+}
+
+.button_small_grey_previewinvitation
+{
+	width: 130px;
+	background:transparent url(../images/invite/smallGrey_Invite_btn.png) no-repeat -431px 0;
+}
+
+.button_small_grey_sendverification
+{
+	width: 146px;
+	background:transparent url(../images/invite/smallGrey_Invite_btn.png) no-repeat -561px 0;
+}
+
+.button_small_grey_sendinvitation
+{
+	width: 102px;
+	background:transparent url(../images/invite/smallGrey_Invite_btn.png) no-repeat -707px 0;
+}
+
+.button_small_grey_sendmoreinvites
+{
+	width: 147px;
+	background:transparent url(../images/invite/smallGrey_Invite_btn.png) no-repeat -809px 0;
+}
+
+.button_small_grey_importcontacts:hover
+{
+	background-position: 0 -21px;
+}
+
+.button_small_grey_home:hover
+{
+	background-position: -107px -21px;
+}
+
+.button_small_grey_addanother:hover
+{
+	background-position: -199px -21px;
+}
+
+.button_small_grey_clear:hover
+{
+	background-position: -381px -21px;
+}
+
+.button_small_grey_previewinvitation:hover
+{
+	background-position: -431px -21px;
+}
+
+.button_small_grey_sendverification:hover
+{
+	background-position: -561px -21px;
+}
+
+.button_small_grey_sendinvitation:hover
+{
+	background-position: -707px -21px;
+}
+
+.button_small_grey_sendmoreinvites:hover
+{
+	background-position: -809px -21px;
+}
+
+/* Friends Button Sheet */
+/* -------------------- */
+.button_small_grey_friendsearch
+{
+	width: 56px;
+	background:transparent url(../images/friends/smallGrey_Friends_btn.png) no-repeat 0 0;
+}
+.button_small_grey_friendsearch:hover
+{
+	background-position: 0 -21px;
+}
+.button_small_grey_friendsearch_disabled
+{
+	width: 56px;
+	background:transparent url(../images/friends/smallGrey_Friends_btn.png) no-repeat 0 -42px;
+}
+.button_small_grey_friendinvite
+{
+	width: 102px;
+	background:transparent url(../images/friends/smallGrey_Friends_btn.png) no-repeat -56px 0;
+}
+.button_small_grey_friendinvite:hover
+{
+	background-position: -56px -21px;
+}
+.button_small_grey_status
+{
+	width: 52px;
+	background:transparent url(../images/friends/smallGrey_Status_btn.png) no-repeat 0 0;
+}
+.button_small_grey_status:hover
+{
+	background-position: 0 -21px;
+}
+
+.button_small_grey_status_disabled,
+.button_small_grey_status_disabled:hover
+{
+	background-position: 0 -42px;
+}
+.button_small_grey_name
+{
+	width: 52px;
+	background:transparent url(../images/friends/smallGrey_Status_btn.png) no-repeat -52px 0;
+}
+.button_small_grey_name:hover
+{
+	background-position: -52px -21px;
+}
+.button_small_grey_name_disabled,
+.button_small_grey_name_disabled:hover
+{
+	background-position: -52px -42px;
+}
+
+
+/* Messages Button Sheet */
+/* --------------------- */
+.button_small_grey_ok
+{
+	width: 52px;
+	background:transparent url(../images/messages/smallGrey_Messages_btn.png) no-repeat 0 0;
+}
+
+.button_small_grey_delete
+{
+	width: 52px;
+	background:transparent url(../images/messages/smallGrey_Messages_btn.png) no-repeat -52px 0;
+}
+
+.button_small_grey_accept
+{
+	width: 56px;
+	background:transparent url(../images/messages/smallGrey_Messages_btn.png) no-repeat -104px 0;
+}
+
+.button_small_grey_markAsRead
+{
+	width: 90px;
+	background:transparent url(../images/messages/smallGrey_Messages_btn.png) no-repeat -216px 0;
+}
+
+.button_small_grey_ok:hover
+{
+	background-position: 0 -21px;
+}
+
+.button_small_grey_delete:hover
+{
+	background-position: -52px -21px;
+}
+
+.button_small_grey_accept:hover
+{
+	background-position: -104px -21px;
+}
+
+.button_small_grey_markAsRead:hover
+{
+	background-position: -216px -21px;
+}
+
+
+/* Mission Button Sheet */
+/* -------------------- */
+.button_small_grey_post
+{
+	width: 69px;
+	background:transparent url(../images/missions/smallGrey_Missions_btn.png) no-repeat 0 0;
+}
+
+.button_small_grey_activate
+{
+	width: 69px;
+	background:transparent url(../images/missions/smallGrey_Missions_btn.png) no-repeat -68px 0;
+}
+
+.button_small_grey_sendreport
+{
+	width: 85px;
+	background:transparent url(../images/missions/smallGrey_Missions_btn.png) no-repeat -136px 0;
+}
+
+.button_small_grey_seeinside
+{
+	width: 75px;
+	background:transparent url(../images/missions/smallGrey_Missions_btn.png) no-repeat -220px 0;
+}
+
+.button_small_grey_seedetails
+{
+	width: 85px;
+	background:transparent url(../images/missions/smallGrey_Missions_btn.png) no-repeat -294px 0;
+}
+
+.button_small_grey_setfavorite
+{
+	width: 101px;
+	background:transparent url(../images/missions/smallGrey_Missions_btn.png) no-repeat -378px 0;
+}
+
+.button_small_grey_backtolist
+{
+	width: 89px;
+	background:transparent url(../images/missions/smallGrey_Missions_btn.png) no-repeat -478px 0;
+}
+
+.button_small_grey_viewall
+{
+	width: 67px;
+	background:transparent url(../images/missions/smallGrey_Missions_btn.png) no-repeat -566px 0;
+}
+
+.button_small_grey_challengeagain
+{
+	width: 113px;
+	background:transparent url(../images/missions/smallGrey_Missions_btn.png) no-repeat -632px 0;
+}
+
+.button_small_grey_post:hover
+{
+	background-position: 0 -21px;
+}
+
+.button_small_grey_activate:hover
+{
+	background-position: -68px -21px;
+}
+
+.button_small_grey_sendreport:hover
+{
+	background-position: -136px -21px;
+}
+
+.button_small_grey_seeinside:hover
+{
+	background-position: -220px -21px;
+}
+
+.button_small_grey_seedetails:hover
+{
+	background-position: -294px -21px;
+}
+
+.button_small_grey_setfavorite:hover
+{
+	background-position: -378px -21px;
+}
+
+.button_small_grey_backtolist:hover
+{
+	background-position: -478px -21px;
+}
+
+.button_small_grey_viewall:hover
+{
+	background-position: -566px -21px;
+}
+
+.button_small_grey_challengeagain:hover
+{
+	background-position: -632px -21px;
+}
+
+.button_small_grey_sendreport_disabled,
+.button_small_grey_sendreport_disabled:hover
+{
+	background-position: -136px -42px;
+}
+.button_small_grey_post_disabled,
+.button_small_grey_post_disabled:hover
+{
+	background-position: 0 -42px;
+}
+
+/* Mission Filter Buttons */
+.button_small_grey_available
+{
+	width: 66px;
+	background:transparent url(../images/missions/smallGrey_Mission_Filters_btn.png) no-repeat 0 0;
+}
+
+.button_small_grey_complete
+{
+	width: 76px;
+	background:transparent url(../images/missions/smallGrey_Mission_Filters_btn.png) no-repeat -66px 0;
+}
+
+.button_small_grey_collection
+{
+	width: 88px;
+	background:transparent url(../images/missions/smallGrey_Mission_Filters_btn.png) no-repeat -142px 0;
+}
+
+.button_small_grey_my_grid
+{
+	width: 90px;
+	background:transparent url(../images/missions/smallGrey_Mission_Filters_btn.png) no-repeat -230px 0;
+}
+
+.button_small_grey_available:hover
+{
+	background-position: 0 -21px;
+}
+
+.button_small_grey_complete:hover
+{
+	background-position: -66px -21px;
+}
+
+.button_small_grey_collection:hover
+{
+	background-position: -142px -21px;
+}
+
+.button_small_grey_my_grid:hover
+{
+	background-position: -230px -21px;
+}
+
+.button_small_grey_available_selected,
+.button_small_grey_available_selected:hover
+{
+	background-position: 0 -42px;
+}
+
+.button_small_grey_complete_selected,
+.button_small_grey_complete_selected:hover
+{
+	background-position: -66px -42px;
+}
+
+.button_small_grey_collection_selected,
+.button_small_grey_collection_selected:hover
+{
+	background-position: -142px -42px;
+}
+
+.button_small_grey_my_grid_selected
+{
+	background-position: -230px -42px;
+}
+
+
+
+/* Large Grey Buttons */
+/* ================== */
+.button_large_grey
+{
+	width: 124px;
+	height: 28px;
+}
+
+.button_large_grey_top
+{
+	width: 124px;
+	background:transparent url(../images/profile/LargeGrey_Profile_btn.png) no-repeat 0 0;
+}
+
+.button_large_grey_gamestats
+{
+	width: 124px;
+	background:transparent url(../images/profile/LargeGrey_Profile_btn.png) no-repeat -124px 0;
+}
+
+.button_large_grey_messages
+{
+	width: 124px;
+	background:transparent url(../images/profile/LargeGrey_Profile_btn.png) no-repeat -248px 0;
+}
+
+.button_large_grey_accountsettings
+{
+	width: 124px;
+	background:transparent url(../images/profile/LargeGrey_Profile_btn.png) no-repeat -372px 0;
+}
+
+.button_large_grey_privacysettings
+{
+	width: 124px;
+	background:transparent url(../images/profile/LargeGrey_Profile_btn.png) no-repeat -496px 0;
+}
+
+.button_large_grey_top:hover
+{
+	background-position: 0 -28px;
+}
+
+.button_large_grey_gamestats:hover
+{
+	background-position: -124px -28px;
+}
+
+.button_large_grey_messages:hover
+{
+	background-position: -248px -28px;
+}
+
+.button_large_grey_accountsettings:hover
+{
+	background-position: -372px -28px;
+}
+
+.button_large_grey_top_selected,
+.button_large_grey_top_selected:hover
+{
+	background-position: 0 -56px;
+}
+
+.button_large_grey_gamestats_selected,
+.button_large_grey_gamestats_selected:hover
+{
+	background-position: -124px -56px;
+}
+
+.button_large_grey_messages_selected,
+.button_large_grey_messages_selected:hover
+{
+	background-position: -248px -56px;
+}
+
+.button_large_grey_accountsettings_selected,
+.button_large_grey_accountsettings_selected:hover
+{
+	background-position: -372px -56px;
+}
+
+.button_large_grey_privacysettings_selected,
+.button_large_grey_privacysettings_selected:hover
+{
+	background-position: -496px -56px;
+}
+
+
+/* Large Blue Buttons */
+/* ================== */
+
+/* Game Sheet */
+/* ---------- */
+.button_large_blue
+{
+	width: 141px;
+	height: 42px;
+}
+
+.button_play_now
+{
+	background:transparent url(../images/games/largeBlue_btn.png) no-repeat 0 0;
+}
+
+.button_unlock
+{
+	background:transparent url(../images/games/largeBlue_btn.png) no-repeat -141px 0;
+}
+
+.button_play_again
+{
+	background:transparent url(../images/games/largeBlue_btn.png) no-repeat -282px 0;
+}
+
+.button_register
+{
+	background:transparent url(../images/games/largeBlue_btn.png) no-repeat -423px 0;
+}
+
+.button_arena_play_as_guest
+{
+	width: 346px;
+	background:transparent url(../images/games/arenaLoading_btn.png) no-repeat 0px 0;
+}
+
+.button_arena_sign_up
+{
+	width: 346px;
+	background:transparent url(../images/games/arenaLoading_btn.png) no-repeat -346px 0;
+}
+
+.button_arena_log_in
+{
+	width: 346px;
+	background:transparent url(../images/games/arenaLoading_btn.png) no-repeat -692px 0;
+}
+
+.button_continue
+{
+	width: 166px;
+	background:transparent url(../images/games/largeBlue_btn.png) no-repeat -564px 0;
+}
+
+.button_learn_more
+{
+	width: 166px;
+	background:transparent url(../images/games/largeBlue_btn.png) no-repeat -729px 0;
+}
+
+.button_home
+{
+	background:transparent url(../images/games/largeBlue_btn.png) no-repeat -896px 0;
+}
+
+.button_try_again
+{
+	background:transparent url(../images/games/largeBlue_btn.png) no-repeat -1037px 0;
+}
+
+.button_go_shopping
+{
+	width: 175px;
+	background:transparent url(../images/promo_ads/holidays/goShopping_btn.png) no-repeat 0 0;	
+}
+
+.button_play_now:hover
+{
+	background-position: 0 -42px;
+}
+
+.button_unlock:hover
+{
+	background-position: -141px -42px;
+}
+
+.button_play_again:hover
+{
+	background-position: -282px -42px;
+}
+
+.button_register:hover
+{
+	background-position: -423px -42px;
+}
+
+.button_arena_play_as_guest:hover
+{
+	background-position: 0px -42px;
+}
+
+.button_arena_sign_up:hover
+{
+	background-position: -346px -42px;
+}
+
+.button_arena_log_in:hover
+{
+	background-position: -692px -42px;
+}
+
+.button_continue:hover
+{
+	background-position: -564px -42px;
+}
+
+.button_learn_more:hover
+{
+	background-position: -729px -42px;
+}
+
+.button_home:hover
+{
+	background-position: -896px  -42px;
+}
+
+.button_try_again:hover
+{
+	background-position: -1037px -42px;
+}
+
+.button_go_shopping:hover
+{
+	background:transparent url(../images/promo_ads/holidays/goShopping_btn.png) no-repeat 0 -42px;	
+}
+
+/* Promotion Sheet */
+/* --------------- */
+.button_promote
+{
+	background:transparent url(../images/results/largeBlue_Results_btn.png) no-repeat 0 0;
+}
+
+.button_demote
+{
+	background:transparent url(../images/results/largeBlue_Results_btn.png) no-repeat -141px 0;
+}
+
+.button_nothanks
+{
+	background:transparent url(../images/results/largeBlue_Results_btn.png) no-repeat -282px 0;
+}
+
+.button_promote:hover
+{
+	background-position: 0 -42px;
+}
+
+.button_demote:hover
+{
+	background-position: -141px -42px;
+}
+
+.button_nothanks:hover
+{
+	background-position: -282px -42px;
+}
+
+/* Shop */
+/* ==== */
+.button_buy
+{
+	background:transparent url(../images/shop/blue_btn.png) no-repeat 0 0;
+	width: 108px;
+}
+
+.button_buy:hover
+{
+	background-position: 0px -42px;
+}
+.button_buy_disabled,
+.button_buy_disabled:hover
+{
+	background:transparent url(../images/shop/blue_btn.png) no-repeat 0 -84px;
+	width: 108px;
+}
+.button_unlock
+{
+	background:transparent url(../images/shop/blue_btn.png) no-repeat -667px 0;
+	width: 126px;
+}
+.button_unlock:hover
+{
+	background-position: -667px -42px;
+}
+.button_unlock_disabled,
+.button_unlock_disabled:hover
+{
+	background:transparent url(../images/shop/blue_btn.png) no-repeat -667px -84px;
+	width: 126px;
+}
+.button_blue_now
+{
+	width: 147px;
+	height: 42px;
+}
+.button_buy_now
+{
+	background:transparent url(../images/shop/blue_btn.png) no-repeat -333px 0;
+}
+.button_buy_now:hover
+{
+	background-position: -333px -42px;
+}
+.button_buy_now_disabled,
+.button_buy_now_disabled:hover
+{
+	background:transparent url(../images/shop/blue_btn.png) no-repeat -333px -84px;
+}
+.button_unlock_now
+{
+	width: 188px;
+	background:transparent url(../images/shop/blue_btn.png) no-repeat -480px 0;
+}
+.button_unlock_now:hover
+{
+	background-position: -480px -42px;
+}
+.button_unlock_now_disabled,
+.button_unlock_now_disabled:hover
+{
+	width: 188px;
+	background:transparent url(../images/shop/blue_btn.png) no-repeat -480px -84px;
+}
+
+.button_earn_free_rubies
+{
+	width: 225px;
+	height: 42px;
+	background:transparent url(../images/shop/blue_btn.png) no-repeat -793px 0;
+}
+
+.button_earn_free_rubies:hover
+{
+	background-position: -793px -42px;
+}
+
+/* Friends */
+/* ------- */
+.button_add_as_friend
+{
+	width: 213px;
+	height: 42px;
+	background: transparent url(../images/friends/inviteFriends_btn.png) no-repeat -213px 0;
+}
+.button_add_as_friend:hover
+{
+	background-position: -213px -42px;
+}
+.button_add_as_friend_disabled,
+.button_add_as_friend_disabled:hover
+{
+	width: 213px;
+	height: 42px;
+	background: transparent url(../images/friends/inviteFriends_btn.png) no-repeat -213px -84px;
+}
+
+.button_invite_friends
+{
+	width: 213px;
+	height: 42px;
+	background: transparent url(../images/friends/inviteFriends_btn.png) no-repeat 0 0;
+}
+.button_invite_friends:hover
+{
+	background-position: 0 -42px;
+}
+
+/* Round Blue Arrow Buttons */
+/* ======================== */
+.button_arrow 
+{
+	width: 38px;
+	height: 38px;
+}
+
+.button_left_arrow
+{
+	background:transparent url(../images/games/arrows_btn.png) no-repeat 0 0;
+}
+
+.button_right_arrow
+{
+	background:transparent url(../images/games/arrows_btn.png) no-repeat -38px 0;
+}
+
+.button_left_arrow:hover
+{
+	background-position: 0 -38px;	
+}
+
+.button_right_arrow:hover
+{
+	background-position: -38px -38px;	
+}
+
+
+
+/* Game Options and Help Buttons */
+/* ============================= */
+.button_round_side
+{
+	width: 51px;
+	height: 69px;
+}
+
+.button_round_options
+{
+  background:url(../images/games/roundSide_btn.png) no-repeat 0 0;
+}
+
+.button_round_tutorial
+{
+  background:url(../images/games/roundSide_btn.png) no-repeat -51px 0;
+}
+
+.button_round_side_feedback
+{
+  background:url(../images/games/FeedbackAnim_btn.gif) no-repeat 1px 0;
+  width: 64px;
+}
+
+.button_round_options:hover
+{
+  background-position: 0px -69px;
+}
+
+.button_round_tutorial:hover
+{
+  background-position: -51px -69px;
+}
+
+.button_round_side_feedback:hover
+{
+  background-position: 1px -71px;
+}
+
+.button_round_options_disabled,
+.button_round_options_disabled:hover
+{
+  background-position: 0px -138px;
+}
+
+.button_round_tutorial_disabled,
+.button_round_tutorial_disabled:hover
+{
+  background-position: -51px -138px;
+}
+
+.button_round_side_feedback_disabled,
+.button_round_side_feedback_disabled:hover
+{
+  background-position: 1px -142px;
+}
+
+
+/* Round Small Profile Buttons */
+/* --------------------------- */
+.button_round_small
+{
+	width: 37px;
+	height: 50px;
+}
+
+.button_round_small_edit
+{
+  background:url(../images/profile/roundProfile_btn.png) no-repeat 0 0;
+}
+
+.button_round_small_favorite
+{
+  background:url(../images/profile/roundProfile_btn.png) no-repeat -37px 0;
+}
+
+.button_round_small_message
+{
+  background:url(../images/profile/roundProfile_btn.png) no-repeat -74px 0;
+}
+
+.button_round_small_remove
+{
+  background:url(../images/profile/roundProfile_btn.png) no-repeat -111px 0;
+}
+
+.button_round_small_befriend
+{
+  background:url(../images/profile/roundProfile_btn.png) no-repeat -148px 0;
+}
+
+.button_round_small_report
+{
+  background:url(../images/profile/roundProfile_btn.png) no-repeat -185px 0;
+}
+
+.button_round_small_block
+{
+  background:url(../images/profile/roundProfile_btn.png) no-repeat -222px 0;
+}
+
+.button_round_small_edit:hover
+{
+  background-position: 0px -50px;
+}
+
+.button_round_small_favorite:hover
+{
+  background-position: -37px -50px;
+}
+
+.button_round_small_message:hover
+{
+  background-position: -74px -50px;
+}
+
+.button_round_small_remove:hover
+{
+  background-position: -111px -50px;
+}
+
+.button_round_small_befriend:hover
+{
+  background-position: -148px -50px;
+}
+
+.button_round_small_report:hover
+{
+  background-position: -185px -50px;
+}
+
+.button_round_small_block:hover
+{
+  background-position: -222px -50px;
+}
+
+.button_round_small_edit_disabled,
+.button_round_small_edit_disabled:hover
+{
+  background-position: 0 -100px;
+}
+
+.button_round_small_favorite_disabled,
+.button_round_small_favorite_disabled:hover
+{
+  background-position: -37px -100px;
+}
+
+.button_round_small_message_disabled,
+.button_round_small_message_disabled:hover
+{
+  background-position: -74px -100px;
+}
+
+.button_round_small_remove_disabled,
+.button_round_small_remove_disabled:hover
+{
+  background-position: -111px -100px;
+}
+
+.button_round_small_befriend_disabled,
+.button_round_small_befriend_disabled:hover
+{
+  background-position: -148px -100px;
+}
+
+.button_round_small_report_disabled,
+.button_round_small_report_disabled:hover
+{
+  background-position: -185px -100px;
+}
+
+.button_round_small_block_disabled,
+.button_round_small_block_disabled:hover
+{
+  background-position: -222px -100px;
+}
+
+
+
+/* Beta Feedback */
+/* ------------- */
+.button_round_feedback
+{
+  background:url(../images/games/Feedback_btn.png) no-repeat 0 0;
+}
+
+.button_round_feedback:hover
+{
+  background-position: 0 -54px;
+}
+
+
+/* Small Blue Arrows */
+/* ----------------- */
+
+.button_small_blue_arrow
+{
+	width: 16px;
+	height: 16px;
+}
+
+.button_small_blue_left_arrow
+{
+	margin-top: 1px;
+	background: transparent url(../images/news/ArrowsTriangle.png) no-repeat 0 0;
+}
+
+.button_small_blue_right_arrow
+{
+	margin-top: 2px;
+	background: transparent url(../images/news/ArrowsTriangle.png) no-repeat -16px 0;
+}
+
+.button_small_blue_left_arrow:hover
+{
+	background-position: 0 -16px;
+}
+
+.button_small_blue_right_arrow:hover
+{
+	background-position: -16px -16px;
+}
+
+
+/* Mail icons */
+/* ---------- */
+.button_mail
+{
+	width: 25px;
+	height: 30px;
+}
+
+.button_mail_unread
+{
+	background: transparent url(../images/messages/mail_icons.png) no-repeat 0 0;
+}
+
+.button_mail_read
+{
+	background: transparent url(../images/messages/mail_icons.png) no-repeat -30px 0;
+}
+
+.button_mail_replied
+{
+	background: transparent url(../images/messages/mail_icons.png) no-repeat -60px 0;
+}
+
+/* Shop buttons */
+/* ------------- */
+.button_song
+{
+	width: 56px;
+	height: 73px;
+}
+.play_song_btn
+{
+	background: transparent url(../images/shop/Play_btn.png) no-repeat 0 0;
+}
+.play_song_btn:hover
+{
+	background-position: -0px -73px;
+}
+.stop_song_btn
+{
+	background: transparent url(../images/shop/Play_btn.png) no-repeat -56px 0;
+}
+.stop_song_btn:hover
+{
+	background-position: -56px -73px;
+}
+
+.buy_ruby_btn
+{
+	width: 225px;
+	height: 42px;
+	background: transparent url(../images/shop/blue_btn.png) no-repeat -108px 0;
+}
+.buy_ruby_btn:hover
+{
+	background-position: -108px -42px;
+}
+
+.small_grey_purchased_btn
+{
+	width: 98px;
+	height: 21px;
+	background: transparent url(../images/shop/allAvailablePurchased_btn.png) no-repeat -196px 0;
+}
+
+.small_grey_purchased_btn_disabled
+{
+	background-position: -196px -42px;
+}
+
+.small_grey_back_btn
+{
+	width: 66px;
+	height: 21px;
+	background: transparent url(../images/shop/Back_btn.png) no-repeat 0 0;
+}
+
+.small_grey_back_btn:hover
+{
+	background-position: 0 -21px;
+}

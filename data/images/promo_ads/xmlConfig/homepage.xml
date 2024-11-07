@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<homepage_ads>
+	<homepage_ad>
+		<id>777</id>
+		<name>SuperRewards - BuyCostumes</name>
+		<file>http://videoads.tetrisfriends.com/homepage_slideshow/homepage_Ads_buyCostumes.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				javascript:void(0)' onclick='setTimeout("open_offer(TF_UID)", 0);
+			]]>
+		</click_tag>
+		<click_dest>_top</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>sr_promo_buycostumes</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-08-09 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us!=0</segment_target>
+		<priority>777</priority>
+		<extra_includes>
+			<![CDATA[
+				<script type="text/javascript" src="http://cdn.superrewards-offers.com/js/tools/specials/Adk.Halloween.js"></script>
+				<link type="text/css" href="http://cdn.superrewards-offers.com/css/tools/specials/Adk.Halloween.css" rel="stylesheet" />
+				<script type="text/javascript">
+
+				/* Halloween Code - START */
+				var element_ID = "srPromoModal";
+				var hvalue = "oiplybwhho.961864523703";
+				function open_offer(uid) {
+				  Adk.Halloween.prototype.displayModal(element_ID, hvalue, uid);
+				}
+				/* Halloween Code - END */
+				</script>
+			]]>
+		</extra_includes>
+	</homepage_ad>
+	<homepage_ad>
+		<id>100</id>
+		<name>Discounted Rubies - Limited-Time Offer</name>
+		<file>http://videoads.tetrisfriends.com/homepage_slideshow/homepage_rubies10.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/shop/index.php?showPurchasePopup=1&promoCode=jambool_discount_10&ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_top</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>promo_discount_10</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-08-09 00:00:00</date_visible>
+		<date_expires>2010-08-14 00:00:00</date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us!=0 AND ABTest("ODD_IP")</segment_target>
+		<priority>70</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>101</id>
+		<name>Discounted Rubies - Limited-Time Offer</name>
+		<file>http://videoads.tetrisfriends.com/homepage_slideshow/homepage_rubies25.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/shop/index.php?showPurchasePopup=1&promoCode=jambool_discount_25&ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_top</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>promo_discount_25</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-08-09 00:00:00</date_visible>
+		<date_expires>2010-08-14 00:00:00</date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us!=0 AND !ABTest("ODD_IP")</segment_target>
+		<priority>70</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>50</id>
+		<name>Tetris Arena Challenge</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_arenaChallenge.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/games/Live/game.php?showChallenge=1&ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>arena_challenge</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-08-06 00:00:00</date_visible>
+		<date_expires>2010-08-09 00:00:00</date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us!=0</segment_target>
+		<priority>60</priority>
+	</homepage_ad>
+
+	<homepage_ad>
+		<id>1</id>
+		<name>Premium Mission - Simon Says</name>
+		<file>http://videoads.tetrisfriends.com/homepage_slideshow/homepage_PMsimonSays.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/missions/premium_mission_list.php?tabId=available&collectionId=-1&missionId=5032&ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>premium_mission_5032</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id>5032</mission_id>
+		<date_visible>2010-07-28 00:00:00</date_visible>
+		<date_expires>2010-08-09 00:00:00</date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us!=0</segment_target>
+		<priority>60</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>2</id>
+		<name>Arena Background - Blue Fire</name>
+		<file>http://videoads.tetrisfriends.com/homepage_slideshow/homepage_arenaBG_BlueFire.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/shop/index.php?accessoryType=8&accessoryId=8102&ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>accessory_8102</analytics_tag>
+		<accessory_id>8102</accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-08-01 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us!=0</segment_target>
+		<priority>50</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>3</id>
+		<name>Battle 2P</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_battle2P.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/games/Battle2P/game.php?userId=%USER_ID%&ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>game_battle_2p</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-01-01 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us!=0</segment_target>
+		<priority>40</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>4</id>
+		<name>Premium Mission - Blobby</name>
+		<file>http://videoads.tetrisfriends.com/homepage_slideshow/homepage_PMblobby.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/missions/premium_mission_list.php?tabId=available&collectionId=-1&missionId=5031&ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>premium_mission_5031</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id>5031</mission_id>
+		<date_visible>2010-07-28 00:00:00</date_visible>
+		<date_expires>2010-08-04 00:00:00</date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us!=0</segment_target>
+		<priority>30</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>5</id>
+		<name>Arena</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_arena.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/games/Live/game.php?ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x68,x69b</pos>
+		<analytics_tag>game_arena</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-01-01 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us!=0</segment_target>
+		<priority>20</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>6</id>
+		<name>Sprint 5P</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_sprint5P.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/games/Sprint5P/game.php?ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>game_sprint_5p</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-01-01 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us!=0</segment_target>
+		<priority>11</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>7</id>
+		<name>Arena Item - Extra Options</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_arenaExtraOptions.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/shop/index.php?accessoryType=8&accessoryId=8001&ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>accessory_8001</analytics_tag>
+		<accessory_id>8001</accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-01-01 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us!=0</segment_target>
+		<priority>10</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>8</id>
+		<name>Arena Backgrounds</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_arenaBG.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/shop/index.php?accessoryType=8&ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>accessory_arena_bgs</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-01-01 00:00:00</date_visible>
+		<date_expires>2010-08-01 00:00:00</date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us!=0</segment_target>
+		<priority>10</priority>
+	</homepage_ad>
+
+
+	<homepage_ad>
+		<id>1001</id>
+		<name>Marathon</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_marathon.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/games/Marathon/game.php?ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x68,x69b</pos>
+		<analytics_tag>game_marathon</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-01-01 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us=0</segment_target>
+		<priority>50</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>1002</id>
+		<name>Weekly Mission</name>
+		<file>http://videoads.tetrisfriends.com/homepage_slideshow/homepage_WIMP.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/users/register.php?ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>mission_guest</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-08-02 00:00:00</date_visible>
+		<date_expires>2010-08-06 00:00:00</date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us=0</segment_target>
+		<priority>40</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>1003</id>
+		<name>Tetris Arena Challenge</name>
+		<file>http://videoads.tetrisfriends.com/homepage_slideshow/homepage_arenaChallengeGuest.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/users/register.php?ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>arena_challenge_guest</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-08-06 00:00:00</date_visible>
+		<date_expires>2010-08-09 00:00:00</date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us=0</segment_target>
+		<priority>40</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>1004</id>
+		<name>Sign-Up Today!</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_signUp.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/users/register.php?ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>guest_upsell</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-08-02 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us=0</segment_target>
+		<priority>30</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>1005</id>
+		<name>Battle 2P</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_battle2P.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/games/Battle2P/game.php?ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>game_battle_2p</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-01-01 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>us=0</segment_target>
+		<priority>20</priority>
+	</homepage_ad>
+
+
+
+	<homepage_ad>
+		<id>2000</id>
+		<name>Tetris 1989</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_mono.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/games/Mono/game.php?ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>game_1989</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-01-01 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target></segment_target>
+		<priority>9</priority>
+	</homepage_ad>	
+	<homepage_ad>
+		<id>2001</id>
+		<name>Battle 6P</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_battle6P.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/games/Battle6P/game.php?ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>game_battle_6p</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-01-01 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target></segment_target>
+		<priority>5</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>2002</id>
+		<name>Sprint</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_sprint.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/games/Sprint/game.php?ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>game_sprint</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-01-01 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target></segment_target>
+		<priority>4</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>2007</id>
+		<name>Rally 8P</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_rally8P.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/games/Rally8P/game.php?ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>game_rally_8p</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-01-01 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>1</is_visible>
+		<segment_target></segment_target>
+		<priority>2</priority>
+	</homepage_ad>
+		
+
+
+
+
+	<homepage_ad>
+		<id>9000</id>
+		<name>Premium Mission - Go Getter</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_PMgogetter.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/missions/premium_mission_list.php?tabId=available&collectionId=-1&missionId=5030&ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>premium_mission_5030</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id>5030</mission_id>
+		<date_visible>2010-01-01 00:00:00</date_visible>
+		<date_expires></date_expires>
+		<is_visible>0</is_visible>
+		<segment_target>us=0</segment_target>
+		<priority>5</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>9001</id>
+		<name>Premium Mission Contest</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_PMcontest.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/missions/premium_mission_contest.php?ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>premium_mission_contest_721</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-01-01 00:00:00</date_visible>
+		<date_expires>2010-07-19 00:00:00</date_expires>
+		<is_visible>0</is_visible>
+		<segment_target>us!=0</segment_target>
+		<priority>50</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>9002</id>
+		<name>Premium Mission Contest</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_PMcontestGuest.png</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				/missions/premium_mission_contest.php?ref=from-homepage-ad
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>premium_mission_contest_721</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2010-01-01 00:00:00</date_visible>
+		<date_expires>2010-07-19 00:00:00</date_expires>
+		<is_visible>0</is_visible>
+		<segment_target>us=0</segment_target>
+		<priority>40</priority>
+	</homepage_ad>
+	
+	
+	<homepage_ad>
+		<id>10001</id>
+		<name>Feevo iPad 01</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_Feevo_iPad_01.jpg</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				http://itunes.apple.com/app/feevo-hd/id407806835?mt=8
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>feevo_ipad_01</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2011-06-15 00:00:00</date_visible>
+		<date_expires>2011-06-28 00:00:00</date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>ABTest("ODD_IP")</segment_target>
+		<priority>100</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>10002</id>
+		<name>Feevo iPad 03</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_Feevo_iPad_03.jpg</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				http://itunes.apple.com/app/feevo-hd/id407806835?mt=8
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>feevo_ipad_03</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2011-06-15 00:00:00</date_visible>
+		<date_expires>2011-06-28 00:00:00</date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>!ABTest("ODD_IP")</segment_target>
+		<priority>100</priority>
+	</homepage_ad>
+	
+	
+	
+	<homepage_ad>
+		<id>10003</id>
+		<name>Feevo iPad 02</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_Feevo_iPad_02.jpg</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				http://itunes.apple.com/app/feevo-hd/id407806835?mt=8
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>feevo_ipad_02</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2011-06-28 00:00:00</date_visible>
+		<date_expires>2011-07-05 00:00:00</date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>ABTest("ODD_IP")</segment_target>
+		<priority>100</priority>
+	</homepage_ad>
+	<homepage_ad>
+		<id>10004</id>
+		<name>Feevo iPad 03</name>
+		<file>%AKAMAI_PATH%/images/promo_ads/homepage_slideshow/homepage_Feevo_iPad_03.jpg</file>
+		<format>img</format>
+		<click_tag>
+			<![CDATA[
+				http://itunes.apple.com/app/feevo-hd/id407806835?mt=8
+			]]>
+		</click_tag>
+		<click_dest>_blank</click_dest>
+		<pos>x69b</pos>
+		<analytics_tag>feevo_ipad_03</analytics_tag>
+		<accessory_id></accessory_id>
+		<mission_id></mission_id>
+		<date_visible>2011-06-28 00:00:00</date_visible>
+		<date_expires>2011-07-05 00:00:00</date_expires>
+		<is_visible>1</is_visible>
+		<segment_target>!ABTest("ODD_IP")</segment_target>
+		<priority>100</priority>
+	</homepage_ad>
+</homepage_ads>

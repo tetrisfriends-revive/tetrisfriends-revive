@@ -1,0 +1,538 @@
+/* Jambool Popup Rules */
+/* =================== */
+
+/* NOTE: When HTTPS address is function, update */
+/* tetrisfriends.tetrisdev.com image references */
+
+/* General */
+/* ------- */
+body
+{
+	height: 99%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+div#frame_container
+{
+	border: 0;
+	width: 611px;
+	margin: 0 auto;
+}
+
+.api_iframe .header, .api_iframe .info_highlight, .jsbuttons, .context_header, #lock_icon, div#header_gradient
+{
+	background: transparent;
+}
+
+.info_highlight, .invoice_row_amount
+{
+	font-size: 18px;
+}
+
+.info_highlight, .content_header, h3, .invoice_row_amount, .context_header h3
+{
+	color: #666;
+}
+
+.info_highlight
+{
+	top: 5px;
+	padding: 10px;
+}
+
+.invoice_row_amount
+{
+	margin-top: 0;
+}
+
+.sq_content,
+.full_content_message
+{
+	height: 340px;
+	width: 100%;
+}
+
+.api_iframe .rd2_content
+{
+	padding-left: 0;
+}
+
+/* Top Header */
+/* ---------- */
+div.header
+{
+	height: 36px;
+}
+
+div#header_gradient
+{
+	background: url(https://www.tetrisfriends.com/data/jambool/header_getmore.png) no-repeat;
+	height: 36px;
+}
+
+div#header_gradient h1
+{
+	display: none;
+}
+
+/* Secure Icon */
+/* ----------- */
+div#sslmessage
+{
+	background: url(https://www.tetrisfriends.com/data/jambool/secure_lock.png) no-repeat;
+	width: 64px;
+	height: 24px;
+	right: 40px;
+	top: 45px;
+	color: transparent;
+	overflow: hidden;
+  	line-height: 100px;
+}
+
+div#sslmessage div, div#sslmessage p
+{
+	display: none;
+}
+
+/* Footer */
+/* ------ */
+#anchoredfooter
+{
+	left: 225px;
+}
+
+
+
+/* Buy Currency */
+/* ============ */
+
+/* Box Header */
+/* ---------- */
+.options_container
+{
+	background: url(https://www.tetrisfriends.com/data/jambool/bluebox_large_small.png) 0 0 no-repeat;
+	height: 64px;
+	width: 376px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+form.offer_options
+{
+	position: relative;
+	margin-top: 18px;
+}
+
+
+.offer_options .invoice_row_amount
+{
+	position: absolute;
+	top: 0;
+	!top: 10px;
+	right: 15px;
+	height: 30px;
+	line-height: 18px;
+	display: block;
+
+}
+.offer_options .invoice_row_amount .currency_button {
+  line-height: 12px;
+  margin-top:1px;
+}
+.invoice_row
+{
+	padding: 20px 15px 0 15px;
+}
+
+
+#cc_validation_error
+{
+	margin-left: 25px;
+}
+
+/* Box Content */
+/* ----------- */
+div.confirmBox,
+div#zong_pay_offers
+{
+	background: url(https://www.tetrisfriends.com/data/jambool/bluebox_large_small.png) 0 -64px no-repeat;
+	height: 228px;
+	width: 375px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#offer_options_screen
+{
+	background: url(https://www.tetrisfriends.com/data/jambool/bluebox_largeA.png) 0 0 no-repeat;
+	height: 300px;
+	width: 366px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#offer_options_screen #mini_header
+{
+	margin-top: 20px;
+}
+
+#currency_button_wrapper .currency_button
+{
+	margin-top: -7px; 
+}
+
+#frame_left_nav
+{
+	height: 264px;	
+}
+
+#mini_header,
+#frame_left_nav,
+#frame_left_nav label
+{
+	border-color: #96c1e1;	
+}
+
+#frame_left_nav label.selected
+{
+	background:url(https://www.tetrisfriends.com/data/jambool/miniwall_selected.png) no-repeat scroll right top transparent;
+	background-color: #96c1e1;		
+}
+
+.rd2_box
+{
+	margin-top: 10px;
+}
+
+h3#paymethod_heading
+{
+	font-size: 10px;
+}
+
+.help h3, .api_iframe .rd2_content
+{
+	background: transparent;
+}
+
+.short_form
+{
+	width: 254px;
+	padding: 10px;
+}
+
+.short_form .alignleft
+{
+	text-align: center;
+}
+
+#verify_and_buy_now_button,
+#buy_now_button,
+#pay_with_zong,
+#pay_with_saved_card
+{
+	background: url(https://www.tetrisfriends.com/data/jambool/buynow_btn.png) 0 0 no-repeat;
+	height: 42px;
+	width: 140px;
+	display: block;
+	padding: 0;
+	margin: 0 auto;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#buy_now_button: hover,
+#pay_with_zong: hover
+{
+	background-position: 0 -42px;
+}
+
+
+/* Add a Card */
+/* ========== */
+#ccform_wrapper table
+{
+	position: relative;
+	margin: 0 auto;
+}
+
+.submit_container
+{
+	margin-top: 0;
+}
+
+#radio_options_next_button,
+#next_button
+{
+	background: url(https://www.tetrisfriends.com/data/jambool/next_btn.png) 0 0 no-repeat;
+	height: 42px;
+	width: 101px;
+	padding: 0;
+	display: inline-block;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#radio_options_next_button
+{
+	margin-right: 54px !important; 
+	margin-top: 8px !important;	
+}
+
+.secondary_submit_content
+{
+	margin-top: 10px;
+	font-size: 9px;
+}
+
+.toscell
+{
+	text-align: center;
+}
+
+.toscell .toslinks
+{
+	font-size: 9px;
+	margin-top: 5px;
+	padding: 0;
+	float: none;
+}
+
+
+/* Billing Address */
+/* =============== */
+
+#payments_content
+{
+	width: 100%;
+}
+
+.payment_screen {
+	position: relative;
+	width: 376px;
+	margin: 0 auto;
+}
+.cc_address_header { position: relative; width: 376px; }
+
+#address_screen .confirm
+{
+	background: url(https://www.tetrisfriends.com/data/jambool/bluebox_large.png) 0 0 no-repeat;
+	height: 300px;
+	width: 376px;
+	overflow: hidden;
+}
+
+.payment_screen .confirm .ccform_grid label
+{
+	color: #666;
+}
+
+.payment_screen .confirm .ccform_grid, #address_screen .confirm
+{
+	position: relative;
+	margin: 0 auto;
+}
+
+
+#address_screen .confirm .ccform_grid input[type="text"]
+{
+	width: 199px;
+}
+
+#buy_now_button_new_card
+{
+	background: url(https://www.tetrisfriends.com/data/jambool/buynow_btn.png) 0 0 no-repeat;
+	height: 42px;
+	width: 140px;
+	padding: 0;
+	display: inline-block;
+	text-indent: -9999px;
+	font-size: 0;
+	overflow: hidden;
+}
+
+
+/* Choose a card */
+/* ============= */
+.short_form select#card_id
+{
+	position: relative;
+	margin: 0 auto;
+	width: 170px;
+	display: block;
+}
+
+
+/* Email Verficiation */
+/* ================== */
+#saved_cards table.ccform_grid
+{
+	position: relative;
+	margin: 0 auto;
+}
+
+
+/* ZONG... */
+select#mobile_options {
+	width:170px;
+}
+
+select#zong_supported_countries
+{
+	width: 170px;
+}
+
+
+/* Hides "Missing Rubies" notice in popup */
+body.buy_currency #anchoredfooter
+{
+	display: none;
+}
+
+div#cardlauncher
+{
+	position: relative;
+	float: none;
+	top: 0;
+}
+
+/* Transaction History */
+/* =================== */
+body.get_transactions #header_gradient
+{
+	background: url(https://www.tetrisfriends.com/data/jambool/header_history.png) no-repeat;
+}
+
+body.get_transactions #frame_container
+{
+	position: relative;
+}
+
+body.get_transactions .header
+{
+	margin-bottom: 40px;
+}
+
+body.get_transactions ol.transactions li.row ol.field_values li.transaction_type
+{
+	width:25%;
+}
+
+body.get_transactions #anchoredfooter
+{
+	position: relative;
+}
+
+/* Confirmation Screen */
+/* =================== */
+div#final_branded_complete_wrapper div#brand_thanks
+{
+	display: none;
+}
+
+div#final_branded_complete_wrapper div.charge_example
+{
+	background: url(https://www.tetrisfriends.com/data/jambool/bluebox_large_small.png) 0 0 no-repeat;
+	height: 30px;
+	width: 345px;
+	overflow: hidden;
+	margin: 0 auto;
+	border: 0;
+}
+
+div#final_branded_complete_wrapper div.charge_example
+{
+	color: #666;
+	font-size: 12px;
+	padding: 15px;
+}
+
+div#final_branded_complete_wrapper div.charge_example td
+{
+	font-size: 16px;
+	padding: 5px;
+}
+
+div#final_branded_complete_wrapper div.charge_example td.auth_amount
+{
+	text-align: right;
+}
+
+div#final_branded_complete_wrapper div.example_group p
+{
+	width: 376px;
+	margin: 10px auto;
+	color: #666;
+}
+
+body.simple_purchase_partner_begin div#anchoredfooter
+{
+	display: none;
+}
+
+div#branded_exit div#purchase_label
+{
+	position: relative;
+	float: left;
+	width: 150px;
+	color: rgb(102, 102, 102);
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 100px;
+	display: inline;
+}
+
+
+div#branded_exit div#purchase_description
+{
+	width: 250px;
+	height: 58px;
+	background: transparent url(https://www.tetrisfriends.com/data/jambool/ruby.png) no-repeat scroll right top;
+	font-size: 24px;
+	text-align: left;
+	float: left;
+	color: #666;
+	line-height: 40px;
+}
+
+div#branded_exit div#continue_button
+{
+	background: url(https://www.tetrisfriends.com/data/jambool/continue_btn.png) 0 0 no-repeat;
+	height: 42px;
+	width: 140px;
+	padding: 0;
+	display: block;
+	text-indent: -9999px;
+	font-size: 0;
+	overflow: hidden;
+}
+
+
+/* Custom Partner Warnings */
+/* ======================= */
+div#confirm_wrapper
+{
+	padding: 0;
+}
+
+div.partner_button_wrapper
+{
+	background: transparent;
+}
+
+div#fps2_checkout
+{
+	background: transparent url(https://www.tetrisfriends.com/data/jambool/rubiesDelay_01.png) no-repeat scroll center bottom;
+	height: 110px;
+}
+
+div#gc_checkout
+{
+	background: transparent url(https://www.tetrisfriends.com/data/jambool/rubiesDelay_02.png) no-repeat scroll center bottom;
+	height: 110px;
+}
+#branded_exit { width: 600px;}
+
+#supportmessage
+{
+	display: none;
+}

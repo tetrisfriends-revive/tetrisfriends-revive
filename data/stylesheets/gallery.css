@@ -1,0 +1,241 @@
+/* ================== */
+/* gallery stylesheet */
+/* ================== */
+div.gallery_wrapper
+{
+  color: #6C6C6C;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: small;
+}
+
+div.gallery_intro
+{
+  position: relative;
+  float: left;
+  font-size: 1.0em;
+  font-weight: normal;
+  left: 0;
+  width: 650px;
+}
+
+div.gallery_intro p
+{
+  margin-left: 3em;
+}
+
+a.gallery_back_btn
+{
+  background: url(../images/BackToGallery_btn.gif) no-repeat;
+  border: none;
+  height: 21px;
+  position: absolute;
+  right: 17px;
+  top: 16px;
+  width: 106px;
+}
+
+a.gallery_back_btn:hover
+{
+  background-position: 0px -21px;
+}
+
+div.gallery_selector
+{
+  position: relative;
+  border: none;
+  float: left;
+  margin-top: 1em;
+  width: 650px;  
+}
+
+div.gallery_selector a.gallery_item
+{
+  background: url(../images/gallery/gallery_button.gif) no-repeat;
+  border: none;
+  color: #6C6C6C;
+  float: left;
+  height: 150px;
+  margin: 5px;
+  text-align: center;
+  width: 150px;
+}
+
+div.gallery_selector a.gallery_item:hover
+{
+  background-position: 0px -150px;
+  text-decoration: none;
+}
+
+div.gallery_selector a.gallery_item img
+{
+  border: none;
+}
+
+div.gallery_selector a.gallery_item div.gallery_item_footer
+{
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  top: -3px;
+  left: 5%;
+  width: 85%;
+}
+
+div.gallery_selector a.gallery_item div.gallery_item_footer img
+{
+  width: 32px;
+  height: 24px;
+  top: 0px;
+  vertical-align: middle;
+}
+
+div.gallery_contact_box
+{
+  position: relative;
+  float: right;
+  font-size: 1.0em;
+  font-weight: normal;
+  padding-top: 1em;
+  right: 0;
+  width: 300px;
+}
+
+div.gallery_contact_box_content
+{
+  position: relative;
+  text-align: center;
+}
+
+div.gallery_contact_header
+{
+  border-bottom: #DCDCDC solid thin;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: capitalize;
+  height: 2em;
+}
+
+div.gallery_contact_body
+{
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+div.gallery_content
+{
+  position: relative;
+  font-size: 1.0em;
+  font-weight: normal;
+  left: 0;
+  min-width: 600px;
+  min-height: 300px;
+  text-align: center;
+}
+
+div.gallery_content h1
+{
+  font-size: 1.25em;
+  height: 3em;
+  padding-top: 0.75em;
+  margin-left: 10px;
+  text-align: left;
+}
+
+div.gallery_item_header
+{
+  border-bottom: #DCDCDC solid thin;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-left: 1em;
+  text-transform: capitalize;
+  height: 1.8em;
+}
+
+
+
+div.gallery_item_source,
+div.gallery_item_body
+{
+  font-size: 1.0em;
+  font-weight: normal;
+  text-align: left;
+}
+
+div.gallery_item_source
+{
+  border: #DCDCDC solid thin;
+  border-width: 1px 0;
+  background-color: #F5F5F5;
+  padding-left: 1em;
+  padding-top: 0.2em;
+  height: 1.8em;
+}
+
+div.gallery_item_body
+{
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.gallery_other_items h1
+{
+	font-style: normal;
+	font-size: 13px;
+	border: 1px solid #ccc;
+	border-width: 0 0 1px 0;
+}
+
+.gallery_sidebar_thumbnail
+{
+	padding: 5px;
+	float: left;
+	display: block;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+}
+
+.gallery_sidebar_thumbnail a
+{
+	width: 100px;
+	height: 70px;
+	display: block;	
+	border: 1px solid #ccc;
+}
+
+.gallery_sidebar_title
+{
+	float: left;
+	width: 170px;
+	margin-left: 5px;
+	margin-top: 40px;
+	font-size: 11px;
+}
+
+
+
+div.gallery_ad_container
+{
+  position: relative;
+  float: right;
+  margin-top: 5px;
+}
+
+img.gallery_ad_header
+{
+   position:absolute;
+   right:0;
+   top: -5px;
+}
+
+div.gallery_ad_content
+{
+  border: #DCDCDC solid thin;  
+  width: 300px;
+  height: 250px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c0c0c0;
+  -moz-box-sizing:content-box;
+}

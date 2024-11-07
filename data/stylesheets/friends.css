@@ -1,0 +1,538 @@
+/* Friends Styles */
+/*----------------*/
+
+div.friends_side_content
+{
+	position: relative;
+	left: 10px;
+}
+
+div.friends_tab_content div.friend_count
+{
+	position: absolute;
+	top:31px;
+	left:110px;
+	z-index:101;
+}
+
+div.friends_divider_item
+{
+	font-weight: bold;
+	color: #333;
+	font-size: 14px;
+	padding: 0.5em;
+}
+
+div.friends_item_content
+{
+	background: #F6F4F5;
+	border: 1px solid #c0c0c0;
+	padding: 10px;
+}
+
+
+
+/* Friend Item */
+div.friends_item_content div.friend_item_grey
+{
+	background: #F6F4F5;
+	padding: 1em;
+}
+div.friends_item_content div.friend_item_white
+{
+	background: #fff;
+	padding: 1em;
+}
+div.friends_item_content div.friend_status_area div
+{
+	margin: 0.5em;
+}
+div.friends_item_content img.friend_avatar
+{
+	border: 1px solid #c0c0c0;
+}
+div.friends_item_content div.friend_info
+{
+	margin-left: 10px;
+	width: 450px;
+}
+div.friends_item_content div.friend_info a.search_result_name
+{
+	font-weight: bold;
+	font-size: 14px;
+}
+div.friends_item_content div.friend_info div.friend_info_stat
+{
+	color: #000;
+	font-weight: bold;
+}
+div.friends_item_content div.friend_info div.friend_info_quote
+{
+	font-style: italic;
+}
+div.friends_item_content a.button_round_small_befriend
+{
+	top: 10px;
+	left: 20px;
+}
+
+/* How to add */
+div.friends_how_to_add span.how_to_add_desc
+{
+	color: #333;
+	font-weight: bold;
+	font-size: 12px;
+}
+div.friends_how_to_add span.how_to_add_label
+{
+	color: #333;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+div.friends_how_to_add ol
+{
+	list-style-type: decimal;
+	margin-left: 2em;
+	font-weight: bold;
+	color: #333;
+}
+
+div.friends_how_to_add ul
+{
+	list-style-type: square;
+	font-weight: bold;
+	color: #333;
+	margin-left: 2em;
+}
+
+/* Search */
+div.friends_search div.friends_item_content
+{
+	padding: 1em;
+}
+div.friends_search div.friends_item_content ul.friend_search_items
+{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+div.friends_search div.friends_item_content ul.friend_search_items li
+{
+	padding-right: 1em;
+}
+div.friends_search div.friends_item_content a.button
+{
+	position: relative;
+}
+div.friends_search div.friends_item_content div.friend_search_description
+{
+	position: relative;
+	left: 190px;
+}
+div.friends_search div.friends_item_content div.friend_search_error
+{
+	color:#f00;
+	font-style: italic;
+}
+div.friends_search_result
+{
+	min-height: 100px;	
+	height: auto !important;
+	height: 100px;
+	position: relative;
+}
+div.friends_search_result div.friends_divider_item a.friends_find_link
+{
+	position: relative;
+	left: 480px;
+	font-size: 12px;
+	text-align: right;
+}
+
+/* Invite */
+div.friends_invite div.friends_item_content div.friends_invite_desc
+{
+	text-align: center;
+	padding-bottom: 1em;
+}
+div.invite_button_area
+{
+	height: 30px;
+}
+
+/* Friend List Content */
+.friends_list_page
+{
+	position: relative;
+	border: 1px solid #c0c0c0;
+	border-width: 0 0 1px 0;	
+}
+
+.friends_list_header .sort_filters
+{
+	position: relative;
+	top: 0;
+	left: 30px;
+	width: 300px;
+	margin-bottom: 5px;
+}
+.friends_list_header .sort_filters a
+{
+	position: relative;	
+}
+
+.friends_list_header .friends_counter
+{
+	position: absolute;
+	top: 0;
+	right: 5px;
+}
+
+.friends_list .friends_list_item
+{
+	position: relative;
+	width: auto;
+	height: 65px;
+	clear: both;
+}
+
+.friends_list .friends_list_item_grey
+{
+	background: #F6F4F5;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0 0 0; 
+}
+
+.friends_list .friends_list_item_white
+{
+	border: 0;
+	background: #fff;
+}
+
+.friends_list .friends_list_item .friend_status_icons
+{
+	position: absolute; 
+	top: 0px; 
+	left: 0px;
+}
+
+.friends_list .friends_list_item .friend_status_icons div
+{
+	margin: 8px 0 0 8px;
+}
+
+.friends_list .friends_list_item .friend_avater
+{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #c0c0c0;
+	top: 5px;
+	left: 30px;
+}
+
+.friends_list .friends_list_item .friend_info
+{
+	position: absolute; 
+	left: 90px;
+	width: 450px;
+	top: 10px;
+	text-align: left;
+}
+
+.friends_list .friends_list_item .friend_info .friend_quote
+{
+	color: #999;
+}
+
+.friends_list .friends_list_item .button_round_small_remove
+{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	visibility: hidden;
+}
+
+/* Friend Item Hover Rules */
+.friends_list .friends_list_item_hover,
+.friends_list .friends_list_item:hover 
+{
+	background-color: #DBEEF4;
+}
+
+.friends_list .friends_list_item_hover .button_round_small_remove,
+.friends_list .friends_list_item:hover .button_round_small_remove
+{
+	visibility: visible;
+}
+
+
+
+/* Block List */
+div.friend_block_list_item
+{
+	position: relative;
+	left: 20px;
+	width: 250px;
+}
+
+div.friend_block_list_item a
+{
+	position: absolute;
+	right: 0;
+}
+
+
+/* Friend Status icons */
+/* ------------------- */
+.friend_status
+{
+	position: relative;
+	width: 16px;
+	height: 17px;
+	border: 0;
+	display:block;
+	overflow: hidden;
+}
+
+.friend_status_favorite
+{
+	background: transparent url(../images/profile/status_icons.png) no-repeat 0 0;
+}
+
+.friend_status_friend
+{
+	background: transparent url(../images/profile/status_icons.png) no-repeat -16px 0;
+}
+
+.friend_status_online
+{
+	background: transparent url(../images/profile/status_icons.png) no-repeat -32px 0;
+}
+
+.friend_status_offline
+{
+	background: transparent url(../images/profile/status_icons.png) no-repeat -48px 0;
+}
+
+.friend_status_gray_circle
+{
+	background: transparent url(../images/profile/status_icons.png) no-repeat -64px 0;
+}
+
+/* Friend Module */
+.friends_module_tab_list a.friends_num {
+	text-indent: 0px;
+	color: #000;
+	left: 100px;
+	position: absolute;
+	top: 10px !important;
+}
+.friends_module_no_friends
+{
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+	background-color: #f4f5f6;
+	padding: 1em;
+}
+.friends_grid_row
+{
+	position: relative;
+	background-color: #f4f5f6;
+	border: 1px solid #c0c0c0;
+	height: 98px;
+}
+.friends_grid_item
+{
+	position: relative;
+	background-color: #f4f5f6;
+	text-align: center;
+	width: 97px;
+	height: 100%;
+}
+.friends_grid_item .friends_grid_item_status .friend_status
+{
+	margin: 1em 0.5em;
+}
+.friends_grid_item .friends_grid_item_avatar
+{
+	border: 1px solid #c0c0c0;
+	width: 60px;
+	height: 60px;
+	margin: 0.5em;
+	margin-left: 0;
+}
+
+.friends_ad_container
+{
+	margin-bottom: 10px;
+}
+
+#fb_friend_list
+{
+	position: relative;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 400px;
+	width: 625px;
+}
+.fb_friend_list_desc
+{
+	position: relative;
+	border: 1px solid #c0c0c0;
+	height: 20px;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	z-index: 100;
+}
+.fb_friend_list_desc .fb_friend_list_options
+{
+	position: absolute;
+}
+.fb_friend_list_desc .tf_friend_slot_desc
+{
+	text-align: center;
+}
+
+.fb_friend_item
+{
+	position: relative;
+	border-left: 1px solid #c0c0c0;
+	border-right: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+	height: 60px;
+}
+
+.fb_friend_item .tf_friend_input
+{
+	height: 58px;
+	margin-bottom: auto;
+	margin-top: auto;
+	margin-left: 20px;
+	margin-right: 15px;
+}
+
+.fb_friend_item .fb_friend_pic
+{
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	width: 50px;
+	height: 50px;
+}
+
+.fb_friend_item .friend_name
+{
+	position: relative;
+	padding-top: 18px;
+	width: 190px;
+	text-align:left;
+}
+
+.fb_friend_item .tf_friend_pic
+{
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	width: 50px;
+	height: 50px;
+}
+#fb_friend_invite
+{
+	position: absolute;
+	width: 625px;
+	height: 526px;
+	top: 0px;
+}
+
+
+/* NEW LAYOUT OVERRIDES */
+#home_options_friends .friend_upsell
+{
+	position: relative;
+	left: 5px;
+	top: 5px;
+	display: block;	
+}
+
+.friend_slider .friend_scrollable
+{
+	left: 45px !important;
+	width: 537px !important;
+}
+
+.friend_slider .friend_slider_item
+{
+	float: left;
+	width: 84px;
+	height: 150px;
+	margin-top: 15px;
+	margin-left: 5px;
+	text-align: center;
+}
+
+.friend_slider .friend_slider_item .friend_selector
+{
+	width: 84px;
+	height: 121px;
+	background: transparent url(../images/friends/friendSelector_btn.png) no-repeat 0 0;
+	display: block;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.friend_slider .friend_slider_item .friend_selector_online
+{
+	background: transparent url(../images/friends/friendSelector_btn.png) no-repeat -84px 0;
+}
+
+.friend_slider .friend_slider_item .friend_selector_invite
+{
+	background: transparent url(../images/friends/friendSelector_btn.png) no-repeat -252px 0;
+}
+
+.friend_slider .friend_slider_item .friend_selector_fb
+{
+	background: transparent url(../images/friends/friendSelector_btn.png) no-repeat -336px 0;
+}
+
+.friend_slider .friend_slider_item .friend_selector_offline:hover
+{
+	background: transparent url(../images/friends/friendSelector_btn.png) no-repeat 0 -121px;
+}
+
+.friend_slider .friend_slider_item .friend_selector_online:hover
+{
+	background: transparent url(../images/friends/friendSelector_btn.png) no-repeat -84px -121px;
+}
+
+.friend_slider .friend_slider_item .friend_selector_invite:hover
+{
+	background: transparent url(../images/friends/friendSelector_btn.png) no-repeat -252px -120px;
+}
+
+.friend_slider .friend_slider_item .friend_selector_fb:hover
+{
+	background: transparent url(../images/friends/friendSelector_btn.png) no-repeat -336px -120px;
+}
+
+
+.friend_slider .friend_selector .friend_selector_avatar
+{
+	position: relative;
+	display: block;
+	padding: 5px 0 0 0;
+}
+
+
+.friend_slider .friend_selector .friend_selector_avatar img
+{
+	width: 65px;
+	height: 65px;
+	border: 1px solid #ccc;
+}

@@ -1,0 +1,48 @@
+<config>
+<gameTableXMLPath path="gameTableBattle.xml"/>
+<dda>
+<starRatioList type="2p" relativeBucketLookup="3,2,1,0,-1,-2,-3">
+<!--2p is based on probability-->
+	<rank stars="0" list=".00,.00,.00,.50,.50,.00,.00"/>
+	<rank stars="1" list=".00,.00,.00,.65,.35,.00,.00"/>
+	<rank stars="2" list=".00,.00,.25,.50,.25,.00,.00"/>
+	<rank stars="3" list=".00,.00,.35,.65,.00,.00,.00"/>
+	<rank stars="4" list=".00,.00,.50,.50,.00,.00,.00"/>
+</starRatioList>
+<starRatioList type="6p" relativeBucketLookup="1,0,-1,-2">
+<!--6p is based on number of people-->
+	<rank stars="0.0" list="0,0,3,2"/>
+	<rank stars="0.5" list="0,0,4,1"/>
+	<rank stars="1.0" list="0,1,4,0"/>
+	<rank stars="1.5" list="0,1,4,0"/>
+	<rank stars="2.0" list="0,2,3,0"/>
+	<rank stars="2.5" list="0,2,3,0"/>
+	<rank stars="3.0" list="0,3,2,0"/>
+	<rank stars="3.5" list="0,3,2,0"/>
+	<rank stars="4.0" list="1,4,0,0"/>
+	<rank stars="4.5" list="2,3,0,0"/>
+	<rank stars="5.0" list="0,5,0,0"/>
+</starRatioList>
+</dda>
+<!--start from bucket 0 -->
+<garbageSentBucketLookup2p list="0,0,1,2,3,4,5,6,7,9,11,13,17,23,31,41,53,67,83,101,121,1000"/>
+<garbageSentBucketLookup6p list="0,0,1,2,3,4,5,6,7,9,11,13,17,23,31,41,53,67,83,101,121,1000"/>
+<mapFilterTpmLookup list="40.0,43.0,46.0,49.0"/>
+<!--start from rank 0 -->
+<rankDescList list="No Title,Newbie,Novice,Trainee,Rookie,Apprentice,Journeyman,Hobbyist,Practitioner,Achiever,Specialist,Professional,Veteran,Expert,Elite,Champion,Genius,Prodigy,Guru,Master,Grand Master"/>
+<!--how to calculate promotionRankList>> if the player's garbageSentPerMin is greater or equal to the value in the garbageSentPerMinuteMaxList, and the player's rank is below the value in the curRankList, then promote the player to the value in the promotionRankList -->
+<promotionRankList  garbageSentPerMinuteMaxList="5,20,50" curRankList="5,10,15" promotionRankList="5,10,15"/>
+<tetrionInfo variantID="kVariantBattlePlus6p"/>
+<!--garbage que settings -->
+<resetOnGarbageReceivedFlag flag="true"/>
+<resetOnCounterActionFlag flag="true"/>
+<flushDelayMax value="0"/>
+<gameRecordListXMLPath path="gameRecordList.xml"/>
+<KOMax value2p="3" value6p="10"/>
+<!-- oldold mapAISpeed speedList 0,3,2.5,2.0,1.7,1.4,1.2,1.0,0.8,0.7,0.6,0.50,0.45,0.40,0.35,0.30,0.23,0.17,0.12,0.08,0.05 -->
+<!-- old mapAISpeed speedList 0,3,2.5,2.0,1.7,1.4,1.2,1.0,0.8,0.7,0.6,0.50,0.45,0.40,0.35,0.30,0.23,0.17,0.12,0.08,0.05 -->
+<mapAISpeed speedList="0,3,2.5,2.0,1.7,1.5,1.3,1.0,0.9,0.8,0.7,0.50,0.35,0.20,0.10,0.085,0.07,0.06,0.05,0.05,0.05"/>
+<!-- the sequence of the mino will be the same for this number of bags-->
+<playerResetBagNum min="2" max="5" flag="true"/>
+<GameTime time2p="120" time6p="120"/>
+</config>

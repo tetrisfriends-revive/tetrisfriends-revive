@@ -1,0 +1,1106 @@
+/* Tetris Friends Style Sheet */
+/* ========================== */
+
+
+/* General Rules */
+/* ============= */
+
+*
+{
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+body
+{
+  background: url(../images/bg.jpg) repeat-x;
+  font-family: "Trebuchet MS", Helvetica, Tahoma,Geneva,Verdana,Arial,sans-serif;
+  font-size: 12px;
+  color: #666;
+  margin: 0;
+  text-align:center;
+}
+
+a
+{
+  /* color: #2c5edb; */
+  color: #43B7F2;
+  text-decoration: none;
+}
+
+a:hover
+{
+  /* color: #c0c0ff; */
+  color: #0F7AC8;
+  text-decoration: underline;
+}
+
+h1
+{
+	font-size: 24px;	
+}
+
+h2
+{
+	font-size: 18px;	
+}
+
+h3
+{
+	font-size: 16px;	
+}
+
+h4
+{
+	font-size: 14px;	
+}
+
+
+.warn_box {
+	width: 400px;
+	border: 1px solid #339933;
+	padding: 10px 0px 10px 30px;
+	margin-left: 15px;
+	background:#e2f9e3 url(../images/alertgood_icon.gif) no-repeat  2px;
+}
+
+.error_box {
+	width: 400px;
+	border: 1px solid #33;
+	padding: 10px 0px 10px 30px;
+	margin-left: 15px;
+	background:#fcd9d9 url(../images/alertbad_icon.gif) no-repeat  2px;
+}
+
+.floatright
+{
+  position: relative;
+  display: inline;
+  float: right;
+}
+
+.floatleft
+{
+  position: relative;
+  display: inline;
+  float: left;
+}
+
+.textleft
+{
+	text-align: left;
+}
+
+.textright
+{
+	text-align: right;	
+}
+
+.textcenter
+{
+	text-align: center;	
+}
+
+.margincenter
+{
+	display: block;
+	margin: 0 auto;	
+}
+
+.margin_5px
+{
+	margin: 5px;	
+}
+
+.margin_10px
+{
+	margin: 10px;	
+}
+
+.padding_5px
+{
+	padding: 5px;	
+}
+
+.marginright_5px
+{
+	margin-right: 5px;	
+}
+
+.marginleft_5px
+{
+	margin-left: 5px;	
+}
+
+.marginleft_10px
+{
+	margin-left: 10px;	
+}
+
+.marginleft_15px
+{
+	margin-left: 15px;	
+}
+
+.marginleft_20px
+{
+	margin-left: 20px;	
+}
+
+.margintop_5px
+{
+	margin-top: 5px;
+}
+
+.margintop_10px
+{
+	margin-top: 10px;	
+}
+
+.marginbottom_5px
+{
+	margin-bottom: 5px;
+}
+
+.marginbottom_10px
+{
+	margin-bottom: 10px;
+}
+
+.left_5px
+{
+	left: 5px;
+}
+
+.right_5px
+{
+	right: 5px;
+}
+
+.top_5px
+{
+	top: 5px;
+}
+
+.bottom_5px
+{
+	bottom: 5px;
+}
+
+.spaced_item
+{
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+.error {
+	color:#ff0000;
+}
+
+.label {
+	text-align:right;
+}
+
+.input {
+	font-size:11pt;
+	border-color: #c0c0c0;
+}
+
+.clear {
+	clear:both;
+	height: 0;
+	overflow: hidden;
+	font-size: 0;
+}
+
+.line_divider
+{
+	height: 1px;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0 0 0;
+	margin: 5px 0;	
+}
+
+.border_1px
+{
+	border: 1px solid #000;
+}
+
+#tetris_loading_spinner
+{
+	position: absolute; 
+	width: 100%; 
+	height: 100%; 
+	background: url(/data/images/spinnerLarge.gif) no-repeat 50% 50%; 
+	z-index: 100;	
+}
+
+#tetris_loading_mask
+{
+	position: absolute; 
+	width: 100%; 
+	height: 100%; 
+	background: #ccc; 
+	z-index: 100; 
+	opacity:0.1;
+	!filter: alpha(opacity = 1);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+}
+
+#tetris_loading_spinner.tetris_init_spinner
+{
+	position: relative; 
+	height: 100px;	
+}
+
+.tetris_progress_bar
+{
+	position: relative;
+	width: 219px;
+	height: 7px;
+	overflow: hidden;
+	border: 1px solid #666;
+	-moz-box-sizing:content-box;
+}
+
+.tetris_progress_bar_content
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 7px;
+	background: url(../images/profile/meterFill.png) repeat-x 0 0;
+	border: 1px solid #c0c0c0;
+	border-width: 0 1px 0 0; 
+}
+
+.tetris_progress_light_blue_bar_content
+{
+	background-position: 0 -7px;
+}
+
+.tetris_progress_green_bar_content
+{
+	background-position: 0 -14px;
+}
+
+.tetris_progress_yellow_bar_content
+{
+	background-position: 0 -21px;
+}
+
+.tetris_progress_orange_bar_content
+{
+	background-position: 0 -28px;
+}
+
+.tetris_progress_red_bar_content
+{
+	background-position: 0 -35px;
+}
+
+.tetris_progress_violet_bar_content
+{
+	background-position: 0 -42px;
+}
+
+.tetris_progress_purple_bar_content
+{
+	background-position: 0 -49px;
+}
+
+.tetris_progress_grey_bar_content
+{
+	background-position: 0 -56px;
+}
+
+
+/* Header Definitions */
+/* ================== */
+
+div.tetris_header {
+	position: relative;
+	width:1011px;
+	height: 91px;
+	margin:0px auto;
+	text-align:left;
+	background: #F8F6F6 url(../images/top/bg.gif) repeat-x 0 0;
+	border-width: 0px 1px 0px 1px;
+	border-style: solid;
+	border-color: #cccccc;
+}
+
+div.tetris_token_notice
+{
+	display: none;
+	width:1011px;
+	height: auto;
+	margin:0px auto;
+	text-align: center;
+	background: #FEFF99;
+	color: #FE0000;
+	border-width: 0px 1px 0px 1px;
+	border-style: solid;
+	border-color: #cccccc;
+	line-height: 28px;
+}
+
+div.tetris_header_mouseover
+{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 91px;
+	width: 100%;
+	z-index: 1000;
+}
+
+/* Tetris Friends Logo */
+/* ------------------- */
+
+div.tetris_friends_logo {
+  position: absolute;
+  top: 6px;
+  left: 18px;
+  width: 93px;
+  height: 84px;
+}
+
+div.tetris_friends_logo a
+{
+  float: left;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../images/top/logo.gif) no-repeat 0px 0px;
+  text-indent: -9999px;
+  text-decoration: none;
+}
+
+div.tetris_friends_logo a:hover
+{
+  background-position:0px -84px;
+}
+
+div.tetris_header_description
+{
+  position: absolute;
+  top: 7px;
+  left: 111px;
+  width: 276px;
+  height: 28px;
+  background: url(../images/top/description.gif) no-repeat 0px 0px;
+}
+
+div.tetris_games_counter
+{
+	position: absolute;
+	top: 15px;
+	right: 315px;
+	color: #a0a0a0;
+	text-size: 12px;
+	font-style: italic;
+	display: none;
+}
+
+/* Top Navigation Bar */
+/* ------------------ */
+
+div.tetris_top_nav
+{
+  position: absolute;
+  top: 34px;
+  left: 110px;
+  width: 884px;
+  height: 41px;
+  background: url(../images/top/yellowExtension.gif) repeat-x 0px 1px;  
+}
+
+div.tetris_top_nav ul
+{	
+  list-style:none;
+}
+
+div.tetris_top_nav ul li
+{
+  display:inline;
+}
+
+div.tetris_top_nav ul li a 
+{
+  float:left;
+  height: 41px;
+  text-indent:-9999px;
+  text-decoration:none;
+}
+
+div.tetris_message_counter
+{
+	position: absolute;
+	right: 10px;
+	top: 2px;
+	
+}
+
+div.tetris_message_counter p
+{
+	border: 1px solid #f00;
+	background-color: #ffc0c0;
+}
+
+
+
+/* Top Navigation Menu */
+/* ------------------- */
+
+div.tetris_top_nav ul li.home a {
+  width:87px;
+  background:url(../images/top/nav_sprite.png) no-repeat 0px 0px; }
+div.tetris_top_nav ul li.home a:hover {
+  background-position:0px -41px; }
+div.tetris_top_nav ul li.home a.selected {
+  background-position:0px -81px; }
+div.tetris_top_nav ul li.home a.selected:hover {
+  background-position:0px -81px; }
+
+
+div.tetris_top_nav ul li.gamesPage a {
+  width:86px;
+  background:url(../images/top/nav_sprite.png) no-repeat -87px 0px; }
+div.tetris_top_nav ul li.gamesPage a:hover {
+  background-position:-87px -41px; }
+div.tetris_top_nav ul li.gamesPage a.selected {
+  background-position:-87px -81px; }
+div.tetris_top_nav ul li.gamesPage a.selected:hover {
+  background-position:-87px -81px; }
+  
+div.tetris_top_nav ul li.profile a {
+  width:86px;
+  background:url(../images/top/nav_sprite.png) no-repeat -173px 0px; }
+div.tetris_top_nav ul li.profile a:hover {
+  background-position:-173px -41px; }
+div.tetris_top_nav ul li.profile a.selected {
+  background-position:-173px -81px; }
+div.tetris_top_nav ul li.profile a.selected:hover {
+  background-position:-173px -81px; }
+
+div.tetris_top_nav ul li.friends a {
+  width:89px;
+  background:url(../images/top/nav_sprite.png) no-repeat -259px 0px; }
+div.tetris_top_nav ul li.friends a:hover {
+  background-position:-259px -41px; }
+div.tetris_top_nav ul li.friends a.selected {
+  background-position:-259px -81px; }
+div.tetris_top_nav ul li.friends a.selected:hover {
+  background-position:-259px -81px; }
+
+div.tetris_top_nav ul li.shop a {
+	width: 72px;
+	background:url(../images/top/nav_sprite.png) no-repeat -348px 0px; }
+div.tetris_top_nav ul li.shop a:hover {
+  background-position:-348px -41px; }
+div.tetris_top_nav ul li.shop a.selected {
+  background-position:-348px -81px; }
+div.tetris_top_nav ul li.shop a.selected:hover {
+  background-position:-348px -81px; }
+
+div.tetris_top_nav ul li.missions a {
+  width:94px;
+  background:url(../images/top/nav_sprite.png) no-repeat -420px 0px; }
+div.tetris_top_nav ul li.missions a:hover {
+  background-position:-420px -41px; }
+div.tetris_top_nav ul li.missions a.selected {
+  background-position:-420px -81px; }
+div.tetris_top_nav ul li.missions a.selected:hover {
+  background-position:-420px -81px; }
+
+
+div.tetris_top_nav ul li.community a {
+  width:118px;
+  background:url(../images/top/nav_sprite.png) no-repeat -514px 0px; }
+div.tetris_top_nav ul li.community a:hover {
+  background-position:-514px -41px; }
+div.tetris_top_nav ul li.community a.selected {
+  background-position:-514px -81px; }
+div.tetris_top_nav ul li.community a.selected:hover {
+  background-position:-514px -81px; }
+  
+div.tetris_top_nav ul li.help a {
+  width:70px;
+  background:url(../images/top/nav_sprite.png) no-repeat -632px 0px; }
+div.tetris_top_nav ul li.help a:hover {
+  background-position:-632px -41px; }
+div.tetris_top_nav ul li.help a.selected {
+  background-position:-632px -81px; }
+div.tetris_top_nav ul li.help a.selected:hover {
+  background-position:-632px -81px; }
+  
+  
+  
+  
+/* Drop Down Menus */
+/* --------------- */
+div.tetris_top_nav .tetris_sub_menu 
+{
+  position: relative;
+  float: left;
+}
+.community .tetris_sub_menu {
+  width: 118px;
+}
+div.tetris_top_nav ul.tetris_sub_menu_items {
+  position: relative;
+  z-index: 150;	
+  top: -6px;
+  display: none;
+}
+div.tetris_top_nav .tetris_sub_menu_hover ul.tetris_sub_menu_items,
+div.tetris_top_nav .tetris_sub_menu:hover ul.tetris_sub_menu_items
+{
+  display: block;
+}
+div.tetris_top_nav ul.tetris_sub_menu_items a {
+	height: 21px; }
+div.tetris_top_nav ul li.news a {
+  width:118px;
+  background:url(../images/top/nav_sprite_dropdown.png) no-repeat 0 0; }
+div.tetris_top_nav ul li.news a:hover {
+  background-position:0 -22px; }
+div.tetris_top_nav ul li.gallery a {
+  width:118px;
+  background:url(../images/top/nav_sprite_dropdown.png) no-repeat -118px 0; }
+div.tetris_top_nav ul li.gallery a:hover {
+  background-position:-118px -21px; }
+div.tetris_top_nav ul li.leaderboard a {
+  width:118px;
+  background:url(../images/top/nav_sprite_dropdown.png) no-repeat -236px 0; }
+div.tetris_top_nav ul li.leaderboard a:hover {
+  background-position:-236px -22px; }
+  
+  
+
+/* Login Area */
+/* ---------- */
+
+div.tetris_login_area
+{
+	position: absolute;
+	top: 8px;
+	right: 18px;
+	width: 350px;
+}
+
+div.tetris_login_area table
+{
+   float: right;
+   border-collapse: collapse;
+}
+
+div.tetris_login_form table tr td, div.tetris_login_area table tr td
+{
+   padding-left: 5px;
+}
+
+div.tetris_login_form
+{
+	position: absolute;
+	left: -9999px;
+	right: auto;
+	top: 8px;
+	height: 25px;
+	background: #fff;
+}
+
+div.tetris_login_form table
+{
+	border-collapse: collapse;	
+}
+
+div.tetris_login_form
+{
+	!margin-top: -1px;
+	float: right;
+	height: 24px;
+}
+
+div.tetris_login_form input.textfield
+{
+	height: 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #808080;
+}
+
+div.tetris_register_button
+{
+   width: 66px;
+   height: 21px;
+}
+
+div.tetris_register_button a
+{
+   display: block;
+   float: left;
+   width: 100%;
+   height: 100%;
+   text-indent: -9999px;
+   text-decoration: none;
+   background: url(../images/Register_btn.gif) no-repeat 0px 0px;
+}
+
+div.tetris_register_button a:hover
+{
+   background-position: 0px -21px;
+}
+
+
+/* Main Container */
+/* ============== */
+div#wrapper {
+	position: relative;
+	width:1011px;
+	margin:0px auto;
+	background:#ffffff url(../images/top/bg_gradient.gif) repeat-x;
+	border-width: 0px 1px 0px 1px;
+	border-style: solid;
+	border-color: #cccccc;
+}
+
+div#container {
+	width:975px;
+	text-align:left;
+	margin: 0px 17px 0px 17px;
+}
+
+div#rail_left, div#rail_right {
+    height: 600px;
+    left: -161px;
+    position: absolute;
+    top: 0px;
+    width: 160px;
+}
+div#rail_right {
+    left: 1010px;
+}
+
+div#rail_left_incentive, div#rail_right_incentive {
+	left: -161px;
+	top: 614px;
+	height: 72px;
+	position: absolute;
+	width: 160px;
+}
+
+div#rail_left_incentive a img, div#rail_right_incentive a img {
+	border: none;
+}
+
+div#rail_right_incentive {
+	left: 1010px;
+}
+
+div#tetris_main_content
+{
+	width: 664px;
+	float: left;
+}
+
+div#tetris_side_content
+{
+	width: 300px;
+	float: left;
+}
+
+
+/* Buttons */
+/* ======= */
+div.tetris_purchase_buttons
+{
+	width: 130px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+div.tetris_yes_btn, div.tetris_no_btn
+{
+	float: left;
+	width: 53px;
+	height: 21px;
+	margin-left: 5px;
+}
+
+div.tetris_yes_btn a, div.tetris_no_btn a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: -9999px;
+	text-decoration: none;
+}
+
+div.tetris_yes_btn a
+{
+	background: url(../images/popup/YesButton.gif) no-repeat; !important
+}
+
+div.tetris_no_btn a
+{
+	background: url(../images/popup/NoButton.gif) no-repeat;
+}
+
+div.tetris_yes_btn a:hover
+{
+	background-position: 0px -21px;
+}
+
+div.tetris_no_btn a:hover
+{
+	background-position: 0px -21px;
+}
+div.buttons_area
+{
+	height: 21px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	position: relative;
+	width: 100%;
+}
+div.buttons_area a
+{
+	position: absolute;
+}
+/* Footer */
+/* ====== */
+
+div.tetris_footer
+{
+   position: relative;
+   width: 975px;
+   height: 73px;
+   margin-top: 10px;
+   color: #8c8c8c;
+   border-width: 1px 0px 4px 0px;
+   border-style: solid;
+   border-color: #9a9a9a;
+   border-bottom-color: #e7e7e7;
+   font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+}
+
+
+/* Authentic Logo */
+/* -------------- */
+
+div.tetris_authentic_logo
+{
+  position: relative;
+  top: 10px;
+  left: 0px;
+  width: 74px;
+  height: 53px;
+  float: left;
+}
+
+div.tetris_authentic_logo a
+{
+  float:right;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background:url(../images/bottom/Authentic.gif) no-repeat 0px 0px;
+  text-indent:-9999px;
+  text-decoration:none;
+}
+
+div.tetris_authentic_logo a:hover
+{
+  background-position:0px -53px;
+}
+
+div.tetris_anniversary_logo
+{
+  position: relative;
+  top: 13px;
+  left: 0;
+  margin-left: 10px;
+  width: 77px;
+  height: 51px;
+  float: left;
+}
+
+div.tetris_anniversary_logo a
+{
+  float:right;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background:url(../images/bottom/Tetris25th.gif) no-repeat 0px 0px;
+  text-indent:-9999px;
+  text-decoration:none;
+}
+
+div.tetris_anniversary_logo a:hover
+{
+  background-position:0px -51px;
+}
+
+
+/* Copyright */
+/* --------- */
+
+div.tetris_copyright
+{
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 700px;
+  font-size: 11px;
+  float: left;
+}
+
+
+/* Bottom Navigation */
+/* ----------------- */
+div.tetris_bottom_nav
+{
+  position: absolute;
+  bottom: 6px;
+  right: 0px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+div.tetris_bottom_nav ul
+{
+   float: left;
+   list-style: none;
+   margin-top: 3px;
+   !margin-top: 6px;
+   margin-right: 10px;
+}
+
+div.tetris_bottom_nav ul li
+{
+   display: inline;
+   padding: 0px 7px 0px 4px;
+   !padding: 0px 4px 0px 7px;
+   border-width: 0px 1px 0px 0px;
+   border-style: solid;
+   border-color: #8c8c8c;
+}
+
+div.tetris_bottom_nav li.footerAboutListItem
+{
+	display: none;	
+}
+
+div.tetris_bottom_nav ul li.last
+{
+   border-width: 0px;
+   padding-right: 0px;
+}
+
+span#share
+{
+   position: relative;
+   top: 4px;
+}
+
+span#share a
+{
+   float: left;
+}
+
+
+
+/* Footer Gradient */
+/* --------------- */
+div.tetris_gradient_blue
+{
+   float: left;
+   width: 23%; //218px;
+   border-width: 4px 0px 0px 0px;
+   border-style: solid;
+   border-color: #0166ff;
+}
+
+div.tetris_gradient_purple
+{
+   float: left;
+   width: 27%; //260px;
+   border-width: 4px 0px 0px 0px;
+   border-style: solid;
+   border-color: #993397;
+}
+
+div.tetris_gradient_violet
+{
+   float: left;
+   width: 22%; //206px;
+   border-width: 4px 0px 0px 0px;
+   border-style: solid;
+   border-color: #cc3499;
+}
+
+div.tetris_gradient_red
+{
+   float: left;
+   width: 27.9%; //273px;
+   border-width: 4px 0px 0px 0px;
+   border-style: solid;
+   border-color: #fe0000;
+}
+
+/* Tetris Tips */
+/* ----------- */
+.tetris_tip
+{
+   color: #666;
+   padding: 0 10px;
+}
+
+.tetris_tip h1
+{
+   font-size: 14px;
+}
+
+.tetris_tip p
+{
+   font-size: 12px;
+   margin: 10px 0 0 0;
+}
+
+.tetris_betauser_icon
+{
+	position: relative;
+	top: 2px;
+	width: 37px;
+	height: 13px;
+}
+
+.tetris_feedback_btn
+{
+	position: fixed;
+	display: block;
+	width: 103px;
+	height: 33px;
+	bottom: 0;
+	right: 0;
+	background: url(../images/feedback_btn.png) no-repeat 0 0;
+	z-index: 100;
+}
+
+.tetris_feedback_btn:hover
+{
+	background-position: 0 -33px;
+}
+
+
+.tetris_hide_text
+{
+	text-size: 0;
+	color: transparent;
+	text-indent: -9999px;	
+}
+
+.tetris_house_ad_container
+{
+	position: relative;
+	width: 300px;
+	height: 250px;
+}
+
+/* Advertisement */
+/* ------------- */
+
+div.tetris_header_mouseover
+{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 91px;
+	width: 100%;
+	z-index: 9999;
+}
+
+div.home_ad_left_rail, div.home_ad_right_rail	
+{
+	position: absolute;
+	display: none;	
+}
+
+
+/* Invite */
+/* ------ */
+
+input.invite_send_verification
+{
+	margin: 0 auto;
+}
+
+div.invite_friends_header h1
+{
+	font-size: 18px;
+	text-align: center;
+}
+
+div.invite_friends_header h2
+{
+	width: 350px;
+	margin: 0 auto;
+	padding: 20px 0;
+	font-size: 13px;
+	text-align: center;
+}
+
+a.invite_home_btn
+{
+	margin: 0 auto;
+}
+
+input.invite_add_address
+{
+
+	margin-bottom: 20px;
+}
+
+input.invite_preview_invitation
+{
+	margin-left: 5px;
+}
+
+input.invite_send_more
+{
+	margin: 0 auto;
+}
+
+div.arena_invite_content
+{
+	margin: 10px 0px;
+}
+
+div.arena_invite .box_blue_container
+{
+	width: 450px;	
+}
+
+div.arena_invite
+{
+	width: 650px;
+}
+
+div.arena_invite p
+{
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+div.arena_invite a
+{
+	margin: 0 auto;
+}

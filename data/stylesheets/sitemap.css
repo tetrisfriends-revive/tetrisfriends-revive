@@ -1,0 +1,41 @@
+/* Sitemap Related */
+/* --------------- */
+
+#sitemap_content
+{
+	width: 900px;
+	margin: 0 auto;	
+}
+
+#sitemap_content h1,
+#sitemap_content h2
+{
+	border: 1px solid #eee;
+	border-width: 0 0 1px 0;	
+}
+
+#sitemap_content h2
+{
+	border-color: #ccc;
+	color: #222;
+}
+
+.sitemap_table
+{
+	width: 100%;
+	border: 0;
+	margin-top: 20px;
+}
+
+.sitemap_table th
+{
+	text-align: left;
+	padding-top: 15px;	
+}	
+
+.sitemap_table td,
+.sitemap_table th
+{
+	text-align: left;
+	width: 33%;
+}

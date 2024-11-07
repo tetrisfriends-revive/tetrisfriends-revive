@@ -1,0 +1,229 @@
+/*
+    game screen style
+*/
+
+/* Header Overrides */
+/* ================ */
+
+div.tetris_game_header {
+	background-position: 0px -20px;
+}
+
+div.tetris_game_header div.tetris_header_description
+{
+	visibility: hidden;
+}
+
+div.tetris_game_header div.tetris_login_area
+{
+	top: 20px;
+	width: 180px;
+}
+
+div.tetris_game_header div.tetris_top_nav
+{
+	top: 14px;
+}
+
+div.tetris_game_header div.tetris_login_area form
+{
+	visibility: hidden;
+}
+
+
+/* Game Side Menu */
+/* ============== */
+
+div.game_side_menu 
+{
+	position: relative;
+	float: left;
+	width: 90px;
+}
+
+div.game_side_buttons a
+{
+	margin: 0 auto 5px auto;
+}
+
+
+
+/* Game Main Section */
+/* ================= */
+div.game_container
+{
+	position: relative;
+	width: 100%;
+}
+
+div.game_loading
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 10px;
+	width: 946px;
+	height: 574px;
+	background: #E0EDF8;
+	border: 2px solid #5999BD;
+	display: none;
+	z-index: 100;
+}
+
+div.game_loading div.game_loading_anim
+{
+	position: relative;
+	width: 830px;
+	height: 70px;
+	margin: 5px auto 0 auto;
+	display: block;
+	background: url(../images/games/Loading_Anim.gif) no-repeat;
+}
+
+div.game_loading div.game_loading_header
+{
+	position: absolute;
+	width: 200px;
+	left: 435px;
+	height: 55px;
+	display: block;
+}
+
+div.game_loading div.game_loading_sub_header
+{
+	position: absolute; 
+	bottom: -10px; 
+	font-size: 14px; 
+	font-weight: bold;
+}
+
+div.game_loading .game_preroll_container
+{
+	position: relative;
+	overflow: hidden;
+	background: url(/data/images/spinnerLarge.gif) no-repeat 50% 50%;
+	display: block;
+	margin: 15px auto 0 auto;
+	height: 385px;
+}
+
+div.game_loading_Live div.game_loading_footer
+{
+	position: relative;
+	width: 712px;
+	height: 83px;
+	margin: 5px auto 0 auto;
+	display: block;
+	background: url(../images/games/Loading_Footer.png) no-repeat;
+}
+
+
+div.game_swf
+{
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	!margin-left: 7px;
+	width: 770px;
+	margin-top: -18px;
+}
+
+div.game_hidden_swf
+{
+	display: none;
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+}
+
+#contentUnity
+{
+	display: none;	
+}
+
+div.unity_install_box
+{
+	height:500px;
+	width:955px;
+}
+
+div.unity_install_box h1
+{
+	text-align:center;
+}
+
+div.unity_install
+{
+	background: #F5F6F8;
+	border: 1px solid #D5D6D8;;
+	width: 570px;
+	height: 96px;
+	margin-left: 185px;
+	margin-top: 20px;
+}
+
+div.unity_install_logo
+{
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+div.unity_upsell
+{
+	float: left;
+	width: 280px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+div.unity_robot
+{
+	position: absolute;
+	width: 127px;
+	height: 209px;
+	top: -23px;
+	left: 694px;
+	background: url(../images/games/roboto.png) no-repeat;
+}
+
+div.unity_learn
+{
+	margin-top: 23px;
+	text-align:center;
+}
+
+div.unity_why
+{
+	margin-top: 23px;
+	text-align:center;
+}
+
+ul.unity_why_list
+{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+/* Game Feedback Header */
+/* ==================== */
+div.game_feedback_info
+{
+	position: relative;
+	float: right;
+	height: 75px;
+	right: 40px;
+	margin-top: -36px;	
+}
+
+div.game_feedback_info p
+{
+	position: relative;
+	top: 15px;	
+}
+
+div.game_feedback_info a.game_feedback_btn
+{
+	position: relative;
+	height: 54px;
+}

@@ -1,0 +1,1097 @@
+/* Mission Styles */
+/* -------------- */
+#mission_stats_filters a
+{
+	margin-top: 10px;
+	display: inline;
+}
+
+#mission_stats_filters a:first-child
+{
+	margin-left: 10px;
+}
+
+.mission_side_content
+{
+	position: relative;
+	left: 10px;
+}
+
+.mission_stats_list_content
+{
+	width: 664px;
+	overflow: hidden;
+}
+
+div.mission_grid {
+	background: #F6F4F5;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0;
+	height: 300px;
+}
+
+div.mission_favorite {
+	background: #F6F4F5;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0;
+	height: 150px;
+}
+
+.mission_module_upsell_box .box_content
+{
+	height: 295px;	
+}
+
+div.mission_expired_notice
+{
+	border: 1px solid #f00;
+	padding: 5px 0;
+	color: #333;
+	font-size: 13px;
+	background-color: #ffc0c0;
+	text-align: center;
+	position: relative;
+	margin-top: 10px;
+}
+
+/* Shared Rules */
+.mission_item .mission_name
+{
+	font-size: 13px;
+	color: #333;
+	font-weight: bold;	
+}
+
+.mission_item .mission_reward
+{
+	color: #333;
+}
+
+.mission_item .mission_progress_bar 
+{
+	width: 219px;
+	height: 9px;
+	overflow: hidden;
+	background: transparent url(../images/results/progressMeter.png) no-repeat 0 0;
+}
+
+.mission_list b
+{
+	color: #333;
+}
+
+.mission_item .mission_progress_bar .mission_progress_bar_content
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: transparent url(../images/results/progressMeter.png) no-repeat 0 -9px;
+}
+
+span.mission_completed_collection
+{
+	position: relative;
+	width: 182px;
+	height: 30px;
+	background: url(../images/missions/completedPak.png) no-repeat 0 0;
+	text-indent: -9999px;
+	display: block;
+}
+
+
+/* Missions Module */
+/* --------------- */
+.mission_module_box .mission_module_help_tooltip
+{
+	position: absolute;
+	right: 5px;
+	top: -5px;
+	z-index: 100;
+}
+
+div.home_mission_module_container div.box_content
+{
+	height: 295px !important;
+}
+
+.mission_module_box .tab_activated_content .mission_item,
+.mission_module_box .tab_available_content .mission_item
+{
+	position: relative;
+	height: 77px;
+	background: #f4f6f5;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0;
+}
+
+.mission_module_box .tab_activated_content .mission_odd_item,
+.mission_module_box .tab_available_content .mission_odd_item
+{
+	border: 0;  
+	background: #fff; 
+}
+
+/* Activated */
+.mission_module_box .tab_activated_content .mission_item .mission_icon
+{
+	position: absolute;
+	top: 12px;
+	left: 5px;
+	width: 50px;
+	height: 50px;
+}
+
+.mission_module_box .tab_activated_content .mission_item .mission_icon img
+{
+	width: 50px;
+	height: 50px;
+}
+
+.mission_module_box .tab_activated_content .mission_item .mission_name
+{
+	position: absolute;
+	top: 15px;
+	left: 60px;
+}
+
+.mission_module_box .tab_activated_content .mission_item .mission_progress_bar
+{
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+
+.mission_module_box .tab_activated_content .mission_item .mission_time
+{
+	position: absolute;
+	top: 50px;
+	right: 20px;
+}
+
+/* Available */
+.mission_module_box .tab_available_content .mission_item .mission_icon
+{
+	position: absolute;
+	top: 3px;
+	left: 5px;
+	width: 70px;
+	height: 70px;
+	
+}
+
+.mission_module_box .tab_available_content .mission_item .mission_icon img
+{
+	width: 70px;
+	height: 70px;
+}
+
+.mission_module_box .tab_available_content .mission_item .mission_collection_name
+{
+	position: absolute;
+	top: 6px;
+	left: 100px;
+}
+
+.mission_module_box .tab_available_content .mission_item .mission_name
+{
+	position: absolute;
+	top: 27px;
+	left: 100px;
+}
+
+.mission_module_box .tab_available_content .mission_item .mission_cost
+{
+	position: absolute;
+	top: 46px;
+	left: 100px;
+	line-height: 26px;
+}
+
+.mission_module_box .tab_available_content .mission_item .mission_activate_btn
+{ 
+	position:absolute;
+	right:10px;
+	top:48px;
+}
+
+.mission_personal_module_box
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	float: left;
+	width: 325px;	
+}
+
+.mission_premium_module_box
+{
+	position: relative;
+	top: 0;
+	right: 0;
+	float: right; 
+	width: 325px;	
+}
+
+.mission_personal_module_box .box_content,
+.mission_premium_module_box .box_content
+{
+	height: 240px;
+}
+
+.mission_personal_module_box .mission_module_list .mission_item,
+.mission_premium_module_box .mission_module_list .mission_item
+{
+	margin: 0;
+	border-width: 1px;
+}
+
+.mission_list_box .mission_personal_module_box .mission_item .mission_icon img,
+.mission_list_box .mission_premium_module_box .mission_item .mission_icon img,
+.mission_list_box .mission_personal_module_box .mission_item .mission_cost img,
+.mission_list_box .mission_premium_module_box .mission_item .mission_cost img
+{
+	top: 0;
+	left: 0;	
+}
+
+.mission_featured_module_box .box_content
+{
+	height: auto;
+}
+
+
+/* Missions Page */
+/* ============= */
+.mission_stats
+{
+	position: relative;
+	top: 10px;
+}
+
+
+/* Promo Grid View */
+/* --------------- */
+table.mission_promo_grid
+{
+	width: 100%;
+	height: 180px;	
+}
+
+table.mission_promo_grid div
+{
+	position: relative;
+	width: 88px;
+	margin: 0 auto;	
+}
+
+table.mission_promo_grid div.mission_grid_icon img
+{
+	position: relative;
+	margin: 5px;
+	height: 78px;
+	width: 78px;
+}
+
+
+/* List View */
+/* --------- */
+.mission_stats_list_content .tab_content_div .box_header,
+.mission_stats_list_content .tab_content_div .box_footer
+{
+	height: 25px;
+}
+
+.mission_divider_item
+{
+	position: relative;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0;
+	margin: 0 0 10px 0;
+	background: #F6F4F5;
+	width: 100%;
+}
+
+.mission_achievement_popup
+{
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 86%;
+	position: relative;
+}
+
+.mission_achievement_popup div.mission_item div.mission_icon
+{
+	position: absolute;
+	left: 5px;	
+}
+
+.mission_achievement_popup div.mission_item div.mission_info
+{
+	text-align: left;	
+}
+
+.mission_achievement_popup .game_results_missions_content_available div.mission_item
+{
+	border: 0;
+	height: 75px;
+	background: transparent url(../images/missions/bg_blank.png) no-repeat center center; 
+}
+
+.mission_list_box .mission_divider_item p
+{
+	padding: 5px;
+}
+
+.mission_list_box .mission_item
+{
+	position: relative;
+	border: 1px solid #c0c0c0;
+	margin: 0 5px 5px 30px;
+	height: 95px;
+}
+
+.mission_list_box .mission_item .mission_icon
+{
+	position: absolute;
+	width: 85px;
+	height: 100%;
+}
+
+.mission_list_box .mission_item .mission_icon img
+{
+	position: relative;
+	top: 7px;
+	left: 2px;
+	width: 78px;
+	height: 78px;
+}
+
+.mission_list_box .mission_item .mission_info
+{
+	position: absolute;
+	top: 5px;
+	left: 95px;
+	width: 375px;
+}
+
+.mission_list_box .mission_item .mission_info .mission_desc
+{
+	line-height: 15px;
+}
+
+.mission_list_box .mission_item .mission_progress
+{
+	position: absolute;
+	bottom: 5px;
+	right: 240px;
+}
+
+.mission_list_box .mission_item .mission_progress_bar
+{
+	position: absolute;
+	bottom: 9px;
+	right: 5px;
+	top: auto;
+}
+
+.mission_list_box .mission_item .mission_status_completed
+{
+	position: absolute;
+	left: 195px;
+	bottom: 0px;
+	width: 126px;
+	height: 30px;
+	background: url(../images/missions/completed.png) no-repeat 0 0;
+}
+
+.mission_list_box .mission_item .mission_time
+{
+	position: absolute;
+	bottom: 25px;
+	right: -10px;
+	width: 125px; 
+	text-align: center;
+}
+
+.mission_list_box .mission_item .mission_time_expired
+{
+	bottom: 5px;
+	left: 110px;
+	width: 300px; 
+}
+	
+.mission_list_box .mission_item .mission_cost
+{
+	position: absolute;
+	bottom: 30px;
+	right: 10px;
+	width: 100px;
+	text-align: center;	
+}
+
+.mission_list_box .mission_item .mission_cost img
+{
+	position: relative;
+	width: 25px;
+	height: 25px;
+	top: 5px;	
+}
+
+.mission_list_box .mission_item .mission_activate_btn,
+.mission_list_box .mission_item .mission_status
+{
+	position: absolute;
+	bottom: 5px;
+	right: 23px;
+}
+
+.mission_list_box .mission_item .mission_status
+{
+	width:69px;
+	height: 21px;
+	text-indent: -9999px;
+}
+
+.mission_list_box .mission_item .mission_active_status
+{
+	background: url(../images/missions/active_complete.png) no-repeat 0 0;
+}
+
+.mission_list_box .mission_item .mission_active_favorite
+{
+	background: url(../images/missions/active_complete.png) no-repeat 0 -21px;
+}
+
+.mission_list_box .mission_item .mission_detail_btn
+{
+	position: absolute;
+	bottom: 5px;
+	left: 95px;
+}
+
+.mission_list_box .mission_item .mission_item_options
+{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
+
+
+/* Details Mode */
+/* ------------ */
+.mission_list_box .mission_detailed_item
+{
+	height: 170px;
+	border-width: 1px 0 1px 0;
+	margin: 0 0 5px 0;
+	background: #f4f6f5;
+}
+
+.mission_list_box .mission_detailed_item .mission_icon
+{
+	margin: 8px;
+	width: 152px;
+	height: 152px;
+	border: 0;
+	background: transparent;
+}
+
+.mission_list_box .mission_detailed_item .mission_info
+{
+	position: absolute;
+	top: 5px;
+	left: 170px;
+	width: 300px;
+}
+
+.mission_list_box .mission_detailed_item .mission_activate_btn,
+.mission_list_box .mission_detailed_item .mission_status,
+.mission_list_box .mission_detailed_item .mission_progress
+{
+	left: 170px;
+	bottom: 7px;
+}
+
+.mission_list_box .mission_detailed_item .mission_progress_bar
+{
+	left: 324px;
+	bottom: 10px;
+}
+
+.mission_list_box .mission_detailed_item .mission_status_completed
+{
+	left: 525px;
+	bottom:4px;
+}
+
+.mission_list_box .mission_detailed_item .mission_time
+{
+	bottom: 5px;
+	left: 535px;
+	text-align: center;
+	bottom: 7px;
+}
+
+.mission_list_box .mission_detailed_item .mission_completed_date
+{
+	position: absolute;
+	right: 180px;
+	bottom: 7px;	
+}
+
+.mission_list_box .mission_detailed_item .mission_time_expired
+{
+	left: 290px;
+	width: 300px;
+	bottom: 7px;	
+}
+
+.mission_list_box .mission_detailed_item .mission_cost
+{
+	left: 158px;
+}
+
+.mission_list_box .mission_detailed_item .mission_play_btn
+{
+	position: absolute;
+	left: 170px;
+	bottom: 30px;
+}
+
+.mission_list_box  .mission_premium_stats {
+	position: relative;
+	top: -10px;
+	background: #AFE4FF;
+	height: 30px;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0;
+}
+
+.mission_list_box  .mission_premium_stats .mission_challenge_again
+{
+	position: absolute;
+	left: 20px;
+	top: 3px;
+}
+
+.mission_list_box  .mission_premium_stats .mission_premium_completed
+{
+	position: absolute;
+	left: 170px;
+	top: 5px;
+	display: block;	
+}
+
+.mission_list_box  .mission_premium_stats .mission_premium_besttime
+{
+	position: absolute;
+	left: 400px;
+	top: 5px;
+	display: block;	
+}
+
+.mission_list_box .premium_mission_list .mission_detailed_item .mission_cost
+{
+	bottom: 50px;
+	left: 170px;
+}
+
+/* Mission Comment Styles */
+/* ---------------------- */
+
+.mission_comment_box
+{
+	position: relative;
+	display: none;
+	width: 100%;
+}
+
+.mission_comment_box textarea
+{
+	position: relative;
+	height: 40px;
+	width: 80%;
+	margin: 5px 5px 20px 20px;
+	font-style: italic; 
+	color: #c0c0c0;
+	display: block; 
+	border: 1px solid #c0c0c0;
+	resize: none;
+}
+
+.mission_comment_box textarea.disabled
+{
+	background: #dedede;
+}
+
+.no_mission_comment_box
+{
+	position: relative;
+	margin: 5px 0px;
+	text-align: center;
+}
+
+.mission_comment_post_btn
+{
+	position: relative;
+	margin: 13px 0 0 10px;
+	text-align:center;
+}
+
+.mission_comment_item
+{
+	position: relative;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0;
+	background: #f4f6f5;
+	text-align: left;
+}
+
+.mission_comment_item img.mission_comment_avatar
+{
+	position: relative;
+	top: 10px;
+	left: 10px;
+	height: 40px;
+	width: 40px;
+	border: 1px solid #c0c0c0;
+}
+
+.mission_comment_item p.mission_comment_name
+{
+	position: absolute;
+	top: 5px;
+	left: 60px;
+}
+
+.mission_comment_item p.mission_comment_text
+{
+	position: relative;
+	top: -10px;
+	left: 60px;
+	width: 75%;
+	overflow: hidden;
+}
+
+.mission_comment_item p.mission_comment_options
+{
+	position: absolute;
+	top: 30px;
+	right: 10px;
+}
+
+.mission_comment_box p.mission_comment_error
+{
+	position: relative;
+	bottom: 10px;
+	right: 130px;
+
+	font-size: 11px;
+	font-style: italic;
+	color: #f00;
+	text-align: right;
+
+}
+
+.mission_reply_comment_item
+{
+	position: relative;
+	border: 1px solid #B9CDE5;
+	background: #DCE6F2;
+	left: 30px;
+	margin: 3px;
+	width: 93%;
+}
+
+.mission_even_item
+{
+	border: 0;  
+	background: #fff; 
+}
+
+.mission_end_item
+{
+	border: 1px solid #c0c0c0;
+	border-width: 0 0 1px 0;
+}
+
+.mission_achievement_popup .mission_comment_box
+{
+	width: auto;	
+}
+
+
+/* Mission Collection Item */
+/* ----------------------- */
+.mission_collection_item
+{
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0;	
+}
+
+.mission_collection_item .mission_collection_description
+{
+	position: relative;
+	width: 165px;
+}
+
+.mission_collection_item .button_small_grey_seeinside
+{
+	position: relative;
+	left: 70px;
+}
+
+.mission_achievement_popup .mission_collection_item
+{
+	position: relative;
+	border-width: 1px 1px;
+	padding: 10px; 
+	background: url(../images/missions/rainbow_background.png) no-repeat;	
+}
+
+
+/* Pager Nav Styles */
+/* ================ */
+
+.pager_page_nav
+{
+	clear: both;
+	text-align: center;
+}
+
+.pager_page_nav a
+{
+	margin-left: 5px;
+}
+
+.pager_page_nav .pager_page_selected
+{
+	color: #333;	
+}
+
+.pager_page_nav .pager_page_selected:hover
+{
+	color: #333;
+	cursor: default;
+	text-decoration: none;
+}
+
+.pager_comment_page_nav
+{
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0 0 0;
+}
+
+
+.mission_star_rating
+{
+	position: absolute; 
+	right: 5px; 
+	top: 5px;
+	z-index: 9999;
+	font-size: 11px;
+	font-style: italic; 
+}
+
+.mission_star_rating img
+{
+	width: 25px;
+	height: 25px;
+	cursor: pointer;	
+}
+
+.mission_completion_text
+{
+	background: #C1D7FF;
+	border: 1px solid #0059FF;
+	padding: 2px;
+	width: 442px;
+	color: #333;
+}
+
+
+.mission_module_container
+{
+	position: relative;
+	margin-top: 8px;
+}
+
+
+/* Mission Grid */
+
+.mission_my_grid_container
+{
+	width: 620px;
+	margin: 0 auto; 
+	display: block; 
+}
+
+
+
+/* Mission Leaderboard */
+div.mission_mini_leaderboard_container
+{
+	width:303px;
+	display: none;
+}
+
+div.mission_mini_leaderboard_container .box_content
+{
+	min-height: 74px;
+}
+
+div.mission_mini_leaderboard
+{
+	border: 1px solid #c0c0c0;
+	border-width: 0 0 1px 0;
+}
+
+div.mission_mini_lb_slot
+{
+	position: relative;
+	width:298px;
+	min-height: 60px;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0 0 0;
+}
+
+div.mission_mini_lb_slot_odd
+{
+	background:#F4F6F5 none repeat scroll 0 0;
+}
+
+div.mission_mini_lb_rank 
+{
+	float:left;
+	width:26px;
+	text-indent: 5px;
+}
+
+div.mission_mini_lb_info 
+{
+	position: relative;
+	float:left;
+	margin-left:5px;
+	margin-top:5px;
+}
+
+img.mission_mini_lb_avatar
+{
+	float:left;
+	margin-top:4px;
+	border-color:#C0C0C0;
+	border-style:solid;
+	border-width:1px;
+}
+
+p.mission_lb_comment_text
+{
+	margin-left:3px;
+	margin-top:5px;
+	font-size: 11px;
+	font-style: italic; 
+	padding-left: 20px;
+	width: 275px;
+	overflow-x: hidden;
+}
+
+div.mission_mini_lb_slot p.mission_lb_comment_text
+{
+	overflow: hidden;
+}
+
+div.mission_lb_link
+{
+	margin-left:251px;
+}
+
+div.mission_lb_rank 
+{
+	float:left;
+	width:30px;
+	margin-left: 5px;
+}
+
+div.mission_lb_info 
+{
+	position: relative;
+	float:left;
+	margin-left:5px;
+	margin-top:5px;
+	width:10px;
+}
+
+img.mission_lb_avatar
+{
+	float:left;
+	margin-top:4px;
+	border-color:#C0C0C0;
+	border-style:solid;
+	border-width:1px;
+}
+
+div.mission_leaderboard_box
+{
+	border: 1px solid #c0c0c0;
+	border-width: 0 0 1px 0;
+}
+
+div.mission_lb_slot
+{
+	position: relative;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0 0 0;
+	height: 60px;
+}
+
+div.mission_lb_slot_odd
+{
+	background:#F4F6F5 none repeat scroll 0 0;
+}
+
+p.mission_lb_player
+{
+	margin-left:34px;
+}
+
+p.mission_lb_time
+{
+	margin-left:218px;
+}
+
+p.mission_lb_date
+{
+	margin-left:170px;
+}
+
+div.mission_lb_time_val
+{
+	margin-top:16px;
+	margin-left:219px;
+	float:left;
+}
+
+div.mission_lb_date_val
+{
+	margin-top:16px;
+	margin-right:40px;
+	float:right;
+}
+
+/* Profile Mission Grid */
+/* -------------------- */
+
+.mission_grid_page
+{
+	margin-left:10px; 
+	margin-right:10px; 
+	margin-top:5px;	
+}
+
+
+
+/* Advertisement */
+/* ------------- */
+
+.mission_ad_container
+{
+	position: relative;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+img.mission_ad_header {
+	position:absolute;
+	right:0;
+	top: -5px;
+}
+
+div.mission_advertisement
+{
+	position: relative;
+	width: 300px;
+	height: 250px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #c0c0c0;
+ 	-moz-box-sizing:content-box;
+}
+
+
+/* NEW LAYOUT OVERRIDES */
+.mission_module_box .tab_activated_content .mission_item .mission_type_name
+{
+	display: none;	
+}
+.mission_module_box_new .tab_activated_content .mission_item .mission_type_name
+{
+	display: block !important;
+	position: absolute;
+	left: 60px;
+}
+.mission_module_box_new .tab_activated_content .mission_item .mission_icon
+{
+	top: -5px !important;
+	left: 1px !important;	
+}
+
+.mission_module_box_new .tab_activated_content .mission_item .mission_icon img
+{
+	width: 68px !important;
+	height: 68px !important;
+}
+
+.mission_module_box_new .tab_activated_content .mission_item .mission_name,
+.mission_module_box_new .tab_activated_content .mission_item .mission_type_name,
+.mission_module_box_new .tab_activated_content .mission_item .mission_progress_bar
+{
+	left: 77px !important;	
+}
+.mission_module_box_new .mission_module_list .mission_item
+{
+	width: 300px;	
+	margin: 0 !important;
+	border: 0 !important;
+	background: #fff !important;
+}
+ 
+.mission_module_box_new .mission_module_list div.shop_grid_item
+{
+	margin: 0 !important;	
+}
+
+.mission_module_box_new .mission_module_list div.shop_grid_item .mission_item
+{
+	background: transparent !important;
+}
+
+.mission_module_box_new .mission_module_list div.shop_grid_item .mission_item .mission_icon
+{
+	top: 5px !important;
+	left: 11px !important;
+	margin: 0 !important;
+	border: 0 !important;
+}
+
+.mission_module_box_new .mission_module_list div.shop_grid_item .mission_item .mission_icon,
+.mission_module_box_new .mission_module_list div.shop_grid_item .mission_item .mission_icon img
+{
+	width: 78px !important;
+	height: 78px !important;
+	left: 5px !important;
+}
+
+.mission_module_box_new .mission_module_list div.shop_grid_item .mission_cost
+{
+	position: relative;
+	top: 15px;
+	font-size:12px;
+	line-height:24px;
+}
+
+.mission_module_box_new .mission_module_list .shop_item
+{
+	height: 100px !important;
+	background: none;
+}

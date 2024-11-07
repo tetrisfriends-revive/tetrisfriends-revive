@@ -1,0 +1,196 @@
+/* Main container for the accessories scrollable */
+div.accessories {
+	position:relative;
+	top: 0;
+	left: 0;
+    height:170px;
+	background: #F6F4F5;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0;
+}
+
+div.accessory_header {
+	position:relative;
+	color: #6C6C6C;
+	top: 0px;
+	display: block;
+	text-indent: 100px;
+	line-height: 28px;
+}
+
+div.accessory_header a {
+	position: absolute;
+	top: 0;
+	right: 5px;	
+}
+
+/*
+    root element for the scrollable.
+    when scrolling occurs this element stays still.
+*/
+div.scrollable {
+    /* required settings */
+    position:relative;
+    height:180px;
+    width: 522px;
+    top: 0px;
+    left: 51px;
+    overflow:hidden;
+}
+ 
+/*
+    root element for scrollable items. Must be absolutely positioned
+    and it should have a super large width to accomodate scrollable items.
+    it's enough that you set width and height for the root element and
+    not for this element.
+*/
+div.scrollable div.items {
+    /* this cannot be too large */
+    width:20000em;
+    position:absolute;
+	clear:both;		
+}
+ 
+/*
+    a single item. must be floated on horizontal scrolling
+    typically this element is the one that *you* will style
+    the most.
+*/
+div.scrollable div.items div.shop_item {
+	float: left;
+	
+	/* custom decoration */
+	position: relative;
+	text-align:center;
+	height: 138px;
+	width: 100px;
+	padding:0px 0px;
+	font-size:12px;
+	border:none;
+	background: url(../images/shop/accessorySelector_btn.png) no-repeat 0 0;
+	margin-top: 2px;
+	margin-left: 3px;
+	margin-right: 2px;	
+	cursor: pointer;
+}
+
+div.scrollable div.items div.scrollable_hover,
+div.scrollable div.items div.shop_item:hover {
+	/* Display OVER state of accessory */
+	background-position:0px -160px;
+}
+
+div.scrollable div.items div span.shop_item_type
+{
+ 	position: absolute;
+	width: 100%;
+	top: 6px;
+	left: 0px;
+}
+ 
+div.scrollable div.items div span.accessory_name
+{
+ 	position: absolute;
+	width: 100%;
+	top: 75px;
+	left: 0px;
+}
+
+div.scrollable img.shop_item_pic
+{
+	height: 53px;
+	width: 88px;
+	position: absolute;
+	top: 21px;
+	left: 3px;
+	cursor: pointer;
+}
+
+div.scrollable div.items div span.shop_item_cost
+{
+	position: absolute;
+	top: 95px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+div.scrollable div.items div span.shop_item_cost td
+{
+	width: 45px;
+}
+
+div.scrollable div.items div div.shop_item_button
+{
+	position: relative;
+	width: 100px;
+	top: 140px;
+	left: 0px;
+	margin: 0 auto;
+}
+
+div.scrollable div.items div.shop_item_button a.shop_item_active
+{
+	background: url(../images/missions/active_complete.png) no-repeat 0 0;
+	cursor: default;
+	width: 70px;
+}
+
+ 
+/* active item */
+div.scrollable div.items div.active {
+	background-position: 0px 0px;
+}
+
+div.scrollable div.items div img.icon {
+	margin-top: 24px;
+	width: 88px;
+	height: 53px;
+}
+
+div.scrollable div.items div img.locked {
+	left: 2px;
+	width: 17px;
+	height: 24px;
+	margin-top: 74px;
+	position: absolute;
+}
+
+div.scrollable div.items div img.new {
+	position: absolute;
+	top: -29px;
+	left: 37px;
+}
+
+/* positioning for prev, next, prevPage buttons */
+a.prev, a.prevPage {
+	position: absolute;
+	cursor:pointer;
+	display:block;
+	left: 10px;
+	top: 64px;
+}
+
+/* positioning for next button */
+a.next, a.nextPage {
+	position: absolute;
+	cursor:pointer;
+	display:block;
+	right: 10px;
+	top: 64px;
+}
+
+/* disabled navigational button */
+a.disabled {
+	visibility:hidden;	/* important */
+}
+
+
+
+/* NEW LAYOUT OVERRIDES */
+
+.accessories_new
+{
+	border: 0 !important;
+	background: #fff !important;
+}

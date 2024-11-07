@@ -1,0 +1,546 @@
+@CHARSET "ISO-8859-1";
+
+/* CSS for the tetrisfriends.com help page.	*/
+/* It's mostly for tabbing sections and		*/
+/* Formatting lists.				*/
+
+div.tips_live_area p{
+	position: relative;
+}
+
+p.tips_strategy_body {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 12px; 
+	line-height:16px;
+	margin-left:30px;
+	margin-right:10px;
+}
+
+p.tips_intro_body {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 12px; 
+	line-height:16px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+span.tips_emphasis_body {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-weight:bold;
+	font-size: 16px; 
+	line-height:18px;
+}
+
+span.tips_mode_emphasis {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-weight:bold;
+	font-size: 14px; 
+	line-height:15px;
+}
+
+p.tips_T_tip {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 12px;
+	padding-left:35px;
+	margin-top:10px;
+	line-height:14px;
+}
+
+h1.tips_big_headline {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-weight:bold;
+	font-size:30px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-top:0px; 
+}
+
+h1.tips_article_headline {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-weight:bold;
+	font-size:18px;
+	margin-bottom:5px;
+	margin-top:3px;
+	margin-left:10px; 
+}
+
+div.tips_live_area {
+	position: relative;
+	width:653px;
+	height:auto;
+	margin-bottom:20px;
+	padding-top:0px;
+}
+
+div.tips_strat_article {
+	position: relative;
+	width: auto;
+	!width:629px;
+	height:auto;
+	margin-left:20px;
+	text-align:left;
+	border-style:solid;
+	border-width:2px;
+	border-color:#666666;
+	overflow: hidden;
+}
+
+div.tips_headline_banner {
+	width:auto;
+	height:30px;
+	background-color:#F0F0F0; 
+	border-style:solid; 
+	border-color:#C0C0C0;
+	border-width:1px;
+	border-left:none;
+	border-right:none; 
+	margin-bottom:10px;
+	margin-right:0px;
+}
+
+div.tips_topic_banner {
+	width:auto;
+	height:22px;
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 13px; 
+	border-style:solid; 
+	border-color:#C0C0C0;
+	border-width:1px;
+	border-left:none;
+	margin-top:2px;
+	margin-bottom:5px;
+	padding-top:2px;
+}
+
+div.tips_topic_bannerR {
+	width:auto;
+	height:22px;
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 13px; 
+	border-style:solid; 
+	border-color:#C0C0C0;
+	border-width:1px;
+	border-left:none;
+	border-right:none;
+	margin-top:2px;
+	margin-bottom:5px;
+	padding-top:2px
+}
+
+div.tips_ad_space {
+	float:right;
+	position:relative;
+	right:19px;
+}
+
+img.tips_ad_header {	
+	position:absolute;	
+	right:0;	
+	top: -5px;
+}
+
+div.tips_advertisement{	
+	width: 300px;	
+	height: 250px;	
+	border-width: 1px;	
+	border-style: solid;	
+	border-color: #c0c0c0;
+	 -moz-box-sizing:content-box;
+}
+
+a.tips_game_mode_link {
+	display:block;
+	width:auto;
+	height:auto;
+	border-style:solid;
+	border-color:#C0C0C0;
+	border-width:1px;
+	border-bottom:none;
+}
+
+a.tips_article_topic {
+	text-decoration:none;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 12px; 
+	line-height:16px;
+	
+}
+
+div.tips_topic_boxes {
+	height:70px;
+	border-right:dotted;
+	border-right-width:1px;
+	border-right-width:1px;
+	border-color:#C0C0C0;
+}
+
+div.tips_topic_boxesR {
+	height:70px;
+}
+
+div.tips_extratip {
+	margin-left:30px;
+	margin-right:10px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#C0C0C0;
+	padding:5px;
+	padding-bottom:15px;
+	background-color:#F0F0F0;
+	background-image:url(../help/images/strategy_articles/Tip_Tetrimino.png);
+	background-repeat:no-repeat;
+}
+
+div.tips_top_left_corner {
+	float:left;
+	position:absolute;
+	top:0px;
+	left:20px;
+	width:11px;
+	height:11px;
+	z-index: 100;
+	overflow: hidden;
+}
+
+div.tips_top_right_corner {
+	float:right;
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:11px;
+	height:11px;
+	z-index: 100;
+	overflow: hidden;
+}
+div.tips_btm_left_corner {
+	float:left;
+	position:relative;
+	bottom:11px;
+	left:20px;
+	width:11px;
+	height:11px;
+}
+
+div.tips_btm_right_corner {
+	float:right;
+	position:relative;
+	bottom:11px;
+	right:0px;
+	width:11px;
+	height:11px;
+}
+
+td.tips_game_mode_slot {
+	border-style:solid;
+	border-color:#C0C0C0;
+	border-width:1px;
+	border-bottom:none;
+}
+
+td.tips_game_mode_slot2 {
+	border-style:solid;
+	border-color:#C0C0C0;
+	border-width:1px;
+}
+
+a.tips_terms {
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-weight:normal;
+	font-size:16px;
+}
+
+a.tips_answer {
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	text-align:left;
+	color:#666666;
+	line-height:20px;
+	text-decoration:none;
+}
+
+a.tips_return {
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	color:#999999;
+}
+
+a.tips_gotolink {
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 14px; 
+	line-height:16px;
+}
+
+p.tips_terms_body {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 12px; 
+	line-height:16px;
+	border-bottom-style:solid;
+	border-bottom-color:#F0F0F0;
+	border-bottom-width:1px;
+	margin-left:30px;
+	margin-right:10px;
+	margin-bottom:10px;
+	padding-bottom:30px;
+}
+
+p.tips_moves {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 12px; 
+	line-height:16px;
+}
+
+span.tips_terms_connection {
+	margin-left: 30px; 
+	list-style-type: disc;
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 12px; 
+	line-height:16px;
+}
+
+a.tips_appendix_category {
+	cursor:pointer;
+	font-size:16px;
+	font-weight:normal;
+	margin-left:10px;
+	line-height:20px;
+}
+
+ul.tips_appendix {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 12px; 
+	line-height:16px;
+}
+
+div.tips_appendix_chart table {
+	border-bottom-style:solid;
+	border-bottom-color:#C0C0C0;
+	border-bottom-width:1px;
+}
+div.tips_appendix_chart th {
+	width:191px;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-top: 3px;
+	text-align: center;
+	background-color: #F0F0F0;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-top-color:#C0C0C0;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:#C0C0C0;
+}
+
+div.tips_appendix_chart {
+	margin-left:10px;
+	margin-right:10px;
+	width:auto;
+	height:auto;
+	border-left-style:solid;
+	border-left-color:#C0C0C0;
+	border-left-width:1px;
+}
+
+div.tips_appendix_chart .cellshade {
+	background-color: #F0F0F0;
+}
+
+div.tips_appendix_chart td {
+	width:191px;
+	text-align: center;
+	padding: 3px;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-top-color:#C0C0C0;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:#C0C0C0;
+}
+
+tr.tips_appendix_chart_banner {
+	width:auto;
+	height:22px;
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 13px; 
+	border-style:solid; 
+	border-color:#C0C0C0;
+	border-width:1px;
+	border-left:none;
+	margin-top:2px;
+	margin-bottom:5px;
+	padding-top:2px;
+	background-color:#F0F0F0;
+}
+
+div.tips_rally_chart {
+	margin-left:10px;
+	margin-right:10px;
+	width:auto;
+	height:auto;
+}
+
+div.tips_rally_chart table {
+	border-collapse: collapse;
+	border: 1px solid #c0c0c0;	
+}
+
+div.tips_rally_chart .cellshade {
+	background-color: #F0F0F0;
+}
+
+div.tips_rally_chart th,
+div.tips_rally_chart td {
+	padding: 3px;
+	text-align: center;
+}
+
+tr.tips_rally_chart_banner {
+	width:auto;
+	height:22px;
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 13px; 
+	margin-top:2px;
+	margin-bottom:5px;
+	padding-top:2px;
+	background-color:#F0F0F0;
+}
+
+i.tips_note {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 12px; 
+	line-height:16px;
+	margin-left:0px;
+	margin-right:10px;
+}
+
+span.tips_tetrimino_chart { 
+	display:block;
+	width:auto;
+	height:65px;
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 12px; 
+	line-height:16px;
+	border-style:solid;
+	border-color:#C0C0C0;
+	border-width:1px;
+	margin-left:30px;
+	margin-bottom:5px;
+	margin-right:10px;
+	padding-left:100px; 
+}
+
+p.tips_leaderboard {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 12px; 
+	line-height:16px;
+	padding-top:5px;
+	padding-left:10px;
+}
+
+span.tips_leaderboard_heavy {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-weight:bold;
+	font-size: 14px; 
+	line-height:15px;
+}
+
+div.tips_concepts_plug {
+	background-color:#F5F5F5;
+	border-top-style:dotted;
+	border-top-width:1px;
+	border-color:#C0C0C0;
+	border-bottom-style:solid;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	margin-bottom:0px;
+	margin-top:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+div.tips_game_mode_banner {
+	position:absolute;
+	background-repeat:no-repeat;
+	float:left;
+	top:0px;
+	left:20px;
+	width:445px;
+	height:100px;
+	z-index: 100;
+}
+
+div.tips_skill_banner {
+	position: absolute;
+	background-repeat:no-repeat;
+	float:left;
+	top:0px;
+	left:20px;
+	width:132px;
+	height:132px;
+	z-index: 100;
+}
+
+/* This stylesheet is to format the Token tables.	*/
+
+div.token_chart table {
+	border-collapse: collapse;
+}
+
+div.token_chart th {
+	padding-left: 5px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-top: 3px;
+	text-align: center;
+	background-color: #F0F0F0;
+	border-width: 0 1px 1px 0;
+	border-style:solid;
+	border-color:#C0C0C0;
+
+}
+
+div.token_chart {
+	margin-left:10px;
+	margin-right:10px;
+	width:auto;
+	height:auto;
+	border-style:solid;
+	border-width: 1px 0 0 1px;
+	border-color:#C0C0C0;
+}
+
+div.token_chart .cellshade {
+	background-color: #F0F0F0;
+}
+
+div.token_chart td {
+	text-align: center;
+	padding: 3px;
+	border-width: 0 1px 1px 0;
+	border-style:solid;
+	border-color:#C0C0C0;
+}
+

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<offers>
+	<offer>
+		<id>1</id>
+		<offer_code>jambool_discount_10</offer_code>
+		<offer_type>jambool</offer_type>
+		<external_code>cqvnbekt91y933qvynuswkijq</external_code>
+		<date_start>2010-08-09 00:00:00</date_start>
+		<date_expires>2010-08-27 00:00:00</date_expires>
+		<is_active>1</is_active>
+	</offer>
+	<offer>
+		<id>2</id>
+		<offer_code>gwallet_discount_25</offer_code>
+		<offer_type>gwallet</offer_type>
+		<external_code>ec14bbdfe3064dc6be1493e82533377b</external_code>
+		<date_start>2010-08-09 00:00:00</date_start>
+		<date_expires>2012-08-27 00:00:00</date_expires>
+		<is_active>1</is_active>
+	</offer>
+
+	<offer>
+		<id>1000</id>
+		<offer_code>mothers_day</offer_code>
+		<offer_type>trialpay</offer_type>
+		<external_code>dotd</external_code>
+		<date_start>2010-05-03 00:00:00</date_start>
+		<date_expires>2010-05-10 00:00:00</date_expires>
+		<is_active>0</is_active>
+	</offer>
+	<offer>
+		<id>1001</id>
+		<offer_code>PROMO_ACCESSORY_8001</offer_code>
+		<offer_type>accessory</offer_type>
+		<external_code>1</external_code>
+		<date_start>2010-06-06 00:00:00</date_start>
+		<date_expires>2010-06-14 00:00:00</date_expires>
+		<is_active>0</is_active>
+	</offer>
+	<offer>
+		<id>1002</id>
+		<offer_code>PROMO_MISSION_5018</offer_code>
+		<offer_type>mission</offer_type>
+		<external_code>1</external_code>
+		<date_start>2010-07-04 00:00:00</date_start>
+		<date_expires>2010-07-10 00:00:00</date_expires>
+		<is_active>0</is_active>
+	</offer>
+	
+	
+	
+	
+	<offer>
+		<id>100</id>
+		<offer_code>GIVEAWAY_TOKEN</offer_code>
+		<offer_type>daily_spin</offer_type>
+		<external_code>75.098,token:15</external_code>
+		<date_start>2010-06-04 00:00:00</date_start>
+		<date_expires>2011-06-11 00:00:00</date_expires>
+		<is_active>1</is_active>
+	</offer>
+	<offer>
+		<id>101</id>
+		<offer_code>GIVEAWAY_TOKEN</offer_code>
+		<offer_type>daily_spin</offer_type>
+		<external_code>10,token:50</external_code>
+		<date_start>2010-06-04 00:00:00</date_start>
+		<date_expires>2011-06-11 00:00:00</date_expires>
+		<is_active>1</is_active>
+	</offer>
+	<offer>
+		<id>106</id>
+		<offer_code>GIVEAWAY_TOKEN</offer_code>
+		<offer_type>daily_spin</offer_type>
+		<external_code>200.0,token:100</external_code>
+		<date_start>2010-06-04 00:00:00</date_start>
+		<date_expires>2011-06-11 00:00:00</date_expires>
+		<is_active>1</is_active>
+	</offer>
+	<offer>
+		<id>102</id>
+		<offer_code>GIVEAWAY_TOKEN</offer_code>
+		<offer_type>daily_spin</offer_type>
+		<external_code>0.1,token:500</external_code>
+		<date_start>2010-06-04 00:00:00</date_start>
+		<date_expires>2011-06-11 00:00:00</date_expires>
+		<is_active>1</is_active>
+	</offer>
+	<offer>
+		<id>103</id>
+		<offer_code>GIVEAWAY_RUBY</offer_code>
+		<offer_type>daily_spin</offer_type>
+		<external_code>1.25,ruby:1</external_code>
+		<date_start>2010-06-04 00:00:00</date_start>
+		<date_expires>2011-06-11 00:00:00</date_expires>
+		<is_active>1</is_active>
+	</offer>
+	<offer>
+		<id>104</id>
+		<offer_code>GIVEAWAY_RUBY</offer_code>
+		<offer_type>daily_spin</offer_type>
+		<external_code>0.05,ruby:5</external_code>
+		<date_start>2010-06-04 00:00:00</date_start>
+		<date_expires>2011-06-11 00:00:00</date_expires>
+		<is_active>1</is_active>
+	</offer>
+	<offer>
+		<id>105</id>
+		<offer_code>GIVEAWAY_RUBY</offer_code>
+		<offer_type>daily_spin</offer_type>
+		<external_code>0.002,ruby:25</external_code>
+		<date_start>2010-06-04 00:00:00</date_start>
+		<date_expires>2011-06-11 00:00:00</date_expires>
+		<is_active>1</is_active>
+	</offer>
+	
+	<offer>
+		<id>200</id>
+		<offer_code>GIVEAWAY_ITEM</offer_code>
+		<offer_type>daily_spin</offer_type>
+		<external_code>8,item:8003:50 HP,-1:50:1:1000</external_code>
+		<date_start>2010-06-04 00:00:00</date_start>
+		<date_expires>2011-06-11 00:00:00</date_expires>
+		<is_active>1</is_active>
+	</offer>
+	<offer>
+		<id>201</id>
+		<offer_code>GIVEAWAY_ITEM</offer_code>
+		<offer_type>daily_spin</offer_type>
+		<external_code>1.5,item:8000:1 Day,1:1:0:1</external_code>
+		<date_start>2010-06-04 00:00:00</date_start>
+		<date_expires>2011-06-11 00:00:00</date_expires>
+		<is_active>1</is_active>
+	</offer>
+	<offer>
+		<id>202</id>
+		<offer_code>GIVEAWAY_ITEM</offer_code>
+		<offer_type>daily_spin</offer_type>
+		<external_code>2,item:7000:1 Day,1:1:0:1</external_code>
+		<date_start>2010-06-04 00:00:00</date_start>
+		<date_expires>2011-06-11 00:00:00</date_expires>
+		<is_active>1</is_active>
+	</offer>
+</offers>

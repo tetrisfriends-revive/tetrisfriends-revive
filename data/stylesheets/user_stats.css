@@ -1,0 +1,456 @@
+body.popup_body {
+	background: #fff;
+}
+
+.user_stats {
+	width: 760px;
+}
+
+.popup_left {
+	text-align: left;
+}
+
+.user_stats h2 {
+	position: relative;
+}
+
+a.user_stats_close_button {
+	margin: 5 26px 10px 0;
+}
+
+table.user_stats_profile {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.user_stats_profile td {
+	text-indent: 10px;
+	background: #F6F4F5;
+	font-size: 14px;
+	padding-right: 10px;
+	color: #666;
+}
+
+table.user_stats_profile td.leaderboard_avatar_cell {
+	width: 115px;
+	height: 115px;
+	background: #fff;
+	border: 1px solid #666;
+	border-width: 0 1px 0 0;
+}
+
+table.user_stats_profile td.leaderboard_avatar_cell img {
+	margin-left: 5px;
+}
+
+table.user_stats_profile td.profile_message_cell {
+	background: #EAEAEA;
+	font-size: 11px;
+	height: 30px;
+}
+
+a.user_stats_profile_button {
+	position: relative;
+	top: 0px;
+}
+
+span#user_stats_best_game_stats a
+{
+	position: relative;	
+}
+
+a.user_stats_best_game_button {
+	display: inline;
+	margin-left: 38px;	
+}
+
+a.user_stats_lifetime_stats_button {
+	display: inline;
+	margin-left: 5px;
+}
+
+input.user_stats_with_maps {
+	display: inline; /* ie6 padding fix */
+	margin: 0 0 10px 55px;
+}
+
+input.user_stats_without_maps {
+	display: inline; /* ie6 padding fix */
+	margin: 0 0 10px 5px;
+}
+
+.user_stats h2 {
+	border-bottom: 1px solid #666;
+	font-size: 20px;
+	font-weight: bold;
+	color: #666;
+	padding: 2px;
+}
+
+.user_stats_replay {
+	float: left;
+	height: 355px;
+	width: 428px;
+	overflow: hidden;
+}
+
+.user_stats_replay div.replayContent {
+	position: relative;
+	top: 0;
+	left: -92px;
+}
+
+.user_stats_view_lb {
+	margin-top: 18px;
+	text-align: center;
+	width: 422px;
+}
+
+.user_stats_details_box {
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 300px;
+}
+
+.user_stats_details_box p {
+	font-size: 18px;
+	font-weight: bold;
+	color: #666;
+	margin-bottom: 10px;
+}
+
+.user_stats_details {
+	margin-top: 10px;
+}
+
+.user_stats_table_box table {
+	margin: -4px auto;
+	border-collapse: collapse;
+	color: #666;
+	width: 300px;
+	border: 1px solid #c0c0c0;
+}
+
+.user_stats_table tr {
+	height: 22px;
+}
+
+.user_stats_table th {
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+.user_stats_table td {
+	text-align: right;
+	font-size: 12px;
+	padding-right: 5px;
+}
+
+.user_stats_table tr.user_stats_even th,.user_stats_table tr.user_stats_even td
+	{
+	background: #F6F4F5;
+}
+
+.user_stats_mp_trophy_stats {
+	position: relative;
+	left: 0;
+	width: 428px;
+	margin-top: 5px;
+}
+
+.user_stats_mp_trophy_stats h1 {
+	color: #666666;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.user_stats_mp_trophy_stats p {
+	font-size: 18px;
+	font-weight: bold;
+	color: #666;
+}
+
+.user_stats_mp_trophy_stats .user_stats_mp_place {
+	position: relative;
+	width: 250px;
+	margin-left: 75px; !
+	margin-left: 10px;
+	border: 1px solid #c0c0c0;
+	border-width: 0 0 2px 0;
+	padding: 0 0 15px 35px;
+}
+
+.user_stats_mp_trophy_stats .user_stats_mp_place .user_stats_sprint_place
+	{
+	position: relative;
+	margin-left: 30px; !
+	margin-left: 40px;
+}
+
+.user_stats_mp_trophy_stats .user_stats_mp_place .user_stats_sprint_place div
+	{
+	clear: both;
+}
+
+.user_stats_mp_trophy_stats .user_stats_mp_place .user_stats_battle_place
+	{
+	margin-left: -25px; !
+	margin-left: -50px;
+}
+
+.user_stats_mp_trophy_stats .user_stats_mp_place .user_stats_battle_place p
+	{
+	clear: both; /* Force Battle Stats to stack */
+	width: 160px;
+}
+
+.user_stats_mp_trophy_stats .user_stats_mp_place .user_stats_battle_place p font
+	{
+	position: absolute;
+	right: 0;
+}
+
+.user_stats_mp_trophy_stats .user_stats_mp_place_stats {
+	position: relative;
+	margin-left: 50px; !
+	margin-left: 25px;
+	width: 300px;
+}
+
+.user_stats_mp_trophy_stats .user_stats_mp_place_stats p {
+	position: relative;
+	padding-top: 15px;
+	font-size: 14px;
+	text-align: left;
+}
+
+.user_stats_mp_trophy_stats .user_stats_mp_place_stats p font {
+	position: absolute;
+	right: 0;
+}
+
+.user_stats_mp_trophy_stats .user_stats_mp_place img {
+	clear: both; /* Forces trophies to start on next line */
+}
+
+.user_stats_mp_trophy_stats .user_stats_mp_place p {
+	width: auto;
+	position: relative;
+	top: -5px; !
+	top: -8px;
+	padding-bottom: 10px;
+}
+
+.user_stats_mp_main_stats {
+	width: 760px;
+	height: 70px;
+	border: 1px solid #c0c0c0;
+	background: #F6F4F5;
+}
+
+.user_stats_rank {
+	float: left;
+	position: relative;
+	top: 0px;
+	margin-top: 15px;
+	margin-left: 20px;
+	text-align: left;
+}
+
+.user_stats_rank img.rank_icon {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	left: 20px; /*40px;*/
+}
+
+.user_stats_rank p {
+	position: relative;
+	left: 105px;
+	top: -10px;
+	font-weight: bold;
+	color: #666;
+}
+
+.user_stats_stars {
+	position: absolute;
+	left: 125px;
+	top: 50px;
+}
+
+.user_stats_place {
+	float: right;
+	margin-right: 30px;
+	margin-top: 5px;
+}
+
+div.user_stats_place.user_stats_battle {
+	margin-right: 0;
+}
+
+div.user_stats_place.user_stats_battle p {
+	color: #666;
+	width: 90px;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	margin-right: 2px;
+}
+
+div.user_stats_place.user_stats_battle p font {
+	position: relative;
+	font-weight: normal;
+	padding-left: 5px;
+}
+
+.user_stats_place div {
+	float: left;
+}
+
+.user_stats_mp_rank {
+	position: relative;
+	height: 60px;
+}
+
+.user_stats_mp_rank p {
+	position: absolute;
+	top: 5px;
+	left: 48px;
+	width: 210px;
+	font-weight: bold;
+}
+
+.user_stats_mp_rank img.rank_icon {
+	position: absolute;
+	top: 10px;
+	width: 40px;
+	height: 40px;
+}
+
+.user_stats_mp_stars {
+	position: absolute;
+	top: 28px;
+	left: 50px;
+	width: 200px;
+	height: 30px;
+}
+
+.user_stats_mp_percentiles {
+	float: left;
+	width: 427px;
+	position: relative;
+	left: 0;
+	top: -15px; /*0;*/
+	margin-right: 27px; !
+	margin-right: 25px;
+}
+
+.user_stats_mp_percentiles table {
+	margin-top: 25px;
+	border-collapse: collapse;
+	color: #666;
+	border: 1px solid #c0c0c0;
+}
+
+.user_stats_mp_percentiles tr {
+	border: 1px solid #c0c0c0;
+}
+
+.user_stats_connect_medals th,
+.user_stats_mp_percentiles th {
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 5px;
+	background: #F6F4F5;
+	height: 30px;
+}
+
+.user_stats_mp_percentiles td {
+	text-align: center;
+	font-size: 12px;
+	padding-right: 5px;
+}
+
+.user_stats_close_btn {
+	position: absolute;
+	right: 2px;
+	top: 4px;
+}
+
+.user_stats_page_buttons {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 5px;
+}
+
+.user_stats_page_buttons a {
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.user_stats_page_buttons a:hover {
+	text-decoration: underline;
+	color: #0094FF;
+}
+
+.user_stats_page_buttons a.selected {
+	text-decoration: none;
+	color: #c0c0c0;
+}
+
+.user_stats_mp_percentile {
+	height:30px;
+	left:60px;
+	position:absolute;
+	top:15px;
+	width:220px;
+}
+
+.user_stats_mp_percentile p {
+	text-indent: 0;
+}
+
+.user_stats_mp_trophy_stats .user_stats_mp_place br
+{
+	display: none;
+}
+
+.user_stats_connect_stats .user_stats_header p 
+{
+	font-size: 18px;
+	width: 24.9%;
+}
+
+.user_stats_connect_stats .user_stats_header p font
+{
+	font-weight: bold;
+}
+
+.user_stats_connect_medals
+{
+	border: 1px solid #c0c0c0;
+}
+
+.user_stats_connect_medals table
+{
+	width: 100%;
+	height: 375px;
+	border: 1px solid #c0c0c0;
+	border-width: 0 0 1px 0;
+}
+
+.user_stats_connect_medals th
+{
+	border: 1px solid #c0c0c0;
+	border-width: 0 0 1px 0;
+}
+
+.user_stats_connect_medals td
+{
+	text-align: center;
+}

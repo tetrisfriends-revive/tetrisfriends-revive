@@ -1,0 +1,58 @@
+<promos>
+	<promo>
+		<id>6000</id>
+		<description>win-grafix</description>
+		<accessoryId>-1</accessoryId>
+		<accessoryType>6</accessoryType>
+		<alwaysShow>true</alwaysShow>
+	</promo>
+	<promo>
+		<id>8000</id>
+		<description>speed up</description>
+		<accessoryId>8000</accessoryId>
+		<accessoryType>8</accessoryType>
+		<alwaysShow>false</alwaysShow>
+	</promo>
+	<promo>
+		<id>8001</id>
+		<description>room settings</description>
+		<accessoryId>8001</accessoryId>
+		<accessoryType>8</accessoryType>
+		<alwaysShow>false</alwaysShow>
+	</promo>
+	<promo>
+		<id>8002</id>
+		<description>range up</description>
+		<accessoryId>8002</accessoryId>
+		<accessoryType>8</accessoryType>
+		<alwaysShow>false</alwaysShow>
+	</promo>
+	<promo>
+		<id>8020</id>
+		<description>item packs</description>
+		<accessoryId>-1</accessoryId>
+		<accessoryType>8</accessoryType>
+		<alwaysShow>true</alwaysShow>
+	</promo>
+	<promo>
+		<id>8060</id>
+		<description>map packs</description>
+		<accessoryId>-1</accessoryId>
+		<accessoryType>8</accessoryType>
+		<alwaysShow>true</alwaysShow>
+	</promo>
+	<promo>
+		<id>8100</id>
+		<description>backgrounds</description>
+		<accessoryId>-1</accessoryId>
+		<accessoryType>8</accessoryType>
+		<alwaysShow>true</alwaysShow>
+	</promo>
+		<promo>
+		<id>8003</id>
+		<description>armor</description>
+		<accessoryId>8003</accessoryId>
+		<accessoryType>8</accessoryType>
+		<alwaysShow>true</alwaysShow>
+	</promo>
+</promos>

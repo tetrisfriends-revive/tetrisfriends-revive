@@ -1,0 +1,418 @@
+/* Leaderboard Rules */
+/* ================= */
+
+.leaderboard_game_menu_box
+{
+	float: left;
+	text-align: center;
+	width: 187px;
+	overflow: hidden
+}
+
+.leaderboard_game_menu_box h2
+{
+	font-size: 13px;
+	font-weight: bold;
+	color: #666;
+}
+
+.leaderboard_game_menu_box .box_left_border .box_right_border .box_content
+{
+	height: 948px;
+	!height: 990px;
+}
+
+.leaderboard_main_content
+{
+	float: left;
+	position: relative;
+	top: -240px;
+	margin-bottom: -240px;
+	margin-left: 10px;
+}
+
+.leaderboard_game_info
+{
+	width: 460px;
+	height: 264px;
+	color: #666;
+	text-align: left;
+}
+
+.leaderboard_game_title
+{
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 235px;
+	height: 105px;
+	text-align: center;
+}
+
+a.leaderboard_game_play_btn
+{
+	position: absolute;
+	top: 32px;
+	left: 246px;
+	margin: 0;
+}
+
+.leaderboard_game_info h2
+{
+	font-size: 18px;
+	margin-top: -5px;
+	!margin-top: -10px;
+	margin-bottom: 15px;
+}
+
+.leaderboard_game_info h3
+{
+	text-align: center;
+	font-size: 13px;
+	border: 1px solid #c0c0c0;
+	background: #F0F0F0;
+	margin-bottom: 10px;
+}
+
+.leaderboard_game_info h4
+{
+	position: relative;
+	margin-top: 10px;
+	!margin-top: 5px; 
+	text-align: center;
+	font-size: 16px;
+	color: #666;
+}
+
+.leaderboard_filter_box
+{
+	width: 209px;
+	height: 85px;
+	!height: 80px;
+	padding-top: 5px;
+	border: 1px solid #c0c0c0;
+	text-align: center;
+}
+
+.leaderboard_filter_box p
+{
+	font-weight: bold;	
+}
+
+.leaderboard_filter_box div
+{
+	/*margin: 0 auto 5px; */
+	
+	/* width: 199px; */
+}
+
+.leaderboard_filter_box #lb_filter
+{
+	margin: 4px;	
+}
+
+.leaderboard_game_info div a.leaderboard_alltime_button,
+.leaderboard_game_info div a.leaderboard_daily_button,
+.leaderboard_game_info div a.leaderboard_everyone_button,
+.leaderboard_game_info div a.leaderboard_region_button,
+.leaderboard_game_info div a.leaderboard_filter_skill_button,
+.leaderboard_game_info div a.leaderboard_filter_most_played_button
+{
+	position: relative;
+	margin: 0 0 5px 0;
+}
+
+.leaderboard_game_info div a.leaderboard_filter_best_time_button,
+.leaderboard_game_info div a.leaderboard_filter_most_ko_button
+{
+	margin: 0 auto 5px auto;
+}
+
+.leaderboard_game_info div a.leaderboard_alltime_button
+{
+	left: 30px;
+}
+
+.leaderboard_game_info div a.leaderboard_daily_button
+{
+	right: 30px;
+}
+
+.leaderboard_game_info div a.leaderboard_everyone_button
+{
+	left: 30px;
+}
+
+.leaderboard_game_info div a.leaderboard_region_button
+{
+	right: 30px;
+}
+
+
+
+/* Leaderboard Tables */
+/* ================== */
+
+.leaderboard_table_box
+{
+	width: 778px;
+}
+
+.leaderboard_table_box h3
+{
+	background: #F6F4F5;
+	border: 1px solid #c0c0c0;
+	font-size: 14px;
+	color: #666;
+	margin: 0px 10px;
+	padding: 10px;
+}
+
+.leaderboard_table_box div
+{
+	text-align: center;
+}
+
+.leaderboard_table_box a
+{
+	text-decoration: underline;
+	font-size: 13px;
+	font-weight: bold;
+	color: #0026FF;
+}
+
+.leaderboard_table_box a:hover
+{
+	text-decoration: underline;
+	color: #0094FF;
+}
+
+.leaderboard_table_box a.selected
+{
+	text-decoration: none;
+	color: #c0c0c0;
+}
+
+.leaderboard_table_box table
+{
+	margin: 2px auto;
+	border-collapse: collapse;
+	color: #666;
+}
+
+
+
+/* Mini Profile Table */
+/* ================== */
+
+/* Guest Mini-Profile */
+div#leaderboard_mini_profile.leaderboard_signed_out
+{
+	background: #F6F4F5;
+	border: 1px solid #c0c0c0;
+	color: #666;
+	margin: 0 10px;
+	padding: 10px;	
+}
+
+div#leaderboard_mini_profile.leaderboard_signed_out p
+{
+	font-size: 12px;
+}
+
+div#leaderboard_mini_profile.leaderboard_signed_out h2
+{
+	font-size: 16px;
+	padding-top: 4px;
+}
+
+div#leaderboard_mini_profile.leaderboard_signed_out h2 a
+{
+	font-size: 18px;
+	padding: 0px;
+}
+
+/* General */
+table.leaderboard_mini_profile
+{
+	margin: 0 auto;
+	border: 1px solid #c0c0c0;
+	width: 725px;
+}
+
+div.leaderboard_mini_profile  h1
+{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+table.leaderboard_mini_profile th
+{
+	background: #F6F4F5;
+	font-weight: normal;
+}
+
+table.leaderboard_mini_profile th p
+{
+	font-weight: bold;
+}
+
+table.leaderboard_mini_profile td
+{
+	background: #EAEAEA;
+}
+
+table.leaderboard_mini_profile .leaderboard_avatar_cell
+{
+	background: #fff;
+	border: 1px solid #c0c0c0;
+	border-width: 0px 1px 0px 0px;
+	width: 100px;
+	height: 100px;
+}
+
+table.leaderboard_mini_profile .leaderboard_username_cell
+{
+	width: 200px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 10px;
+}
+
+table.leaderboard_mini_profile .leaderboard_stat_cell
+{
+	width: 100px;
+	text-align: center;
+}
+
+table.leaderboard_mini_profile .leaderboard_percentage_cell div
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	margin-right: 10px;
+}
+
+table.leaderboard_mini_profile .leaderboard_details_cell
+{
+	width: 150px;
+	border-width: 1px 1px 1px 0px;
+}
+
+
+/* Main Leaderboard Table */
+/* ====================== */
+
+table.leaderboard_header_table 
+{
+	margin-top: 10px;
+}
+
+table.leaderboard_main_table th
+{
+	width: 25px;
+	text-align: center;
+}
+
+table.leaderboard_main_table td
+{
+	background: #F6F4F5;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0;
+	width: 50px;
+	height: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+table.leaderboard_main_table td p
+{
+	margin: 8px 0;
+	font-size: 11px;
+	font-weight: normal;
+	color: #808080;
+	width: 210px;
+	overflow: hidden;
+}
+
+table.leaderboard_main_table .leaderboard_avatar_cell
+{
+	border-width: 1px 1px 1px 1px;
+	background: #fff;
+	width: 50px;
+	height: 50px;
+}
+
+table.leaderboard_main_table .leaderboard_username_cell
+{
+	width: 225px;
+	text-indent: 10px;
+	text-align: left;
+	padding-top: 4px;
+}
+
+table.leaderboard_main_table .leaderboard_stat_cell
+{
+	width: 125px;
+	padding-top: 4px;
+}
+
+table.leaderboard_main_table .leaderboard_details_cell
+{
+	width: 150px;
+	border-width: 1px 1px 1px 0px;
+}
+
+.leaderboard_details_cell a.leaderboard_view_replay,
+.leaderboard_details_cell a.leaderboard_view_details_btn
+{
+	zmargin: 0 auto;
+}
+
+
+
+/* Tetris Tips */
+/* ----------- */
+.leaderboard_tetris_tip
+{
+	position: relative;
+	margin-top:20px;
+	text-align: center;
+}
+
+
+
+
+/* Advertisement */
+/* ------------- */
+
+div.leaderboard_ad_container
+{
+	position: relative;
+	overflow: visible;
+	top: 12px;
+	left: 0;
+	width: 300px;
+	margin-left: 670px;
+	color: #c0c0c0;
+	z-index: 25;
+	text-align: left;
+}
+
+img.leaderboard_ad_header {
+	position:absolute;
+	margin-left: 243px;
+	top: -5px;
+}
+
+div.leaderboard_advertisement
+{
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #c0c0c0;
+  	-moz-box-sizing:content-box;
+}

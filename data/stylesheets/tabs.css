@@ -1,0 +1,301 @@
+/* Tabs Style Sheet */
+/* ================ */
+
+div.tab_list_container
+{
+	position: relative; 
+}
+
+ul.tab_list
+{
+	position: relative;
+	top: 0;
+	left: 0;	
+	height: 30px;
+	overflow: hidden;
+	list-style: none;
+	z-index: 100;
+}
+
+ul.tab_list li 
+{
+	display: inline;
+}
+
+ul.tab_list li a 
+{
+  float:left;
+  height: 36px;
+  text-indent:-9999px;
+  text-decoration:none;
+}
+
+/* Profile Tabs */
+
+ul.tab_list li.tab_game_stats a {
+  width:135px;
+  background:url(../images/profile/Tabs_MyTrophiesGameStats.png) no-repeat 0px 0px; }
+ul.tab_list li.tab_game_stats a:hover {
+  background-position:0px -36px; }
+ul.tab_list li.tab_game_stats a.selected {
+  background-position:0px -72px; }
+ul.tab_list li.tab_game_stats a.selected:hover {
+  background-position:0px -72px; }
+  
+ul.tab_list li.tab_my_badges a {
+  width:135px;
+  background:url(../images/profile/Tabs_MyTrophiesGameStats.png) no-repeat -137px 0px; }
+ul.tab_list li.tab_my_badges a:hover {
+  background-position:-137px -36px; }
+ul.tab_list li.tab_my_badges a.selected {
+  background-position:-137px -72px; }
+ul.tab_list li.tab_my_badges a.selected:hover {
+  background-position:-137px -72px; }
+
+ul.tab_list li.tab_my_tetris_style a {
+  width:135px;
+  background:url(../images/profile/Tabs_MyTrophiesGameStats.png) no-repeat -274px 0px; }
+ul.tab_list li.tab_my_tetris_style a:hover {
+  background-position:-274px -36px; }
+ul.tab_list li.tab_my_tetris_style a.selected {
+  background-position:-274px -72px; }
+ul.tab_list li.tab_my_tetris_style a.selected:hover {
+  background-position:-274px -72px; }
+  
+ul.tab_list li.tab_my_items a {
+  width:135px;
+  background:url(../images/profile/Tabs_MyTrophiesGameStats.png) no-repeat -409px 0px; }
+ul.tab_list li.tab_my_items a:hover {
+  background-position:-409px -36px; }
+ul.tab_list li.tab_my_items a.selected {
+  background-position:-409px -72px; }
+ul.tab_list li.tab_my_items a.selected:hover {
+  background-position:-409px -72px; }
+
+
+/* Shop Tabs */
+ul.tab_list li.tab_trialpay a {
+  width:135px;
+  background:url(../images/shop/Tabs_OffersTasks.png) no-repeat 0px 0px; }
+ul.tab_list li.tab_trialpay a:hover {
+  background-position:0px -36px; }
+ul.tab_list li.tab_trialpay a.selected {
+  background-position:0px -72px; }
+ul.tab_list li.tab_trialpay a.selected:hover {
+  background-position:0px -72px; }
+
+ul.tab_list li.tab_superrewards a {
+  width:135px;
+  background:url(../images/shop/Tabs_OffersTasks.png) no-repeat -137px 0px; }
+ul.tab_list li.tab_superrewards a:hover {
+  background-position:-137px -36px; }
+ul.tab_list li.tab_superrewards a.selected {
+  background-position:-137px -72px; }
+ul.tab_list li.tab_superrewards a.selected:hover {
+  background-position:-137px -72px; }
+
+ul.tab_list li.tab_supersonicads a {
+  width:135px;
+  background:url(../images/shop/Tabs_OffersTasks.png) no-repeat -274px 0px; }
+ul.tab_list li.tab_supersonicads a:hover {
+  background-position:-274px -36px; }
+ul.tab_list li.tab_supersonicads a.selected {
+  background-position:-274px -72px; }
+ul.tab_list li.tab_supersonicads a.selected:hover {
+  background-position:-274px -72px; }
+
+ul.tab_list li.tab_gwallet a {
+  width:135px;
+  background:url(../images/shop/Tabs_OffersTasks.png) no-repeat -411px 0px; }
+ul.tab_list li.tab_gwallet a:hover {
+  background-position:-411px -36px; }
+ul.tab_list li.tab_gwallet a.selected {
+  background-position:-411px -72px; }
+ul.tab_list li.tab_gwallet a.selected:hover {
+  background-position:-411px -72px; }
+
+ul.tab_list li.tab_sponsorpay a {
+  width:135px;
+  background:url(../images/shop/Tabs_OffersTasks.png) no-repeat -548px 0px; }
+ul.tab_list li.tab_sponsorpay a:hover {
+  background-position:-548px -36px; }
+ul.tab_list li.tab_sponsorpay a.selected {
+  background-position:-548px -72px; }
+ul.tab_list li.tab_sponsorpay a.selected:hover {
+  background-position:-548px -72px; }
+
+/* Mission Module Tabs */
+
+ul.tab_list li.tab_activated a {
+  width:135px;
+  background:url(../images/profile/Tabs_ActivatedAvailable.png) no-repeat 0px 0px; }
+ul.tab_list li.tab_activated a:hover {
+  background-position:0px -36px; }
+ul.tab_list li.tab_activated a.selected {
+  background-position:0px -72px; }
+ul.tab_list li.tab_activated a.selected:hover {
+  background-position:0px -72px; }
+  
+ul.tab_list li.tab_available a {
+  width:135px;
+  background:url(../images/profile/Tabs_ActivatedAvailable.png) no-repeat -137px 0px; }
+ul.tab_list li.tab_available a:hover {
+  background-position:-137px -36px; }
+ul.tab_list li.tab_available a.selected {
+  background-position:-137px -72px; }
+ul.tab_list li.tab_available a.selected:hover {
+  background-position:-137px -72px; }
+
+
+/* Friends Page Tabs */
+
+ul.tab_list li.tab_friends_list a.tab_image {
+  width:135px;
+  background:url(../images/friends/Tabs_FriendsFindFriends.png) no-repeat 0px 0px; }
+ul.tab_list li.tab_friends_list a.tab_image:hover {
+  background-position:0px -36px; }
+ul.tab_list li.tab_friends_list a.tab_image.selected {
+  background-position:0px -72px; }
+ul.tab_list li.tab_friends_list a.tab_image.selected:hover {
+  background-position:0px -72px; }
+
+ul.tab_list li.tab_friends_list a.friends_num {
+	text-indent: 0px;
+	color: #000;
+	left: 100px;
+	position: absolute;
+	top: 2px;
+}
+
+ul.tab_list li.tab_friends_find a {
+  width:135px;
+  background:url(../images/friends/Tabs_FriendsFindFriends.png) no-repeat -137px 0px; }
+ul.tab_list li.tab_friends_find a:hover {
+  background-position:-137px -36px; }
+ul.tab_list li.tab_friends_find a.selected {
+  background-position:-137px -72px; }
+ul.tab_list li.tab_friends_find a.selected:hover {
+  background-position:-137px -72px; }
+
+
+/* Messages Page Tabs */
+
+ul.tab_list li.tab_inbox a {
+  width:135px;
+  background:url(../images/messages/Tabs_InboxSentMessages.png) no-repeat 0px 0px; }
+ul.tab_list li.tab_inbox a:hover {
+  background-position:0px -36px; }
+ul.tab_list li.tab_inbox a.selected {
+  background-position:0px -72px; }
+ul.tab_list li.tab_inbox a.selected:hover {
+  background-position:0px -72px; }
+
+ul.tab_list li.tab_outbox a {
+  width:135px;
+  background:url(../images/messages/Tabs_InboxSentMessages.png) no-repeat -137px 0px; }
+ul.tab_list li.tab_outbox a:hover {
+  background-position:-137px -36px; }
+ul.tab_list li.tab_outbox a.selected {
+  background-position:-137px -72px; }
+ul.tab_list li.tab_outbox a.selected:hover {
+  background-position:-137px -72px; }
+  
+
+/* Mission Page Tabs */
+
+ul.tab_list li.tab_mission_central a {
+  width:135px;
+  background:url(../images/missions/tabs_Missions.png) no-repeat 0px 0px; }
+ul.tab_list li.tab_mission_central a:hover {
+  background-position:0px -36px; }
+ul.tab_list li.tab_mission_central a.selected {
+  background-position:0px -72px; }
+ul.tab_list li.tab_mission_central a.selected:hover {
+  background-position:0px -72px; }
+
+ul.tab_list li.tab_mission_personal a {
+  width:135px;
+  background:url(../images/missions/tabs_Missions.png) no-repeat -137px 0px; }
+ul.tab_list li.tab_mission_personal a:hover {
+  background-position:-137px -36px; }
+ul.tab_list li.tab_mission_personal a.selected {
+  background-position:-137px -72px; }
+ul.tab_list li.tab_mission_personal a.selected:hover {
+  background-position:-137px -72px; }
+
+ul.tab_list li.tab_mission_premium a {
+  width:135px;
+  background:url(../images/missions/tabs_Missions.png) no-repeat -274px 0px; }
+ul.tab_list li.tab_mission_premium a:hover {
+  background-position:-274px -36px; }
+ul.tab_list li.tab_mission_premium a.selected {
+  background-position:-274px -72px; }
+ul.tab_list li.tab_mission_premium a.selected:hover {
+  background-position:-274px -72px; }
+
+div.tab_list_content
+{
+	position: relative;
+	top: -9px;
+}
+
+div.tab_list_content div.box_content
+{
+	min-height: 100px;
+	height: auto !important;
+	height: 100px;
+}
+
+div.tab_list_content div.tab_content_div
+{
+	display: none;
+	position: relative;
+	top: 0;
+	left: 0;
+	min-height: 100px;
+	height: auto !important;
+	height: 100px;
+}
+
+
+/* NEW LAYOUT OVERRIDES */
+
+ul.tab_list li.tab_games a {
+  width:135px;
+  background:url(../images/tabs_Home.png) no-repeat 0px 0px; }
+ul.tab_list li.tab_games a:hover {
+  background-position:0px -36px; }
+ul.tab_list li.tab_games a.selected {
+  background-position:0px -72px; }
+ul.tab_list li.tab_games a.selected:hover {
+  background-position:0px -72px; }
+
+ul.tab_list li.tab_friends a {
+  width:135px;
+  background:url(../images/tabs_Home.png) no-repeat -137px 0px; }
+ul.tab_list li.tab_friends a:hover {
+  background-position:-137px -36px; }
+ul.tab_list li.tab_friends a.selected {
+  background-position:-137px -72px; }
+ul.tab_list li.tab_friends a.selected:hover {
+  background-position:-137px -72px; }
+
+ul.tab_list li.tab_missions a {
+  width:135px;
+  background:url(../images/tabs_Home.png) no-repeat -274px 0px; }
+ul.tab_list li.tab_missions a:hover {
+  background-position:-274px -36px; }
+ul.tab_list li.tab_missions a.selected {
+  background-position:-274px -72px; }
+ul.tab_list li.tab_missions a.selected:hover {
+  background-position:-274px -72px; }
+
+ul.tab_list li.tab_items a {
+  width:135px;
+  background:url(../images/tabs_Home.png) no-repeat -411px 0px; }
+ul.tab_list li.tab_items a:hover {
+  background-position:-411px -36px; }
+ul.tab_list li.tab_items a.selected {
+  background-position:-411px -72px; }
+ul.tab_list li.tab_items a.selected:hover {
+  background-position:-411px -72px; }

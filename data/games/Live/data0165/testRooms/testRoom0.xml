@@ -1,0 +1,47 @@
+<TestRoom>
+	<Revision>
+		<Id>0</Id>
+		<ComboSystem>kBPSComboSystem</ComboSystem>
+		<GenerationMethod>kGENERATIONMETHOD_TDG2009b</GenerationMethod>
+		<AttackTable>
+			<Lines />
+			<Combos>0,1,1,1,2,2,3,3,4,4,4,5</Combos>
+		</AttackTable>
+		<IsAvoidOSZStart>true</IsAvoidOSZStart>
+		<IsDDA>true</IsDDA>
+		<GameParams />
+	</Revision>
+	<Revision>
+		<Id>1</Id>
+		<ComboSystem>kTOJComboSystem</ComboSystem>
+		<GenerationMethod>kGENERATIONMETHOD_TDG2009b</GenerationMethod>
+		<AttackTable>
+			<Lines />
+			<Combos>0,1,1,2,2,3,3,4,4</Combos>
+		</AttackTable>
+		<IsAvoidOSZStart>true</IsAvoidOSZStart>
+		<IsDDA>true</IsDDA>
+		<GameParams />
+	</Revision>
+	<Revision>
+		<Id>2</Id>
+		<ComboSystem>kBPSComboSystem</ComboSystem>
+		<GenerationMethod>kGENERATIONMETHOD_TDG2009b</GenerationMethod>
+		<AttackTable>
+			<Lines />
+			<Combos>0,1,1,2,2,3,3,4,4</Combos>
+		</AttackTable>
+		<IsAvoidOSZStart>true</IsAvoidOSZStart>
+		<IsDDA>false</IsDDA>
+		<GameParams />
+	</Revision>
+	<Revision>
+		<Id>3</Id>
+		<ComboSystem />
+		<GenerationMethod>kGENERATIONMETHOD_TDG2009b</GenerationMethod>
+		<AttackTable />
+		<IsAvoidOSZStart>true</IsAvoidOSZStart>
+		<IsDDA>false</IsDDA>
+		<GameParams />
+	</Revision>
+</TestRoom>

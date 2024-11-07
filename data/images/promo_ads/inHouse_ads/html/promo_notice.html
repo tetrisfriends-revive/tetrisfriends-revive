@@ -1,0 +1,18 @@
+	function SHOW_AD(name, image, clickTag, clickDest) {
+
+		/* DO NOT MODIFY */
+
+		$("#tetris_token_notice").css('background-color', "#fff");
+		addNotice("<a id='" + name + "' parent='" + clickDest + "' href='" + clickTag + "'>" +
+				  "<img style='height: 100px; width: 872px; display: block; margin: 0 auto;' src='" + image + "' /></a>", false,
+
+					function() {
+						try {
+							pageTracker._trackPageview('/promotion/' + name);
+
+							$("#" + name).click(function() {
+								pageTracker._trackPageview('/promotion/' + name + '/accept');
+							});
+						} catch (err) {	}
+					});
+	}

@@ -1,0 +1,354 @@
+/* Game Scrollable */
+/* --------------- */
+
+/*
+    root element for the scrollable.
+    when scrolling occurs this element stays still.
+*/
+
+div.games_scrollable {
+    /* required settings */
+    position:relative;
+    height: 101px; /*120px;*/
+    width: 528px;
+    top: 0px;
+    left: 51px;
+    overflow:hidden;
+}
+ 
+/*
+    root element for scrollable items. Must be absolutely positioned
+    and it should have a super large width to accomodate scrollable items.
+    it's enough that you set width and height for the root element and
+    not for this element.
+*/
+div.games_scrollable div.items {
+    /* this cannot be too large */
+    width:20000em;
+    position:absolute;
+	clear:both;		
+}
+ 
+/*
+    a single item. must be floated on horizontal scrolling
+    typically this element is the one that *you* will style
+    the most.
+*/
+div.games_scrollable div.items div {
+	float: left;
+	
+	/* custom decoration */
+	position: relative;
+	text-align:center;
+	width:130px;
+	height:76px;
+	padding:0;
+	border:none;
+	margin: 12px 1px 0;
+	display: inline;
+	cursor: pointer;
+	/* overflow: hidden; */
+}
+
+div.games_scrollable div.items div span.game_icon
+{
+	display: block;
+	width: 122px;
+	height: 68px;
+	margin: 4px;
+}
+
+div.games_scrollable div.items div.selected span.game_icon{
+	background-position: 0 -68px;
+}
+
+div.games_scrollable div.items div.game_scrollable_hover span.game_icon, 
+div.games_scrollable div.items div span.game_icon:hover {
+	background-position: 0 -68px;
+}
+
+/* positioning for prev/next button */
+div.game_slider a.prevPage,
+div.game_slider a.nextPage {
+	position: absolute;
+	cursor:pointer;
+	display:block;
+	top: 34px;
+}
+
+
+/* Selected Button Styles */
+/* ---------------------- */
+/*
+1989 - 139,149,109 or 225,230,207
+Nblox - 232,244,255 or 94,111,147
+5P - 255,118,225
+Sprint - 210,122,255 or same as 5P
+Survival - 114,1,1
+Battle2p - 162,109,0
+Ultra - 74,118,38
+LIVE - 12,121,175
+Marathon - 59,152,206
+Battle6P - 89,125,61
+Rally8P - 74,23,0
+*/
+
+div.games_scrollable div.items div#gameButtonLive.game_scrollable_hover
+{
+	background-color: rgb(12,121,175);
+}
+
+div.games_scrollable div.items div#gameButtonBattle6P.game_scrollable_hover
+{
+	background-color: rgb(89,125,61);
+}
+
+div.games_scrollable div.items div#gameButtonSprint5P.game_scrollable_hover
+{
+	background-color: rgb(210,122,255);
+}
+
+div.games_scrollable div.items div#gameButtonBattle2P.game_scrollable_hover
+{
+	background-color: rgb(162,109,0);
+}
+
+div.games_scrollable div.items div#gameButtonMarathon.game_scrollable_hover
+{
+	background-color: rgb(59,152,206);
+}
+
+div.games_scrollable div.items div#gameButtonSprint.game_scrollable_hover
+{
+	background-color: rgb(210,122,255);
+}
+
+div.games_scrollable div.items div#gameButtonUltra.game_scrollable_hover
+{
+	background-color: rgb(74,118,38);
+}
+
+div.games_scrollable div.items div#gameButtonMono.game_scrollable_hover
+{
+	background-color: rgb(139,149,109);
+}
+
+div.games_scrollable div.items div#gameButtonSurvival.game_scrollable_hover
+{
+	background-color: rgb(114,1,1);
+}
+
+div.games_scrollable div.items div#gameButtonNBlox.game_scrollable_hover
+{
+	background-color: rgb(94,111,147);
+}
+
+div.games_scrollable div.items div#gameButtonRally8P.game_scrollable_hover 
+{
+	background-color: rgb(74,23,0);
+}
+
+div.games_scrollable div.items div#gameButtonLive.game_scrollable_hover 
+{
+	background-color: rgb(12,121,175);
+}
+
+div.games_scrollable div.items div.selected,
+div.games_scrollable div.items div.selected,
+div.games_scrollable div.items div#gameButtonLive.selected,
+div.games_scrollable div.items div#gameButtonBattle6P.selected,
+div.games_scrollable div.items div#gameButtonSprint5P.selected,
+div.games_scrollable div.items div#gameButtonBattle2P.selected,
+div.games_scrollable div.items div#gameButtonMarathon.selected,
+div.games_scrollable div.items div#gameButtonSprint.selected,
+div.games_scrollable div.items div#gameButtonUltra.selected,
+div.games_scrollable div.items div#gameButtonMono.selected,
+div.games_scrollable div.items div#gameButtonSurvival.selected,
+div.games_scrollable div.items div#gameButtonNBlox.selected,
+div.games_scrollable div.items div#gameButtonRally8P.selected,
+div.games_scrollable div.items div#gameButtonLive.selected
+{
+	/* background: #FFAD01; */
+	background-color: rgb(71,71,71);
+}
+
+
+
+/* Status Styles */
+/* ------------- */
+div.games_scrollable div.items span.selector
+{
+	display: none;
+}
+
+div.games_scrollable div.items div.selected span.selector
+{
+	position: absolute;
+	top: -12px;
+	left: 58px;
+	height: 12px;
+	width: 16px;
+	color: #000;
+	display: block;
+	background: transparent url(../images/caret.png) no-repeat;
+}
+
+div.games_scrollable div.gameButton span.status {
+	position: absolute;
+	visibility: hidden;
+	top: 4px;
+	left: 4px;
+	width: 0px;
+	height: 0px;
+}
+
+div.games_scrollable div.items div.new span.status
+{
+	position: absolute;
+	visibility: visible;
+	width: 72px;
+	height: 41px;
+	background: transparent url(../images/games/GameNameIcons.png) no-repeat 0px 0px;
+}
+
+div.games_scrollable div.items div.beta span.status
+{
+	position: absolute;
+	visibility: visible;
+	border: 0;
+	width: 72px;
+	height: 41px;
+	background: transparent url(../images/games/GameNameIcons.png) no-repeat -72px 0px;
+}
+
+div.games_scrollable div.items div.promo span.status 
+{
+	position: absolute;
+	visibility: visible;
+	border: 0;
+	width: 72px;
+	height: 41px;
+	background: transparent url(../images/games/GameNameIcons.png) no-repeat -144px 0;
+}
+
+div.games_scrollable div.items div.updated span.status
+{
+	position: absolute;
+	visibility: visible;
+	border: 0;
+	width: 72px;
+	height: 41px;
+	background: transparent url(../images/games/GameNameIcons.png) no-repeat -216px 0px;
+}
+
+div.games_scrollable div.items div.locked span.active
+{
+	position: absolute;
+	visibility: visible;
+	border: 0;	
+	width: 72px;
+	height: 41px;
+	background: transparent url(../images/games/games/GameNameIcons.png) no-repeat -288px -7px;
+}
+
+div.games_scrollable div.items div span.top_game
+{
+	background: url(../images/games/hot.png) no-repeat;
+	position: absolute;
+	top: -2px;
+	right: 1px;
+	width: 54px;
+	height: 26px;
+	display: none;	
+}
+
+div.games_scrollable div.items div span.badge
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 25px;
+	width: 25px;
+	display: none;
+	background: url(../images/missions/badgeIcon.png) no-repeat;
+}
+
+
+
+/* NEW LAYOUT OVERRIDES */
+div.games_scrollable_new {
+	width: 540px;
+	height: 190px;
+	left: 46px !important;	
+}
+
+div.gamesPage_single div div,
+div.gamesPage_multi div div,
+div.gamesPage_other div div,
+div.games_scrollable_new div.items div
+{
+	margin: 5px 2px 2px 0;
+	height: 140px !important;	
+	width: 133px !important;
+	border: 0;
+}
+div.gamesPage_single div div a,
+div.gamesPage_multi div div a,
+div.gamesPage_other div div a,
+div.games_scrollable_new div.items_new div div.gameButton_new a {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+div.gamesPage_single div div a:hover,
+div.gamesPage_multi div div a:hover,
+div.gamesPage_other div div a:hover,
+div.games_scrollable_new div.items_new div div.gameButton_new a:hover {
+	background-position: 0 -140px;
+}
+
+div.gamesPage_single .gameButtonLarge,
+div.gamesPage_multi .gameButtonLarge,
+div.gamesPage_other .gameButtonLarge,
+div.games_scrollable_new .gameButtonLarge
+{
+	width: 268px !important;
+	height: 314px !important;	
+}
+
+div.gamesPage_single .gameButtonWide,
+div.gamesPage_multi .gameButtonWide,
+div.gamesPage_other .gameButtonWide
+{
+	width: 268px !important;
+}
+
+div.gamesPage_single .gameButtonLarge a:hover,
+div.gamesPage_multi .gameButtonLarge a:hover,
+div.gamesPage_other .gameButtonLarge a:hover,
+div.games_scrollable_new .gameButtonLarge a:hover
+{
+	background-position: 0 -314px;
+}
+
+div.games_scrollable_new div.items_new div div.gameButton_new:hover span
+{
+	display: none;
+}
+
+div.game_slider_new a.prevPage
+{
+	left: 3px !important;	
+}
+
+div.game_slider_new a.nextPage
+{
+	right: 3px !important;	
+}
+
+div.game_slider_new a.prevPage,
+div.game_slider_new a.nextPage {
+	top: 63px !important;
+}

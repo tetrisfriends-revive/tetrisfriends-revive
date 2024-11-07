@@ -1,0 +1,291 @@
+<config>
+<!-- version 02012010 -->
+<gameTableXMLPath path="gameTableRush.xml"/>
+<dda>
+<starRatioList type="2p" relativeBucketLookup="3,2,1,0,-1,-2,-3">
+<!--2p is based on probability-->
+	<rank stars="0" list=".00,.00,.00,.50,.50,.00,.00"/>
+	<rank stars="1" list=".00,.00,.00,.65,.35,.00,.00"/>
+	<rank stars="2" list=".00,.00,.25,.50,.25,.00,.00"/>
+	<rank stars="3" list=".00,.00,.35,.65,.00,.00,.00"/>
+	<rank stars="4" list=".00,.00,.50,.50,.00,.00,.00"/>
+</starRatioList>
+<starRatioList type="6p" relativeBucketLookup="1,0,-1,-2">
+<!--6p is based on number of people-->
+      <rank stars="0.0" list="0,7,0,0"/>
+      <rank stars="0.5" list="0,7,0,0"/>
+      <rank stars="1.0" list="0,7,0,0"/>
+      <rank stars="1.5" list="0,7,0,0"/>
+      <rank stars="2.0" list="0,7,0,0"/>
+      <rank stars="2.5" list="0,7,0,0"/>
+      <rank stars="3.0" list="0,7,0,0"/>
+      <rank stars="3.5" list="0,7,0,0"/>
+      <rank stars="4.0" list="0,7,0,0"/>
+      <rank stars="4.5" list="0,7,0,0"/>
+      <rank stars="5.0" list="0,7,0,0"/>
+</starRatioList>
+<starRatioList type="rush" relativeBucketLookup="-2,-1,0,1,2">
+      <rank stars="0.0" list="5,2,0,0,0"/>
+      <rank stars="0.5" list="4,3,0,0,0"/>
+      <rank stars="1.0" list="3,3,1,0,0"/>
+      <rank stars="1.5" list="2,4,1,0,0"/>
+      <rank stars="2.0" list="2,3,2,0,0"/>
+      <rank stars="2.5" list="1,4,2,0,0"/>
+      <rank stars="3.0" list="1,2,3,1,0"/>
+      <rank stars="3.5" list="0,3,3,1,0"/>
+      <rank stars="4.0" list="0,2,4,1,0"/>
+      <rank stars="4.5" list="0,2,3,1,1"/>
+</starRatioList>
+</dda>
+
+<!--start from bucket 0 -->
+<garbageSentBucketLookup2p list="0,0,1,2,3,4,5,6,7,9,11,13,17,23,31,41,53,67,83,101,121,1000"/>
+<garbageSentBucketLookup6p list="0,0,1,2,3,4,5,6,7,9,11,13,17,23,31,41,53,67,83,101,121,1000"/>
+<!--start from bucket 0 -->
+<rushHalfStarPlacementLookup list="0,6,4,2,1,-1,-2,-3,-4"/>
+<!--start from 1st place and save record to a bucket the same as the players rank plus the relative bucket number depending on place-->
+<rushPlacementRelativeBucketSaveLookup  list="1,1,0,0,0,0,-1,-2"/>
+<!--start from rank 0 -->
+<rankDescList list="No Title,Newbie,Novice,Trainee,Rookie,Apprentice,Journeyman,Hobbyist,Practitioner,Achiever,Specialist,Professional,Veteran,Expert,Elite,Champion,Genius,Prodigy,Guru,Master,Grand Master"/>
+<!--how to calculate promotionRankList>> if the player's garbageSentPerMin is greater or equal to the value in the garbageSentPerMinuteMaxList, and the player's rank is below the value in the curRankList, then promote the player to the value in the promotionRankList -->
+<promotionRankList  garbageSentPerMinuteMaxList="5,20,50" curRankList="5,10,15" promotionRankList="5,10,15"/>
+<tetrionInfo variantID=" kVariantBattlePlus6p"/>
+<!--garbage que settings -->
+<resetOnGarbageReceivedFlag flag="true"/>
+<resetOnCounterActionFlag flag="true"/>
+<flushDelayMax value="0"/>
+<gameRecordListXMLPath path="gameRecordList.xml"/>
+<KOMax value2p="3" value6p="10"/>
+<!-- oldold mapAISpeed speedList 0,3,2.5,2.0,1.7,1.4,1.2,1.0,0.8,0.7,0.6,0.50,0.45,0.40,0.35,0.30,0.23,0.17,0.12,0.08,0.05 -->
+<!-- old mapAISpeed speedList 0,3,2.5,2.0,1.7,1.4,1.2,1.0,0.8,0.7,0.6,0.50,0.45,0.40,0.35,0.30,0.23,0.17,0.12,0.08,0.05 -->
+<mapAISpeed speedList="0,3,2.5,2.0,1.7,1.5,1.3,1.0,0.9,0.8,0.7,0.50,0.35,0.20,0.10,0.085,0.07,0.06,0.05,0.05,0.05"/>
+<!-- the sequence of the mino will be the same for this number of bags-->
+<playerResetBagNum min="2" max="5" flag="true"/>
+<GameTime time2p="120" time6p="120"/>
+<rushItemGaugeMax value="20"/>
+<!-- itemList push,avalanche,10ton,cut,shield,mirror,bomb,switch,zigzag,speedup,blind,tower -->
+<items>
+<itemPickDelay value="1000"/>
+<!-- need to hardcode when new items are added -->
+<itemList>
+<item id="0" speed=".4" duration="6" playfieldDurationMS="0" name="Push" ani="Positive" shake="2" desc="Moves all existing blocks to the right side."/>
+<item id="1" speed=".7" duration="8" playfieldDurationMS="0" name="Avalanche" ani="Positive" shake="3" desc="Breaks all blocks into small minos and causes them to1 fall."/>
+<item id="2" speed=".7" duration="4" playfieldDurationMS="0" name="10ton" ani="Positive" shake="3" desc="Drops a 10-Ton block that pushes all the blocks to the sides"/>
+<item id="3" speed=".6" duration="3" playfieldDurationMS="0" name="Cut" ani="Positive" lineNum="7" shake="2" desc="Cuts the top part of the play field."/>
+<item id="4" speed="0" duration="12.5" playfieldDurationMS="12500" name="Shield" ani="Shield" shake="1" desc="Protect against item attacks for a short period."/>
+<item id="5" speed="0" duration="12.5" playfieldDurationMS="12500" name="Mirror" ani="Mirror" shake="1" desc="Reflect item attacks back to the opponent for a short period."/>
+<item id="6" speed="-.9" duration="5" playfieldDurationMS="0" name="Bomb" ani="Negative" targetModeId="11" shake="3" desc="Slows down nearby opponents by explosion."/>
+<item id="7" speed="-1" duration="10" playfieldDurationMS="0" name="Switch" ani="Negative" targetModeId="0" shake="1" desc="Switches your play field with an opponent."/>
+<item id="8" speed="-1" duration="5" playfieldDurationMS="0" name="Zigzag" ani="Negative" targetModeId="0" shake="1" desc="Scrambles the opponent's play field."/>
+<item id="9" speed="-.33" duration="5" playfieldDurationMS="5000" name="SpeedUp" ani="Negative" targetModeId="0" shake="2" fallSpeed=".20" desc="The opponent's blocks will drop in an uncontrollably fast speed."/>
+<item id="10" speed="-.3" duration="6" playfieldDurationMS="6000" name="Blind" ani="Negative" startAlpha="-0.35" targetModeId="0" shake="1" desc="Covers an opponent's play field with smoke"/>
+<item id="11" speed="-.2" duration="5" playfieldDurationMS="0" name="Tower" ani="Negative" targetModeId="11" towerWidth="2" shake="1" desc="Raises a random column of the opponent's play field up high."/>
+<item id="12" speed="-.9" duration="5" playfieldDurationMS="0" name="Bomb2" ani="Positive" shake="1" desc="Bombs your play field."/>
+<item id="13" speed=".3" duration="5" playfieldDurationMS="0" name="IAngel" ani="Positive" iTotal="6" shake="1" desc="Fills your next queue with I pieces."/>
+<item id="14" speed="-.8" duration="5" playfieldDurationMS="5000" name="Lock" ani="Negative" targetModeId="11" shake="1" desc="Locks an opponent's play field for a few seconds."/>
+<item id="15" speed="-.5" duration="5" playfieldDurationMS="0" name="Thief" ani="Negative" targetModeId="0" shake="1" desc="Steals an opponent's item."/>
+<item id="16" speed=".6" duration="7" playfieldDurationMS="0" name="10ton" ani="Positive" shake="3" width="4" desc="Drops a 10-Ton block that pushes all the blocks to the sides."/>
+<item id="17" speed=".4" duration="3" playfieldDurationMS="0" name="Cut" ani="Positive" lineNum="5" shake="2" desc="Cuts the top part of the play field."/>
+<item id="18" speed="-.45" duration="6" playfieldDurationMS="6000" name="SpeedUp" ani="Negative" targetModeId="0" shake="2" fallSpeed=".175" desc="The opponent's blocks will drop in an uncontrollably fast speed."/>
+<item id="19" speed="-.4" duration="7" playfieldDurationMS="7000" name="Blind" ani="Negative" startAlpha="-0.375" targetModeId="0" shake="1" desc="Covers an opponent's play field with smoke"/>
+<item id="20" speed="-.2" duration="5" playfieldDurationMS="0" name="Tower" ani="Negative" targetModeId="11" towerWidth="3" shake="1" desc="Raises a random column of the opponent's play field up high."/>
+<item id="21" speed="-.8" duration="6" playfieldDurationMS="6000" name="Lock" ani="Negative" targetModeId="11" shake="1" desc="Locks an opponent's play field for a few seconds."/>
+<item id="22" speed="-.66" duration="7" playfieldDurationMS="7000" name="SpeedUp" ani="Negative" targetModeId="0" shake="2" fallSpeed=".15" desc="The opponent's blocks will drop in an uncontrollably fast speed."/>
+<item id="23" speed="-.5" duration="8" playfieldDurationMS="8000" name="Blind" ani="Negative" startAlpha="-0.4" targetModeId="0" shake="1" desc="Covers an opponent's play field with smoke"/>
+<item id="24" speed="-.8" duration="7" playfieldDurationMS="7000" name="Lock" ani="Negative" targetModeId="11" shake="1" desc="Locks an opponent's play field for a few seconds."/>
+</itemList>
+<targetModeList>
+<targetMode id="0" name="front1back1" relativeTargetList="-1,1" fixedTargetList="" random="0"/>
+<targetMode id="1" name="front3" relativeTargetList="1,2,3" fixedTargetList="" random="0"/>
+<targetMode id="2" name="back3" relativeTargetList="-1,-2,-3" fixedTargetList="" random="0"/>
+<targetMode id="3" name="top3" relativeTargetList="" fixedTargetList="1,2,3" random="0"/>
+<targetMode id="4" name="all" relativeTargetList="" fixedTargetList="1,2,3,4,5,6,7,8" random="0"/>
+<targetMode id="5" name="top1" relativeTargetList="" fixedTargetList="1" random="0"/>
+<targetMode id="6" name="front1" relativeTargetList="1" fixedTargetList="" random="0"/>
+<targetMode id="7" name="frontall" relativeTargetList="1,2,3,4,5,6,7" fixedTargetList="" random="0"/>
+<targetMode id="8" name="front3back3" relativeTargetList="-3,-2,-1,1,2,3" fixedTargetList="" random="0"/>
+<targetMode id="9" name="random3" relativeTargetList="" fixedTargetList="" random="3"/>
+<targetMode id="10" name="front2back2" relativeTargetList="-2,-1,1,2" fixedTargetList="" random="0"/>
+<targetMode id="11" name="front2" relativeTargetList="1,2" fixedTargetList="" random="0"/>
+<targetMode id="12" name="back2" relativeTargetList="-1,-2" fixedTargetList="" random="0"/>
+</targetModeList>
+<itemBagDDA isUseDDAPlayer="true" isUseDDAOpponent="true"  positionList="bag1,bag2,bag2,bag3,bag3,bag4,bag4,bag5"/>
+<itemBagList curBagName="shuffleItemBag">
+<itemBag name="idleGaugeBag">
+<item id="0" weight="15" name="push"/>
+<item id="1" weight="5" name="avalanche"/>
+<item id="16" weight="10" name="10ton2"/>
+<item id="3" weight="20" name="cut" />
+<item id="17" weight="20" name="cut2"/>
+</itemBag>
+<itemBag name="test">
+<item id="14" weight="10" name="lock"/>
+</itemBag>
+<itemBag name="normal">
+<item id="6" weight="15" name="bomb"/>
+<item id="8" weight="15" name="zigzag"/>
+<item id="9" weight="15" name="speedup"/>
+<item id="11" weight="15" name="tower"/>
+<item id="10" weight="15" name="blind"/>
+<item id="16" weight="15" name="10ton2"/>
+<item id="3" weight="10" name="cut"/>
+<item id="1" weight="20" name="avalanche"/>
+<item id="5" weight="12" name="mirror" rankMin="7" rankMax="20"/>
+<item id="4" weight="12" name="shield" rankMin="4" rankMax="20"/>
+</itemBag>
+<itemBag name="all">
+<item id="0" weight="10" name="push"/>
+<item id="1" weight="10" name="avalanche"/>
+<item id="2" weight="10" name="10ton"/>
+<item id="3" weight="10" name="cut"/>
+<item id="4" weight="10" name="shield"/>
+<item id="5" weight="10" name="mirror"/>
+<item id="6" weight="10" name="bomb"/>
+<item id="7" weight="10" name="switch"/>
+<item id="8" weight="10" name="zigzag"/>
+<item id="9" weight="10" name="speedup"/>
+<item id="10" weight="10" name="blind"/>
+<item id="11" weight="10" name="tower"/>
+<item id="12" weight="10" name="bomb2"/>
+<item id="13" weight="10" name="iangel"/>
+<item id="14" weight="10" name="lock"/>
+<item id="15" weight="10" name="thief"/>
+<item id="16" weight="10" name="10ton2"/>
+<item id="17" weight="10" name="cut2"/>
+<item id="18" weight="10" name="speedup2"/>
+<item id="19" weight="10" name="blind2"/>
+<item id="20" weight="10" name="tower2"/>
+<item id="21" weight="10" name="lock2"/>
+<item id="22" weight="10" name="speedup3"/>
+<item id="23" weight="10" name="blind3"/>
+<item id="24" weight="10" name="lock3"/>
+</itemBag>
+<itemBag name="shuffleItemBag">
+<item id="0" weight="10" name="push"/>
+<item id="1" weight="10" name="avalanche"/>
+<item id="16" weight="10" name="10ton2"/>
+<item id="3" weight="10" name="cut"/>
+<item id="4" weight="10" name="shield" rankMin="4" rankMax="20"/>
+<item id="5" weight="10" name="mirror" rankMin="7" rankMax="20"/>
+<item id="6" weight="10" name="bomb" rankMin="10" rankMax="20"/>
+<item id="9" weight="10" name="speedup" rankMin="4" rankMax="20"/>
+<item id="10" weight="10" name="blind" rankMin="7" rankMax="20"/>
+<item id="11" weight="10" name="tower" rankMin="10" rankMax="20"/>
+<item id="13" weight="10" name="iangel"/>
+<item id="14" weight="10" name="lock" rankMin="13" rankMax="20"/>
+</itemBag>
+<itemBag name="bag1">
+<item id="4" weight="10" name="shield" rankMin="4" rankMax="20"/>
+<item id="9" weight="10" name="speedup" rankMin="4" rankMax="9"/>
+<item id="10" weight="10" name="blind" rankMin="7" rankMax="9"/>
+<item id="13" weight="10" name="iangel"/>
+<item id="17" weight="10" name="cut2"/>
+<item id="18" weight="10" name="speedup2" rankMin="10" rankMax="15"/>
+<item id="19" weight="10" name="blind2" rankMin="10" rankMax="15"/>
+<item id="22" weight="10" name="speedup3" rankMin="16" rankMax="20"/>
+<item id="23" weight="10" name="blind3" rankMin="16" rankMax="20"/>
+</itemBag>
+<itemBag name="bag2">
+<item id="0" weight="7" name="push"/>
+<item id="1" weight="3" name="avalanche"/>
+<item id="16" weight="5" name="10ton2"/>
+<item id="3" weight="15" name="cut"/>
+<item id="4" weight="10" name="shield" rankMin="4" rankMax="20"/>
+<item id="5" weight="5" name="mirror" rankMin="7" rankMax="20"/>
+<item id="13" weight="20" name="iangel"/>
+<item id="6" weight="5" name="bomb" rankMin="10" rankMax="20"/>
+<item id="9" weight="10" name="speedup" rankMin="4" rankMax="9"/>
+<item id="10" weight="10" name="blind" rankMin="7" rankMax="9"/>
+<item id="11" weight="10" name="tower" rankMin="10" rankMax="20"/>
+<item id="14" weight="10" name="lock" rankMin="13" rankMax="15"/>
+<item id="18" weight="10" name="speedup2" rankMin="10" rankMax="15"/>
+<item id="19" weight="10" name="blind2" rankMin="10" rankMax="15"/>
+<item id="21" weight="10" name="lock2" rankMin="16" rankMax="19"/>
+<item id="22" weight="10" name="speedup3" rankMin="16" rankMax="20"/>
+<item id="23" weight="10" name="blind3" rankMin="16" rankMax="20"/>
+<item id="24" weight="10" name="lock3" rankMin="20" rankMax="20"/>
+</itemBag>
+<itemBag name="bag3">
+<item id="0" weight="10" name="push"/>
+<item id="1" weight="5" name="avalanche"/>
+<item id="16" weight="8" name="10ton2"/>
+<item id="3" weight="15" name="cut"/>
+<item id="4" weight="20" name="shield" rankMin="4" rankMax="20"/>
+<item id="5" weight="10" name="mirror" rankMin="7" rankMax="20"/>
+<item id="13" weight="20" name="iangel"/>
+<item id="6" weight="5" name="bomb" rankMin="10" rankMax="20"/>
+<item id="9" weight="20" name="speedup" rankMin="4" rankMax="9"/>
+<item id="10" weight="10" name="blind" rankMin="7" rankMax="9"/>
+<item id="11" weight="10" name="tower" rankMin="10" rankMax="20"/>
+<item id="14" weight="10" name="lock" rankMin="13" rankMax="15"/>
+<item id="18" weight="10" name="speedup2" rankMin="10" rankMax="15"/>
+<item id="19" weight="10" name="blind2" rankMin="10" rankMax="15"/>
+<item id="21" weight="10" name="lock2" rankMin="16" rankMax="19"/>
+<item id="22" weight="10" name="speedup3" rankMin="16" rankMax="20"/>
+<item id="23" weight="10" name="blind3" rankMin="16" rankMax="20"/>
+<item id="24" weight="10" name="lock3" rankMin="20" rankMax="20"/>
+</itemBag>
+<itemBag name="bag4">
+<item id="0" weight="15" name="push"/>
+<item id="1" weight="5" name="avalanche"/>
+<item id="16" weight="10" name="10ton2"/>
+<item id="3" weight="20" name="cut"/>
+<item id="4" weight="20" name="shield" rankMin="4" rankMax="20"/>
+<item id="5" weight="10" name="mirror" rankMin="7" rankMax="20"/>
+<item id="13" weight="20" name="iangel"/>
+<item id="6" weight="10" name="bomb" rankMin="10" rankMax="20"/>
+<item id="9" weight="15" name="speedup" rankMin="4" rankMax="9"/>
+<item id="10" weight="20" name="blind" rankMin="7" rankMax="9"/>
+<item id="11" weight="15" name="tower" rankMin="10" rankMax="20"/>
+<item id="14" weight="10" name="lock" rankMin="13" rankMax="15"/>
+<item id="18" weight="15" name="speedup2" rankMin="10" rankMax="15"/>
+<item id="19" weight="10" name="blind2" rankMin="10" rankMax="15"/>
+<item id="21" weight="10" name="lock2" rankMin="16" rankMax="19"/>
+<item id="22" weight="15" name="speedup3" rankMin="16" rankMax="20"/>
+<item id="23" weight="10" name="blind3" rankMin="16" rankMax="20"/>
+<item id="24" weight="10" name="lock3" rankMin="20" rankMax="20"/>
+</itemBag>
+<itemBag name="bag5">
+<item id="0" weight="10" name="push"/>
+<item id="1" weight="5" name="avalanche"/>
+<item id="16" weight="5" name="10ton2"/>
+<item id="3" weight="10" name="cut"/>
+</itemBag>
+</itemBagList>
+</items>
+<itemSendAni aniTimePlayer="700" aniTimeSelf="850"/>
+<fallSpeed fallDurationMicroS="80000" collapseDurationMicroS="80000" gravityFallDurationMicroS="80000" itemFallDurationMicroS="6000"/>
+<rushGameRecord submitRecord="true" saveUserInput="false"/>
+<rushGameRecordTest isUseTestRecords="false" path="rushGameRecords/RushGameRecord_ItemMapBombTest.xml"/>
+<rushSticky  isSticky="true"/>
+<rushScrolling  smoothMapScrolling="false" smoothMapScrollingDelay="500"/>
+<rushAI isUpdateAI="true">
+<timeMin list="1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000"/>
+<timeMax list="2700,2500,2400,2400,2400,2300,3500,3500,3400,3400,3400,4500,3300,3300,3200,3200,3200,3100,3100,3100,3000"/>
+<moveMin list="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+<moveMax list="1,1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,4,4"/>
+</rushAI>
+<rushCountdownStartTime value="20"/>
+<playerPlaceMarker blinkActiveDistanceInMinos="3" blinkIntervalMS="0"/>
+<rushIdleGauge>
+	<enabled>true</enabled>
+	<bagName>idleGaugeBag</bagName>
+	<idleGaugeTimeIntervalMS>1000</idleGaugeTimeIntervalMS>
+	<idleGaugeTimeIncrement>1</idleGaugeTimeIncrement>
+	<idleGaugeLineClearSamePosIncrement>3</idleGaugeLineClearSamePosIncrement>
+	<idleGaugeLineClearMoveDownIncrement>-2</idleGaugeLineClearMoveDownIncrement>
+	<idleGaugeMax>55</idleGaugeMax>
+	<autoItemActive>false</autoItemActive>
+</rushIdleGauge>
+<stageClearShake id="3"/>
+<shakeTypeList>
+<shake id="0" name="veryWeakBomb" dx="0" dy="2" repeatCount="1" delay="5"/>
+<shake id="1" name="weakBomb" dx="0" dy="2" repeatCount="2" delay="5"/>
+<shake id="2" name="mediumBomb" dx="0" dy="3" repeatCount="3" delay="5"/>
+<shake id="3" name="strong" dx="4" dy="4" repeatCount="4" delay="10"/>
+</shakeTypeList>
+<rushAutoItem idleGaugePercentMax=".70" negativeItemTimeMaxMS="1000"/>
+<!--start from rank 0  & does not save records above designated TPM for each rank-->
+<!--<rushSaveRecordTPMFilter list="0,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,999,999"/>-->
+<rushSaveRecordTPMFilter list="0,12,16,20,24,28,32,36,40,44,48,52,56,60,64,68,72,76,80,90,999"/>
+</config>

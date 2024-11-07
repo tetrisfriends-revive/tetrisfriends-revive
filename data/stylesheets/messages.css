@@ -1,0 +1,186 @@
+/* Message Styles */
+/* -------------- */
+
+.messages_side_content
+{
+	position: relative;
+	left: 10px;
+}
+
+.messages_content
+{
+	width: 100%;
+}
+
+.message_counter
+{
+	position:relative;
+}
+
+.message_counter p
+{
+	top: 5px;
+	padding: 0 8px;
+	color: #333;
+	-moz-box-sizing:content-box;
+}
+div.messages_select_all
+{
+	padding: 5px;
+}
+div.message_select
+{
+	padding-right: 15px;
+}
+div.message_delete_button
+{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+/* Inbox/Outbox */
+.message_from_name
+{
+	position:relative;
+	width: 0;
+	left: 150px;
+	top: 14px;
+	z-index: 999;
+}
+div.message_inbox_list,
+div.message_outbox_list
+{
+	border-top: 1px solid #c0c0c0;
+}
+div.message_inbox_list_page,
+div.message_outbox_list_page
+{
+	position: relative;
+}
+div.message_item_wrapper_outbox,
+div.message_item_wrapper_inbox
+{
+	border: 1px solid #c0c0c0;
+	border-top: 0px;
+	height: 53px;
+	position: relative;
+}
+div.message_item_wrapper_inbox_hover,
+div.message_item_wrapper_outbox_hover,
+div.message_item_wrapper_outbox:hover,
+div.message_item_wrapper_inbox:hover
+{
+	background: #DBEEF4;
+}
+
+div.message_item
+{
+	padding: 5px;
+	left: 1em;
+}
+input.message_checkbox
+{
+	position: relative;
+	left: 20px;
+	top: 18px;
+}
+div.message_item span.mail_icon
+{
+	overflow: hidden;
+	border: 0;
+	display:block;
+	text-indent: -9999px;
+	top: 3px;
+}
+div.message_item span.mail_new
+{
+	background: transparent url(../images/messages/mail_icons.png) no-repeat 0 0;
+	height: 30px;
+	width: 25px;
+}
+div.message_item span.mail_read
+{
+	background: transparent url(../images/messages/mail_icons.png) no-repeat -30px 0;
+	height: 30px;
+	width: 25px;
+}
+div.message_item span.mail_replied
+{
+	background: transparent url(../images/messages/mail_icons.png) no-repeat -60px 0;
+	height: 30px;
+	width: 30px;
+}
+div.message_item td.message_title
+{
+	font-weight: bold;
+	color: #000;
+}
+div.message_item td.message_info_left
+{
+	width: 190px;
+}
+img.message_item_image
+{
+	border: 1px solid #c0c0c0;
+}
+
+/* Message Details */
+div.message_nav_back
+{
+	position: relative;
+	text-align: right;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+div.message_detail div.message_header
+{
+	position: relative;
+	border: 1px solid #c0c0c0;
+}
+div.message_detail div.message_header img
+{
+	position: absolute;
+	top: 6px;
+	left: 15px;
+	border: 1px solid #c0c0c0;
+	z-index: 100;
+}
+div.message_detail div.message_header div.tophalf
+{
+	position: relative;
+	height: 45px;
+	background-color: #ffffff;
+}
+div.message_detail div.message_header div.bottomhalf
+{
+	position: relative;
+	height: 45px;
+	background-color: #f6f4f5;
+}
+div.message_detail div.message_header div.tophalf div.content,
+div.message_detail div.message_header div.bottomhalf div.content
+{
+	padding-bottom: 1em;
+	padding-top: 1em;
+	text-indent: 100px;
+	position: relative;
+	text-align: left;
+	width: 640px;
+}
+div.message_detail div.message_content
+{
+	min-height: 150px;
+	height: auto !important;
+	height: 150px;
+	width: 100%;
+	overflow: hidden;
+}
+a.message_report
+{
+	right: 5px;
+}
+
+.messages_ad_container
+{
+	margin-bottom: 10px;
+}

@@ -1,0 +1,732 @@
+/* ================ */
+/* popup stylesheet */
+/* ================ */
+
+/* Shared Popup Rules */
+/* ------------------ */
+div.item_purchase_popup div.selector
+{
+  position: relative;
+  height: 160px;
+}
+
+div.item_purchase_popup div.status
+{
+  position: relative;
+  top: 30px;
+  height: 150px;
+}
+
+div.item_purchase_popup div.status table.ruby_upsell
+{
+	position: relative;
+	margin: 0 auto;
+	text-align: left;
+}
+
+div.item_purchase_popup div.status table.ruby_upsell div.ruby_upsell_icon
+{
+	background:transparent url(../images/shop/ruby.png) no-repeat -18px -25px;
+	height: 60px;
+	width: 70px;
+}
+
+div.item_purchase_popup div.status table.bankinfo
+{
+	position: relative;
+	margin-bottom: 30px !important;
+	table-layout: fixed;
+	width: 100%;
+}
+div.item_purchase_popup div.status table.bankinfo tr
+{
+	height: 35px;
+}
+div.item_purchase_popup div.status table.bankinfo td
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	vertical-align: top;
+}
+
+div.item_purchase_popup div.status td.pricelabel,
+div.item_purchase_popup div.status td.banklabel
+{
+  height: 25px;
+  text-align: right;
+}
+div.item_purchase_popup div.status td.price_type
+{
+	width: 32px;
+	text-align: center;
+}
+
+div.item_purchase_popup div.status td.price
+{
+  height: 25px;
+  text-align: left;
+}
+
+div.item_purchase_popup a.nobtn
+{
+  position: relative;
+  left: 250px;
+}
+
+div.item_purchase_popup a.yesbtn
+{
+  position: relative;
+  left: 210px;
+}
+
+
+/* Accessory Popup */
+/* --------------- */
+
+div.accessory_popup
+{
+	width: 620px;
+	font-size: 18px;
+	font-family: 'trebuchet', Ariel, sans-serif;
+}
+
+div.accessory_popup div.header
+{
+	position: relative;
+	text-align: left;
+	font-size: 12px;
+}
+
+div.accessory_popup table.shop_content_header,
+div.accessory_popup table.shop_detail_header
+{
+	width: 620px;	
+}
+
+div.item_purchase_popup a.nobtn
+{
+  position: relative;
+  left: 290px;
+}
+
+div.item_purchase_popup a.yesbtn
+{
+  position: relative;
+  left: 250px;
+}
+
+
+/* Mission Popups */
+/* -------------- */
+div.mission_popup
+{
+  position:relative;
+  height: 410px;
+  width: 573px;
+  font-size: 18px;
+  margin: 0 auto;
+  font-family: 'trebuchet', Ariel, sans-serif;
+}
+
+div.mission_popup div.header
+{
+  	position: relative;
+	text-align: center;
+	font-size: 14px;
+}
+
+div.mission_popup div.selector
+{
+  border: 2px solid #F6F4F5;
+  border-width: 2px 2px 0;
+}
+
+div.mission_popup a.close_btn
+{
+  position: absolute;
+  right: 2px;
+  top: 4px;
+}
+
+div.mission_popup a.nobtn
+{
+  position: relative;
+  left: 250px;
+}
+
+div.mission_popup a.yesbtn
+{
+  position: relative;
+  left: 210px;
+}
+
+
+/* Mission Info Section */
+div.mission_popup div.selector div.tophalfcap
+{
+  position: relative;
+  height: 2px;
+  left: 2px;
+  width: 575px;
+  background-color: #f6f4f5;
+}
+
+div.mission_popup div.selector div.tophalf
+{
+  position: relative;
+  height: 87px;
+  background-color: #ffffff;
+}
+
+div.mission_popup div.selector div.bottomhalf
+{
+  position: relative;
+  height: 93px;
+  background-color: #f6f4f5;
+}
+
+div.mission_popup div.selector div.rainbow
+{
+  background: url(../images/popup/RainbowBar.gif) no-repeat;
+  position: absolute;
+  height: 4px;
+  left: 0px;
+  top: 180px;
+  width: 571px;
+}
+
+div.mission_popup div.mission_icon
+{
+	position: absolute;
+	top: 15px;
+	left: 50px;
+	height: 150px;
+	width: 150px;
+}
+
+div.mission_popup div.mission_icon img
+{
+	border: 1px solid #c0c0c0;
+}
+
+div.mission_popup div.mission_name
+{
+	position: absolute;
+	top: 65px;
+	left: 210px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+}
+
+div.mission_popup div.mission_desc
+{
+	position: absolute;
+	top: 95px;
+	left: 210px;
+	color: #999;
+	font-size: 13px;
+	text-align: left;
+	width: 360px;
+}
+
+div.mission_popup div.mission_reward
+{
+	position: absolute;
+	top: 105px;
+	left: 210px;
+	width: 265px;
+	font-size: 13px;
+	text-align: left;
+}
+
+/* Mission ACTIVE Warning */
+.mission_browser_active_item
+{
+	text-align: left;
+	top: 0px;
+	left: 0px;
+	position: relative;
+}
+
+.mission_browser_active_item .mission_info
+{
+	position: absolute;
+	left: 225px;
+	text-align: left;
+	top: 5px;
+}
+
+.mission_browser_active_item .mission_icon
+{
+	position: relative !important;
+	height: 50px !important;
+	width: 50px !important;
+	top: 0;
+	left: 150px !important;
+	text-align: left;
+}
+
+.mission_browser_active_item .mission_icon img
+{
+	height: 50px !important;
+	width: 50px !important;
+}
+
+.mission_browser_active_item .mission_name
+{
+	position: absolute;
+	width: 150px;
+}
+
+.mission_browser_active_item .mission_progress_bar
+{
+	position: absolute;
+	top:18px;
+}
+
+.mission_browser_active_item .mission_time
+{
+	position: absolute;
+	left: 70px;
+	top: 28px;
+	width: 150px;
+	text-align: right;
+}
+
+/* Mission Status info... BANK etc */
+div.mission_popup div.status
+{
+	height: 100px;
+	top: 60px;
+}
+
+div.mission_popup div.status table.bankinfo
+{
+	table-layout: auto;
+	width: 350px;
+	margin: 0 auto;
+}
+
+
+
+/* Error Box Popup */
+/* --------------- */
+
+div.popup_error_box_header
+{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+div.popup_error_box h1
+{
+	font-size: 36px;
+}
+
+div.popup_error_box p
+{
+	margin-top: 20px;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+
+/* Share This Popup */
+/* ---------------- */
+
+div.popup_sharethis_container
+{
+	position: relative;
+	width: 400px;
+}
+
+div.popup_sharethis_container h2	
+{
+	border-width: 0 0 1px 0;
+	border-color: #c0c0c0;
+	border-style: solid;
+	height: 29px;
+	font-size: 20px;
+	text-align: left;
+}
+
+div.popup_sharethis_container div.popup_sharethis_links
+{
+	position: relative;
+	width: 260px;
+	height: auto;
+	margin: 0 auto;
+}
+div.popup_sharethis_container div.popup_sharethis_links p
+{
+	float: left;
+	width: 100px;
+	margin-left: 15px;
+	margin-top: 10px;
+	text-align: left;
+	line-height: 24px;
+}
+
+div.popup_sharethis_container div.popup_sharethis_links p a img
+{
+	vertical-align: middle;
+}
+
+
+
+/* Game Results Notices */
+/* -------------------- */
+
+div.game_results_game_notice.game_results_advance_popup h2 p.results_popup_promo_text
+{
+	position: absolute;
+	top: 30px;
+	width: 285px;
+	left: 75px;
+	font-size: 16px;
+	color: #666;
+	float: left;
+}
+
+a.results_popup_promote_btn, a.results_popup_demote_btn, a.results_popup_nothanks_btn
+{
+	position: relative;
+	top: -23px;
+}
+
+
+
+/* Report Comment */
+/* -------------- */
+.report_popup .mission_comment_box
+{
+	display: block; 
+	height: 120px;
+}
+
+.report_popup .mission_comment_box textarea
+{
+	height: 80px;
+}
+
+
+
+/* Befriend PopUp */
+/* -------------- */
+div.report_popup textarea,
+div.friend_popup textarea
+{
+	resize: none;
+}
+div.friend_report_popup,
+div.friend_confirm_popup,
+div.friend_befriend_popup
+{
+	background: #F6F4F5;
+	border: 1px solid #c0c0c0;
+	font-size: 14px;
+	height: 228px;
+}
+div.friend_report_popup img,
+div.friend_befriend_popup img
+{
+	border: 1px solid #c0c0c0;
+	position: absolute;
+	top: 60px;
+	left: 40px;
+}
+div.friend_report_popup div.friend_desc,
+div.friend_befriend_popup div.friend_desc
+{
+	position: absolute;
+	top: 60px;
+	left: 150px;
+	width: 390px;
+}
+div.friend_report_popup div.friend_message,
+div.friend_befriend_popup div.friend_message
+{
+	text-align:left;
+	position: absolute;
+	top: 155px;
+	left: 40px;
+}
+div.friend_report_popup textarea.friend_message_text,
+div.friend_befriend_popup textarea.friend_message_text
+{
+	position: absolute;
+	top: 180px;
+	left: 40px;
+	height: 70px;
+}
+div.friend_befriend_popup div.friend_message_text_box
+{
+	position: absolute;
+	top: 180px;
+	left: 40px;
+}
+div.friend_befriend_popup div.friend_message_text_box textarea
+{
+	color: #c0c0c0;
+	font-style: italic;
+	height: 70px;
+	border: 1px solid #c0c0c0;
+}
+div.friend_befriend_popup div.friend_message_text_box div.friend_befriend_message_error
+{
+	color: #f00;
+	font-style: italic;
+	font-size: 10px;
+	text-align: right;
+}
+div.friend_report_popup p.mission_comment_error,
+div.friend_befriend_popup p.mission_comment_error
+{
+	position: absolute;
+	right: 40px;
+	font-size: 11px;
+	font-style: italic;
+	color: #f00;
+	text-align: right;
+	top: 248px;
+}
+div.friend_confirm_popup div.friend_confirmed_animation
+{
+	position: absolute;
+	top: 60px;
+	left: 40px;
+}
+div.friend_confirm_popup img
+{
+	border: 1px solid #c0c0c0;
+	position: absolute;
+	top: 60px;
+	left: 140px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+div.friend_confirm_popup div.friend_desc
+{
+	position: absolute;
+	padding: 12px;
+	text-align: center;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	top: 60px;
+	right: 40px;
+	width: 300px;
+}
+div.friend_button_area
+{
+	margin-top: 1em;
+	position:relative;
+}
+div.friend_button_area a
+{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+div.friends_popup_response
+{
+	margin: 20px;
+}
+
+
+
+/* Report Message popup */
+/* -------------------- */
+
+.report_message_info
+{
+	border: 1px solid #c0c0c0;
+	background-color: #f4f5f6;
+	height: 70px;
+}
+.report_message_info img
+{
+	position: absolute;
+	top: 52px;
+	left: 10px;
+	border: 1px solid #c0c0c0;
+}
+.report_message_info .report_user_name
+{
+	position: absolute;
+	top: 50px;
+	left: 90px;
+	font-weight: bold;
+}
+.report_message_info .report_subject
+{
+	position: absolute;
+	top: 74px;
+	left: 90px;
+}
+.report_message_info .report_time
+{
+	position: absolute;
+	top: 74px;
+	right: 10px;
+	text-align: right;
+}
+.report_message_comment_area
+{
+	height: 90px;
+}
+.report_message_comment_area .report_comment_title
+{
+	position: absolute;
+	top: 130px;
+	left: 10px;
+}
+.report_message_comment_area textarea
+{
+	position: absolute;
+	right: 10px;
+	top: 130px;
+	color: #c0c0c0;
+	font-style: italic;
+	height: 70px;
+	border: 1px solid #c0c0c0;
+}
+.report_message_comment_area p.mission_comment_error
+{
+	position: absolute;
+	top: 198px;
+	right: 10px;
+	font-size: 11px;
+	font-style: italic;
+	color: #f00;
+	text-align: right;
+}
+.report_message_confirmed
+{
+	height: 170px;
+	padding: 15px;
+	border: 1px solid #c0c0c0;
+	background-color: #f4f5f6;
+}
+.report_message_confirmed .report_confirmed
+{
+	text-align: center;
+}
+
+/* Register Popup */
+.register_popup .promo_sub_header
+{
+	height: 80px; 
+	border: 1px solid #c0c0c0; 
+	border-width: 1px 0 0 0; 
+	background: url(../images/popup/subheaderBG.png) repeat-x;	
+}
+
+.register_popup .reg_page1
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	float: left;
+}
+
+.register_popup .reg_page2
+{
+	display: none;
+	position: relative;
+	top: 0;
+	left: 0;
+	float: left;
+}
+
+.register_popup .box_header 
+{
+	height: 25px;
+}
+
+.register_popup .reg_form,
+.register_popup .reg_form a,
+.register_popup .reg_form td
+{
+	font-size: 12px;
+}
+
+.register_popup table
+{
+	width: 600px;
+}
+
+.register_popup div.reg_main div.reg_form table td.label
+{
+	font-size: 13px;
+	width: 90px;
+	!width: 140px;
+}
+
+.register_popup div.reg_main div.reg_form table td.ui span.reg_private
+{
+	font-size: 10px;
+	width: 140px;
+} 
+
+.register_popup div.reg_main div.reg_info
+{
+	font-size: 10px; 
+	top: 115px; 
+	right: 10px; 
+	width: 270px;
+}
+
+.register_popup div.reg_main div.reg_info_content
+{
+	padding: 0;
+}
+
+.register_popup div.reg_main div.reg_info_content
+{
+	min-height: 80px;	
+}
+
+.arena_invite_popup_login
+{
+	text-align: left;
+}
+
+
+body.fb_login_popup div.reg_main div.reg_form div.reg_labels {
+	width: auto;
+}
+
+body.fb_login_popup div.reg_main div.reg_form div.reg_ui
+{
+	margin-left: 0;
+}
+
+body.fb_login_popup div.reg_main div.reg_form div.reg_ui li
+{
+	text-align: left;
+}
+
+body.fb_login_popup div.reg_main div.reg_form table td.label
+{
+	padding:0.2em 0.5em;
+	width: 120px;
+	font-size: 0.9em;
+}
+
+body.fb_login_popup div.reg_main div.reg_form table td.ui
+{
+	padding:3px 0;
+}
+
+body.fb_login_popup div.reg_main div.reg_form table td.ui span.reg_private 
+{
+	font-size:0.6em;
+	width: 170px;
+}
+
+body.fb_login_popup div.reg_login_height
+{
+	height: auto;
+}

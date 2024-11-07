@@ -1,0 +1,230 @@
+@CHARSET "ISO-8859-1";
+
+/* CSS for the tetrisfriends.com help page.	*/
+/* It's mostly for tabbing sections and		*/
+/* Formatting lists.				*/
+
+div.help_content p{
+	position: relative;
+}
+
+.tetrishelp_onetab {width: auto; margin-left: 30px;}
+
+.tetrishelp_listtab {
+	margin-left: 100px; 
+	list-style-type: disc;
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 12px; 
+	line-height:16px;
+	margin-left:30px;
+	margin-right:10px;
+}
+
+p.help_question {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-weight:bold;
+	font-size: 14px; 
+	line-height:16px;
+}
+
+p.help_body {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 12px; 
+	line-height:16px;
+	margin-left:0px;
+	margin-right:10px;
+}
+
+p.help_intro {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 12px; 
+	line-height:16px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+h1.help_big_headline {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-weight:bold;
+	font-size:30px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-top:0px; 
+}
+
+span.help_emphasis_body {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-weight:bold;
+	font-size: 16px; 
+	line-height:18px;
+}
+
+h1.help_category_headline {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-weight:bold;
+	font-size:18px;
+	margin-bottom:5px;
+	margin-top:3px;
+	margin-left:10px; 
+}
+
+i.help_note {
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 12px; 
+	line-height:16px;
+	margin-left:0px;
+	margin-right:10px;
+}
+
+div.help_live_area {
+	position: relative;
+	width:653px;
+	height:auto;
+	margin-bottom:20px;
+	padding-top:0px;
+}
+
+div.help_content {
+	width:auto;
+	height:auto;
+	margin-left:20px;
+	text-align:left;
+	border-style:solid;
+	border-width:2px;
+	border-color:#666666;
+}
+
+div.help_category_banner {
+	width:auto;
+	height:30px;
+	background-color:#F0F0F0; 
+	border-style:solid; 
+	border-color:#C0C0C0;
+	border-width:1px;
+	border-left:none;
+	border-right:none; 
+	margin-bottom:10px;
+	margin-right:0px;
+}
+
+div.help_ad_space {
+	float:right;
+	position:relative;
+	right:19px;
+	background-color:#CCCCCC;
+	width:300px;
+	height:400px;
+}
+
+tr.help_tokens_banner {
+	width:auto;
+	height:22px;
+	color:#666666;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size: 13px; 
+	border-style:solid; 
+	border-color:#C0C0C0;
+	border-width:1px;
+	border-left:none;
+	margin-top:2px;
+	margin-bottom:5px;
+	padding-top:2px;
+	background-color:#F0F0F0;
+}
+
+div.tips_top_left_corner {
+	float:left;
+	position:relative;
+	top:0px;
+	left:20px;
+	width:11px;
+	height:11px;
+}
+
+div.tips_top_right_corner {
+	float:right;
+	position:relative;
+	top:0px;
+	right:0px;
+	width:11px;
+	height:11px;
+}
+div.tips_btm_left_corner {
+	float:left;
+	position:relative;
+	bottom:11px;
+	left:20px;
+	width:11px;
+	height:11px;
+}
+
+div.tips_btm_right_corner {
+	float:right;
+	position:relative;
+	bottom:11px;
+	right:0px;
+	width:11px;
+	height:11px;
+}
+
+.help_mino_style,
+.help_ghost_style,
+.help_sfx_style,
+.help_vox_style,
+.help_wintone_style,
+.help_wingfx_style
+{
+	position: relative;
+	top: 5px;
+	!top: 0;
+	width: 22px;
+	height: 22px;
+	margin-right: 3px;
+	background: url(../help/images/item_icons.png) 0 0 no-repeat;
+	display: inline-block;
+}
+
+.help_ghost_style
+{
+	background: url(../help/images/item_icons.png) -22px 0 no-repeat;
+}
+
+.help_sfx_style
+{
+	background: url(../help/images/item_icons.png) -44px 0 no-repeat;
+}
+
+.help_vox_style
+{
+	background: url(../help/images/item_icons.png) -66px 0 no-repeat;
+}
+
+.help_wintone_style
+{
+	background: url(../help/images/item_icons.png) -88px 0 no-repeat;
+}
+
+.help_wingfx_style
+{
+	background: url(../help/images/item_icons.png) -110px 0 no-repeat;
+}
+
+a.help_buy_ruby_btn
+{
+	text-indent: -9999px;
+	display: block;
+	position: relative;
+	left: 545px;
+	top: -24px;
+	width: 65px;
+	height: 22px;
+	background: transparent url(../help/images/buyNow_btn.png) 0 0 no-repeat;
+}

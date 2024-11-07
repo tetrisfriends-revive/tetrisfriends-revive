@@ -1,0 +1,348 @@
+@CHARSET "ISO-8859-1";
+
+/* CSS for the tetrisfriends.com help page.	*/
+/* It's mostly for tabbing sections and		*/
+/* Formatting lists.				*/
+
+div.tips_back_to_menu_btn {
+	float:right;
+	position:relative;
+	right:10px;
+	width:120px;
+	height:21px;
+}
+
+div.tips_back_to_menu_btn a {
+	display:block;
+	width:100%;
+	height:100%;
+	background-image:url(../help/images/strategy_articles/Back_to_Tipsbtn.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_back_to_menu_btn a:hover {
+	background-position:0px -21px;
+}
+
+div.tips_quicktips_bgn a {
+	display:block;
+	width:149px;
+	height:149px;
+	background-color:#FFFFFF;
+	background-image:url(../help/images/strategy_articles/quicktips_btns/Beginner_btn.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_quicktips_bgn a:hover {
+	display:block; 
+	width:149px; 
+	height:149px;
+	background-color:#faf02c;
+}
+
+div.tips_tutorial_btn {
+	float:right;
+	clear:none;
+	width:112px;
+	height:50px;
+}
+
+
+div.tips_tutorial_btn a {
+	display:block; 
+	width:100%; 
+	height:100%;
+	background-image:url(../help/images/strategy_articles/watch_tutorial_btn.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_tutorial_btn a:hover {
+	background-position:0px -50px;
+}
+
+div.tips_quicktips_int a {
+	display:block;
+	width:149px;
+	height:149px;
+	background-color:#FFFFFF;
+	background-image:url(../help/images/strategy_articles/quicktips_btns/Intermediate_btn.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_quicktips_int a:hover {
+	display:block; 
+	width:149px; 
+	height:149px;
+	background-color:#ff2b2a;
+}
+
+div.tips_quicktips_adv a {
+	display:block;
+	width:149px;
+	height:149px;
+	background-color:#FFFFFF;
+	background-image:url(../help/images/strategy_articles/quicktips_btns/Advanced_btn.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_quicktips_adv a:hover {
+	display:block; 
+	width:149px; 
+	height:149px;
+	background-color:#93ca2e;
+}
+
+div.tips_quicktips_app a {
+	display:block;
+	width:149px;
+	height:149px;
+	background-color:#FFFFFF;
+	background-image:url(../help/images/strategy_articles/quicktips_btns/Appendix_btn.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_quicktips_app a:hover {
+	display:block; 
+	width:149px; 
+	height:149px;
+	background-color:#ffa422;
+}
+
+div.tips_mode_marathon {
+	width:182px;
+	height:35px;
+}
+
+div.tips_mode_marathon a {
+	display:block;
+	width:100%;
+	height:100%;
+	background-image:url(../help/images/strategy_articles/tips_mode_btns/mode_btn_Marathon.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_mode_marathon a:hover {
+	background-position:0px -35px;
+}
+
+div.tips_mode_sprint {
+	width:182px;
+	height:35px;
+}
+
+div.tips_mode_sprint a {
+	display:block;
+	width:100%;
+	height:100%;
+	background-image:url(../help/images/strategy_articles/tips_mode_btns/mode_btn_Sprint.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_mode_sprint a:hover {
+	background-position:0px -35px;
+}
+
+div.tips_mode_ultra {
+	width:182px;
+	height:35px;
+}
+
+div.tips_mode_ultra a {
+	display:block;
+	width:100%;
+	height:100%;
+	background-image:url(../help/images/strategy_articles/tips_mode_btns/mode_btn_Ultra.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_mode_ultra a:hover {
+	background-position:0px -35px;
+}
+
+div.tips_mode_sprint5p {
+	width:182px;
+	height:35px;
+}
+
+div.tips_mode_sprint5p a {
+	display:block;
+	width:100%;
+	height:100%;
+	background-image:url(../help/images/strategy_articles/tips_mode_btns/mode_btn_Sprint5P.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_mode_sprint5p a:hover {
+	background-position:0px -35px;
+}
+
+div.tips_mode_survival {
+	width:182px;
+	height:35px;
+}
+
+div.tips_mode_survival a {
+	display:block;
+	width:100%;
+	height:100%;
+	background-image:url(../help/images/strategy_articles/tips_mode_btns/mode_btn_Survival.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_mode_survival a:hover {
+	background-position:0px -35px;
+}
+
+div.tips_mode_battle {
+	width:182px;
+	height:35px;
+}
+
+div.tips_mode_battle a {
+	display:block;
+	width:100%;
+	height:100%;
+	background-image:url(../help/images/strategy_articles/tips_mode_btns/mode_btn_Battle2P.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_mode_battle a:hover {
+	background-position:0px -35px;
+}
+
+div.tips_mode_mono {
+	width:182px;
+	height:35px;
+}
+
+div.tips_mode_mono a {
+	display:block;
+	width:100%;
+	height:100%;
+	background-image:url(../help/images/strategy_articles/tips_mode_btns/mode_btn_Mono.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_mode_mono a:hover {
+	background-position:0px -35px;
+}
+
+div.tips_back_to_menu_btn2 {
+	width:120px;
+	height:21px;
+}
+
+div.tips_back_to_menu_btn2 a {
+	display:block;
+	width:100%;
+	height:100%;
+	background-image:url(../help/images/strategy_articles/Back_to_Tipsbtn.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_back_to_menu_btn2 a:hover {
+	background-position:0px -21px;
+}
+
+div.tips_mode_nblox {
+	width:182px;
+	height:35px;
+}
+
+div.tips_mode_nblox a {
+	display:block;
+	width:100%;
+	height:100%;
+	background-image:url(../help/images/strategy_articles/tips_mode_btns/mode_btn_NBlox.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_mode_nblox a:hover {
+	background-position:0px -35px;
+}
+
+div.tips_mode_battle6P {
+	width:182px;
+	height:35px;
+}
+
+div.tips_mode_battle6P a {
+	display:block;
+	width:100%;
+	height:100%;
+	background-image:url(../help/images/strategy_articles/tips_mode_btns/mode_btn_Battle6P.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_mode_battle6P a:hover {
+	background-position:0px -35px;
+}
+
+div.tips_mode_rally8P {
+	width:182px;
+	height:35px;
+}
+
+div.tips_mode_rally8P a {
+	display:block;
+	width:100%;
+	height:100%;
+	background-image:url(../help/images/strategy_articles/tips_mode_btns/mode_btn_Rally8p.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	text-decoration: none;
+	text-indent:-9999px;
+}
+
+div.tips_mode_rally8P a:hover {
+	background-position:0px -35px;
+}
+

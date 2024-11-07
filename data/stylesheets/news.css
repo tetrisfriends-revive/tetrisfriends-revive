@@ -1,0 +1,140 @@
+/* News Rules */
+/* ========== */
+
+div.news_side_content 
+{
+	position: relative;
+	left: 10px;	
+}
+
+div.news_item
+{
+	margin: 10px 0;	
+}
+
+div.news_item img
+{
+	position: relative;	
+}
+
+div.news_item b
+{
+	color: #333;	
+}
+
+div.news_item p
+{
+	margin: 5px 0;
+}
+
+div.news_item div.news_body
+{
+	padding: 5px;
+}
+
+div.news_header 
+{
+	position: relative;
+	height: 30px;
+	border: 1px solid #c0c0c0;
+	border-width: 1px 0;
+	background-color: #DBEEF4;
+}
+
+div.news_misc_header 
+{
+	background-color: #B2E4FF;
+}
+
+div.news_alert_header 
+{
+	background-color: #FCD5B5;
+}
+
+div.news_tips_header 
+{
+	background-color: #D7E4BD;
+}
+
+div.news_header span.news_header_icon
+{
+	position: relative;
+	top: 3px;
+	left: 5px;
+	width: 21px;
+	height: 20px;
+	display: block;
+	background: transparent url(../images/news/newsicons02.png) no-repeat;
+}
+
+div.news_misc_header span.news_header_icon
+{
+	background: transparent url(../images/news/newsicons01.png) no-repeat;
+}	
+
+div.news_tips_header span.news_header_icon
+{
+	background: transparent url(../images/news/newsicons04.png) no-repeat;
+}	
+
+div.news_alert_header span.news_header_icon
+{
+	background: transparent url(../images/news/newsicons03.png) no-repeat;
+}	
+
+div.news_header p.news_header_text
+{
+	left: 10px;
+	color: #333;
+	font-style: italic;
+}
+
+div.news_header  p.news_header_date
+{
+	right: 10px;	
+}
+
+.fb_like_button,
+.twitter-share-button,
+.google-buzz-button
+{
+	float: left;
+	border:none; 
+	overflow:hidden; 
+	width:90px; 
+	height:28px;
+	margin-left: 5px;
+}
+
+.twitter-share-button,
+.google-buzz-button
+{
+	width: 60px !important;	
+}
+
+/* Advertisement */
+/* ------------- */
+
+.news_ad_container
+{
+	position: relative;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+img.news_ad_header {
+	position:absolute;
+	right:0;
+	top: -5px;
+}
+
+div.news_advertisement
+{
+	position: relative;
+	width: 300px;
+	height: 250px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #c0c0c0;
+ 	-moz-box-sizing:content-box;
+ }
