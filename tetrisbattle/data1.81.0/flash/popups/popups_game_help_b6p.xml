@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<popupTable popupType="mc_event_help">
+	<startPopupName>p1</startPopupName>
+	<autoclose>0</autoclose>
+
+	<popup name="p1">
+		<images>
+			<img>misc/help_0</img>
+		</images>
+    <btns>
+    </btns>
+    <msgs>
+    	<msg>kHelpName</msg>
+    	<msg>kHelpTitle1</msg>
+    </msgs>
+    <helpMsgs>
+    	<msg>kHelpMsg1</msg>
+    </helpMsgs>
+  </popup>
+  <popup name="p2">
+    <images>
+			<img>misc/help_b6p_1</img>
+    </images>
+		<msgs>
+    	<msg>kHelpName</msg>
+    	<msg>kHelpTitle2</msg>
+		</msgs>
+    <helpMsgs>
+    	<msg>kHelpMsg2</msg>
+    </helpMsgs>
+  </popup>
+  <popup name="p3">
+    <images>
+			<img>misc/help_b6p_2</img>
+    </images>
+		<msgs>
+    	<msg>kHelpName</msg>
+    	<msg>kHelpTitle3</msg>
+		</msgs>
+    <helpMsgs>
+    	<msg>kHelpMsg3a</msg>
+    	<msg>kHelpMsg3b</msg>
+    	<msg></msg>
+    </helpMsgs>
+  </popup>
+  <popup name="p4">
+    <images>
+			<img>misc/help_b6p_3</img>
+    </images>
+		<msgs>
+    	<msg>kHelpName</msg>
+    	<msg>kHelpTitle4</msg>
+	  </msgs>
+    <helpMsgs>
+    	<msg>kHelpMsg4</msg>
+    </helpMsgs>
+  </popup>
+  <popup name="p5">
+    <images>
+			<img>misc/help_b6p_4</img>
+    </images>
+		<msgs>
+    	<msg>kHelpName</msg>
+    	<msg>kHelpTitle7</msg>
+    </msgs>
+    <helpMsgs>
+    	<msg>kHelpMsg7</msg>
+    </helpMsgs>
+  </popup>
+  <popup name="p6">
+    <images>
+			<img>misc/help_b6p_5</img>
+    </images>
+    <btns>
+    </btns>
+    <msgs>
+    	<msg>kHelpName</msg>
+    	<msg>kHelpTitle6</msg>
+    </msgs>
+    <helpMsgs>
+    	<msg>kHelpMsg6</msg>
+    </helpMsgs>
+    <content>
+    	<c image="0">
+    		<content>
+					<c instance="newBurst_mc">
+		    		<msgs>
+		    			<msg>kHelpNew</msg>
+		    		</msgs>
+    			</c>
+					<c instance="map_btn">
+		    		<msgs>
+		    			<msg>kGameMenuMap</msg>
+		    		</msgs>
+    			</c>
+    		</content>
+    	</c>
+    </content>	
+  </popup>
+</popupTable>

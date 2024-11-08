@@ -1,0 +1,1471 @@
+<StringTable>
+	<TableList type="system">
+		<s k="kDefaultFontName" v="NSimSun, SimSun, SimSun-ExtB, SimHei, Arial, Heiti SC, WenQuanYi" />
+		<s k="kLocalizationPreset0" v="bold" />
+		<s k="kLocalizationPreset1" v="size=1.1" />
+		<s k="kLocalizationPreset2" v="size=1.2,bold" />
+		<s k="kLocalizationPreset3" v="size=1.3" />
+		<s k="kLocalizationPreset4" v="size=1.4" />
+		<s k="kLocalizationPreset5" v="size=1.5" />
+		<s k="kGeneralTextField" v="[0]%s" />
+		<s k="kLoadAsset" v="1" />
+		<s k="kTier" v="Full" />
+		<s k="kErrorLoading" v="错误载入档案: %s。正在重试…" />
+		<s k="kWaitForFacebookLogin" v="等待Facebook登录…" />
+		<s k="kWaitForDataloading" v="等待数据…" />
+		<s k="kErrorOverflow" v="错误过多。" />
+		<s k="kLoadingClientData" v="载入客户端的数据…" />
+		<s k="kCannotGetSessionData" v="再次载入信息…" />
+		<s k="kConnectToFacebookServer" v="连接到FACEBOOK伺服器…" />
+		<s k="kFailConnectToFacebook" v="再次连接到Facebook服务器…" />
+		<s k="kErrorAppIdNotFound" v="找不到'appID'错误。" />
+		<s k="kErrorCannotInit" v="尝试初始化FACEBOOK连接…" />
+		<s k="kGetLoggedInUserInfo" v="从Facebook中获取用户信息…" />
+		<s k="kFailGetLoggedInUserInfo" v="再次从Facebook获取用户信息…" />
+		<s k="kErrorMeApi" v="错误3-1：无法获取用户信息。" />
+		<s k="kGetFriendslistFromFB" v="从Facebook中获取朋友列表…" />
+		<s k="kFailGetFriendslist" v="再次从Facebook中获取朋友列表…" />
+		<s k="kFailGetFriendslistRetry" v="无法获取朋友清单。（%s）。正在重试…" />
+		<s k="kConnectToAsyncServer" v="登录到Tetris的服务器…" />
+		<s k="kInstallToAsyncServer" v="安装到Async服务器…" />
+		<s k="kAsyncLoginFail" v="错误6：Tetris服务器登录失败。正在重试…" />
+		<s k="kAsyncFBUidInvalid" v="错误7：FBUid不正确…" />
+		<s k="kGetFriendsInfo" v="从Facebook获取玩家的名字…" />
+		<s k="kFailGetFrinedsInfo" v="再次从Facebook获取玩家的名字…" />
+		<s k="kFacebookConnectionCompleted" v="FACEBOOK连接完成。" />
+		<s k="kGetDataFileError" v="数据文件载入错误（%s）。" />
+		<s k="kInventoryUseError" v="使用此道具其间出现了连接错误。\n请稍后再试。" />
+		<s k="kFacebookAPICallRetryOut" v="..." />
+		<s k="kNeedMoreCash" v="[m]您需要更多的Tetris现金购买这个道具！" />
+		<s k="kNeedMoreCashGameMode" v="[m]您需要更多的Tetris现金去解开这个游戏！" />
+		<s k="kNeedMoreCoin" v="[m]您需要更多的Tetris硬币去解开这件物品！" />
+		<s k="kShopInitError" v="[m]很抱歉，我们无法载入商店数据。请刷新。" />
+		<s k="kShopPurchaseError" v="[m]对不起，您不能购买物品。请再试一次。" />
+		<s k="kChattingIsNotAllowed" v="您只可以与您的朋友聊天。" />
+		<s k="kChatFieldUnfocusMsg" v="点击这里聊天" />
+		<s k="kReject_Reject" v="[m]您的邀请已被拒绝。" />
+		<s k="kReject_InSync" v="[m]该玩家已经在挑战别人。请稍后再试。" />
+		<s k="kReject_Timout" v="[m]该玩家没有回应您的邀请。" />
+		<s k="kReject_Cannot" v="[m]该玩家现在不能够接受邀请。请稍后再试。" />
+		<s k="kReject_Already" v="[m]该玩家已经拒绝了邀请。请稍后再试。" />
+		<s k="kReject_Playing" v="[m]该玩家目前正在游戏中。请稍后再试。" />
+		<s k="kMatching_noConnection" v="此时无法连接。" />
+		<s k="kMatching_noPlayer" v="点击刷新列表会看到\n更多的建议对手！" />
+		<s k="kMatching_Idle" v="请刷新浏览器去挑战新的对手。" />
+		<s k="kYoutubeError" v="影片载入发生错误。请再试一次。" />
+		<s k="kSmallEnergy" v="小量能源" />
+		<s k="kMediumEnergy" v="中量能源" />
+		<s k="kLargeEnergy" v="大量能源" />
+		<s k="kFullEnergy" v="全补能源" />
+		<s k="kDefaultColorGhostTooltip" v="色彩[@shopItemName@]！" />
+		<s k="kSyncConnectionLost" v="连接不到服务器。" />
+		<s k="kUnableToPlayArena" v="[m]没有同步连接，您不可以玩竞技场。" />
+		<s k="kErrorMessagePopupTitle" v="抱歉" />
+		<s k="kIdlePlayerKickMessage" v="[m]因为您闲置太久了，所以您被踢出竞技场。" />
+		<s k="kPurchaseFailMessage" v="[m]对不起！购买能源时服务器发生错误。请再试一次。" />
+		<s k="kNoConnection" v="[m]连接不到服务器。请刷新浏览器去重新游戏。" />
+		<s k="kEnergyConsumeFail" v="[m]由于服务器错误，无法启动游戏。请刷新浏览器。" />
+		<s k="kNoInviteInArena" v="[m]对不起，您不能在竞技场模式邀请朋友。" />
+		<s k="kNoRoomForSpectator" v="[m]很抱歉，没有足够的位置来观看比赛。" />
+		<s k="kArenaDisconnected" v="断线了" />
+		<s k="kArenaKnockOut" v="击倒" />
+		<s k="kArenaSuicided" v="未完成" />
+		<s k="kArenaOtherRoom" v="[m]无法加入邀请的房间。另外一个房间已被选定。" />
+		<s k="kInvitePopupCaller" v="正在等待" />
+		<s k="kInvitePopupReceiver" v="正在接受邀请" />
+		<s k="kLeaderboardYouAreNotRankedScore" v="您的位置：没有阶级" />
+		<s k="kLeaderboardYouAreNotRankedPercentile" v="您不是在战绩领先的位置。" />
+		<s k="kLeaderboardYouAreRankedScore" v="您现在是" />
+		<s k="kLeaderboardYouAreRankedPercentile" v="您是在前" />
+		<s k="kSpotSaleArmor" v="用盔甲保护您的星星！" />
+		<s k="kSpotSaleCut" v="剪刀会减小您会被KO的机会！" />
+		<s k="kSpotSaleQuake" v="地震Spotsale的信息！" />
+		<s k="kParamTest" v="参数1：%s，2：%s，3：%s" />
+		<s k="kKOs" v="KOs" />
+		<s k="kLife" v="生命" />
+		<s k="kTime" v="时间" />
+		<s k="kLines" v="行数" />
+		<s k="kHeight" v="高度" />
+		<s k="kPlayTime" v="%s分%s秒" />
+		<s k="kDealspotProcessing" v="Dealspot处理中" />
+		<s k="kWaitSec" v="等待%s秒…" />
+		<s k="kNotice" v="注意" />
+		<s k="kRequestToInvite" v="邀请的请求已送出" />
+		<s k="kSorry" v="抱歉" />
+		<s k="kRewardTetrisCash" v="奖励：\n您赢得了%sTetris现金" />
+		<s k="kRewardTetrisCoin" v="奖励：\n您赢得了%sTetris硬币" />
+		<s k="kTetrisCash" v="%sTetris现金" />
+		<s k="kYourRank" v="现在您的阶別是%s。" />
+		<s k="kToRank" v="到阶级%s吗？" />
+		<s k="kGameIsPlaying" v="[m]目前正在玩这个游戏。" />
+		<s k="kSetToNextGame" v="[m]您已准备玩下一个游戏。" />
+		<s k="kWaitForNextGame" v="[m]请等待下一个可玩的游戏" />
+		<s k="kSpectatorCount" v="观众%s" />
+		<s k="kDataAchieved" v="达到的日期" />
+		<s k="kHighScore" v="最高分数" />
+		<s k="kSong" v="歌" />
+		<s k="kRank" v="阶级" />
+		<s k="kWins" v="胜" />
+		<s k="kLevel" v="等级" />
+		<s k="kCouldNotLoadInfo" v="此时无法载入此信息。\n 我们深表歉意。" />
+		<s k="kCurrentOnline" v="当前在线" />
+		<s k="kGameStat" v="游戏数据" />
+		<s k="kNoRank" v="没有阶级" />
+		<s k="kLoading" v="载入中" />
+		<s k="kInvite" v="邀请" />
+		<s k="kPlayToRank" v="玩游戏去升级！" />
+		<s k="kFriendCount" v="%s的%s的朋友" />
+		<s k="kMoreIn" v="[2]更多于：" />
+		<s k="kExpireIn" v="[2]过期于：" />
+		<s k="kMsgHostCancelInvite" v="主机取消邀请" />
+		<s k="kMsgAlreadyHavePants" v="您已经拥有了那条裤子！" />
+		<s k="kMsgNumberNotZero" v="放置数不为零" />
+		<s k="kMsgReasonNotZero" v="放置理由不为零" />
+		<s k="kMsgReasonCoinStart" v="开始用1硬币的原因" />
+		<s k="kMsgReasonCashStart" v="开始用2现金的原因" />
+		<s k="kMsgNoMapGame" v="不能支持地图游戏！" />
+		<s k="kMsgNotEnoughRecord" v="没有足够的记录！" />
+		<s k="kMsgErrGetUserList" v="获取用户列表时出错" />
+		<s k="kMsgErrGetReplay" v="获取重播时出错" />
+		<s k="kMsgHaveNot" v="您没有那个" />
+		<s k="kMsgRefreshBrowser" v="您需要刷新浏览器" />
+		<s k="kMsgDoInRoom" v="在游戏室里使用" />
+		<s k="kMsgOnlyForB2P" v="只能在Battle 2P里尝试" />
+		<s k="kMsgReplayFirst" v="首先把重播字符串放入" />
+		<s k="kMsgReplayHaveError" v="重放字符串似乎有错误" />
+		<s k="kMsgError" v="错误：%s" />
+		<s k="kMsgErrUnknown" v="错误和我不知道为什么" />
+		<s k="kMsgErrAPICall" v="API调用错误" />
+		<s k="kMsgRankChanged" v="阶级变化完成" />
+		<s k="kMsgConnectionClosed" v="连接已关闭" />
+		<s k="kAutoStartMsgNotReadyList" v="[m]没有准备好的用户：%s" />
+		<s k="kAutoStartMsgAllReady" v="[m]所有的用户都准备好了" />
+		<s k="kAutoStartMsgTimer" v="[m]本场比赛将在%s秒开始" />
+		<s k="kAutoStartMsg1NotReady" v="[m]1名玩家还没有准备好" />
+		<s k="kAutoStartMsgXNotReady" v="[m]%s名玩家还没有准备好" />
+		<s k="kAutoStartMsgAlone" v="[m]等待其他玩家" />
+		<s k="kShopIntroNormal" v="购买道具，以提高您的游戏体验！" />
+		<s k="kShopIntroSync" v="游戏即将开始！" />
+		<s k="kShopIntroSyncWaiting" v="等待其他玩家" />
+		<s k="kAssetFeatured" v="精选商品" />
+		<s k="kAssetAvatar" v="角色" />
+		<s k="kAssetDecor" v="装饰" />
+		<s k="kAssetTuning" v="调整" />
+		<s k="kAssetMyStuff" v="我的东西" />
+		<s k="kAssetMinos" v="方块" />
+		<s k="kAssetGhosts" v="投影方块" />
+		<s k="kAssetColorGhosts" v="色彩投影方块" />
+		<s k="kAssetBombs" v="炸弹" />
+		<s k="kAssetAll" v="全部" />
+		<s k="kAssetOther" v="其它" />
+		<s k="kAssetMsgBuyTickets" v="购买道具，以提高您的游戏体验！" />
+		<s k="kAssetMsgBuyTicketsB" v="购买无限能源票" />
+		<s k="kAssetMsgTune" v="调整您的游戏" />
+		<s k="kAssetNeedCoin" v="需要硬币!" />
+		<s k="kAssetNeedCash" v="需要现金!" />
+		<s k="kAssetMsgBuyCash" v="购买Tetris现金" />
+		<s k="kMSG_DEFAULT" v="您想现在使用此道具吗？" />
+		<s k="kMSG_NO_ACTIVATION" v="购买完毕！\n感谢您支持我们的游戏！" />
+		<s k="kMSG_ARMOR1" v="您刚刚购买了" />
+		<s k="kMSG_ARMOR2" v="件盔甲！您总共有" />
+		<s k="kMSG_ARMOR3" v="件盔甲！" />
+		<s k="kMSG_QUAKE1" v="您刚刚购买了" />
+		<s k="kMSG_QUAKE2" v="地震！\n您总共有" />
+		<s k="kMSG_QUAKE3" v="地震。" />
+		<s k="kMSG_CUT1" v="您刚刚购买了" />
+		<s k="kMSG_CUT2" v="剪刀！\n您总共有" />
+		<s k="kMSG_CUT3" v="剪刀。" />
+		<s k="kMSG_BUY_COINS_ENABLE" v="解锁7日" />
+		<s k="kMSG_BUY_COINS_DISABLE" v="此道具不能用Tetris硬币购买" />
+		<s k="kMSG_BUY_CASH_ENABLE" v="购买后永久享用" />
+		<s k="kMSG_BUY_CASH_DISABLE" v="此道具不能用Tetris现金购买" />
+		<s k="kMSG_BUY_ENERGY" v="充满您的能源！" />
+		<s k="kMSG_BUY_TICKET" v="玩无限的Tetris Battle!" />
+		<s k="kMSG_BUY_ARMOR" v="恢复您的盔甲！\n保护您的星星和阶级！" />
+		<s k="kMSG_BUY_ARMOR_EXPIRE" v="多恢复%s件盔甲。\n保护您的星星和阶级！" />
+		<s k="kMSG_BUY_QUAKE" v="购买此道具来保护自己免受KO'd！\n地震会震动您的方块！" />
+		<s k="kMSG_BUY_CUT" v="购买此道具来保护自己免受KO'd！\n剪刀会修剪顶部的一些行线！" />
+		<s k="kMSG_BUY_TRIPLECOINS" v="每场比赛后会赢得3倍多的硬币！\n持续24小时。" />
+		<s k="kMSG_BUY_CASH" v="用Tetris现金\n来购买！" />
+		<s k="kMSG_BUY_COIN" v="用Tetris硬币\n来解锁！" />
+		<s k="kMSG_BUY_COIN_LOCKED" v="解锁在\n等级" />
+		<s k="kAssetUnlock" v="解锁" />
+		<s k="kAssetBuy" v="购买" />
+		<s k="kAssetActivate" v="[2]启动" />
+		<s k="kAssetUpgrade" v="升级" />
+		<s k="kAssetMax" v="最大值" />
+		<s k="kOutOfItem" v="用尽了%s" />
+		<s k="kPromotionMatch" v="对战一个" />
+		<s k="kPromotionEasy" v="可能对您来说是太简单了。" />
+		<s k="kPromotionPromote" v="您想被提升" />
+		<s k="kPromotionAccept" v="同意" />
+		<s k="kPromotionDecline" v="拒绝" />
+		<s k="kDebugWaitingReplay" v="等待玩家重播中" />
+		<s k="kShopItemUnlimited" v="无限" />
+		<s k="kShopItemError" v="错误" />
+		<s k="kShopItemLocked" v="锁定" />
+		<s k="kInviteTimer" v="时间： %s" />
+		<s k="kPopupAlreadyOwnItem" v="[m]您已经拥有了该道具！" />
+		<s k="kPopupPurchaseProblem" v="[m]您的购买出了一个问题。请稍后再试。" />
+		<s k="kLeaderboardNoResult" v="没有结果…" />
+		<s k="kLotteryMon" v="星期一" />
+		<s k="kLotteryTue" v="星期二" />
+		<s k="kLotteryWed" v="星期三" />
+		<s k="kLotteryThu" v="星期四" />
+		<s k="kLotteryFri" v="星期五" />
+		<s k="kLotterySat" v="星期六" />
+		<s k="kLotterySun" v="星期日" />
+		<s k="kLotteryToday" v="今天" />
+		<s k="kLotteryComeback" v="(%s)回来" />
+		<s k="kLotteryBonus" v="奖励！" />
+		<s k="kMsgCouldNotLoadInfo" v="\n此时无法载入这信息。\n\n我们很抱歉给您带来了不便。" />
+		<s k="kMinoLeftTime" v="余下%s " />
+		<s k="kDateMonth" v="%s 个月" />
+		<s k="kDateDay" v="%s 日" />
+		<s k="kDateHour" v="%s 个小时" />
+		<s k="kDateMin" v="%s 分钟" />
+		<s k="kDateSec" v="%s 秒" />
+		<s k="kDateSecs" v="%s 秒" />
+		<s k="kERROR_MSG_DEFAULT" v="[m]检查竞技场密码时出了一个问题。请稍后再试。" />
+		<s k="kERROR_MSG_WRONG_PW" v="[m]密码无效。请再试一次，或连接到 @tetrisbattle的 Twitter 上找最新的密码！" />
+		<s k="kUnlockMode" v="解锁 %s" />
+		<s k="kUnlockMoreFriends" v="[m]您还需要%s位Tetris Battle 朋友来解锁此模式。\n邀请您的朋友加入" />
+		<s k="kUnlockWithCash" v="或使用%s Tetris現金解锁" />
+		<s k="kAssetNoThankyou" v="不要，谢谢。" />
+		<s k="kAssetNoThanks" v="不要，谢谢。" />
+		<s k="kAssetOK" v="确定" />
+		<s k="kAssetBuyNow" v="立刻购买" />
+		<s k="kAssetBuyMore" v="购买更多" />
+		<s k="kGradeStarNoMax" v="星星数量不变\n您已经达到了顶级！您能留在这儿多久呢？" />
+		<s k="kGradeStarNoDefault" v="星星数量不变\n" />
+		<s k="kGradeStarNoMin" v="星星数量不变\n保持水平，常常练习，您就会改进。" />
+		<s k="kGradeStarDoubleUp1" v="您获得了一颗星星！\n您压倒了对手！" />
+		<s k="kGradeStarDoubleUp2" v="您获得了两颗星星！\n您压倒了对手！" />
+		<s k="kGradeStarDoubleUp3" v="您获得了三颗星星！\n您压倒了对手！" />
+		<s k="kGradeStarBonusDoubleUp1" v="Bonus Earned!\nYou earned a star!" />
+		<s k="kGradeStarBonusDoubleUp2" v="Bonus Earned!\nYou earned two stars!" />
+		<s k="kGradeStarBonusDoubleUp3" v="Bonus Earned!\nYou earned three stars!" />
+		<s k="kGradeStarDefaultUp" v="您获得了星星。" />
+		<s k="kGradeStarUp1" v="您获得了半颗星星。" />
+		<s k="kGradeStarUp2" v="您获得了一颗星星。" />
+		<s k="kGradeStarUp3" v="您获得了一个半星星。" />
+		<s k="kGradeStarDown1" v="您失去了半颗星星。" />
+		<s k="kGradeStarDown2" v="您失去了一颗星星。" />
+		<s k="kGradeStarDown3" v="您失去了一个半星星。" />
+		<s k="kGradeStarDefaultDown" v="您失去了星星。" />
+		<s k="kGradeStarNoStarsAwarded" v="星星数量不变。" />
+		<s k="kGradeStarHandicapOff" v="星星只有在阻碍是ON时，才会得到。" />
+		<s k="kLeaderBoardFilterFriends" v="Facebook 朋友" />
+		<s k="kLeaderBoardFilterAllFacebook" v="所有Facebook" />
+		<s k="kLeaderBoardFilterAllTime" v="全部" />
+		<s k="kLeaderBoardFilter30Days" v="最近30日" />
+		<s k="kLeaderBoardName" v="%s" />
+		<s k="kLeaderBoardFilter7Days" v="最近7日" />
+		<s k="kAssetPlace" v="排名" />
+		<s k="kAssetName" v="名字" />
+		<s k="kFacebookErrorPage" v="嗯噢，Facebook发生了错误。\n请尝试刷新此页。" />
+		<s k="kOptionTitle" v="[1]选项" />
+		<s k="kOptionMusic" v="[1]音乐" />
+		<s k="kOptionFX" v="[1]声效" />
+		<s k="kOptionGhost" v="[1]投影方块" />
+		<s k="kOptionBomb" v="[1]炸弹" />
+		<s k="kOptionControl" v="[1]操作" />
+		<s k="kOptionOn" v="[1]开" />
+		<s k="kOptionOff" v="[1]关" />
+		<s k="kOptionDefault" v="[1]]预设" />
+		<s k="kOptionCustom" v="[1]自定" />
+		<s k="kKeyRotateL" v="[1]向左旋转" />
+		<s k="kKeyRotateR" v="[1]向右旋转" />
+		<s k="kKeyMoveL" v="[1]向左移动" />
+		<s k="kKeyMoveR" v="[1]向右移动" />
+		<s k="kKeySoftDrop" v="[1]缓降" />
+		<s k="kKeyHardDrop" v="[1]瞬降" />
+		<s k="kKeyPause" v="[1]暂停" />
+		<s k="kKeyHold" v="[1]保存" />
+		<s k="kAssetClose" v="关闭" />
+		<s k="kAssetSpin" v="转一下" />
+		<s k="kLotteryNotice" v="每天回来将可以解锁更多的转动奖励喔！" />
+		<s k="kLotteryCongratz" v="恭喜！" />
+		<s k="kLotteryYouWon" v="您获得了！" />
+		<s k="kToolbarGame" v="游戏" />
+		<s k="kToolbarChallenge" v="挑战" />
+		<s k="kToolbarLeaderboard" v="排行榜" />
+		<s k="kToolbarShop" v="商店" />
+		<s k="kOptionDescB2P" v="您准备好了吗？\n两分钟的激励战斗！" />
+		<s k="kOptionDescB6P" v="现在有6名玩家准备好了，让战斗开始吧！" />
+		<s k="kOptionDescS4P" v="挑战其它三位玩家，看谁最快完成40行线，便可赢得冠军！" />
+		<s k="kOptionDescA6P" v="与五位对手玩一场即时的比赛！\n谁将会成为冠军呢？" />
+		<s k="kOptionDescS1P" v="一个狂热的模式，\n请尽可能在最短的\n时间内消除40行线。" />
+		<s k="kOptionDescM1P" v="成功地完成了Tetris\nMarathon的所有\n15个等级来获得胜利。" />
+		<s k="kPopupIdleTitle" v="您似乎离开了。。。" />
+		<s k="kPopupIdleMsg" v="您还想继续游玩吗？" />
+		<s k="kGames" v="游戏" />
+		<s k="kDate" v="日期" />
+		<s k="kMessage" v="发信息" />
+		<s k="kViewFriends" v="看朋友的经历" />
+		<s k="kBtnPlayNow" v="马上玩！" />
+		<s k="kVersusGender" v="性别" />
+		<s k="kVersusAge" v="年龄" />
+		<s k="kVersusRecord" v="记录" />
+		<s k="kVersusRegion" v="地区" />
+		<s k="kBtnUnlockNow" v="马上解锁！" />
+		<s k="kHybridRecommanded" v="建議对手" />
+		<s k="kHybridRefresh" v="刷新列表" />
+		<s k="kArenaPasswordTitle" v="竞技场密码" />
+		<s k="kArenaPasswordDesc" v="输入最新的密码以进入竞技场。\n您可以访问我们的 Tetris Battle Twitter来寻找最新的密码！" />
+		<s k="kEnter" v="输入" />
+		<s k="kVisitTwitter" v="访问 Twitter" />
+		<s k="kResume" v="恢复" />
+		<s k="kForfeit" v="弃权" />
+		<s k="kPauseLeft" v="剩余的暂停次数" />
+		<s k="kAutoResume" v="自动恢复：" />
+		<s k="kTipBoxTitle" v="提示框" />
+		<s k="kPopupYouGained" v="您获得：" />
+		<s k="kPopupReward" v="奖励：" />
+		<s k="kPopupCoin" v="%s 硬币" />
+		<s k="kPopupSpecialPromoDesc" v="对方完全不是\n您的对手！" />
+		<s k="kPopupNextLevelDesc" v="您的等级提升了" />
+		<s k="kPopupPostMyGame" v="发布我的游戏" />
+		<s k="kPopupRankPromoted" v="阶级\n提升！" />
+		<s k="kPopupShare" v="分享" />
+		<s k="kPopupCancel" v="取消" />
+		<s k="kAssetInviteFriends" v="邀请朋友" />
+		<s k="kEnergybagBuyCash" v="购买Tetris现金" />
+		<s k="kEnergybagCollectBonus" v="收集\n奖励！" />
+		<s k="kEnergybagCollectDesc" v="集满七种方块可获得一日的无限能源。(每种方块最多上限20个）" />
+		<s k="kEnergybagTitle" v="能源袋" />
+		<s k="kEnergybagUse" v="使用" />
+		<s k="kSeeLeaderboard" v="[3]查看整个排行榜" />
+		<s k="kInviteFriendsMsg1" v="邀请您的朋友来玩吧!" />
+		<s k="kInviteFriendsMsg1b" v="邀请您的朋友来玩Tetris Battle!" />
+		<s k="kInviteFriendsMsg2" v="" />
+		<s k="kInviteFriendsMsg2b" v="邀请每个新的朋友能获得200枚Tetris硬币" />
+		<s k="kInviteFriendsMsg3" v="" />
+		<s k="kInviteFriendsNoFriends" v="没有候选人" />
+		<s k="kInviteFriendsSelectAll" v="全选" />
+		<s k="kNoMap" v="无地图" />
+		<s k="kRandomMap" v="随机" />
+		<s k="kNoMapDesc" v="无地图" />
+		<s k="kRandomMapDesc" v="随机地图" />
+		<s k="kSendGiftButton" v="发送" />
+		<s k="kSendGiftButtonB" v="发送礼物" />
+		<s k="kSendGiftMsg1" v="发送免费礼物给朋友！" />
+		<s k="kSendGiftMsg2" v="邀请您的Facebook朋友加入Tetris Battle，\n 并给他们一份免费礼物！" />
+		<s k="kSendGiftMsg3" v="这些朋友玩Tetris Battle。帮助他们，向他们发送礼物！" />
+		<s k="kSendGiftLocked" v="在等级[@giftReqLevel@]时解锁" />
+		<s k="kSendGiftAllFriends" v="全部" />
+		<s k="kSendGiftTBFriends" v="Tetris Battle" />
+		<s k="kSendGiftSelectAll" v="全选" />
+		<s k="kSendGiftSearchFriends" v="搜寻朋友" />
+		<s k="kErrCodeUnknown" v="不明的错误" />
+		<s k="kErrCodeSyntax" v="错误的语法。" />
+		<s k="kErrCodeParam" v="错误的参数。" />
+		<s k="kErrCodePlayer" v="错误的玩家。" />
+		<s k="kErrCodeSession" v="错误的会话。" />
+		<s k="kErrCodeLoggedIn" v="您已经登录。" />
+		<s k="kErrCodePID" v="玩家ID错误。" />
+		<s k="kErrCodeInSession" v="玩家已经在对话中。" />
+		<s k="kErrCodeNotListed" v="玩家没有被列出来。" />
+		<s k="kErrCodeNotOnline" v="玩家不在线上。" />
+		<s k="kErrCodePermission" v="权限错误。" />
+		<s k="kErrCodeTooMany" v="太多的玩家在线上。" />
+		<s k="kErrCodeConnectionLost" v="连接丢失。" />
+		<s k="kErrCodeServerErr" v="内部服务器错误。" />
+		<s k="kErrCodeWait" v="请稍候再次尝试。" />
+		<s k="kErrCodeAuthFail" v="验证失败。" />
+		<s k="kErrCodeBusyServer" v="服务器过于忙碌。" />
+		<s k="kErrCodeUnavailServer" v="服务器无法使用。" />
+		<s k="kSendGiftError" v="对不起！无法送礼。请稍后再试。" />
+		<s k="kEnergyLimitMessage" v="最大值在%s" />
+		<s k="kHelpTitle1" v="操作" />
+		<s k="kHelpMsg1" v="[m]在Tetris Battle里，您要用键盘控制方块。\n\n 仔细地观看动画来了解如何运作。" />
+		<s k="kHelpTitle2" v="炸弹" />
+		<s k="kHelpMsg2" v="[m]在炸弹上降下您的方块可以消除垃圾行线！\n消除自己的垃圾行线时，也会发送垃圾行线给对手。" />
+		<s k="kHelpTitle3" v="发送行数" />
+		<s k="kHelpMsg3a" v="[m]消除至少2条或以上的行线去攻击您的对手。" />
+		<s k="kHelpMsg3b" v="[m]一次消除4行线会使出Tetris。这将会发出4行线给对手！" />
+		<s k="kHelpTitle4" v="怎样获得KO‘s" />
+		<s k="kHelpMsg4" v="[m]您可以不断发送攻击来迫使您的对手\n无法继续在场地范围内堆叠方块，来造成击倒。" />
+		<s k="kHelpTitle5" v="连续技" />
+		<s k="kHelpMsg5" v="[m]如果您连续消除几行线，您可以发送额外多的行线。\n\n 越高的连续技会发送越多的行线。" />
+		<s k="kHelpTitle6" v="地图" />
+		<s k="kHelpMsg6" v="[m]不同的预设地图会让您经历不同的玩法。" />
+		<s k="kHelpTitle7" v="標的玩家" />
+		<s k="kHelpMsg7" v="[m]只有標的玩家才会收到行线的攻击。\n因此, 刻意地针对着一个玩家攻击将会获得更多的KO。" />
+		<s k="kHelpTitle8" v="目标" />
+		<s k="kHelpMsg8" v="[m]最先消除40条行线的玩家将会贏得比賽。\n努力成为消除行线最迅速的人。" />
+		<s k="kHelpTitle9" v="游戏界面" />
+		<s k="kHelpMsg9" v="[m]左边的蓝色条显示目前还剩下多少条行线需要被消除。" />
+		<s k="kHelpTitle10" v="怎样获得星星" />
+		<s k="kHelpMsg10" v="[m]赢得一场比赛将获得一颗星星。\n星星是用来提升阶级以遇上更厉害的玩家。" />
+		<s k="kHelpTitle11" v="阶级提升/下降" />
+		<s k="kHelpMsg11" v="[m]如果您失去所有的星星，您的阶级会下降。\n如果您赚了5颗星，您的阶级会提升。" />
+		<s k="kHelpTitle12" v="目标" />
+		<s k="kHelpMsg12" v="[m]在比赛结束前，获得最高的分数。" />
+		<s k="kHelpTitle13" v="比賽結束" />
+		<s k="kHelpMsg13a" v="[m]完成15級後，遊戲将会結束。" />
+		<s k="kHelpMsg13b" v="[m]或者当您的方块无法继续于游戏场地范围内堆叠。" />
+		<s k="kHelpTitle14" v="升级！" />
+		<s k="kHelpMsg14" v="[m]清除所需的行线会升级。" />
+		<s k="kHelpTitle15" v="难度增加" />
+		<s k="kHelpMsg15" v="[m]在每次升级后，方块会下降得更快，\n还有升级所需的行线将会增加。" />
+		<s k="kHelpTitle16" v="获得更多的分数！" />
+		<s k="kHelpMsg16a" v="[m]同时消除多条行线会获得更多分数。" />
+		<s k="kHelpMsg16b" v="[m]使出Tetris或T旋转等特殊动作，将帮助您获得更多的分数！" />
+		<s k="kHelpTitle17" v="目标" />
+		<s k="kHelpMsg17" v="[m]尽快消除40行线。" />
+		<s k="kHelpTitle18" v="堵塞出局" />
+		<s k="kHelpMsg18" v="[m]如果您无法继续在游戏场地范围内堆叠方块，您将会输掉游戏。" />
+		<s k="kMessageCenterGiftGroup" v="%s 份礼物" />
+		<s k="kMessageCenterRequestGroup" v="%s 要求" />
+		<s k="kMessageCenterShowMore" v="点击来显示更多" />
+		<s k="kMessageCenterAcceptTxt1" v="%s 发送了您一个 %s" />
+		<s k="kMessageCenterAcceptTxt2" v="接受礼物并回送一份礼物给%s!" />
+		<s k="kMessageCenterAcceptButton" v="接受" />
+		<s k="kMessageCenterAcceptSend" v="接受并发送" />
+		<s k="kMessageCenterAcceptOnly" v="收下礼物" />
+		<s k="kMessageCenterSendbackTxt1" v="您收到了一个%s" />
+		<s k="kMessageCenterSendbackTxt2" v="回送感谢礼物给%s吗？" />
+		<s k="kMessageCenterSendbackButton" v="回送礼物" />
+		<s k="kMessageCenterNoSendbackTxt1" v="您收到了一个%s" />
+		<s k="kMessageCenterNoSendbackTxt2" v="" />
+		<s k="kMessageCenterNoSendbackButton" v="确定" />
+		<s k="kMessageCenterRequestTxt1" v="%s正在请求您的帮助！" />
+		<s k="kMessageCenterRequestTxt2" v="您能不能送%s给我呢？" />
+		<s k="kMessageCenterRequestButton" v="帮助" />
+		<s k="kMessageCenterNoMessageTxt" v="[3]您在这时候没有任何消息。\n 怎么不寄送一些礼物给您的朋友呢？\n 他们会回送给您的！" />
+		<s k="kMarathonBetaMessage" v="* Tetris Marathon正在进行内测。游戏规则和分数将会不定期更改或重设。" />
+		<s k="kSprintBetaMessage" v="* Tetris Sprint正在进行内测。游戏规则和分数将会不定期更改或重设。" />
+		<s k="kBogoMsg1" v="The Heart Bomb is now in your inventory!" />
+		<s k="kBogoMsg2" v="Select to whom you wish to send the Heart Bomb" />
+		<s k="kBogoShareMsg1" v="[#firstName#] sent this\nHeart Bomb your way!" />
+		<s k="kBogoShareMsg2" v="Share the news with your friends!" />
+		<s k="kHelpControls" v="预设操作" />
+		<s k="kHelpRotateRight" v="向右旋转" />
+		<s k="kHelpMoveRight" v="向右移动" />
+		<s k="kHelpSoftDrop" v="缓降" />
+		<s k="kHelpMoveLeft" v="向左移动" />
+		<s k="kHelpHardDrop" v="瞬降" />
+		<s k="kHelpNew" v="新" />
+		<s k="kHelpSetMap" v="设置地图" />
+		<s k="kErrorRetrieveRank" v="取回阶级时出现错误。游戏档案将不会被储存。" />
+		<s k="kErrSavingOff" v="无法获得游戏的数据。游戏不能储存。" />
+		<s k="kErrSavingOff2" v="请点击'重试'来更刷新或点击'关闭'来继续玩不能储存的游戏。" />
+		<s k="kAssetRetry" v="重试" />
+		<s k="kNoticeSaleStarted" v="好消息！这个道具正在大特卖！快点选‘购买’來享受最优惠的价格吧！" />
+		<s k="kNoticeSaleEnded" v="抱歉，这个特卖已经結束了。" />
+		<s k="kSaleTag" v="折扣" />
+		<s k="kHelpName" v="帮助" />
+		<s k="kGamblingResult1" v="您赢回了" />
+		<s k="kGamblingResult2" v="%s 能源" />
+		<s k="kGamblingResult3" v="" />
+		<s k="kItemExpired" v="这道具已经过期" />
+		<s k="kFlashQualityHigh" v="高" />
+		<s k="kFlashQualityMid" v="中" />
+		<s k="kFlashQualityLow" v="低" />
+		<s k="kItemMaxTitle" v="已达到%数量的上限！" />
+		<s k="kItemMaxDesc" v="你已经达到了%数量的上限。\ n您的交易将被取消。" />
+		<s k="kInviteFriendNum1" v="发送给 " />
+		<s k="kInviteFriendNum2" v=" 位朋友" />
+		<s k="kCoinMaxTitle" v="已达到Tetris硬币的上限！" />
+		<s k="kCoinMaxDesc" v="你已经达到了Tetris硬币的上限。\ n您的交易将被取消。" />
+		<s k="kCoinCreditMsg1" v="购买Tetris硬币！" />
+		<s k="kCoinCreditMsg2" v="[@shopItemAmount@] 硬币" />
+		<s k="kCoinCreditMsg3" v="Tetris现金不足.\n你想用Facebook币来购买吗？" />
+		<s k="kShield" v="盾牌" />
+		<s k="kFinalRush" v="最终火拼" />
+		<s k="kTwinBomb" v="双胞炸弹" />
+		<s k="kGameItemTutorialUI" v="新出的游戏道具正要把游戏变得更狂！\n点击那些道具图标来开始战斗喔！" />
+		<s k="kGameItemTutorialShield" v="随机阻挡高达15条垃圾行线。" />
+		<s k="kGameItemTutorialFinalRush" v="在最后40秒内，\n发送额外多的垃圾行线。" />
+		<s k="kGameItemTutorialTwinBomb" v="炸弹会双对出现，\n使更容易地引爆。" />
+		<s k="kGameItemTutorialToss1" v="Use HOLD to \&quot;toss\&quot; the Tetrimino into the garbage!" />
+		<s k="kGameItemTutorialTry" v="这里有三个免费的[[fiItemName]]让您尝试玩玩！" />
+		<s k="kEnergyGambleTutorialTitle" v="能源奖励推广" />
+		<s k="kEnergyGambleTutorialSubtitle" v="更多的赢=更多的能源！" />
+		<s k="kEnergyGambleTutorialDesc" v="每场比赛的能源消耗 = 10 \n 可是，第一名会获得+10能量回来！\n您的阶级越高，您的能量就会获得更多！" />
+		<s k="kTripleCoinResultUpsell" v="快使用三倍硬幣\n來獲得更多的硬幣！" />
+		<s k="kAssetNotEnoughCoins" v="没有足够的硬币" />
+		<s k="kGameItemUnlockTitle" v="解锁了[[fiItemName]]！" />
+		<s k="kGameItemUnlockSubtitle" v="请到Battle 2P和6P里查看！" />
+		<s k="kTetrisCapsule" v="Tetris Capsule" />
+		<s k="kCapsuleMessage" v="Test your luck!\nSpin and win various prizes!" />
+		<s k="kCapsuleFreeCapsule" v="Free Spin x %s" />
+		<s k="kCapsuleSkip" v="Skip" />
+		<s k="kCapsuleTwist" v="Click to Spin" />
+		<s k="kCapsuleWon" v="You WON!" />
+		<s k="kCapsuleAgain" v="Spin Again" />
+		<s k="kCapsuleDailyReward" v="Daily Reward" />
+		<s k="kCapsuleFriendsBonus" v="Friends Bonus" />
+		<s k="kCapsuleFree" v="Free" />
+		<s k="kCapsuleFriends" v="Friends" />
+		<s k="KCapsuleInviteFriends" v="Invite More Friends" />
+		<s k="KCapsuleComeBack" v="Come Back Tomorrow!" />
+		<s k="kGameStartFail" v="Game Start Failed. Try again" />
+		<s k="kTetrisServerConnect" v="Tetris Server Connecting.." />
+		<s k="kCapsuleFBBuyDesc" v="Play Tetris Capsule and earn various prizes such as Coins, Cash, Energy, and items!" />
+		<s k="kPlayTetrisBattle" v="快玩Tetris Battle! " />
+		<s k="kClaimTetrisCoins" v="领取Tetris硬币" />
+		<s k="kSearchingForFriends" v="Searching for friends" />
+		<s k="kErrorAccessToken" v="Error validating Access Token: Please refresh the application" />
+		<s k="kWatch" v="Watch" />
+		<s k="kGameItemActivateTitle" v="您收到了[[fiItemName]]！" />
+		<s k="kGameMenuStart" v="开始" />
+		<s k="kGameMenuMap" v="地图" />
+		<s k="kGameMenuOption" v="选项" />
+		<s k="kGameMenuQuit" v="退出" />
+		<s k="kGameMenuChangeRoom" v="更换对战房" />
+		<s k="kGameMenuRefresh" v="刷新列表" />
+		<s k="kGameMenuResult" v="结果" />
+		<s k="kGameMenuContinue" v="继续" />
+		<s k="kGameMenuForfeit" v="弃权" />
+		<s k="kGameMenuChallenge" v="挑战" />
+		<s k="kGameItemPromotionTitle" v="Game Item 1/2 Off Day!" />
+		<s k="kGameDecorPromotionTitle" v="You Can Now Win Decor\nItems With 'PLAY TO EARN'" />
+		<s k="kGameItemBoostPromotionTitle" v="Boost to all items!" />
+		<s k="kGameItemBoostMissionTitle" v="Reach Goal Below\nfor an item boost!" />
+		<s k="kGameMissionTitle" v="Perform Tetris Line Clears\nTo Earn A Shield!" />
+		<s k="kHolidayMissionTitle" v="Use Holiday Decors\nFor An Added Boost" />
+		<s k="kSpotSaleShield" v="用盾牌道具来战胜下一场比赛吧！" />
+		<s k="kSpotSaleFinalrush" v="用最后冲刺道具来战胜下一场比赛吧！" />
+		<s k="kSpotSaleTwinbomb" v="用双倍炸弹道具来战胜下一场比赛吧！" />
+		<s k="kGiftLiteTitle" v="快发送一个[itemName]\n来帮助您的朋友！" />
+		<s k="kPlayRewardTitle" v="玩得多获得多" />
+		<s k="kSurveyTitle" v="小调查" />
+		<s k="kSurveyQ1" v="请问你对盾牌，最终火拼，\n和双胞炸弹道具有什么看法？" />
+		<s k="kSurveyQ1_C1" v="我一直都使用它们。" />
+		<s k="kSurveyQ1_C2" v="我会使用它们，但是过于昂贵。" />
+		<s k="kSurveyQ1_C3" v="我试过使用它们，但是没有帮助。" />
+		<s k="kSurveyQ1_C4" v="我不会使用它们，因为它们使游戏变得不公平。" />
+		<s k="kSurveyQ1_C5" v="不知道它们是什么。" />
+		<s k="kSurveyQ1_C6" v="我从来没有使用过。" />
+		<s k="kGameItemClickToActivate" v="点击来启用" />
+		<s k="kPlayRewardGotItem" v="您获得了\n[[itemName]]!" />
+		<s k="kPlayRewardKeepPlaying" v="继续游玩来获得更多的奖品！" />
+		<s k="kEnergy" v="能源" />
+		<s k="kReportMainTitle" v="联络客户服务" />
+		<s k="kReportMainDesc" v="我们该怎么帮助您？" />
+		<s k="kReportPlayer" v="回报玩家" />
+		<s k="kReportIssue" v="回报问题" />
+		<s k="kReportFAQLink" v="浏览常见问题" />
+		<s k="kReportUserListTitle" v="举报一位玩家" />
+		<s k="kReportUserListDesc" v="选择您想要举报的玩家" />
+		<s k="kReportUserFormTitle" v="举报 [[playerName]]" />
+		<s k="kReportUserFormDesc" v="这将会把一位玩家举报给我们的服务人员。 \n举报这位玩家的您的资讯\n将不会外泄，但是我们可能会联系您\n来获得相关或更多的资讯。" />
+		<s k="kReportIssueFormTitle" v="回报窗体" />
+		<s k="kReportIssueFormDesc" v="请在下面详细叙述您的问题。 \n当您提供的信息愈详细，\n就愈能够帮助我们来回答您的问题喔！" />
+		<s k="kReportUserFormEmail" v="电子邮件：" />
+		<s k="kReportUserFormComment" v="留下响应(最少需要5字)" />
+		<s k="kReportUserFormSubmit" v="提交" />
+		<s k="kComboDefault" v="请选择一个" />
+		<s k="kReportThankYouTitle" v="提交回报" />
+		<s k="kReportThankYouDesc" v="感谢您的回报！" />
+		<s k="kReportThankYouDesc2" v="请期待我们的服务团队\n寄email到[[email]]来\n给您的响应！" />
+		<s k="kQuickSend" v="快速发送" />
+		<s k="kQuickInvite" v="快速邀请" />
+		<s k="kReceivedEnergy" v="您从%s朋友(们)处\n接收到了能量!" />
+		<s k="kErrorChatLoad" v="无法读取聊天,请稍后在试。" />
+		<s k="kErrorGeneric" v="Oops, something went wrong. \nPlease try again later." />
+		<s k="kPauseShortcut" v="按Esc或P暂停，并查看/编辑操作" />
+		<s k="kGiftRequestText" v="这里有一个%s让您可以在Tetris Battle里使用。" />
+		<s k="kGiftRequestTitle" v="能量需求的响应 " />
+		<s k="kTournamentTitle" v="每周竞赛 " />
+		<s k="kRemaining" v="剩下%s天 " />
+		<s k="kTournamentMainDesc" v="快成为世界顶尖吧!\n当您的世界排名越高, 获得的奖品就越好喔! " />
+		<s k="kTournamentChestGoalSmall" v="竞赛\n奖品 " />
+		<s k="kTournamentChestGoalTop" v="前%s名" />
+		<s k="kTournamentChestGoalRanking" v="排名比\n%s的玩家好" />
+		<s k="kChestSmall" v="小型宝箱 " />
+		<s k="kChestMedium" v="中型宝箱 " />
+		<s k="kChestLarge" v="大型宝箱 " />
+		<s k="kChestGold" v="金色宝箱 " />
+		<s k="kTournamentYouHave" v="您拥有" />
+		<s k="kTournamentPoints" v="%s分 " />
+		<s k="kTournamentPoints2" v="分 " />
+		<s k="kTournamentInPercentile" v="在领先的 " />
+		<s k="kTournamentFreeEntry" v="每天免费游玩一次! " />
+		<s k="kFriends" v="朋友" />
+		<s k="kAll" v="前100名" />
+		<s k="kTournamentLBSendTickets" v="快送出筹码来\n帮助朋友! " />
+		<s k="kAskFriends" v="询问朋友" />
+		<s k="kTournamentYouEarned" v="您获得了 " />
+		<s k="kShareNewsAndCoins" v="快散布这个消息并让您的朋友得到些硬币吧!" />
+		<s k="kTournamentCongratulations" v="恭喜" />
+		<s k="kTournamentYouSurpassed" v="您超越了%s位朋友! " />
+		<s k="kTournamentConsecutiveBonus" v="%s场连续获胜奖励 " />
+		<s k="kTournamentChestResultSmall" v="您获得了一个%s! " />
+		<s k="kTournamentChestResultTop" v="您的世界排名是%s!\n您得到了一个%s! " />
+		<s k="kTournamentLBCongratulate" v="点击来恭喜您的朋友! " />
+		<s k="kTournamentCountDown" v="下一场竞赛将在\n%s秒后开始 " />
+		<s k="kOfferUpSellTitle" v="获得现金! " />
+		<s k="kOfferUpSellDesc" v="快完成这个活动\n来赢得一些免费的现金 " />
+		<s k="kMyStuffButton" v="我的\n东西" />
+		<s k="kTournamentPurchaseTitle" v="没有足够的筹码 " />
+		<s k="kTournamentPurchaseAsk" v="需要更多的[@endl@]筹码 " />
+		<s k="kTournamentPurchaseStart" v="跳过并[@endl@]开始游玩!  " />
+		<s k="kTournamentCarriedOver" v="您还有上星期 " />
+		<s k="kTournamentCarriedOver2" v="剩余的点数。 " />
+		<s k="kTournamentViral_result_msg1" v="[#firstName#]在Tetris Battle的本周竞赛中,获得了%s点数。  " />
+		<s k="kTournamentViral_result_msg2" v="玩每周竞赛可以获得点数及多样化的奖励喔!快来参加吧!  " />
+		<s k="kTournamentViral_surpassed_msg1" v="[#firstName#]刚在每周竞赛中超越了您!" />
+		<s k="kTournamentViral_surpassed_msg2" v="[#firstName#]获得了%s点数,并在每周竞赛中超越了您。快回到游戏中超越他吧!  " />
+		<s k="kTournamentViral_surpassedMulti_msg1" v="[#firstName#] 在每周竞赛中刚超过了%s名朋友!  " />
+		<s k="kTournamentViral_surpassedMulti_msg2" v="[#firstName#]不仅获得了%s点数,排名也上升了。快来参加Tetris Battle的每周竞赛吧!  " />
+		<s k="kTournamentViral_goldChest_msg1" v="[#firstName#]位于世界排名的第%s名,并在Tetris Battle的每周竞赛中得到了一个金色宝箱! " />
+		<s k="kTournamentViral_goldChest_msg2" v="快点击来帮忙庆祝并获得一些Tetris硬币!  " />
+		<s k="kTournamentViral_largeChest_msg1" v="[#firstName#]位于世界排名中的%s,并在Tetris Battle的每周竞赛中得到了一个大型宝箱! " />
+		<s k="kTournamentViral_largeChest_msg2" v="快点击来获得一些竞赛筹码,然后去参加Tetris Battle的每周竞赛吧!  " />
+		<s k="kTournamentViral_mediumChest_msg1" v="[#firstName#]位于世界排名中的%s,并在Tetris Battle的每周竞赛中得到了一个中型宝箱! " />
+		<s k="kTournamentViral_mediumChest_msg2" v="快点击来获得一些竞赛筹码,然后去参加Tetris Battle的每周竞赛吧!  " />
+		<s k="kTournamentViral_smallChest_msg1" v="[#firstName#]在Tetirs Battle每周竞赛中获得了一个小型宝箱!  " />
+		<s k="kTournamentViral_smallChest_msg2" v="快点击来获得一些竞赛筹码,然后去参加Tetris Battle的每周竞赛吧!  " />
+		<s k="kTournamentRequest_token_title" v="需要筹码 " />
+		<s k="kTournamentRequest_token_desc" v="这边是一个给您的筹码!快也送一个回来帮助我吧!  " />
+		<s k="kTournamentRequest_congratz_title" v="庆祝贺礼 " />
+		<s k="kTournamentRequest_congratz_desc" v="这边是100枚Tetris硬币来庆祝您成功获得了宝箱!!" />
+		<s k="kTournamentButton" v="马上参加" />
+		<s k="kGameMenuEquipped" v="装备上了" />
+		<s k="kGameMenuTitle" v="快准备好您的游戏道具!" />
+		<s k="kTotalPoints" v="总分" />
+		<s k="kWorldRanking" v="世界排名" />
+		<s k="kEntryFee" v="参加费用" />
+		<s k="kTournamentLBNotReady" v="目前无法使用排行榜 " />
+		<s k="kTournamentLBNotReady2" v="请晚点再回来查看" />
+		<s k="kResults" v="結果" />
+		<s k="kClaimToken" v="领取Tetris筹码 " />
+		<s k="kTournamentResultsSoon" v="结果将稍后公布 " />
+		<s k="kTournamentRewardActivate" v="您的一日票已经被启动啰! [@endl@]快来享受24小时的无限能源吧!" />
+		<s k="kVersionMismatchTitle" v="Version Mismatch" />
+		<s k="kVersionMismatchMessage" v="New version is available.\n Please refresh the browser." />
+		<s k="kAsyncHashInvalid" v="Country Hash String Error" />
+		<s k="kSendGiftNoFriends" v="There are no available friends\nto send gifts." />
+		<s k="kMissionRewardTitle" v="Progress" />
+		<s k="kBingoNoteItemRestriction" v="Note: Item can only be used in Battle 2P+ / Friend Battle" />
+	</TableList>
+	<TableList type="reportAbuse.xml">
+		<s k="reportAbuse_Combo01" v="没有礼貌的留言" />
+		<s k="reportAbuse_Combo02" v="作弊/使用外挂" />
+		<s k="reportAbuse_Combo01-01" v="不恰当的留言" />
+		<s k="reportAbuse_Combo01-02" v="言语辱骂" />
+		<s k="reportAbuse_Combo01-03" v="垃圾或广告讯息" />
+		<s k="reportAbuse_Combo01-04" v="言语或人身攻击" />
+		<s k="reportAbuse_Combo01-05" v="勒索或诈骗Tetris硬币/现金" />
+		<s k="reportAbuse_Combo02-01" v="发送不合常理的行线" />
+		<s k="reportAbuse_Combo02-02" v="对手移动方块的速度超过正常人的合理范围" />
+		<s k="reportAbuse_Combo02-03" v="对手特别快或特别慢开始 " />
+		<s k="reportAbuse_Combo02-04" v="异常的方块" />
+		<s k="reportAbuse_Combo02-05" v="不寻常的炸弹" />
+		<s k="reportAbuse_Combo02-06" v="其他" />
+		<s k="reportIssue_Combo01" v="Tetris现金或硬币" />
+		<s k="reportIssue_Combo02" v="游戏错误或问题" />
+		<s k="reportIssue_Combo03" v="建议或看法" />
+		<s k="reportIssue_Combo01-01" v="意外的购买了道具" />
+		<s k="reportIssue_Combo01-02" v="Tetris现金消失了" />
+		<s k="reportIssue_Combo01-03" v="Tetris硬币消失了" />
+		<s k="reportIssue_Combo01-04" v="其他(现金或硬币问题)" />
+		<s k="reportIssue_Combo02-01" v="广告" />
+		<s k="reportIssue_Combo02-02" v="显示上的问题" />
+		<s k="reportIssue_Combo02-03" v="能源的问题" />
+		<s k="reportIssue_Combo02-04" v="游戏的错误讯息" />
+		<s k="reportIssue_Combo02-05" v="画面冻结或游戏当机" />
+		<s k="reportIssue_Combo02-06" v="游戏操作/控制" />
+		<s k="reportIssue_Combo02-07" v="礼物/邀请问题" />
+		<s k="reportIssue_Combo02-08" v="游玩’Live’的问题" />
+		<s k="reportIssue_Combo02-09" v="阶级或排行榜的问题" />
+		<s k="reportIssue_Combo02-10" v="读取游戏缓慢" />
+		<s k="reportIssue_Combo02-11" v="无法游玩" />
+		<s k="reportIssue_Combo02-12" v="其他(游戏错误或问题)" />
+		<s k="reportIssue_Combo03-01" v="游戏想法建议" />
+		<s k="reportIssue_Combo03-02" v="游戏上的疑惑" />
+		<s k="reportIssue_Combo03-03" v="一般性的回馈" />
+		<s k="reportIssue_Combo03-04" v="其他(意见)" />
+	</TableList>
+	<TableList type="global.xml">
+		<s k="global_rankDesc_000" v="无经验者" />
+		<s k="global_rankDesc_001" v="新手" />
+		<s k="global_rankDesc_002" v="初学者" />
+		<s k="global_rankDesc_003" v="新秀" />
+		<s k="global_rankDesc_004" v="练习生" />
+		<s k="global_rankDesc_005" v="爱好者" />
+		<s k="global_rankDesc_006" v="实践者" />
+		<s k="global_rankDesc_007" v="竞争者" />
+		<s k="global_rankDesc_008" v="成功者" />
+		<s k="global_rankDesc_009" v="见习生" />
+		<s k="global_rankDesc_010" v="熟练者" />
+		<s k="global_rankDesc_011" v="中等程度" />
+		<s k="global_rankDesc_012" v="炙手可热" />
+		<s k="global_rankDesc_013" v="队长" />
+		<s k="global_rankDesc_014" v="领导者" />
+		<s k="global_rankDesc_015" v="先鋒" />
+		<s k="global_rankDesc_016" v="能手" />
+		<s k="global_rankDesc_017" v="专业人士" />
+		<s k="global_rankDesc_018" v="专家" />
+		<s k="global_rankDesc_019" v="老手" />
+		<s k="global_rankDesc_020" v="精英" />
+		<s k="global_rankDesc_021" v="名家" />
+		<s k="global_rankDesc_022" v="明星" />
+		<s k="global_rankDesc_023" v="超级巨星" />
+		<s k="global_rankDesc_024" v="行家" />
+		<s k="global_rankDesc_025" v="巨匠" />
+		<s k="global_rankDesc_026" v="天才" />
+		<s k="global_rankDesc_027" v="碰不得" />
+		<s k="global_rankDesc_028" v="奇才" />
+		<s k="global_rankDesc_029" v="高手" />
+		<s k="global_rankDesc_030" v="英雄" />
+		<s k="global_rankDesc_031" v="霸王" />
+		<s k="global_rankDesc_032" v="兽" />
+		<s k="global_rankDesc_033" v="斗士" />
+		<s k="global_rankDesc_034" v="宗师" />
+		<s k="global_rankDesc_035" v="圣人" />
+		<s k="global_rankDesc_036" v="师傅" />
+		<s k="global_rankDesc_037" v="大师" />
+		<s k="global_rankDesc_038" v="传奇大师" />
+		<s k="global_rankDesc_039" v="奇人" />
+		<s k="global_rankDesc_040" v="超人" />
+		<s k="global_rankDesc_041" v="不朽者" />
+		<s k="global_rankDesc_042" v="半神" />
+		<s k="global_rankDesc_043" v="神之领域" />
+		<s k="global_chat_log_invited" v="[#hostFirstName#] has invited [playerX] to join the game." />
+		<s k="global_chat_log_rejected" v="[playerX] has rejected the invitation." />
+		<s k="global_chat_log_timedout" v="Invitation to [playerX] timed out." />
+		<s k="global_chat_log_joined" v="[playerX] has joined the game." />
+		<s k="global_chat_log_won" v="[playerX] has won the game." />
+		<s k="global_chat_log_place" v="[playerX] has earned [@gameResult@] place in the game." />
+		<s k="global_chat_log_left" v="[playerX] has left the game." />
+		<s k="global_gameMode_error" v="载入游戏模式时出错了。[@endl@]请稍后再试。" />
+		<s k="global_gameMode_bomb2p" v="在2分钟内尽量多次击倒对手。" />
+		<s k="global_gameMode_toss2p_tournament" v="在2分钟内尽量多次击倒对手。" />
+		<s k="global_gameMode_slim2p_tournament" v="在2分钟内尽量多次击倒对手。" />
+		<s k="global_gameMode_slim2p" v="在2分钟内尽量多次击倒对手。" />
+		<s k="global_gameMode_toss2p" v="在2分钟内尽量多次击倒对手。" />
+		<s k="global_gameMode_elo2p" v="ALL-NEW MODE! 2-KO MAX FOR FASTER BATTLES\nAND IMPROVED RANKING SYSTEM" />
+		<s k="global_gameMode_friend2p" v="CHOOSE A FRIEND\nBELOW TO BATTLE AGAINST!" />
+		<s k="global_gameMode_battle2p" v="CLASSIC MODE. KNOCK OUT YOUR OPPONENT AS\nMUCH AS POSSIBLE WITHIN 2 MINUTES" />
+		<s k="global_gameMode_battle6p" v="在2分钟内尽量多次击倒对手。" />
+		<s k="global_gameMode_sprint4p" v="抢先您的对手来消除40行方块。" />
+		<s k="global_gameMode_marathon" v="完成15级来赢得比赛。" />
+		<s k="global_gameMode_1989" v="完成15级来赢得比赛。" />
+		<s k="global_gameMode_sprint" v="用最快的速度來消除40行以打敗對手。" />
+		<s k="global_gameMode_arena" v="在2分钟内擊倒所有的对手, 成为竞技场的冠军！" />
+		<s k="global_showGifting_title" v="当您离开的时候..." />
+		<s k="global_showGifting_msg1" v="您收到您的朋友的大型能源!" />
+		<s k="global_showGifting_msg2" v="您也发送一个大型能源回去吧。" />
+		<s k="global_postReplayPopup_mostGarbage_title" v="发送了最多的行线!" />
+		<s k="global_postReplayPopup_mostGarbage_msg" v="您在这回合里一共发送了[#]行！\n要显示给您的朋友看吗？" />
+		<s k="global_postReplayPopup_koRecord_title" v="KO记录!" />
+		<s k="global_postReplayPopup_koRecord_msg" v="您在这回合里拿下了[#]个KO！\n要显示给您的朋友看吗？" />
+		<s k="global_postReplayPopup_detonator_title" v="引爆者!" />
+		<s k="global_postReplayPopup_detonator_msg" v="嘣嘣！您在这回合里炸毁了[#]个炸弹！\n要显示给您的朋友看吗？" />
+		<s k="global_postReplayPopup_specialPromo_title" v="特殊提拨!" />
+		<s k="global_postReplayPopup_specialPromo_msg" v="这是令人难以置信的Tetris技巧！\n您有资格申请特殊提升！\n要显示给您的朋友看吗？" />
+		<s k="global_postReplayPopup_doubleStar_title" v="两倍的星星!" />
+		<s k="global_postReplayPopup_doubleStar_msg" v="您在这回合里获得了两倍的星星！\n太神奇了！\n要显示给您的朋友看吗？" />
+		<s k="global_postReplayPopup_comboRecord_title" v="连续技之王!" />
+		<s k="global_postReplayPopup_comboRecord_msg" v="您在这回合使出了[#]个连续技!\n要显示给您的朋友看吗？" />
+		<s k="global_postReplayPopup_closeGame_title" v="势均力敌的比赛!" />
+		<s k="global_postReplayPopup_closeGame_msg" v="哇，真是一个紧张的回合! \n要显示给您的朋友看吗？" />
+		<s k="global_postReplayPopup_perfectClear_title" v="完美消除!" />
+		<s k="global_postReplayPopup_perfectClear_msg" v="您在这回合里完成了一个完美消除！\n要显示给您的朋友看吗？" />
+		<s k="global_postReplayPopup_topRank_title" v="您获胜了！第一名！" />
+		<s k="global_postReplayPopup_topRank_battle_msg" v="您在比赛中赢得第一名！\n分享这个好消息吗？" />
+		<s k="global_postReplayPopup_topRank_sprint_msg" v="您以最快的速度赢得了第一！\n分享这个好消息吗？" />
+		<s k="global_postReplayPopup_highScore_title" v="分数:[#]" />
+		<s k="global_postReplayPopup_highScore_msg" v="玩得太棒了！\n转贴您的分数给朋友吗？" />
+		<s k="global_postReplayPopup_bestTime_title" v="时间:[#]" />
+		<s k="global_postReplayPopup_bestTime_msg" v="您已经完成了冲刺竞赛！\n与朋友分享吗？" />
+		<s k="global_post_viralPublish_textbox_defaultMsg" v="与朋友分享您的想法!" />
+		<s k="global_post_viralPublish_promoteMsg_rank" v="阶级[@rank@]" />
+		<s k="global_post_viralPublish_promoteMsg_level" v="等级[@level@]" />
+		<s k="global_post_viralPublish_promoteMsg_score" v="分数:[@gameScore@]" />
+		<s k="global_post_viralPublish_promoteMsg_time" v="时间:[@gameTime@]" />
+		<s k="global_post_viralPublish_rankUp_attachmentMsg" v="[#firstName#]在Tetris [@modeName@]里跃升到了阶级[@rank@]！" />
+		<s k="global_post_viralPublish_rankUp_captionMsg" v="您知道要怎样才能到达神之境界吗？快领取一些Tetris硬币来试试！" />
+		<s k="global_post_viralPublish_rankUp_shareMsg" v="您的阶级提升了！\n分享这个好消息吗？" />
+		<s k="global_post_viralPublish_specialPromo_attachmentMsg" v="[#firstName#]在Tetris[@modeName@]里展现出了优秀的技巧，并领先群雄！" />
+		<s k="global_post_viralPublish_specialPromo_captionMsg" v="由于我无可匹敌的Tetris技能，我得到了特殊提升，达到阶级 [@rank@]。快领取一些Tetris硬币来庆祝！" />
+		<s k="global_post_viralPublish_specialPromo_shareMsg" v="您的阶级提升了！分享这个好消息吗？" />
+		<s k="global_post_viralPublish_level_attachmentMsg" v="[#firstName#]在Tetris Battle里显示了一些高等的技能，您的等级提升到[@level@]!" />
+		<s k="global_post_viralPublish_level_captionMsg" v="[#firstName#]在Tetris Battle里有了剧烈的成长！快领取一些Tetris硬币来庆祝！" />
+		<s k="global_post_viralPublish_level_congratMsg" v="您达到了一个新的等级" />
+		<s k="global_post_viralPublish_level_shareMsg" v="您的等级提升了！\n 要分享这个好消息吗？" />
+		<s k="global_post_viralPublish_scoreMarathon_attachmentMsg" v="您能打破[@gameScore@]这个分数吗？" />
+		<s k="global_post_viralPublish_scoreMarathon_captionMsg" v="[#firstName#]在Marathon里得到了[@gameScore@]。快来参加和分享这乐趣!" />
+		<s k="global_post_viralPublish_scoreMarathon_congratMsg" v="多谢您玩Marathon！" />
+		<s k="global_post_viralPublish_scoreSprint_attachmentMsg" v="您能打破[@gameTime@]吗？" />
+		<s k="global_post_viralPublish_scoreSprint_captionMsg" v="[#firstName#]用了[@gameTime@]完成Sprint。" />
+		<s k="global_post_viralPublish_scoreSprint_congratMsg" v="您完成了Sprint!" />
+		<s k="global_post_viralPublish_helpEnergy_attachmentMsg" v="我需要更多的能源去玩Tetris Battle!" />
+		<s k="global_post_viralPublish_helpEnergy_captionMsg" v="请帮我补充我的能源。我会尽力回报您的。" />
+		<s k="global_post_viralPublish_helpUnlock_attachmentMsg" v="我需要您的帮助去解锁新的Tetris游戏!" />
+		<s k="global_post_viralPublish_helpUnlock_captionMsg" v="请快点帮我解锁! 以後您也可能会得到回报!" />
+		<s k="global_post_viralPublish_battleBest_attachmentMsg" v="[#firstName#]在Tetris Battle里刚刚创下了一个新的个人记录!" />
+		<s k="global_post_viralPublish_battleBest_captionMsg" v="[#firstName#]在Battle 2P里是一个很好的Tetris的玩家！\n点击播放按钮来观看重播！" />
+		<s k="global_post_viralPublish_koRecord_attachmentMsg" v="[#firstName#]在Tetris Battle里多次击败了对手!" />
+		<s k="global_post_viralPublish_koRecord_captionMsg" v="[#firstName#]到处击败了对手！您能击败[#firstName#]吗？" />
+		<s k="global_post_viralPublish_detonator_attachmentMsg" v="[#firstName#]在Tetris Battle里轻松地解决了那些讨厌的炸弹！" />
+		<s k="global_post_viralPublish_detonator_captionMsg" v="[#firstName#]在Battle 2P里展示了一些真正的引爆炸弹技能!\n点击播放按钮去观看重播!" />
+		<s k="global_post_viralPublish_specialPromo2_attachmentMsg" v="[#firstName#]刚刚提升了阶级!" />
+		<s k="global_post_viralPublish_specialPromo2_captionMsg" v="[#firstName#]在Tetris Battle里达成了那些阶级！您有办法急起直追吗？\n快领取一些Tetris硬币来庆祝！" />
+		<s k="global_post_viralPublish_comboRecord_attachmentMsg" v="[#firstName#]是一个真正的连续技高手!" />
+		<s k="global_post_viralPublish_comboRecord_captionMsg" v="[#firstName#]您想知道在Tetris Battle里如何成为连续技之王吗？\n点击播放按钮去观看重播！" />
+		<s k="global_post_viralPublish_closeGame_attachmentMsg" v="[#firstName#]艰辛的赢得这回合!" />
+		<s k="global_post_viralPublish_closeGame_captionMsg" v="[#firstName#]知道如何在Tetris Battle中获胜。您有办法挑战他吗？\n点击播放按钮来观看重播吧！" />
+		<s k="global_post_viralPublish_perfectClear_attachmentMsg" v="[#firstName#]刚刚使出了一个完美消除！太神奇了！" />
+		<s k="global_post_viralPublish_perfectClear_captionMsg" v="[#firstName#]在Tetris Battle里完美的诠释了如何消除方块！\n点击播放按钮来观看重播！" />
+		<s k="global_post_viralPublish_topRank6p_attachmentMsg" v="[#firstName#]在Battle 6P里刚刚向对手发送了[#]行线，并得到了第一名的殊荣!" />
+		<s k="global_post_viralPublish_topRank6p_captionMsg" v="[#firstName#]击败了所有的参赛者，并得到了第一名。您能做到吗？马上到Battle 6P里让他们知道谁才是老大！" />
+		<s k="global_post_viralPublish_topRank4p_attachmentMsg" v="[#firstName#]在Sprint 4P里得到了第一名。" />
+		<s k="global_post_viralPublish_topRank4p_captionMsg" v="[#firstName#]在Sprint 4P里用了[#]完成这回合, 并得到了第一名。快来参加比赛，然后向终点线冲刺吧!" />
+		<s k="global_post_viralPublish_highScore_attachmentMsg" v="您能打破[#]分的记录吗？" />
+		<s k="global_post_viralPublish_highScore_captionMsg" v="[#firstName#]在Marathon里得到了[#]。快来参加和分享这乐趣!" />
+		<s k="global_post_viralPublish_bestTime_attachmentMsg" v="您能在[#]的时间内消除掉40条行线吗？" />
+		<s k="global_post_viralPublish_bestTime_captionMsg" v="[#firstName#]用了[#]完成Sprint。" />
+		<s k="global_post_viralPublish_bogo1_attachmentMsg" v="[#firstName#] sent you a special gift in Tetris Battle!" />
+		<s k="global_post_viralPublish_bogo1_captionMsg" v="Here's a special Heart Bomb for you ;) Click to accept!" />
+		<s k="global_post_viralPublish_bogo2_attachmentMsg" v="[#firstName#] received a special Gift!" />
+		<s k="global_post_viralPublish_bogo2_captionMsg" v="For a limited time, send a Heart Bomb FREE with any purchase of Tetris Cash!" />
+		<s k="global_post_viralPublish_capsule_attachmentMsg" v="[#firstName#] just got [@gameItem@] in Tetris Battle!" />
+		<s k="global_post_viralPublish_capsule_captionMsg" v="[#firstName#] also wants to share the rewards with you! Click to claim!" />
+		<s k="global_post_viralPublish_replay_attachmentMsg" v="Watch My Stellar Performance in Tetris Battle!" />
+		<s k="global_post_viralPublish_replay_captionMsg" v="Click the play button to watch my game and join the fun in Tetris Battle!" />
+		<s k="global_lottery_minoI_notice" v="Every earned bonus in\nthe Daily Spin wins you\nan I-Tetrimino\nfor your energy bag!" />
+		<s k="global_lottery_shield_notice" v="Every earned bonus in\nthe Daily Spin wins you\na Shield\nfor Battle Modes!" />
+		<s k="global_lottery_twinBomb_notice" v="Every earned bonus in\nthe Daily Spin wins you\na Twin Bomb\nfor Battle Modes!" />
+		<s k="global_lottery_finalRush_notice" v="Every earned bonus in\nthe Daily Spin wins you\na Final Rush\nfor Battle Modes!" />
+		<s k="global_lottery_item_notice" v="Every earned bonus in\nthe Daily Spin wins you\na game item\nfor Battle Modes!" />
+		<s k="global_lottery_tetrimino_notice" v="Every earned bonus in\nthe Daily Spin wins you\na tetrimino\nfor your energy bag!" />
+		<s k="global_lottery_week_notice_msg1" v="\nReturn five consecutive days this week to earn a free armor item!" />
+		<s k="global_gameitemboost_notice_msg0" v="Item Boost!!" />
+		<s k="global_gameitemboost_notice_msg1" v="Final Rush" />
+		<s k="global_gameitemboost_notice_msg2" v="Active Time 40 &gt; 60 sec!" />
+		<s k="global_gameitemboost_notice_msg3" v="Shield" />
+		<s k="global_gameitemboost_notice_msg4" v="Defense Line 15 &gt; 30!" />
+		<s k="global_gameitemboost_notice_msg5" v="Twin Bombs" />
+		<s k="global_gameitemboost_notice_msg6" v="&gt; Triple Bombs" />
+		<s k="global_gameitemboost_notice_msg7" v="On Sept 20!" />
+		<s k="global_gameitemboost_notice_today_msg7" v="Today Only!" />
+		<s k="global_energydiscount_notice_msg0" v="Play more for less!" />
+		<s k="global_energydiscount_notice_msg1" v="Games require less energy\ntoday only!" />
+		<s k="global_boostmission_notice_msg0" v="Earn a free item boost!" />
+		<s k="global_boostmission_notice_msg1" v="Achieve the 'Play to Earn' goal in Battle 2P and we'll give one of your items a powerful boost!" />
+		<s k="global_boostmission_notice_msg2" v="Tomorrow!" />
+		<s k="global_boostmission_notice_today_msg2" v="Today Only!" />
+		<s k="global_xmas_notice0_msg0" v="BE SURE TO VISIT DAILY DURING CHRISTMAS WEEK FOR SPECIAL GIFTS AND PROMOTIONS!" />
+		<s k="global_xmas_notice0_msg1" v="HAPPY\nHOLIDAYS!" />
+		<s k="global_xmas_notice1_msg0" v="RETURN BACK EVERY DAY FOR A CHANCE TO WIN FREE HOLIDAY DECOR ITEMS IN BATTLE 2P!" />
+		<s k="global_xmas_notice1_msg1" v="\nGOOD LUCK!" />
+		<s k="global_xmas_notice2_msg0" v="DID YOU EARN ANY HOLIDAY DECOR ITEMS IN BATTLE 2P? EQUIP ONE TODAY FOR FREE BOOSTS AND BONUSES!" />
+		<s k="global_xmas_notice2_msg1" v="MERRY\nCHRISTMAS!" />
+		<s k="global_xmas_notice3_msg0" v="HAPPY HOLIDAYS!" />
+		<s k="global_xmas_notice3_msg1" v="'TIS THE SEASON TO BE JOYFUL!" />
+		<s k="global_xmas_notice3_msg2" v="THE COUNTDOWN TO NEW YEARS STARTS ON DEC. 28. STAY TUNED!" />
+		<s k="global_newyear_notice0_msg0" v="THANK YOU FOR ANOTHER GREAT YEAR! BE SURE TO TRY THE BONUS SPIN AS WE HAVE INCREASED THE CHANCES TO WIN ENERGY TICKETS!" />
+		<s k="global_newyear_notice1_msg0" v="HAPPY NEW YEAR! EQUIP YOUR HOLIDAY DECOR ITEMS TODAY FOR FREE BOOSTS AND BONUSES IN BATTLE MODES!" />
+		<s k="global_newyear_notice1_msg1" v="2014\nHERE WE COME!" />
+		<s k="global_mission_notice_msg0" v="Special Mission" />
+		<s k="global_mission_notice_msg1" v="Perform Tetris Line Clears\nTo Earn A Shield!" />
+		<s k="global_mission_notice_msg2" v="Click Me!" />
+		<s k="global_mission_notice_msg3" v="Ends In:" />
+		<s k="global_mission_notice_test" v="Completions: [@mission_completions@]\nCurrent Goal: [@mission_goal@]" />
+		<s k="global_mission_tetris_title" v="Perform Tetris Line Clears\nTo Earn A Shield!" />
+		<s k="global_mission_combo_title" v="Perform Combos\nTo Earn A Twin Bomb!" />
+		<s k="global_energy_freefriend2p" v="PLAY FOR A\nLIMITED TIME!" />
+	</TableList>
+	<TableList type="tooltip.xml">
+		<s k="tooltip_buy_coins" v="Tetris硬币: [@coins@]" />
+		<s k="tooltip_buy_cash" v="Tetris现金:" />
+		<s k="tooltip_getTetrisCash" v="购买Tetris现金！" />
+		<s k="tooltip_energy1" v="剩余能源:[@endl@][@energy@]/[@energyMax@][@endl@]将于: [@energyTime@]获得补充" />
+		<s k="tooltip_energy2" v="无限能源![@endl@]过期时间:[@energyPassTime@]" />
+		<s k="tooltip_energy3" v="打开能源袋" />
+		<s k="tooltip_xp" v="目前经验: [@exp@][@endl@] 需要[@expNext@] 经验去升级" />
+		<s k="tooltip_visual_settings" v="调整画质: [@flashQuality@]" />
+		<s k="tooltip_sound_settings" v="音效开/关" />
+		<s k="tooltip_music_settings" v="音乐开/关" />
+		<s k="tooltip_unlock_game" v="您要达到等级[@revealLevel@][@endl@]才能显示此游戏!" />
+		<s k="tooltip_unlock_game2" v="邀请[@unlockFriends@]位朋友将可解锁这游戏，[@endl@]或购买[@unlockCostCash@]Tetris现金来立刻解锁!" />
+		<s k="tooltip_arena_password" v="输入密码將会接受一个新挑战!" />
+		<s k="tooltip_click_to_play" v="开始游戏" />
+		<s k="tooltip_game_options" v="游戏选项" />
+		<s k="tooltip_return_menu" v="返回主菜单" />
+		<s k="tooltip_surrender" v="向对手认输" />
+		<s k="tooltip_shop_energy1" v="补满您的能源！" />
+		<s k="tooltip_shop_ticket1" v="1日内无限游玩！" />
+		<s k="tooltip_shop_ticket2" v="1日内无限游玩！" />
+		<s k="tooltip_shop_ticket3" v="7日内无限游玩！" />
+		<s k="tooltip_shop_ticket4" v="30日内无限游玩！" />
+		<s k="tooltip_shop_ticket5" v="90日内无限游玩！" />
+		<s k="tooltip_shop_energy2" v="补满您的能源！" />
+		<s k="tooltip_shop_default_mino" v="默认方块" />
+		<s k="tooltip_shop_holiday1" v="复活节快乐！" />
+		<s k="tooltip_shop_holiday2" v="节日快乐！" />
+		<s k="tooltip_shop_holiday3" v="情人节特价！" />
+		<s k="tooltip_shop_holiday4" v="圣帕特里克节特殊商品！" />
+		<s k="tooltip_shop_inspire1" v="灵感来自[@endl@]Tetris Party" />
+		<s k="tooltip_shop_inspire2" v="灵感来自[@endl@]Tetris Splash" />
+		<s k="tooltip_shop_inspire3" v="灵感来自[@endl@]Tetris on NES" />
+		<s k="tooltip_shop_inspire4" v="试一下这个新的挑战" />
+		<s k="tooltip_shop_inspire5" v="灵感来自[@endl@]Tetris Zone" />
+		<s k="tooltip_shop_inspire6" v="灵感来自[@endl@]Tetris Online Japan" />
+		<s k="tooltip_shop_inspire7" v="灵感来自[@endl@]Tetris at Burningman" />
+		<s k="tooltip_shop_inspire8" v="灵感来自[@endl@]Tetris DS" />
+		<s k="tooltip_shop_inspire9" v="灵感来自[@endl@]Tetris at the arcades" />
+		<s k="tooltip_shop_inspire10" v="灵感来自[@endl@]Tetris in mobile devices" />
+		<s k="tooltip_shop_inspire11" v="灵感来自[@endl@]Tetris in color mobile devices" />
+		<s k="tooltip_shop_inspire12" v="灵感来自[@endl@]Sega Tetris" />
+		<s k="tooltip_shop_inspire13" v="灵感来自[@endl@]Sega Tetris" />
+		<s k="tooltip_shop_inspire14" v="灵感来自[@endl@]Hangame Tetris" />
+		<s k="tooltip_shop_inspire15" v="灵感来自[@endl@]Tetris Grandmaster" />
+		<s k="tooltip_shop_inspire16" v="灵感来自色彩设置[@endl@]of Tetris Grandmaster" />
+		<s k="tooltip_shop_inspire17" v="灵感来自[@endl@] Tetris GB" />
+		<s k="tooltip_shop_inspire18" v="灵感来自色彩设置[@endl@]of GB Tetris" />
+		<s k="tooltip_shop_inspire19" v="灵感来自[@endl@] Atari Tetris" />
+		<s k="tooltip_shop_inspire20" v="灵感来自色彩设置[@endl@]of Atari Tetris" />
+		<s k="tooltip_shop_inspire21" v="灵感来自[@endl@]the Old Navy Challenge" />
+		<s k="tooltip_shop_inspire22" v="灵感来自[@endl@]the Old Navy Challenge" />
+		<s k="tooltip_shop_default_ghost" v="预设投影方块" />
+		<s k="tooltip_shop_default_ghostColor" v="预设色彩投影方块！" />
+		<s k="tooltip_shop_default_bomb" v="预设炸弹" />
+		<s k="tooltip_shop_holiday20" v="灵感来自[@endl@]the Old Navy Challenge" />
+		<s k="tooltip_shop_armor" v="盔甲会防止您在输的时候失去您的星星！" />
+		<s k="tooltip_shop_quake" v="当您即将输的时候，地震会猛烈摇晃您的方块!" />
+		<s k="tooltip_shop_cut" v="当您即将输的时候，剪刀会剪掉一些行!" />
+		<s k="tooltip_shop_cut2" v="当您即将被KO的时候，剪刀剪掉5行线!" />
+		<s k="tooltip_shop_triple_coins" v="一日內的所有比赛都会获取3倍多的硬币!" />
+		<s k="tooltip_shop_armor_left" v="您还剩下[@armor@]件盔甲。[@endl@]盔甲会保护您的星星。" />
+		<s k="tooltip_shop_armor_left_buy" v="您还剩下[@armor@]件盔甲。[@endl@]盔甲会保护您的星星。[@endl@]点击这里来购买盔甲！" />
+		<s k="tooltip_shop_quake_left" v="您还剩下[@quake@]个地震。[@endl@]当您即将输的时候，[@endl@]地震会动摇您的网格!" />
+		<s k="tooltip_shop_cut_left" v="您还剩下[@cut@]把剪刀。[@endl@]当您即将输的时候，[@endl@]剪刀会在顶部剪掉一些行!" />
+		<s k="tooltip_shop_coins_desc" v="一日內的所有比赛都会获取3倍多的硬币!" />
+		<s k="tooltip_tuning" v="购买升级!" />
+		<s k="tooltip_avatar" v="角色部分" />
+		<s k="tooltip_nextQueueUnlock" v="点击来解锁！" />
+		<s k="tooltip_gameItem_d" v="选择一个防御道具。" />
+		<s k="tooltip_gameItem_d_shield" v="随机阻挡高达15条垃圾行线。" />
+		<s k="tooltip_gameItem_d_mirror" v="反映20％的垃圾行线。" />
+		<s k="tooltip_gameItem_d_cut" v="删除5行线，以防止KO。" />
+		<s k="tooltip_gameItem_d_quake" v="触发震裂，以防止KO。" />
+		<s k="tooltip_gameItem_d_toss1" v="Toss 20 pieces from next queue." />
+		<s k="tooltip_gameItem_d_toss2" v="Toss 40 pieces from next queue." />
+		<s k="tooltip_gameItem_d_toss3" v="Toss 100 pieces from next queue." />
+		<s k="tooltip_gameItem_d_slim8" v="Reduces matrix with to 8 wide." />
+		<s k="tooltip_gameItem_d_slim6" v="Reduces matrix with to 6 wide." />
+		<s k="tooltip_gameItem_d_slim4" v="Reduces matrix with to 4 wide." />
+		<s k="tooltip_gameItem_s_ko1" v="Triggers a win after 1 KO." />
+		<s k="tooltip_gameItem_noInventory" v="No items remaining." />
+		<s k="tooltip_gameItem_o" v="选择一个攻击道具。" />
+		<s k="tooltip_gameItem_o_finalRush" v="在最后40秒内，[@endl@]发送额外多的垃圾行线。" />
+		<s k="tooltip_gameItem_o_tetris1" v="发送Tetris时额外多加一条垃圾行线。" />
+		<s k="tooltip_gameItem_o_tspin1" v="发送T-自旋时额外多加一条的垃圾线。" />
+		<s k="tooltip_gameItem_s" v="选择一个辅助道具。" />
+		<s k="tooltip_gameItem_s_extraBomb" v="Bonus bombs appear [@endl@]for easier detonation." />
+		<s k="tooltip_gameItem_s_twinBomb" v="炸弹会双对出现，[@endl@]使更容易地引爆。" />
+		<s k="tooltip_gameItem_s_fireBomb" v="火炸弹会偶尔出现，[@endl@]使更容易地清除多条行线。" />
+		<s k="tooltip_gameItem_s_speed1" v="加快消行速度。" />
+		<s k="tooltip_gameItem_unlock_d" v="在4级[@endl@]解锁" />
+		<s k="tooltip_gameItem_unlock_o" v="在5级[@endl@]解锁" />
+		<s k="tooltip_gameItem_unlock_s" v="在6级[@endl@]解锁" />
+		<s k="tooltip_gameItem_nonbomb" v="不能在这个游戏模式里使用这个道具" />
+		<s k="tooltip_gameItem_d_shieldPromotion" v="Randomly blocks up to [@del]15[del@] 30 Lines." />
+		<s k="tooltip_gameItem_o_finalRushPromotion" v="Sends extra garbage lines[@endl@]in the final [@del]40[del@] 60 seconds." />
+		<s k="tooltip_gameItem_s_twinBombPromotion" v="Bombs appear in [@del]pairs[del@] triplets[@endl@]for easier detonation." />
+		<s k="tooltip_gameItem_d_shieldBoost" v="Randomly blocks up to [@del]15[del@] 30 Lines." />
+		<s k="tooltip_gameItem_o_finalRushBoost" v="Sends extra garbage lines[@endl@]in the final [@del]40[del@] 60 seconds." />
+		<s k="tooltip_gameItem_s_twinBombBoost" v="Bombs appear in [@del]pairs[del@] triplets[@endl@]for easier detonation." />
+		<s k="tooltip_handicap" v="这仅适用于与朋友对战[@endl@]，还将会关闭星星增减的改变。" />
+		<s k="tooltip_addCoins" v="购买硬币" />
+		<s k="tooltip_tripleCoins_hud" v="Tetris硬币: [@coins@][@endl@]三倍硬币[@endl@]将在[@tripleCoinExpiration@]过期" />
+		<s k="tooltip_buy_tripleCoins" v="Tetris硬币: [@coins@][@endl@]点击这里来购买三倍硬币。" />
+		<s k="tooltip_contact_support" v="联络客户服务中心 " />
+		<s k="tooltip_report_issue" v="回报错误、疑惑、问题或意见 " />
+		<s k="tooltip_report_user2" v="只有在多人模式才可回报,[@endl@]一天最多只能回报七次。" />
+		<s k="tooltip_report_user" v="举报玩家" />
+		<s k="tooltip_help" v="帮助" />
+		<s k="tooltip_settings" v="设置" />
+		<s k="tooltip_noad" v="只要您购买任何價值10FB幣或以上的物品，[@endl@]当您在游玩游戏时，[@endl@]就不會出現任何的固定廣告。" />
+		<s k="tooltip_playReward" v="玩游戏后会自动增加这奖品条，[@endl@]增满了就会得到奖品喔！" />
+		<s k="tooltip_tournamentRankNotReady" v="级别计算还没完成。[@endl@]晚点再回来确认吧! " />
+		<s k="tooltip_tournamentWorldRanking" v="您全部的点数[@endl@]比全部世界上的%s玩家都还高" />
+		<s k="tooltip_tournamentWorldRankingTop" v="您全部的点数[@endl@]在世界的%s内" />
+		<s k="tooltip_shop_token" v="使用以进入每周竞赛" />
+		<s k="tooltip_rankbar_current" v="Current Rank" />
+		<s k="tooltip_rankbar_max" v="Max Rank" />
+		<s k="tooltip_rankbar" v="Rank" />
+		<s k="tooltip_missionReward" v="Perform Tetrises to fill the bar[@endl@] and win a prize!" />
+		<s k="tooltip_achievement1" v="Win  Battle 2P or Battle 2P Plus Within 40 Seconds" />
+		<s k="tooltip_achievement2" v="Play Arena" />
+		<s k="tooltip_achievement3" v="Play Battle 2P" />
+		<s k="tooltip_achievement4" v="Play Battle 2P Plus" />
+		<s k="tooltip_achievement5" v="Play Battle 6P" />
+		<s k="tooltip_achievement6" v="Play Marathon" />
+		<s k="tooltip_achievement7" v="Play Sprint" />
+		<s k="tooltip_achievement8" v="Play Sprint 4P" />
+		<s k="tooltip_achievement9" v="Perform Tetrises" />
+		<s k="tooltip_achievement10" v="Perform T-Spins" />
+		<s k="tooltip_achievement11" v="Perform Back-to-Backs" />
+		<s k="tooltip_achievement12" v="Perform Line Clears" />
+		<s k="tooltip_achievement13" v="Detonate Bombs" />
+		<s k="tooltip_achievement14" v="Perform a 6+ Combo" />
+		<s k="tooltip_achievement15" v="Use Shield Item" />
+		<s k="tooltip_achievement16" v="Use Final Rush Item" />
+		<s k="tooltip_achievement17" v="Use Twin Bomb" />
+		<s k="tooltip_achievement18" v="Use Custom Mino" />
+		<s k="tooltip_achievement19" v="Use Custom Ghost" />
+		<s k="tooltip_achievement20" v="Use Custom Color Ghost" />
+		<s k="tooltip_achievement21" v="Use Custom Bomb" />
+		<s k="tooltip_achievement22" v="Use a map" />
+		<s k="tooltip_achievement23" v="Rank Up" />
+		<s k="tooltip_achievement24" v="Invite a friend" />
+		<s k="tooltip_achievement25" v="Use 1 KO Item" />
+		<s k="tooltip_achievement999" v="Free Piece!" />
+	</TableList>
+	<TableList type="friend2p.xml">
+		<s k="battle2p_tips1" v="[m]使用键盘上的箭头键去移动方块。" />
+		<s k="battle2p_tips2" v="[m]按[Shift]或[C]可以保存方块为以后使用。" />
+		<s k="battle2p_tips3" v="[m]按[空格键]会即刻下降方块和锁定它。" />
+		<s k="battle2p_tips4" v="[m]消除两列或以上的行线会发送一列行线给对手。" />
+		<s k="battle2p_tips5" v="[m]在炸弹上降下您的方块，将会消除垃圾行线！" />
+	</TableList>
+	<TableList type="elo2p.xml">
+		<s k="battle2p_tips1" v="[m]使用键盘上的箭头键去移动方块。" />
+		<s k="battle2p_tips2" v="[m]按[Shift]或[C]可以保存方块为以后使用。" />
+		<s k="battle2p_tips3" v="[m]按[空格键]会即刻下降方块和锁定它。" />
+		<s k="battle2p_tips4" v="[m]消除两列或以上的行线会发送一列行线给对手。" />
+		<s k="battle2p_tips5" v="[m]在炸弹上降下您的方块，将会消除垃圾行线！" />
+	</TableList>
+	<TableList type="toss2p.xml">
+		<s k="battle2p_tips1" v="[m]使用键盘上的箭头键去移动方块。" />
+		<s k="battle2p_tips2" v="[m]按[Shift]或[C]可以保存方块为以后使用。" />
+		<s k="battle2p_tips3" v="[m]按[空格键]会即刻下降方块和锁定它。" />
+		<s k="battle2p_tips4" v="[m]消除两列或以上的行线会发送一列行线给对手。" />
+		<s k="battle2p_tips5" v="[m]在炸弹上降下您的方块，将会消除垃圾行线！" />
+	</TableList>
+	<TableList type="battle2p_tournament.xml">
+		<s k="battle2p_tips1" v="[m]使用键盘上的箭头键去移动方块。" />
+		<s k="battle2p_tips2" v="[m]按[Shift]或[C]可以保存方块为以后使用。" />
+		<s k="battle2p_tips3" v="[m]按[空格键]会即刻下降方块和锁定它。" />
+		<s k="battle2p_tips4" v="[m]消除两列或以上的行线会发送一列行线给对手。" />
+		<s k="battle2p_tips5" v="[m]在炸弹上降下您的方块，将会消除垃圾行线！" />
+	</TableList>
+	<TableList type="battle2p_tournament_map.xml">
+		<s k="battle2p_map_name1" v="经典" />
+		<s k="battle2p_map_desc1" v="一个为经典玩家\n而设的经典地图。" />
+		<s k="battle2p_map_name2" v="笑脸" />
+		<s k="battle2p_map_desc2" v="我们希望您会玩得开心，\n因为我们设计这地图时也很开心。" />
+		<s k="battle2p_map_name3" v="连续技之王" />
+		<s k="battle2p_map_desc3" v="连续技之王这名号您当之无愧。" />
+		<s k="battle2p_map_name4" v="埃及舞" />
+		<s k="battle2p_map_desc4" v="跳拜日舞！" />
+		<s k="battle2p_map_name5" v="餐盒" />
+		<s k="battle2p_map_desc5" v="您今天要吃什么呢？" />
+		<s k="battle2p_map_name6" v="怪兽" />
+		<s k="battle2p_map_desc6" v="成为一位英雄来击退那只怪兽吧。" />
+		<s k="battle2p_map_name7" v="连续技障碍" />
+		<s k="battle2p_map_desc7" v="您能不断地用连续技来消除\n所有的方块吗？" />
+		<s k="battle2p_map_name8" v="三重旋转" />
+		<s k="battle2p_map_desc8" v="您不知道如何做ţ旋轉？\n在这里练习看看吧。" />
+		<s k="battle2p_map_name9" v="乌龟" />
+		<s k="battle2p_map_desc9" v="缓慢的速度及稳定\n也是可以获得最终的胜利！" />
+		<s k="battle2p_map_name10" v="挖掘" />
+		<s k="battle2p_map_desc10" v="尽可能用最快的速度去\n挖掘到底部！" />
+		<s k="battle2p_map_name11" v="短距离冲刺" />
+		<s k="battle2p_map_desc11" v="这是一个快速的短跑到底部！\n不要落后！" />
+		<s k="battle2p_map_name12" v="水火不相容" />
+		<s k="battle2p_map_desc12" v="您可能会同时感到温暖和凉爽。" />
+	</TableList>
+	<TableList type="slim2p_tournament.xml">
+		<s k="battle2p_tips1" v="[m]使用键盘上的箭头键去移动方块。" />
+		<s k="battle2p_tips2" v="[m]按[Shift]或[C]可以保存方块为以后使用。" />
+		<s k="battle2p_tips3" v="[m]按[空格键]会即刻下降方块和锁定它。" />
+		<s k="battle2p_tips4" v="[m]消除两列或以上的行线会发送一列行线给对手。" />
+		<s k="battle2p_tips5" v="[m]在炸弹上降下您的方块，将会消除垃圾行线！" />
+	</TableList>
+	<TableList type="toss2p_tournament.xml">
+		<s k="battle2p_tips1" v="[m]使用键盘上的箭头键去移动方块。" />
+		<s k="battle2p_tips2" v="[m]按[Shift]或[C]可以保存方块为以后使用。" />
+		<s k="battle2p_tips3" v="[m]按[空格键]会即刻下降方块和锁定它。" />
+		<s k="battle2p_tips4" v="[m]消除两列或以上的行线会发送一列行线给对手。" />
+		<s k="battle2p_tips5" v="[m]在炸弹上降下您的方块，将会消除垃圾行线！" />
+	</TableList>
+	<TableList type="bomb2p.xml">
+		<s k="battle2p_tips1" v="[m]使用键盘上的箭头键去移动方块。" />
+		<s k="battle2p_tips2" v="[m]按[Shift]或[C]可以保存方块为以后使用。" />
+		<s k="battle2p_tips3" v="[m]按[空格键]会即刻下降方块和锁定它。" />
+		<s k="battle2p_tips4" v="[m]消除两列或以上的行线会发送一列行线给对手。" />
+		<s k="battle2p_tips5" v="[m]在炸弹上降下您的方块，将会消除垃圾行线！" />
+	</TableList>
+	<TableList type="slim2p.xml">
+		<s k="battle2p_tips1" v="[m]使用键盘上的箭头键去移动方块。" />
+		<s k="battle2p_tips2" v="[m]按[Shift]或[C]可以保存方块为以后使用。" />
+		<s k="battle2p_tips3" v="[m]按[空格键]会即刻下降方块和锁定它。" />
+		<s k="battle2p_tips4" v="[m]消除两列或以上的行线会发送一列行线给对手。" />
+		<s k="battle2p_tips5" v="[m]在炸弹上降下您的方块，将会消除垃圾行线！" />
+	</TableList>
+	<TableList type="battle2p.xml">
+		<s k="battle2p_tips1" v="[m]使用键盘上的箭头键去移动方块。" />
+		<s k="battle2p_tips2" v="[m]按[Shift]或[C]可以保存方块为以后使用。" />
+		<s k="battle2p_tips3" v="[m]按[空格键]会即刻下降方块和锁定它。" />
+		<s k="battle2p_tips4" v="[m]消除两列或以上的行线会发送一列行线给对手。" />
+		<s k="battle2p_tips5" v="[m]在炸弹上降下您的方块，将会消除垃圾行线！" />
+	</TableList>
+	<TableList type="battle2p_map.xml">
+		<s k="battle2p_map_name1" v="经典" />
+		<s k="battle2p_map_desc1" v="一个为经典玩家\n而设的经典地图。" />
+		<s k="battle2p_map_name2" v="笑脸" />
+		<s k="battle2p_map_desc2" v="我们希望您会玩得开心，\n因为我们设计这地图时也很开心。" />
+		<s k="battle2p_map_name3" v="连续技之王" />
+		<s k="battle2p_map_desc3" v="连续技之王这名号您当之无愧。" />
+		<s k="battle2p_map_name4" v="埃及舞" />
+		<s k="battle2p_map_desc4" v="跳拜日舞！" />
+		<s k="battle2p_map_name5" v="餐盒" />
+		<s k="battle2p_map_desc5" v="您今天要吃什么呢？" />
+		<s k="battle2p_map_name6" v="怪兽" />
+		<s k="battle2p_map_desc6" v="成为一位英雄来击退那只怪兽吧。" />
+		<s k="battle2p_map_name7" v="连续技障碍" />
+		<s k="battle2p_map_desc7" v="您能不断地用连续技来消除\n所有的方块吗？" />
+		<s k="battle2p_map_name8" v="三重旋转" />
+		<s k="battle2p_map_desc8" v="您不知道如何做ţ旋轉？\n在这里练习看看吧。" />
+		<s k="battle2p_map_name9" v="乌龟" />
+		<s k="battle2p_map_desc9" v="缓慢的速度及稳定\n也是可以获得最终的胜利！" />
+		<s k="battle2p_map_name10" v="挖掘" />
+		<s k="battle2p_map_desc10" v="尽可能用最快的速度去\n挖掘到底部！" />
+		<s k="battle2p_map_name11" v="短距离冲刺" />
+		<s k="battle2p_map_desc11" v="这是一个快速的短跑到底部！\n不要落后！" />
+		<s k="battle2p_map_name12" v="水火不相容" />
+		<s k="battle2p_map_desc12" v="您可能会同时感到温暖和凉爽。" />
+	</TableList>
+	<TableList type="battle6p_map.xml">
+		<s k="battle6p_map_name1" v="经典" />
+		<s k="battle6p_map_desc1" v="一个为经典玩家\n而设的经典地图。" />
+		<s k="battle6p_map_name2" v="笑脸" />
+		<s k="battle6p_map_desc2" v="我们希望您会玩得开心，\n因为我们设计这地图时也很开心。" />
+		<s k="battle6p_map_name3" v="连续技之王" />
+		<s k="battle6p_map_desc3" v="连续技之王这名号您当之无愧。" />
+		<s k="battle6p_map_name4" v="埃及舞" />
+		<s k="battle6p_map_desc4" v="一起跳拜日舞！" />
+		<s k="battle6p_map_name5" v="餐盒" />
+		<s k="battle6p_map_desc5" v="您今天要吃什么呢？" />
+		<s k="battle6p_map_name6" v="怪兽" />
+		<s k="battle6p_map_desc6" v="成为一位英雄来击退那只怪兽吧。" />
+		<s k="battle6p_map_name7" v="连续技障碍" />
+		<s k="battle6p_map_desc7" v="您能不断地用连续技来消除\n所有的方块吗？" />
+		<s k="battle6p_map_name8" v="三重旋转" />
+		<s k="battle6p_map_desc8" v="您不知道如何做T旋轉？\n在这里练习看看吧。" />
+		<s k="battle6p_map_name9" v="乌龟" />
+		<s k="battle6p_map_desc9" v="缓慢的速度及稳定\n也是可以获得最终的胜利！" />
+		<s k="battle6p_map_name10" v="挖掘" />
+		<s k="battle6p_map_desc10" v="尽可能用最快的速度去\n挖掘到底部！" />
+		<s k="battle6p_map_name11" v="短距离冲刺" />
+		<s k="battle6p_map_desc11" v="这是一个快速的短跑到底部！\n不要落后！" />
+		<s k="battle6p_map_name12" v="水火不相容" />
+		<s k="battle6p_map_desc12" v="您可能会同时感到温暖和凉爽。" />
+	</TableList>
+	<TableList type="shop.xml">
+		<s k="shop_mystery_gift" v="神秘礼物" />
+		<s k="shop_valentines_box" v="Valentine's Box" />
+		<s k="shop_l_coins" v="200硬币" />
+		<s k="shop_m_coins" v="100硬币" />
+		<s k="shop_s_coins" v="50硬币" />
+		<s k="shop_s_cash" v="1现金" />
+		<s k="shop_energy_small" v="小量能源" />
+		<s k="shop_energy_medium" v="中量能源" />
+		<s k="shop_energy_large" v="大量能源" />
+		<s k="shop_energy_refill" v="[2]补充能源" />
+		<s k="shop_ticket0" v="30 Min Token" />
+		<s k="shop_ticket1" v="[2]一日票" />
+		<s k="shop_ticket2" v="[2]七日票" />
+		<s k="shop_ticket3" v="[2]三十日票" />
+		<s k="shop_ticket4" v="[2]九十日票" />
+		<s k="shop_default" v="[2]预设" />
+		<s k="shop_lrspeed" v="[2]左右移动速度" />
+		<s k="shop_lrspeed_desc" v="让您可以更快速地左右移动！" />
+		<s k="shop_linespeed" v="[2]消行速度" />
+		<s k="shop_linespeed_desc" v="让您更快速的消去行线，\n使您的攻击更快更猛烈！" />
+		<s k="shop_softdrop" v="[2]缓降速度" />
+		<s k="shop_shoftdrop_desc" v="让您能更快速地降下您的方块。" />
+		<s k="shop_nextpiece" v="[2]显示将降下的的方块" />
+		<s k="shop_nextpiece_desc" v="让您看到更多即将降下的方块。" />
+		<s k="shop_armor" v="[2]盔甲" />
+		<s k="shop_quake" v="[2]地震" />
+		<s k="shop_cut" v="[2]剪刀" />
+		<s k="shop_tripleCoins" v="[2]三倍硬币" />
+		<s k="items_desc_minoGift" v="集满七种方块可获得特别奖品!" />
+		<s k="items_desc_mystery" v="它充滿了驚喜！" />
+		<s k="items_desc_shop" v="在商店里购买物品！" />
+		<s k="items_desc_energyS" v="恢复一点能源。" />
+		<s k="items_desc_energyM" v="恢复一些能源。" />
+		<s k="items_desc_energyL" v="恢复大量能源。" />
+		<s k="items_desc_energyF" v="恢复到能源的最大值。" />
+		<s k="items_desc_mino" v="Tetrimino图片集" />
+		<s k="items_desc_ghost" v="Ghost图片集" />
+		<s k="items_desc_easter" v="复活节快乐！" />
+		<s k="items_desc_valentine" v="情人节限量版" />
+		<s k="items_desc_stPatrick" v="圣帕特里克节快乐！" />
+		<s k="items_desc_halloween" v="万圣节快乐！" />
+		<s k="items_desc_thanksgiving" v="感恩节快乐！" />
+		<s k="shop_shield" v="盾牌" />
+		<s k="shop_finalrush" v="最终火拼" />
+		<s k="shop_twinbomb" v="双胞炸弹" />
+		<s k="shop_cash" v="现金" />
+		<s k="shop_coins" v="硬币" />
+		<s k="shop_token" v="筹码" />
+		<s k="items_desc_ph_energy" v="Buy Energy Refill to play more games on Tetris Battle!" />
+		<s k="items_desc_ph_1dayticket" v="Buy 1 Day Ticket to play unlimited games for a day on Tetris Battle!" />
+		<s k="items_desc_ph_7dayticket" v="Buy 7 Day Ticket to play unlimited games for 7 days on Tetris Battle!" />
+	</TableList>
+	<TableList type="popups">
+		<s k="needEnergy_msg1" v="对不起，您需要更多的能源才能继续游玩。" />
+		<s k="needEnergy_msg2" v="选择一个来补充能源，就可以玩更多的Tetris!" />
+		<s k="needEnergy_full" v="全补能源" />
+		<s k="needEnergy_large" v="大量能源" />
+		<s k="needEnergy_medium" v="中量能源" />
+		<s k="needEnergy_small" v="小量能源" />
+		<s k="needEnergy_energy" v="能源" />
+		<s k="needEnergyBtn_ask" v="请求朋友" />
+		<s k="needEnergyBtn_Use" v="使用" />
+		<s k="needEnergyBtn_Buy" v="现在购买" />
+		<s k="needEnergyBtn_Ticket" v="票" />
+		<s k="kTwinBomb" v="双胞炸弹" />
+		<s k="kGameItemTutorialUI" v="新出的游戏道具正要把游戏变得更狂！\n点击那些道具图标来开始战斗喔！" />
+		<s k="kGameItemTutorialShield" v="随机阻挡高达15条垃圾行线。" />
+		<s k="kGameItemTutorialFinalRush" v="在最后40秒内，\n发送额外多的垃圾行线。" />
+		<s k="kGameItemTutorialTwinBomb" v="炸弹会双对出现，\n使更容易地引爆。" />
+		<s k="coinPopup_buyTetrisCoins" v="购买Tetris硬币！" />
+		<s k="coinPopup_notEnoughCoins" v="没有足够的硬币" />
+		<s k="coinPopup_BuyNow" v="立刻购买" />
+		<s k="gamePopup_armor_msg1" v="失去了星星让您失望难过？" />
+		<s k="gamePopup_armor_msg2" v="[2]立刻到商店里！ [@endl@]购买新的盔甲来保护您的阶级！" />
+		<s k="gamePopup_1DayTicket_title" v="一日票" />
+		<s k="gamePopup_1DayTicket_msg1" v="无限地玩游戏！" />
+		<s k="gamePopup_1DayTicket_msg2" v="[2]购买一日票可以在一日内无限地畅玩游戏！" />
+		<s k="gamePopup_buyNow" v="立刻购买" />
+		<s k="gamePopup_armor" v="[2]盔甲" />
+		<s k="gamePopup_buyArmor" v="恢复您的盔甲！[@endl@]保护您的星星和阶级！" />
+		<s k="gamePopup_buyArmor_sale" v="限时特价！[@endl@]保护您的星星和阶级！" />
+		<s k="gamePopup_bustersale" v="Tetris Battle大特价 !" />
+		<s k="gamePopup_7DayTicket_title" v="七日票" />
+		<s k="gamePopup_1DayTicket_sale" v="一天内无限畅玩! " />
+		<s k="gamePopup_7DayTicket_sale" v="七天内无限畅玩!" />
+		<s k="gamePopup_limitedTimeOffer" v="限时优惠！" />
+		<s k="gamePopup_goToShop" v="去商店" />
+		<s k="gamePopup_triplecoinstitle" v="三倍硬币" />
+		<s k="gamePopup_triplecointext1" v="持续24小时! " />
+		<s k="gamePopup_triplecointext2" v="Win 3X as many coins after every game!" />
+		<s k="gamePopup_video_armor1" v="赚取1件盔甲" />
+		<s k="gamePopup_video_armor2" v="观看一段影片广告，就可以赚取1件盔甲！[@endl@]这是完全免费喔！" />
+		<s k="gamePopup_shield" v="盾牌" />
+		<s k="gamePopup_finalRush" v="最终火拼" />
+		<s k="gamePopup_twinBomb" v="双胞炸弹" />
+		<s k="gamePopup_shield_title" v="阻挡即将到来的垃圾行线攻击 " />
+		<s k="gamePopup_finalRush_title" v="增加您的攻击强度" />
+		<s k="gamePopup_twinBomb_title" v="更容易地引爆 " />
+		<s k="gamePopup_shield_desc" v="随机阻挡高达15条垃圾行线。" />
+		<s k="gamePopup_finalRush_desc" v="在最后40秒内，[@endl@]发送额外多的垃圾行线。" />
+		<s k="gamePopup_twinBomb_desc" v="炸弹会双对出现，[@endl@]使更容易地引爆。" />
+		<s k="gamePopup_promoEndIn2" v="[3] 特价将结束于 " />
+		<s k="gamePopup_KnockOutDeal_msg2" v="只能从这个广告窗口购买喔!" />
+		<s k="gamePopup_SpecialOffer" v="限时大特价" />
+		<s k="gamePopup_SaveBigNow" v="您最优惠的选择!" />
+		<s k="gamePopup_energyrefilltitle" v="补充能源" />
+		<s k="gamePopup_energyrefilltext1" v="使用Tetris硬币来补充能源!" />
+		<s k="mmPopup_gift_msg1" v="送礼！" />
+		<s k="mmPopup_gift_msg2" v="用免费的能源及硬币来帮助您的朋友！" />
+		<s k="mmPopup_gift_btn" v="免费礼物" />
+		<s k="mmPopup_armor_msg1" v="因为失去​​星星而失望难过吗？ [@endl@]现在就到商店里购买盔甲来保护您的阶级吧！" />
+		<s k="mmPopup_goToShop" v="去商店" />
+		<s k="mmPopup_invite_msg1" v="拓展您的Tetris Battle 世界吧！ [@endl@]邀请您的朋友，将会带来更多的挑战。" />
+		<s k="mmPopup_invite_btn" v="邀请" />
+		<s k="mmPopup_like_msg1" v="成为一个粉丝" />
+		<s k="mmPopup_like_btn" v="赞" />
+		<s k="mmPopup_buy_cash" v="购买现金" />
+		<s k="mmPopup_SpringSale_msg1" v="Spring Cleaning Item Sale!" />
+		<s k="mmPopup_SpringSale_msg2" v="Get 'em while you still can!" />
+		<s k="mmPopup_SpringSale_msg3" v="Promotion will end in:" />
+		<s k="mmPopup_tetrisCashSale" v="Tetris现金特卖" />
+		<s k="mmPopup_cashSPDPromo_msg" v="Buy Tetris Cash and celebrate St. Patrick's Day[@endl@]with some style!" />
+		<s k="mmPopup_limitedTimeOffer" v="Limited Time Offer" />
+		<s k="mmPopup_SpringDeco_msg1" v="New Spring Decor!" />
+		<s k="mmPopup_SpringDeco_msg2" v="Now available for harvesting!" />
+		<s k="mmPopup_Arena_msg1" v="竞技场封闭测试" />
+		<s k="mmPopup_Arena_msg2" v="快跟随Tetris Battle的Twitter[@endl@]来得知竞技场的密码！" />
+		<s k="mmPopup_Tuning_msg1" v="更多的调整！" />
+		<s k="mmPopup_Tuning_msg2" v="何不买些调整来测试您的技术，[@endl@]并试着打破您之前在冲刺的舊记录呢？" />
+		<s k="mmPopup_easterSale_msg1" v="Easter Special!" />
+		<s k="mmPopup_easterSale_msg2" v="Buy any amount of Tetris Cash and get a[@endl@]FREE Easter Egg Bomb for you and a friend!" />
+		<s k="mmPopup_easterSale_msg2B" v="Last Chance to get a FREE Easter Egg Bomb for you[@endl@]and a friend with any purchase of Tetris Cash!" />
+		<s k="mmPopup_promoEndIn" v="Promotion[@endl@]will end in:" />
+		<s k="mmPopup_lastDay" v="Last Day!!" />
+		<s k="mmPopup_SpecialOffer" v="限时大特价" />
+		<s k="mmPopup_SpecialOffer_msg1" v="快购买您需要的Tetris现金![@endl@]限时特价中!" />
+		<s k="mmPopup_SpecialOffer_msg2" v="真幸运![@endl@]您是被挑选上享受特价优惠的那位幸运儿！" />
+		<s k="mmPopup_KnockOutDeal_msg2" v="Only Available through this pop-up!" />
+		<s k="mmPopup_tripleCoins" v="三倍硬币" />
+		<s k="mmPopup_tripleCoins_desc" v="每场比赛后会赢得3倍多的硬币！有效期一天。" />
+		<s k="mmEnergyGambleTutorialTitle" v="能源奖励推广" />
+		<s k="mmEnergyGambleTutorialSubtitle" v="更多的赢=更多的能源！" />
+		<s k="mmEnergyGambleTutorialDesc1" v="每场比赛的能源消耗 = 10 " />
+		<s k="mmEnergyGambleTutorialDesc2" v="可是，第一名会获得+10能量回来！" />
+		<s k="mmEnergyGambleTutorialDesc3" v="您的阶级越高，您的能量就会获得更多！" />
+		<s k="mmOK" v="确定" />
+		<s k="mmBuyNow" v="立刻购买" />
+		<s k="mmPopup_StarterPack" v="Starter Pack" />
+		<s k="mmPopup_SaveBigNow" v="Save Big Now!" />
+		<s k="mmPopup_summerItemSale1" v="Sizzlin' Summer Décor Sale!" />
+		<s k="mmPopup_summerItemSale2" v="Get them while they're hot!" />
+		<s k="mmPopup_summerCashSale1" v="Sizzlin' Summer Cash Sale!" />
+		<s k="mmPopup_summerCashSale2" v="Get a Star Bomb for you and one to give[@endl@]to a friend FREE with any purchase!" />
+		<s k="mmPopup_promoEndIn2" v="Promotion will end in:" />
+		<s k="mmPopup_genericCashSale" v="快购买您需要的Tetris现金![@endl@]限时特价中!" />
+		<s k="mmPopup_invite2_msg1" v="更多的朋友， 更多的乐趣！" />
+		<s k="mmPopup_invite2_msg2" v="每个受邀新加入游戏的朋友，都可以获得200枚硬币喔！" />
+		<s k="mmPopup_invite3_msg1" v="邀请您的朋友们!  " />
+		<s k="mmPopup_invite3_msg2" v="最多\n可获得 " />
+		<s k="mmPopup_invite3_msg3" v="10,000枚硬币喔!" />
+		<s k="mmPopup_halloweenCashSale" v="A deal this scary won't last for long!" />
+	</TableList>
+	<TableList type="popups_out_of_energy.xml">
+		<s k="needEnergy_msg1" v="对不起，您需要更多的能源才能继续游玩。" />
+		<s k="needEnergy_msg2" v="选择一个来补充能源，就可以玩更多的Tetris!" />
+		<s k="needEnergy_full" v="全补能源" />
+		<s k="needEnergy_large" v="大量能源" />
+		<s k="needEnergy_medium" v="中量能源" />
+		<s k="needEnergy_small" v="小量能源" />
+		<s k="needEnergy_energy" v="能源" />
+		<s k="needEnergyBtn_ask" v="请求朋友" />
+		<s k="needEnergyBtn_Use" v="使用" />
+		<s k="needEnergyBtn_Buy" v="现在购买" />
+		<s k="needEnergyBtn_Ticket" v="票" />
+		<s k="needEnergyBtn_HowTo" v="How do I get credits?" />
+		<s k="needEnergyBtn_Redeem" v="Redeem gift cards" />
+	</TableList>
+	<TableList type="popups_tutorial_game_items.xml">
+		<s k="kNewFeature" v="新功能！" />
+		<s k="kShield" v="盾牌" />
+		<s k="kFinalRush" v="最终火拼" />
+		<s k="kTwinBomb" v="双胞炸弹" />
+		<s k="kGameItemTutorialUI" v="新出的游戏道具正要把游戏变得更狂！\n点击那些道具图标来开始战斗喔！" />
+		<s k="kGameItemTutorialShield" v="随机阻挡高达15条垃圾行线。" />
+		<s k="kGameItemTutorialFinalRush" v="在最后40秒内，\n发送额外多的垃圾行线。" />
+		<s k="kGameItemTutorialTwinBomb" v="炸弹会双对出现，\n使更容易地引爆。" />
+	</TableList>
+	<TableList type="popups_out_of_coin.xml">
+		<s k="coinPopup_buyTetrisCoins" v="购买Tetris硬币！" />
+		<s k="coinPopup_notEnoughCoins" v="没有足够的硬币" />
+		<s k="coinPopup_BuyNow" v="立刻购买" />
+		<s k="coinPopup_header_coin" v="使用Facebook币来交换Tetris硬币！" />
+		<s k="coinPopup_buyToDisableAds" v="快购买任何现金或硬币，在30天内就不会有固定广告喔！" />
+		<s k="coinPopup_bestValue" v="最优惠的价钱！" />
+		<s k="coinPopup_mostPopular" v="受欢迎" />
+	</TableList>
+	<TableList type="popups_announcement.xml">
+		<s k="mmPopup_gift_msg1" v="送礼！" />
+		<s k="mmPopup_gift_msg2" v="用免费的能源及硬币来帮助您的朋友！" />
+		<s k="mmPopup_gift_btn" v="免费礼物" />
+		<s k="mmPopup_armor_msg1" v="因为失去​​星星而失望难过吗？ [@endl@]现在就到商店里购买盔甲来保护您的阶级吧！" />
+		<s k="mmPopup_goToShop" v="去商店" />
+		<s k="mmPopup_invite_msg1" v="拓展您的Tetris Battle 世界吧！ [@endl@]邀请您的朋友，将会带来更多的挑战。" />
+		<s k="mmPopup_invite_btn" v="邀请" />
+		<s k="mmPopup_like_msg1" v="成为一个粉丝" />
+		<s k="mmPopup_like_btn" v="赞" />
+		<s k="mmPopup_buy_cash" v="购买现金" />
+		<s k="mmPopup_SpringSale_msg1" v="Spring Cleaning Item Sale!" />
+		<s k="mmPopup_SpringSale_msg2" v="Get 'em while you still can!" />
+		<s k="mmPopup_SpringSale_msg3" v="Promotion will end in:" />
+		<s k="mmPopup_tetrisCashSale" v="Tetris现金特卖" />
+		<s k="mmPopup_cashSPDPromo_msg" v="Buy Tetris Cash and celebrate St. Patrick's Day[@endl@]with some style!" />
+		<s k="mmPopup_limitedTimeOffer" v="Limited Time Offer" />
+		<s k="mmPopup_SpringDeco_msg1" v="New Spring Decor!" />
+		<s k="mmPopup_SpringDeco_msg2" v="Now available for harvesting!" />
+		<s k="mmPopup_Arena_msg1" v="竞技场封闭测试" />
+		<s k="mmPopup_Arena_msg2" v="快跟随Tetris Battle的Twitter[@endl@]来得知竞技场的密码！" />
+		<s k="mmPopup_Tuning_msg1" v="更多的调整！" />
+		<s k="mmPopup_Tuning_msg2" v="何不买些调整来测试您的技术，[@endl@]并试着打破您之前在冲刺的舊记录呢？" />
+		<s k="mmPopup_easterSale_msg1" v="Easter Special!" />
+		<s k="mmPopup_easterSale_msg2" v="Buy any amount of Tetris Cash and get a[@endl@]FREE Easter Egg Bomb for you and a friend!" />
+		<s k="mmPopup_easterSale_msg2B" v="Last Chance to get a FREE Easter Egg Bomb for you[@endl@]and a friend with any purchase of Tetris Cash!" />
+		<s k="mmPopup_promoEndIn" v="Promotion[@endl@]will end in:" />
+		<s k="mmPopup_lastDay" v="Last Day!!" />
+		<s k="mmPopup_SpecialOffer" v="限时大特价" />
+		<s k="mmPopup_SpecialOffer_msg1" v="快购买您需要的Tetris现金![@endl@]限时特价中!" />
+		<s k="mmPopup_SpecialOffer_msg2" v="真幸运![@endl@]您是被挑选上享受特价优惠的那位幸运儿！" />
+		<s k="mmPopup_KnockOutDeal_msg2" v="Only Available through this pop-up!" />
+		<s k="mmPopup_tripleCoins" v="三倍硬币" />
+		<s k="mmPopup_tripleCoins_desc" v="每场比赛后会赢得3倍多的硬币！有效期一天。" />
+		<s k="mmEnergyGambleTutorialTitle" v="能源奖励推广" />
+		<s k="mmEnergyGambleTutorialSubtitle" v="更多的赢=更多的能源！" />
+		<s k="mmEnergyGambleTutorialDesc1" v="每场比赛的能源消耗 = 10 " />
+		<s k="mmEnergyGambleTutorialDesc2" v="可是，第一名会获得+10能量回来！" />
+		<s k="mmEnergyGambleTutorialDesc3" v="您的阶级越高，您的能量就会获得更多！" />
+		<s k="mmOK" v="确定" />
+		<s k="mmBuyNow" v="立刻购买" />
+		<s k="mmPopup_StarterPack" v="Starter Pack" />
+		<s k="mmPopup_SaveBigNow" v="Save Big Now!" />
+		<s k="mmPopup_summerItemSale1" v="Sizzlin' Summer Décor Sale!" />
+		<s k="mmPopup_summerItemSale2" v="Get them while they're hot!" />
+		<s k="mmPopup_summerCashSale1" v="Sizzlin' Summer Cash Sale!" />
+		<s k="mmPopup_summerCashSale2" v="Get a Star Bomb for you and one to give[@endl@]to a friend FREE with any purchase!" />
+		<s k="mmPopup_promoEndIn2" v="Promotion will end in:" />
+		<s k="mmPopup_genericCashSale" v="快购买您需要的Tetris现金![@endl@]限时特价中!" />
+		<s k="mmPopup_invite2_msg1" v="更多的朋友， 更多的乐趣！" />
+		<s k="mmPopup_invite2_msg2" v="每个受邀新加入游戏的朋友，都可以获得200枚硬币喔！" />
+		<s k="mmPopup_invite3_msg1" v="邀请您的朋友们!  " />
+		<s k="mmPopup_invite3_msg2" v="最多\n可获得 " />
+		<s k="mmPopup_invite3_msg3" v="10,000枚硬币喔!" />
+		<s k="mmPopup_halloweenCashSale" v="A deal this scary won't last for long!" />
+		<s k="mmPopup_fallDecorSale" v="Fall Décor Sale!" />
+		<s k="mmPopup_biggestSaleSeason" v="Biggest sale of the season!" />
+		<s k="mmPopup_itemsGoneIn" v="Items will be gone in:" />
+		<s k="mmPopup_xmasBOGO_msg1" v="假期特惠好康! " />
+		<s k="mmPopup_xmasBOGO_msg2" v="Tetris现金最多打六折，而且只要您购买任何现金,[@endl@]就送装饰炸弹给您及一位朋友喔! " />
+		<s k="mmPopup_offerEndsIn" v="特惠将结束于:" />
+		<s k="mmPopup_coinSale" v="Tetris硬币特卖" />
+		<s k="mmPopup_coinSaleDesc" v="快趁特卖还没结束前[@endl@]囤积点硬币吧!!" />
+		<s k="mmPopup_buyCoins" v="购买硬币" />
+		<s k="mmPopup_valentineBOGO_msg1" v="Valentines Special!" />
+		<s k="mmPopup_valentineBOGO_msg2" v="Get a FREE Heart Bomb for you + 1 friend[@endl@]with any purchase of Tetris Cash!" />
+	</TableList>
+	<TableList type="popups_game_room.xml">
+		<s k="gamePopup_armor_msg1" v="失去了星星让您失望难过？" />
+		<s k="gamePopup_armor_msg2" v="[2]立刻到商店里！ [@endl@]购买新的盔甲来保护您的阶级！" />
+		<s k="gamePopup_1DayTicket_title" v="一日票" />
+		<s k="gamePopup_1DayTicket_msg1" v="无限地玩游戏！" />
+		<s k="gamePopup_1DayTicket_msg2" v="[2]购买一日票可以在一日内无限地畅玩游戏！" />
+		<s k="gamePopup_buyNow" v="立刻购买" />
+		<s k="gamePopup_armor" v="[2]盔甲" />
+		<s k="gamePopup_buyArmor" v="恢复您的盔甲！[@endl@]保护您的星星和阶级！" />
+		<s k="gamePopup_buyArmor_sale" v="限时特价！[@endl@]保护您的星星和阶级！" />
+		<s k="gamePopup_bustersale" v="Tetris Battle大特价 !" />
+		<s k="gamePopup_7DayTicket_title" v="七日票" />
+		<s k="gamePopup_1DayTicket_sale" v="一天内无限畅玩! " />
+		<s k="gamePopup_7DayTicket_sale" v="七天内无限畅玩!" />
+		<s k="gamePopup_limitedTimeOffer" v="限时优惠！" />
+		<s k="gamePopup_goToShop" v="去商店" />
+		<s k="gamePopup_triplecoinstitle" v="三倍硬币" />
+		<s k="gamePopup_triplecointext1" v="持续24小时! " />
+		<s k="gamePopup_triplecointext2" v="Win 3X as many coins after every game!" />
+		<s k="gamePopup_video_armor1" v="赚取1件盔甲" />
+		<s k="gamePopup_video_armor2" v="观看一段影片广告，就可以赚取1件盔甲！[@endl@]这是完全免费喔！" />
+		<s k="gamePopup_shield" v="盾牌" />
+		<s k="gamePopup_finalRush" v="最终火拼" />
+		<s k="gamePopup_twinBomb" v="双胞炸弹" />
+		<s k="gamePopup_shield_title" v="阻挡即将到来的垃圾行线攻击 " />
+		<s k="gamePopup_finalRush_title" v="增加您的攻击强度" />
+		<s k="gamePopup_twinBomb_title" v="更容易地引爆 " />
+		<s k="gamePopup_shield_desc" v="随机阻挡高达15条垃圾行线。" />
+		<s k="gamePopup_finalRush_desc" v="在最后40秒内，[@endl@]发送额外多的垃圾行线。" />
+		<s k="gamePopup_twinBomb_desc" v="炸弹会双对出现，[@endl@]使更容易地引爆。" />
+		<s k="gamePopup_promoEndIn2" v="[3] 特价将结束于 " />
+		<s k="gamePopup_KnockOutDeal_msg2" v="只能从这个广告窗口购买喔!" />
+		<s k="gamePopup_SpecialOffer" v="限时大特价" />
+		<s k="gamePopup_SaveBigNow" v="您最优惠的选择!" />
+		<s k="gamePopup_energyrefilltitle" v="补充能源" />
+		<s k="gamePopup_energyrefilltext1" v="使用Tetris硬币来补充能源!" />
+		<s k="gamePopup_buy_cash" v="购买现金" />
+		<s k="gamePopup_tetrisCashSale" v="Tetris现金特卖" />
+		<s k="gamePopup_genericCashSale" v="快购买您需要的Tetris现金![@endl@]限时特价中!" />
+		<s k="gamePopup_offerEndsIn" v="特惠将结束于:" />
+		<s k="gamePopup_coinSale" v="Tetris硬币特卖" />
+		<s k="gamePopup_coinSaleDesc" v="快趁特卖还没结束前[@endl@]囤积点硬币吧!!" />
+		<s k="gamePopup_buyCoins" v="购买硬币" />
+	</TableList>
+</StringTable>

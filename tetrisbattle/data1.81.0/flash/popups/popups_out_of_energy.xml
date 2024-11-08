@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<popupTable>
+  <!-- TEST GROUP -->
+  <popup name="needEnergyA">
+	<popupType>mc_popup_needEnergy2</popupType>
+	<autoclose>0</autoclose>
+	<msgs>
+	  <msg>@needEnergy_msg1</msg>
+	  <msg>@needEnergy_msg2</msg>
+	</msgs>
+	<!--
+	<btns>
+		<btn instance="btn_cashsGet" text="@needEnergyBtn_HowTo" param1="">url</btn>
+		<btn instance="btn_FBCardsRedeem" text="@needEnergyBtn_Redeem" param1="">url</btn>
+	</btns>
+	-->
+	<content>
+	  <c instance="slot1_mc">
+		<msgs>
+		  <msg>[@shopItemName@]</msg>
+		</msgs>
+		<hide>
+		  <h>energyBagInfo_mc</h>
+		</hide>
+		<images>
+		  <img align="topleft">shop/select_energy_full</img>
+		</images>
+		<btns>
+		  <btn linkage="btn_needEnergy_green" text="@needEnergyBtn_Buy" param1="1000" param2="cash">purchase</btn>
+		</btns>
+	  </c>
+	  <c instance="slot2_mc">
+		<msgs>
+		  <msg>[@shopItemName@]</msg>
+		</msgs>
+		<hide>
+		  <h>energyBagInfo_mc</h>
+		</hide>
+		<images>
+		  <img align="topleft">shop/select_energy_1dayCash</img>
+		</images>
+		<btns>
+		  <btn linkage="btn_needEnergy_green" text="@needEnergyBtn_Buy" param1="1001" param2="cash">purchase</btn>
+		</btns>
+	  </c>
+	  <c instance="slot3_mc">
+		<msgs>
+		  <msg>[@shopItemName@]</msg>
+		</msgs>
+		<hide>
+		  <h>energyBagInfo_mc</h>
+		</hide>
+		<images>
+		  <img align="topleft">shop/select_energy_7day</img>
+		</images>
+		<btns>
+		  <btn linkage="btn_needEnergy_green" text="@needEnergyBtn_Buy" param1="1003" param2="cash">purchase</btn>
+		</btns>
+	  </c>
+	</content>
+  </popup>
+
+  <!-- DEFAULT -->
+  <popup name="needEnergyC">
+	<popupType>mc_popup_needEnergy2</popupType>
+	<autoclose>0</autoclose>
+	<msgs>
+	  <msg>@needEnergy_msg1</msg>
+	  <msg>@needEnergy_msg2</msg>
+	</msgs>
+	<!--
+	<btns>
+		<btn instance="btn_cashsGet" text="@needEnergyBtn_HowTo" param1="">url</btn>
+		<btn instance="btn_FBCardsRedeem" text="@needEnergyBtn_Redeem" param1="">url</btn>
+	</btns>
+	-->
+	<content>
+	  <c instance="slot1_mc">
+		<msgs>
+		  <msg>[@shopItemName@]</msg>
+		</msgs>
+		<hide>
+		  <h>energyBagInfo_mc</h>
+		</hide>
+		<images>
+		  <img align="topleft">shop/select_energy_full</img>
+		</images>
+		<btns>
+		  <btn linkage="btn_needEnergy_green" text="@needEnergyBtn_Buy" param1="1000" param2="cash">purchase</btn>
+		</btns>
+	  </c>
+	  <c instance="slot2_mc">
+		<msgs>
+		  <msg>[@shopItemName@]</msg>
+		</msgs>
+		<hide>
+		  <h>energyBagInfo_mc</h>
+		</hide>
+		<images>
+		  <img align="topleft">shop/select_energy_1dayCash</img>
+		</images>
+		<btns>
+		  <btn linkage="btn_needEnergy_green" text="@needEnergyBtn_Buy" param1="1001" param2="cash">purchase</btn>
+		</btns>
+	  </c>
+	  <c instance="slot3_mc">
+		<msgs>
+		  <msg>[@shopItemName@]</msg>
+		</msgs>
+		<hide>
+		  <h>energyBagInfo_mc</h>
+		</hide>
+		<images>
+		  <img align="topleft">shop/select_energy_7day</img>
+		</images>
+		<btns>
+		  <btn linkage="btn_needEnergy_green" text="@needEnergyBtn_Buy" param1="1003" param2="cash">purchase</btn>
+		</btns>
+	  </c>
+	</content>
+  </popup>
+  
+  <!-- PH GROUP -->
+  <popup name="needEnergyB">
+	<popupType>mc_popup_needEnergy2</popupType>
+	<autoclose>0</autoclose>
+	<msgs>
+	  <msg>@needEnergy_msg1</msg>
+	  <msg>@needEnergy_msg2</msg>
+	</msgs>
+	<!--
+	<btns>
+		<btn instance="btn_FBCreditsGet" text="@needEnergyBtn_HowTo" param1="">url</btn>
+		<btn instance="btn_FBCardsRedeem" text="@needEnergyBtn_Redeem" param1="">url</btn>
+	</btns>
+	-->
+	<content>
+	  <c instance="slot1_mc">
+		<msgs>
+		  <msg>[@shopItemName@]</msg>
+		</msgs>
+		<hide>
+		  <h>energyBagInfo_mc</h>
+		</hide>
+		<images>
+		  <img align="topleft">shop/select_energy_full</img>
+		</images>
+		<btns>
+		  <btn linkage="btn_needEnergy_blue" text="@needEnergyBtn_ask" param1="1000" param2="ask_energy">ask_energy</btn>
+		</btns>
+	  </c>
+	  <c instance="slot2_mc">
+		<msgs>
+		  <msg>[@shopItemName@]</msg>
+		</msgs>
+		<hide>
+		  <h>energyBagInfo_mc</h>
+		</hide>
+		<images>
+		  <img align="topleft">shop/select_energy_full</img>
+		</images>
+		<btns>
+		  <btn linkage="btn_needEnergy_green" text="@needEnergyBtn_Buy" param1="1000" param2="cash">purchase</btn>
+		</btns>
+	  </c>
+	  <c instance="slot3_mc">
+		<msgs>
+		  <msg>[@shopItemName@]</msg>
+		</msgs>
+		<hide>
+		  <h>energyBagInfo_mc</h>
+		</hide>
+		<images>
+		  <img align="topleft">shop/select_energy_1dayCash</img>
+		</images>
+		<btns>
+		  <btn linkage="btn_needEnergy_green" text="@needEnergyBtn_Buy" param1="1001" param2="cash">purchase</btn>
+		</btns>
+	  </c>
+	</content>
+  </popup>
+  
+  <!-- TW GROUP -->
+  <popup name="needEnergyF">
+	<popupType>mc_popup_needEnergy2</popupType>
+	<autoclose>0</autoclose>
+	<msgs>
+	  <msg>@needEnergy_msg1</msg>
+	  <msg>@needEnergy_msg2</msg>
+	</msgs>
+	<!--
+	<btns>
+		<btn instance="btn_FBCreditsGet" text="@needEnergyBtn_HowTo" param1="">url</btn>
+		<btn instance="btn_FBCardsRedeem" text="@needEnergyBtn_Redeem" param1="">url</btn>
+	</btns>
+	-->
+	<content>
+	  <c instance="slot1_mc">
+		<msgs>
+		  <msg>[@shopItemName@]</msg>
+		</msgs>
+		<hide>
+		  <h>energyBagInfo_mc</h>
+		</hide>
+		<images>
+		  <img align="topleft">shop/select_energy_full</img>
+		</images>
+		<btns>
+		  <btn linkage="btn_needEnergy_blue" text="@needEnergyBtn_ask" param1="1000" param2="ask_energy">ask_energy</btn>
+		</btns>
+	  </c>
+	  <c instance="slot2_mc">
+		<msgs>
+		  <msg>[@shopItemName@]</msg>
+		</msgs>
+		<hide>
+		  <h>energyBagInfo_mc</h>
+		</hide>
+		<images>
+		  <img align="topleft">shop/select_energy_full</img>
+		</images>
+		<btns>
+		  <btn linkage="btn_needEnergy_green" text="@needEnergyBtn_Buy" param1="1000" param2="cash">purchase</btn>
+		</btns>
+	  </c>
+	  <c instance="slot3_mc">
+		<msgs>
+		  <msg>[@shopItemName@]</msg>
+		</msgs>
+		<hide>
+		  <h>energyBagInfo_mc</h>
+		</hide>
+		<images>
+		  <img align="topleft">shop/select_energy_1dayCash</img>
+		</images>
+		<btns>
+		  <btn linkage="btn_needEnergy_green" text="@needEnergyBtn_Buy" param1="1001" param2="cash">purchase</btn>
+		</btns>
+	  </c>
+	</content>
+  </popup>
+</popupTable>

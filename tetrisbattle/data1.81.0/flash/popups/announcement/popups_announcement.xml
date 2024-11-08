@@ -1,0 +1,3219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<popupTable popupType="mc_popup_monster" debugPopup="monster">
+<!--  <autoclose>15</autoclose> -->
+  <autoclose>0</autoclose>
+  <startPopupName>mm_bundle823,mm_bundle823,mm_bundle822,mm_bundle822,mm_bundle821,mm_bundle821,mm_bundle820,mm_bundle820,mm_bundle819,mm_bundle819,mm_bundle818,mm_bundle818,mm_bundle817,mm_bundle817,mm_bundle816,mm_bundle816,mm_bundle815,mm_bundle815,mm_bundle814,mm_bundle814,mm_bundle813,mm_bundle813,mm_bundle812,mm_bundle812,mm_bundle811,mm_bundle811,mm_bundle810,mm_bundle810,mm_bundle809,mm_bundle809,mm_bundle808,mm_bundle808,mm_bundle807,mm_bundle807,mm_bundle806,mm_bundle806,mm_bundle805,mm_bundle805,mm_bundle804,mm_bundle804,mm_bundle803,mm_bundle803,mm_bundle802,mm_bundle802,mm_bundle801,mm_bundle801,mm_bundle800,mm_bundle800,mm_bundle799,mm_bundle799,mm_bundle798,mm_bundle798,mm_bundle797,mm_bundle797,mm_bundle796,mm_bundle796,mm_bundle795,mm_bundle795,mm_bundle794,mm_bundle794,mm_bundle793,mm_bundle793,mm_bundle792,mm_bundle792,mm_bundle791,mm_bundle791,mm_bundle790,mm_bundle790,mm_bundle789,mm_bundle789,mm_bundle788,mm_bundle788,mm_bundle787,mm_bundle787,mm_bundle786,mm_bundle786,mm_bundle785,mm_bundle785,mm_bundle784,mm_bundle784,mm_bundle783,mm_bundle783,mm_bundle782,mm_bundle782,mm_bundle781,mm_bundle781,mm_bundle780,mm_bundle780,mm_bundle779,mm_bundle779,mm_bundle778,mm_bundle778,mm_bundle777,mm_bundle777,mm_bundle776,mm_bundle776,mm_bundle775,mm_bundle775,mm_bundle774,mm_bundle774,mm_bundle773,mm_bundle773,mm_bundle772,mm_bundle772,mm_bundle771,mm_bundle771,mm_bundle770,mm_bundle770,mm_bundle769,mm_bundle769,mm_bundle768,mm_bundle768,mm_valentineBOGO,mm_valentineBOGO,mm_cashCNYPromo</startPopupName>
+	<condition value = "level lessequal 2">
+		<!-- Ken Facebook Harevest Sale -->
+		<condition>mm_like</condition>		
+	</condition>
+
+  <condition value="level greaterequal 2">
+		<!--<condition value="nfriendsnotinstalled > 0">mm_inviteFriendsQuick</condition>-->
+		<condition value="level greaterequal 25">mm_arenaBeta</condition>
+		<!--<condition>mm_gift</condition>-->
+		<condition value="level smallerequal 24">mm_arenaTwitter</condition>
+		<condition value="nothasfriendrewards 30">mm_giftFriendsReward,mm_giftFriendsReward,mm_giftFriendsReward</condition>
+		<condition value="cc != 'JP'">mm_tbd_ipad_world</condition>
+		<condition>mm_like</condition>
+		<condition>mm_armor</condition>
+		<condition>mm_tuning</condition>
+		<!--<condition>mm_tripleCoin</condition>-->
+		<condition value="date greaterequal '2013/02/07 21:00:00' and date smallerequal '2013/02/10 21:00:00'">mm_cashCNYPromo,mm_cashCNYPromo,mm_cashCNYPromo,mm_cashCNYPromo,mm_cashCNYPromo</condition>
+		<condition value="date greaterequal '2014/02/12 21:00:00' and date smallerequal '2014/02/15 22:00:00'">mm_valentineBOGO,mm_valentineBOGO,mm_valentineBOGO,mm_valentineBOGO,mm_valentineBOGO</condition>
+		<condition value="date greaterequal '2013/03/03 21:00:00'">mm_like,mm_armor,mm_armor,mm_tuning,mm_tripleCoin</condition>
+
+		<!--AUGUST 2016-->
+		<!-- Ken Weekly Bundle 7DT 700 #1-->
+		<condition value="date greaterequal '2016/08/07 00:00:00' and date smallerequal '2016/08/13 23:59:59' and nothave 9854">mm_bundle768</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #1-->
+		<condition value="date greaterequal '2016/08/14 00:00:00' and date smallerequal '2016/08/20 23:59:59' and nothave 9855">mm_bundle769</condition>		
+		<!-- Ken Weekly Bundle 7DT 700 #2-->
+		<condition value="date greaterequal '2016/08/21 00:00:00' and date smallerequal '2016/08/27 23:59:59' and nothave 9856">mm_bundle770</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #2-->
+		<condition value="date greaterequal '2016/08/28 00:00:00' and date smallerequal '2016/09/03 23:59:59' and nothave 9857">mm_bundle771</condition>
+
+		<!--SEPTEMBER 2016-->
+		<!-- Ken Weekly Bundle 7DT 700 #1-->
+		<condition value="date greaterequal '2016/09/04 00:00:00' and date smallerequal '2016/09/10 23:59:59' and nothave 9858">mm_bundle772</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #1-->
+		<condition value="date greaterequal '2016/09/11 00:00:00' and date smallerequal '2016/09/17 23:59:59' and nothave 9859">mm_bundle773</condition>		
+		<!-- Ken Weekly Bundle 7DT 700 #2-->
+		<condition value="date greaterequal '2016/09/18 00:00:00' and date smallerequal '2016/09/24 23:59:59' and nothave 9860">mm_bundle774</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #2-->
+		<condition value="date greaterequal '2016/09/25 00:00:00' and date smallerequal '2016/10/01 23:59:59' and nothave 9861">mm_bundle775</condition>
+
+		<!--OCTOBER 2016-->
+		<!-- Ken Weekly Bundle 7DT 700 #1-->
+		<condition value="date greaterequal '2016/10/02 00:00:00' and date smallerequal '2016/10/08 23:59:59' and nothave 9862">mm_bundle776</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #1-->
+		<condition value="date greaterequal '2016/10/09 00:00:00' and date smallerequal '2016/10/15 23:59:59' and nothave 9863">mm_bundle777</condition>		
+		<!-- Ken Weekly Bundle 7DT 700 #2-->
+		<condition value="date greaterequal '2016/10/16 00:00:00' and date smallerequal '2016/10/22 23:59:59' and nothave 9864">mm_bundle778</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #2-->
+		<condition value="date greaterequal '2016/10/23 00:00:00' and date smallerequal '2016/10/29 23:59:59' and nothave 9865">mm_bundle779</condition>
+		<!-- Ken Weekly Bundle 7DT 700 #3-->
+		<condition value="date greaterequal '2016/10/30 00:00:00' and date smallerequal '2016/11/05 23:59:59' and nothave 9866">mm_bundle780</condition>
+
+		<!--NOVEMBER 2016-->
+		<!-- Ken Weekly Bundle 7DT 1000 #1-->
+		<condition value="date greaterequal '2016/11/06 00:00:00' and date smallerequal '2016/11/12 23:59:59' and nothave 9867">mm_bundle781</condition>		
+		<!-- Ken Weekly Bundle 7DT 700 #1-->
+		<condition value="date greaterequal '2016/11/13 00:00:00' and date smallerequal '2016/11/19 23:59:59' and nothave 9868">mm_bundle782</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #2-->
+		<condition value="date greaterequal '2016/11/20 00:00:00' and date smallerequal '2016/11/26 23:59:59' and nothave 9869">mm_bundle783</condition>
+		<!-- Ken Weekly Bundle 7DT 700 #2-->
+		<condition value="date greaterequal '2016/11/27 00:00:00' and date smallerequal '2016/12/03 23:59:59' and nothave 9870">mm_bundle784</condition>
+
+		<!--DECEMBER 2016-->
+		<!-- Ken Weekly Bundle 7DT 1000 #1-->
+		<condition value="date greaterequal '2016/12/04 00:00:00' and date smallerequal '2016/12/10 23:59:59' and nothave 9871">mm_bundle785</condition>		
+		<!-- Ken Weekly Bundle 7DT 700 #1-->
+		<condition value="date greaterequal '2016/12/11 00:00:00' and date smallerequal '2016/12/17 23:59:59' and nothave 9872">mm_bundle786</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #2-->
+		<condition value="date greaterequal '2016/12/18 00:00:00' and date smallerequal '2016/12/24 23:59:59' and nothave 9873">mm_bundle787</condition>
+		<!-- Ken Weekly Bundle 7DT 700 #2-->
+		<condition value="date greaterequal '2016/12/25 00:00:00' and date smallerequal '2016/12/31 23:59:59' and nothave 9874">mm_bundle788</condition>
+
+		<!--JANUARY 2017-->
+		<!-- Ken Weekly Bundle 7DT 1000 #1-->
+		<condition value="date greaterequal '2017/01/01 00:00:00' and date smallerequal '2017/01/07 23:59:59' and nothave 9875">mm_bundle789</condition>		
+		<!-- Ken Weekly Bundle 7DT 700 #1-->
+		<condition value="date greaterequal '2017/01/08 00:00:00' and date smallerequal '2017/01/14 23:59:59' and nothave 9876">mm_bundle790</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #2-->
+		<condition value="date greaterequal '2017/01/15 00:00:00' and date smallerequal '2017/01/21 23:59:59' and nothave 9877">mm_bundle791</condition>
+		<!-- Ken Weekly Bundle 7DT 700 #2-->
+		<condition value="date greaterequal '2017/01/22 00:00:00' and date smallerequal '2017/01/28 23:59:59' and nothave 9878">mm_bundle792</condition>
+
+		<!--FEBRUARY 2017-->
+		<!-- Ken Weekly Bundle 7DT 1000 #1-->
+		<condition value="date greaterequal '2017/01/29 00:00:00' and date smallerequal '2017/02/04 23:59:59' and nothave 9879">mm_bundle793</condition>		
+		<!-- Ken Weekly Bundle 7DT 700 #1-->
+		<condition value="date greaterequal '2017/02/05 00:00:00' and date smallerequal '2017/02/11 23:59:59' and nothave 9880">mm_bundle794</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #2-->
+		<condition value="date greaterequal '2017/02/12 00:00:00' and date smallerequal '2017/02/18 23:59:59' and nothave 9881">mm_bundle795</condition>
+		<!-- Ken Weekly Bundle 7DT 700 #2-->
+		<condition value="date greaterequal '2017/02/19 00:00:00' and date smallerequal '2017/02/25 23:59:59' and nothave 9882">mm_bundle796</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #3-->
+		<condition value="date greaterequal '2017/02/26 00:00:00' and date smallerequal '2017/03/04 23:59:59' and nothave 9883">mm_bundle797</condition>		
+
+		<!--MARCH 2017-->
+		<!-- Ken Weekly Bundle 7DT 700 #1-->
+		<condition value="date greaterequal '2017/03/05 00:00:00' and date smallerequal '2017/03/11 23:59:59' and nothave 9884">mm_bundle798</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #1-->
+		<condition value="date greaterequal '2017/03/12 00:00:00' and date smallerequal '2017/03/18 23:59:59' and nothave 9885">mm_bundle799</condition>
+		<!-- Ken Weekly Bundle 7DT 700 #2-->
+		<condition value="date greaterequal '2017/03/19 00:00:00' and date smallerequal '2017/03/25 23:59:59' and nothave 9886">mm_bundle800</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #2-->
+		<condition value="date greaterequal '2017/03/26 00:00:00' and date smallerequal '2017/04/01 23:59:59' and nothave 9887">mm_bundle801</condition>		
+
+		<!--APRIL 2017-->
+		<!-- Ken Weekly Bundle 7DT 700 #1-->
+		<condition value="date greaterequal '2017/04/02 00:00:00' and date smallerequal '2017/04/08 23:59:59' and nothave 9888">mm_bundle802</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #1-->
+		<condition value="date greaterequal '2017/04/09 00:00:00' and date smallerequal '2017/04/15 23:59:59' and nothave 9889">mm_bundle803</condition>
+		<!-- Ken Weekly Bundle 7DT 700 #2-->
+		<condition value="date greaterequal '2017/04/16 00:00:00' and date smallerequal '2017/04/22 23:59:59' and nothave 9890">mm_bundle804</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #2-->
+		<condition value="date greaterequal '2017/04/23 00:00:00' and date smallerequal '2017/04/29 23:59:59' and nothave 9891">mm_bundle805</condition>		
+
+		<!--MAY 2017-->
+		<!-- Ken Weekly Bundle 7DT 700 #1-->
+		<condition value="date greaterequal '2017/04/30 00:00:00' and date smallerequal '2017/05/06 23:59:59' and nothave 9892">mm_bundle806</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #1-->
+		<condition value="date greaterequal '2017/05/07 00:00:00' and date smallerequal '2017/05/13 23:59:59' and nothave 9893">mm_bundle807</condition>
+		<!-- Ken Weekly Bundle 7DT 700 #2-->
+		<condition value="date greaterequal '2017/05/14 00:00:00' and date smallerequal '2017/05/20 23:59:59' and nothave 9894">mm_bundle808</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #2-->
+		<condition value="date greaterequal '2017/05/21 00:00:00' and date smallerequal '2017/05/27 23:59:59' and nothave 9895">mm_bundle809</condition>		
+		<!-- Ken Weekly Bundle 7DT 700 #3-->
+		<condition value="date greaterequal '2017/05/28 00:00:00' and date smallerequal '2017/06/03 23:59:59' and nothave 9896">mm_bundle810</condition>
+
+		<!--JUNE 2017-->
+		<!-- Ken Weekly Bundle 7DT 1000 #1-->
+		<condition value="date greaterequal '2017/06/04 00:00:00' and date smallerequal '2017/06/10 23:59:59' and nothave 9897">mm_bundle811</condition>
+		<!-- Ken Weekly Bundle 7DT 700 #1-->
+		<condition value="date greaterequal '2017/06/11 00:00:00' and date smallerequal '2017/06/17 23:59:59' and nothave 9898">mm_bundle812</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #2-->
+		<condition value="date greaterequal '2017/06/18 00:00:00' and date smallerequal '2017/06/24 23:59:59' and nothave 9899">mm_bundle813</condition>		
+		<!-- Ken Weekly Bundle 7DT 700 #2-->
+		<condition value="date greaterequal '2017/06/25 00:00:00' and date smallerequal '2017/07/01 23:59:59' and nothave 9000">mm_bundle814</condition>
+
+		<!--JULY 2017-->
+		<!-- Ken Weekly Bundle 7DT 1000 #1-->
+		<condition value="date greaterequal '2017/07/02 00:00:00' and date smallerequal '2017/07/08 23:59:59' and nothave 9001">mm_bundle815</condition>
+		<!-- Ken Weekly Bundle 7DT 700 #1-->
+		<condition value="date greaterequal '2017/07/09 00:00:00' and date smallerequal '2017/07/15 23:59:59' and nothave 9002">mm_bundle816</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #2-->
+		<condition value="date greaterequal '2017/07/16 00:00:00' and date smallerequal '2017/07/22 23:59:59' and nothave 9003">mm_bundle817</condition>		
+		<!-- Ken Weekly Bundle 7DT 700 #2-->
+		<condition value="date greaterequal '2017/07/23 00:00:00' and date smallerequal '2017/07/29 23:59:59' and nothave 9004">mm_bundle818</condition>
+		
+		<!--AUGUST 2017-->
+		<!-- Ken Weekly Bundle 7DT 1000 #1-->
+		<condition value="date greaterequal '2017/07/30 00:00:00' and date smallerequal '2017/08/05 23:59:59' and nothave 9005">mm_bundle819</condition>
+		<!-- Ken Weekly Bundle 7DT 700 #1-->
+		<condition value="date greaterequal '2017/08/06 00:00:00' and date smallerequal '2017/08/12 23:59:59' and nothave 9006">mm_bundle820</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #2-->
+		<condition value="date greaterequal '2017/08/13 00:00:00' and date smallerequal '2017/08/19 23:59:59' and nothave 9007">mm_bundle821</condition>		
+		<!-- Ken Weekly Bundle 7DT 700 #2-->
+		<condition value="date greaterequal '2017/08/20 00:00:00' and date smallerequal '2017/08/26 23:59:59' and nothave 9008">mm_bundle822</condition>
+		<!-- Ken Weekly Bundle 7DT 1000 #3-->
+		<condition value="date greaterequal '2017/08/27 00:00:00' and date smallerequal '2017/09/02 23:59:59' and nothave 9009">mm_bundle823</condition>		
+		
+	</condition>
+	<!--AUGUST 2017 US-->
+	<!-- Ken Weekly Bundle 7DT 1000 #1-->
+	<popup name="mm_bundle819">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9005" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #1-->
+	<popup name="mm_bundle820">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9006" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 1000 #2-->
+	<popup name="mm_bundle821">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9007" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #2-->
+	<popup name="mm_bundle822">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9008" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 1000 #3-->
+	<popup name="mm_bundle823">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9009" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+
+	<!--JULY 2017 US-->
+	<!-- Ken Weekly Bundle 7DT 1000 #1-->
+	<popup name="mm_bundle815">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9001" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #1-->
+	<popup name="mm_bundle816">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9002" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 1000 #2-->
+	<popup name="mm_bundle817">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9003" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #3-->
+	<popup name="mm_bundle818">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9004" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+
+	<!--JUNE 2017 US-->
+	<!-- Ken Weekly Bundle 7DT 1000 #1-->
+	<popup name="mm_bundle811">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9897" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #1-->
+	<popup name="mm_bundle812">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9898" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 1000 #2-->
+	<popup name="mm_bundle813">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9899" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #3-->
+	<popup name="mm_bundle814">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9000" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+
+	<!--MAY 2017 US-->
+	<!-- Ken Weekly Bundle 7DT 700 #1-->
+	<popup name="mm_bundle806">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9892" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>	
+	<!-- Ken Weekly Bundle 7DT 1000 #1-->
+	<popup name="mm_bundle807">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9893" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #2-->
+	<popup name="mm_bundle808">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9894" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 1000 #2-->
+	<popup name="mm_bundle809">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9895" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #3-->
+	<popup name="mm_bundle810">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9896" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+
+	<!--APRIL 2017 US-->
+	<!-- Ken Weekly Bundle 7DT 700 #1-->
+	<popup name="mm_bundle802">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9888" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>	
+	<!-- Ken Weekly Bundle 7DT 1000 #1-->
+	<popup name="mm_bundle803">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9889" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #2-->
+	<popup name="mm_bundle804">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9890" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 1000 #2-->
+	<popup name="mm_bundle805">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9891" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+
+	<!--MARCH 2017 US-->
+	<!-- Ken Weekly Bundle 7DT 700 #1-->
+	<popup name="mm_bundle798">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9884" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>	
+	<!-- Ken Weekly Bundle 7DT 1000 #1-->
+	<popup name="mm_bundle799">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9885" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #2-->
+	<popup name="mm_bundle800">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9886" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 1000 #2-->
+	<popup name="mm_bundle801">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9887" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+
+	<!--FEBRUARY 2017 US-->
+	<!-- Ken Weekly Bundle 7DT 1000 #1-->
+	<popup name="mm_bundle793">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9879" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #1-->
+	<popup name="mm_bundle794">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9880" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>	
+	<!-- Ken Weekly Bundle 7DT 1000 #2-->
+	<popup name="mm_bundle795">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9881" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #2-->
+	<popup name="mm_bundle796">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9882" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 1000 #2-->
+	<popup name="mm_bundle797">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9883" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+
+	<!--JANUARY 2017 US-->
+	<!-- Ken Weekly Bundle 7DT 1000 #1-->
+	<popup name="mm_bundle789">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9875" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #1-->
+	<popup name="mm_bundle790">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9876" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>	
+	<!-- Ken Weekly Bundle 7DT 1000 #2-->
+	<popup name="mm_bundle791">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9877" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #2-->
+	<popup name="mm_bundle792">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9878" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+
+	<!--DECEMBER 2016 US-->
+	<!-- Ken Weekly Bundle 7DT 1000 #1-->
+	<popup name="mm_bundle785">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9871" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #1-->
+	<popup name="mm_bundle786">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9872" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>	
+	<!-- Ken Weekly Bundle 7DT 1000 #2-->
+	<popup name="mm_bundle787">
+		<images>
+			<img>popups/announcement/announcement_starterPackXmas</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9873" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #2-->
+	<popup name="mm_bundle788">
+		<images>
+			<img>popups/announcement/announcement_starterPackXmas</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9874" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+
+	<!--NOVEMBER 2016 US-->
+	<!-- Ken Weekly Bundle 7DT 1000 #1-->
+	<popup name="mm_bundle781">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9867" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #1-->
+	<popup name="mm_bundle782">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9868" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>	
+	<!-- Ken Weekly Bundle 7DT 1000 #2-->
+	<popup name="mm_bundle783">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9869" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #2-->
+	<popup name="mm_bundle784">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9870" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+
+	<!--OCTOBER 2016 US-->
+	<!-- Ken Weekly Bundle 7DT 700 #1-->
+	<popup name="mm_bundle776">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9862" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 1000 #1-->
+	<popup name="mm_bundle777">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9863" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #2-->
+	<popup name="mm_bundle778">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9864" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>	
+	<!-- Ken Weekly Bundle 7DT 1000 #2-->
+	<popup name="mm_bundle779">
+		<images>
+			<img>popups/announcement/announcement_starterPackHalloween</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9865" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #3-->
+	<popup name="mm_bundle780">
+		<images>
+			<img>popups/announcement/announcement_starterPackHalloween</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9866" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+
+	<!--SEPTEMBER 2016 US-->
+	<!-- Ken Weekly Bundle 7DT 700 #1-->
+	<popup name="mm_bundle772">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9858" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 1000 #1-->
+	<popup name="mm_bundle773">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9859" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #2-->
+	<popup name="mm_bundle774">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9860" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>	
+	<!-- Ken Weekly Bundle 7DT 1000 #2-->
+	<popup name="mm_bundle775">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9861" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+
+	<!--AUGUST 2016 US-->
+	<!-- Ken Weekly Bundle 7DT 700 #1-->
+	<popup name="mm_bundle768">
+		<images>
+			<img>popups/announcement/announcement_starterPackSizzlinSummer</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9854" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 1000 #1-->
+	<popup name="mm_bundle769">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9855" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+	<!-- Ken Weekly Bundle 7DT 700 #2-->
+	<popup name="mm_bundle770">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9856" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7055</item>
+						<itemName>27 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>5200 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>	
+	<!-- Ken Weekly Bundle 7DT 1000 #2-->
+	<popup name="mm_bundle771">
+		<images>
+			<img>popups/announcement/announcement_starterPack</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_SpecialOffer</msg>
+				  <msg>@mmPopup_SaveBigNow</msg>
+				  <msg>@mmPopup_KnockOutDeal_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_greenMonster" text="@mmBuyNow" param1="9857" param2="fbCredit">purchase</btn>
+				</btns>
+				<content>
+					<c instance="itemSlot0_mc">
+						<item>7054</item>
+						<itemName>55 Cash</itemName>
+						<images scale="0.7">
+							<img>shop/misc_cash</img>
+						</images>
+					</c>
+					<c instance="itemSlot1_mc">
+						<item>1008</item>
+						<itemName>7 Day Ticket</itemName>
+						<images scale="0.9">
+							<img>shop/energy_7day</img>
+						</images>
+					</c>
+					<c instance="itemSlot2_mc">
+						<item>7041</item>
+						<itemName>12000 Coins</itemName>
+						<images scale="0.7">
+							<img>shop/misc_coins</img>
+						</images>
+					</c>
+					<c instance="itemSlot3_mc">
+						<item>7600</item>
+						<itemName>No Ads[@endl@]30 Days</itemName>
+						<images scale="0.4">
+							<img>shop/misc_noAd</img>
+						</images>
+					</c>
+				</content>
+			</c>
+		</content>
+	</popup>
+
+	<popup name="mm_valentineBOGO">
+		<ticker>2014/02/15 22:00:00</ticker>
+		<images>
+			<img>popups/announcement/announcement_tetrisCashValentinesPromo02</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_valentineBOGO_msg1</msg>
+				  <msg>@mmPopup_valentineBOGO_msg2</msg>
+				  <msg>@mmPopup_offerEndsIn</msg>
+				</msgs>
+			</c>
+		</content>
+		<btns>
+			<btn linkage="btn_greenMonster" text="@mmPopup_buy_cash" param1="Tetris.tabClick2" param2="buy">jscript</btn>
+		</btns>
+	</popup>
+		
+	<popup name="mm_giftFriendsReward">
+		<images>
+			<img>popups/announcement/announcement_invite3</img>
+		</images>
+		<content>
+			<c image="0" filter="elapsed">
+				<msgs>
+				  <msg>Send Gifts To Help Friends!</msg>
+				  <msg>Earn 100 Coins for each friend that accepts!</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_yellowMonster" text="Send Gift" param1="10">gift_friends_reward</btn>
+				</btns>
+			</c>
+		</content>
+	</popup>
+			
+	<popup name="mm_inviteFriendsQuick">
+		<images>
+			<img>popups/announcement/announcement_invite4</img>
+		</images>
+		<btns>
+			<btn linkage="btn_Invite50" text="@mmPopup_invite_btn" param1="50">invite_friends_quick</btn>
+		</btns>
+		<content>
+			<c image="0">
+				<msgs>
+					<msg>@mmPopup_invite3_msg1</msg>
+					<msg>@mmPopup_invite3_msg3</msg>
+					<msg>@mmPopup_invite3_msg2</msg>
+				</msgs>
+			</c>
+		</content>
+	</popup>
+
+	<popup name="mm_inviteFriends">
+		<images>
+			<img>popups/announcement/announcement_invite2</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_invite2_msg1</msg>
+				  <msg>@mmPopup_invite2_msg2</msg>
+				</msgs>
+				<btns>
+					<btn linkage="btn_yellowMonster" text="@mmPopup_invite_btn">invite_friends</btn>
+				</btns>
+			</c>
+		</content>
+	</popup>
+		
+	<popup name="mm_cashXmasBOGO">
+		<ticker>2012/12/24 21:00:00</ticker>
+		<images>
+			<img>popups/announcement/announcement_tetrisCashGiftXmas</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_xmasBOGO_msg1</msg>
+				  <msg>@mmPopup_xmasBOGO_msg2</msg>
+				  <msg>@mmPopup_offerEndsIn</msg>
+				</msgs>
+			</c>
+		</content>
+		<btns>
+			<btn linkage="btn_redMonster" text="@mmPopup_buy_cash" param1="Tetris.tabClick2" param2="buy">jscript</btn>
+		</btns>
+	</popup>
+	
+	<popup name="mm_cashCNYPromo">
+		<ticker>2013/02/10 21:00:00</ticker>
+		<images>
+			<img>popups/announcement/announcement_tetrisCashLunar03</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+				  <msg>@mmPopup_tetrisCashSale</msg>
+				  <msg>@mmPopup_SpecialOffer_msg1</msg>
+				  <msg>@mmPopup_limitedTimeOffer</msg>
+				</msgs>
+			</c>
+		</content>
+		<btns>
+			<btn linkage="btn_greenMonster" text="@mmPopup_buy_cash" param1="Tetris.tabClick2" param2="buy">jscript</btn>
+		</btns>
+	</popup>
+		
+	<popup name="mm_tripleCoin">
+		<images>
+			<img>popups/announcement/announcement_triplecoin</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+					<msg>@mmPopup_tripleCoins</msg>
+					<msg>@mmPopup_tripleCoins_desc</msg>
+				</msgs>
+			</c>
+		</content>
+		<btns>
+			<btn linkage="btn_redMonster" text="@mmPopup_goToShop" param1="featured">shop</btn>
+		</btns>
+	</popup>
+	
+  <popup name="mm_arenaBeta">
+    <images>
+      <img>popups/announcement/announcement_arena</img>
+    </images>
+    <btns>
+      <btn linkage="btn_blueMonster" text="Play Now" param1="arena6p">game</btn>
+    </btns>
+  </popup>
+  
+  <popup name="mm_like">
+    <images>
+      <img>popups/announcement/announcement_like</img>
+    </images>
+    <btns>
+      <btn linkage="btn_blueMonster" text="@mmPopup_like_btn" param1="Tetris.showLike">jscript</btn>
+    </btns>
+    <content>
+    	<c image="0">
+			<msgs>
+			  <msg>@mmPopup_like_msg1</msg>
+			</msgs>
+    	</c>
+    </content>
+  </popup>
+  
+  <popup name="mm_tbd_ipad_world">
+    <images>
+      <img>popups/announcement/announcement_tbdIpad</img>
+    </images>
+    <btns>
+      <btn linkage="btn_blueMonster" text="Play Now!" param1="http://bit.ly/tetrisbattledrop_tbfb">url</btn>
+    </btns>
+    <content>
+    </content>
+  </popup>
+  
+  <popup name="mm_tbd_ipad_ca">
+    <images>
+      <img>popups/announcement/announcement_tbdIpad</img>
+    </images>
+    <btns>
+      <btn linkage="btn_blueMonster" text="Play Now!" param1="http://bit.ly/tetris-fbmpca1">url</btn>
+    </btns>
+    <content>
+    </content>
+  </popup>
+  
+  <popup name="mm_tbd_ipad_au">
+    <images>
+      <img>popups/announcement/announcement_tbdIpad</img>
+    </images>
+    <btns>
+      <btn linkage="btn_blueMonster" text="Play Now!" param1="http://bit.ly/tetris-fbmpau2">url</btn>
+    </btns>
+    <content>
+    </content>
+  </popup>
+  
+  <popup name="mm_tbd_ipad_nz">
+    <images>
+      <img>popups/announcement/announcement_tbdIpad</img>
+    </images>
+    <btns>
+      <btn linkage="btn_blueMonster" text="Play Now!" param1="http://bit.ly/tetris-fbmpnz1">url</btn>
+    </btns>
+    <content>
+    </content>
+  </popup>
+  
+  <popup name="mm_tbd_ipad_no">
+    <images>
+      <img>popups/announcement/announcement_tbdIpad</img>
+    </images>
+    <btns>
+      <btn linkage="btn_blueMonster" text="Play Now!" param1="http://bit.ly/tetris-fbmpno1">url</btn>
+    </btns>
+    <content>
+    </content>
+  </popup>
+  
+  <popup name="mm_tbd_ipad_dk">
+    <images>
+      <img>popups/announcement/announcement_tbdIpad</img>
+    </images>
+    <btns>
+      <btn linkage="btn_blueMonster" text="Play Now!" param1="http://bit.ly/tetris-fbmpdk1">url</btn>
+    </btns>
+    <content>
+    </content>
+  </popup>
+  
+  <popup name="mm_tbd_ipad_nl">
+    <images>
+      <img>popups/announcement/announcement_tbdIpad</img>
+    </images>
+    <btns>
+      <btn linkage="btn_blueMonster" text="Play Now!" param1="http://bit.ly/tetris-fbmpnl1">url</btn>
+    </btns>
+    <content>
+    </content>
+  </popup>
+  
+  <popup name="mm_tbd_ipad_se">
+    <images>
+      <img>popups/announcement/announcement_tbdIpad</img>
+    </images>
+    <btns>
+      <btn linkage="btn_blueMonster" text="Play Now!" param1="http://bit.ly/tetris-fbmpse1">url</btn>
+    </btns>
+    <content>
+    </content>
+  </popup>
+  
+  <popup name="mm_invite">
+    <images>
+      <img>popups/announcement/announcement_invite</img>
+    </images>
+    <btns>
+      <btn linkage="btn_yellowMonster" text="@mmPopup_invite_btn" param1="invite">popup</btn>
+    </btns>
+    <content>
+    	<c image="0">
+			<msgs>
+			  <msg>@mmPopup_invite_msg1</msg>
+			</msgs>
+    	</c>
+    </content>
+  </popup>
+  
+  <popup name="mm_gift">
+    <images>
+      <img>popups/announcement/announcement_gift</img>
+    </images>
+    <btns>
+      <btn linkage="btn_blueMonster" text="@mmPopup_gift_btn" param1="gifts">popup</btn>
+    </btns>
+    <content>
+    	<c image="0">
+			<msgs>
+			  <msg>@mmPopup_gift_msg1</msg>
+			  <msg>@mmPopup_gift_msg2</msg>
+			</msgs>
+    	</c>
+    </content>
+  </popup>
+  
+  <popup name="mm_armor">
+    <images>
+      <img>popups/announcement/announcement_armor</img>
+    </images>
+    <btns>
+      <btn linkage="btn_blueMonster" text="@mmPopup_goToShop" param1="featured">shop</btn>
+    </btns>
+    <content>
+    	<c image="0">
+			<msgs>
+				<msg>@mmPopup_armor_msg1</msg>
+			</msgs>
+    	</c>
+    </content>
+  </popup>
+  
+  <popup name="mm_bookmark">
+    <images>
+      <img>popups/announcement/announcement_bookmark</img>
+    </images>
+    <content>
+    	<c image="0">
+    	</c>
+    </content>
+  </popup>
+  
+  <popup name="mm_arenaTwitter">
+    <images>
+      <img>popups/announcement/announcement_twitter</img>
+    </images>
+    <content>
+    	<c image="0">
+			<msgs>
+				<msg>@mmPopup_Arena_msg1</msg>
+				<msg>@mmPopup_Arena_msg2</msg>
+			</msgs>
+    	</c>
+    </content>
+    <btns>
+      <btn linkage="btn_twitterMonster" param1="http://bit.ly/tetristweets">url</btn>
+    </btns>
+  </popup>
+  
+  <popup name="mm_tuning">
+    <images>
+      <img>popups/announcement/announcement_tuningMore</img>
+    </images>
+    <content>
+    	<c image="0">
+			<msgs>
+				<msg>@mmPopup_Tuning_msg1</msg>
+				<msg>@mmPopup_Tuning_msg2</msg>
+			</msgs>
+    	</c>
+    </content>
+    <btns>
+      <btn linkage="btn_blueMonster" text="@mmPopup_goToShop" param1="tuning">shop</btn>
+    </btns>
+  </popup>
+
+
+  <postPopup>
+  		<!--<condition value="iscrosspromoenabled 'announcement' AND iscrosspromocookie false">CrossPromotion</condition>-->
+		<condition value="requests greater 0 AND nothappenedtoday 'MessageCenter'">^MessageCenter</condition>
+		<!--<condition value="date greaterequal '2012/12/01 21:00:00'">inviteFriends</condition>-->
+		<!--<condition value="date greaterequal '2012/7/01 00:00:00'">^giftingLite</condition>-->
+		<!-- <condition value="date greaterequal '2012/5/12 00:00:00' and date smallerequal '2012/05/15 00:00:00'">sendGifts</condition> Wait until we improve loading -->
+  </postPopup>
+</popupTable>

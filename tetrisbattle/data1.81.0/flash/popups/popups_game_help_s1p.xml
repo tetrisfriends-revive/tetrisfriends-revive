@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<popupTable popupType="mc_event_help">
+	<startPopupName>p1</startPopupName>
+	<autoclose>0</autoclose>
+
+	<popup name="p1">
+		<images>
+			<img>misc/help_0</img>
+		</images>
+    <btns>
+    </btns>
+    <msgs>
+    	<msg>kHelpName</msg>
+    	<msg>kHelpTitle1</msg>
+    </msgs>
+    <helpMsgs>
+    	<msg>kHelpMsg1</msg>
+    </helpMsgs>
+  </popup>
+  <popup name="p2">
+    <images>
+			<img>misc/help_s1p_1</img>
+    </images>
+		<msgs>
+    	<msg>kHelpName</msg>
+    	<msg>kHelpTitle17</msg>
+    </msgs>
+    <helpMsgs>
+    	<msg>kHelpMsg17</msg>
+    </helpMsgs>
+  </popup>
+  <popup name="p3">
+    <images>
+			<img>misc/help_s1p_2</img>
+    </images>
+		<msgs>
+    	<msg>kHelpName</msg>
+    	<msg>kHelpTitle18</msg>
+		</msgs>
+    <helpMsgs>
+    	<msg>kHelpMsg18</msg>
+    	<msg></msg>
+    </helpMsgs>
+  </popup>
+  <popup name="p4">
+    <images>
+		<img>misc/help_s4p_2</img>
+    </images>
+		<msgs>
+    	<msg>kHelpName</msg>
+    	<msg>kHelpTitle9</msg>
+	  </msgs>
+    <helpMsgs>
+    	<msg>kHelpMsg9</msg>
+    </helpMsgs>
+  </popup>
+</popupTable>

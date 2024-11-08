@@ -1,0 +1,1470 @@
+<StringTable>
+	<TableList type="system">
+		<s k="kDefaultFontName" v="" />
+		<s k="kLocalizationPreset0" v="bold" />
+		<s k="kLocalizationPreset1" v="size=1.1" />
+		<s k="kLocalizationPreset2" v="size=1.2" />
+		<s k="kLocalizationPreset3" v="size=1.3" />
+		<s k="kLocalizationPreset4" v="size=1.4" />
+		<s k="kLocalizationPreset5" v="size=1.5" />
+		<s k="kGeneralTextField" v="%s" />
+		<s k="kLoadAsset" v="1" />
+		<s k="kTier" v="Full" />
+		<s k="kErrorLoading" v="Erreurs lors du chargement du fichier : %s. Réessayer..." />
+		<s k="kWaitForFacebookLogin" v="En attente de la connexion Facebook..." />
+		<s k="kWaitForDataloading" v="En attente des données..." />
+		<s k="kErrorOverflow" v="Trop d'erreurs." />
+		<s k="kLoadingClientData" v="Chargement des données du client..." />
+		<s k="kCannotGetSessionData" v="Nouvelle tentative de chargement des informations de session..." />
+		<s k="kConnectToFacebookServer" v="Connexion au serveur Facebook..." />
+		<s k="kFailConnectToFacebook" v="Nouvelle tentative de connexion au serveur Facebook..." />
+		<s k="kErrorAppIdNotFound" v="Erreur 'appID' introuvable." />
+		<s k="kErrorCannotInit" v="Tentative d'initialisation de la connexion Facebook." />
+		<s k="kGetLoggedInUserInfo" v="Récupération des infos utilisateur de Facebook..." />
+		<s k="kFailGetLoggedInUserInfo" v="Nouvelle tentative de récupération des infos utilisateur de Facebook..." />
+		<s k="kErrorMeApi" v="Erreur 3-1 : impossible de récupérer les infos utilisateur." />
+		<s k="kGetFriendslistFromFB" v="Récupération de la liste d'amis de Facebook..." />
+		<s k="kFailGetFriendslist" v="Nouvelle tentative de récupération de la liste d'amis de Facebook..." />
+		<s k="kFailGetFriendslistRetry" v="Impossible de récupérer la liste d'amis. (%s). Nouvelle tentative..." />
+		<s k="kConnectToAsyncServer" v="Connexion au serveur Tetris..." />
+		<s k="kInstallToAsyncServer" v="Installation sur AsyncServer..." />
+		<s k="kAsyncLoginFail" v="Erreur 6 : échec de connexion au serveur Tetris. Nouvelle tentative..." />
+		<s k="kAsyncFBUidInvalid" v="Erreur 7 : FBUid invalide..." />
+		<s k="kGetFriendsInfo" v="Récupération du nom du joueur de Facebook..." />
+		<s k="kFailGetFrinedsInfo" v="Nouvelle tentative de récupération du nom du joueur de Facebook..." />
+		<s k="kFacebookConnectionCompleted" v="Connexion Facebook terminée." />
+		<s k="kGetDataFileError" v="Erreur de chargement des fichiers de données (%s)." />
+		<s k="kInventoryUseError" v="Erreur de connexion lors de l'utilisation de cet objet.\nVeuillez réessayer plus tard." />
+		<s k="kFacebookAPICallRetryOut" v="" />
+		<s k="kNeedMoreCash" v="[m]Il vous faut plus de Cash Tetris pour acheter cet objet !" />
+		<s k="kNeedMoreCashGameMode" v="[m]Il vous faut plus de Cash Tetris pour débloquer ce jeu !" />
+		<s k="kNeedMoreCoin" v="[m]Il vous faut plus de Pièces Tetris pour débloquer cet objet !" />
+		<s k="kShopInitError" v="[m]Désolé, nous ne pouvons pas charger les données de la Boutique. Veuillez actualiser." />
+		<s k="kShopPurchaseError" v="[m]Désolé, vous ne pouvez pas acheter d'objets. Veuillez réessayer." />
+		<s k="kChattingIsNotAllowed" v="Vous ne pouvez discuter qu'avec vos amis." />
+		<s k="kChatFieldUnfocusMsg" v="Cliquez ici pour discuter." />
+		<s k="kReject_Reject" v="[m]Votre invitation a été refusée." />
+		<s k="kReject_InSync" v="[m]Le joueur a déjà lancé un défi à quelqu'un. Veuillez réessayer plus tard." />
+		<s k="kReject_Timout" v="[m]Le joueur n'a pas répondu à votre invitation." />
+		<s k="kReject_Cannot" v="[m]Le joueur n'est pas en mesure d'accepter d'invitations maintenant. Veuillez réessayer plus tard." />
+		<s k="kReject_Already" v="[m]Le joueur a déjà refusé. Veuillez réessayer plus tard." />
+		<s k="kReject_Playing" v="[m]Le joueur est en cours de partie. Veuillez réessayer plus tard." />
+		<s k="kMatching_noConnection" v="Impossible de se connecter pour le moment." />
+		<s k="kMatching_noPlayer" v="Cliquez sur Actualiser pour\nplus d'adversaires !" />
+		<s k="kMatching_Idle" v="Veuillez actualiser pour voir plus d'adversaires." />
+		<s k="kYoutubeError" v="Erreur de chargement de film. Veuillez réessayer." />
+		<s k="kSmallEnergy" v="Petite énergie" />
+		<s k="kMediumEnergy" v="Énergie moyenne" />
+		<s k="kLargeEnergy" v="Grande énergie" />
+		<s k="kFullEnergy" v="Énergie max" />
+		<s k="kDefaultColorGhostTooltip" v="[@shopItemName@][@endl@] avec couleur !" />
+		<s k="kSyncConnectionLost" v="CONNEXION AU SERVEUR PERDUE." />
+		<s k="kUnableToPlayArena" v="[m]Sans connexion synchronisée, vous ne pouvez pas jouer au mode Arena." />
+		<s k="kErrorMessagePopupTitle" v="Désolé" />
+		<s k="kIdlePlayerKickMessage" v="[m]Vous avez été retiré de la salle d'Arena car vous êtes resté inactif depuis trop longtemps." />
+		<s k="kPurchaseFailMessage" v="[m]Désolé ! Une erreur de serveur s'est produite lors de l'achat d'Énergie. Veuillez réessayer." />
+		<s k="kNoConnection" v="[m]CONNEXION AU SERVEUR PERDUE. VEUILLEZ ACTUALISER VOTRE NAVIGATEUR POUR REJOUER." />
+		<s k="kEnergyConsumeFail" v="[m]Impossible de commencer la partie en raison d'une erreur de serveur. Veuillez actualiser le navigateur." />
+		<s k="kNoInviteInArena" v="[m]Désolé, vous ne pouvez pas inviter d'amis dans le mode Arena." />
+		<s k="kNoRoomForSpectator" v="[m]Désolé, il n'y a pas de place pour observer." />
+		<s k="kArenaDisconnected" v="Déconnecté" />
+		<s k="kArenaKnockOut" v="KO" />
+		<s k="kArenaSuicided" v="Pas terminé" />
+		<s k="kArenaOtherRoom" v="[m]Impossible de rejoindre la salle où vous avez été invité. Une autre salle a été sélectionnée." />
+		<s k="kInvitePopupCaller" v="En attente" />
+		<s k="kInvitePopupReceiver" v="Réception invit." />
+		<s k="kLeaderboardYouAreNotRankedScore" v="Votre position : non classé" />
+		<s k="kLeaderboardYouAreNotRankedPercentile" v="Vous n'êtes pas dans les premiers du classement." />
+		<s k="kLeaderboardYouAreRankedScore" v="Vous avez été placé" />
+		<s k="kLeaderboardYouAreRankedPercentile" v="Vous êtes dans le top" />
+		<s k="kSpotSaleArmor" v="Protégez vos étoiles avec une armure !" />
+		<s k="kSpotSaleCut" v="Cut your way out from being KO'd!" />
+		<s k="kSpotSaleQuake" v="quake spotsale message here!" />
+		<s k="kParamTest" v="Param1 : %s, 2 : %s, 3 : %s" />
+		<s k="kKOs" v="KO" />
+		<s k="kLife" v="Vie" />
+		<s k="kTime" v="Temps" />
+		<s k="kLines" v="Lines" />
+		<s k="kHeight" v="Hauteur" />
+		<s k="kPlayTime" v="%s min %s sec" />
+		<s k="kDealspotProcessing" v="Traitement Dealspot" />
+		<s k="kWaitSec" v="Patientez %s secondes..." />
+		<s k="kNotice" v="Avis" />
+		<s k="kRequestToInvite" v="L'invitation a été envoyée" />
+		<s k="kSorry" v="Désolé" />
+		<s k="kRewardTetrisCash" v="Récompense :\nVous avez gagné %s Cash Tetris" />
+		<s k="kRewardTetrisCoin" v="Récompense :\nVous avez gagné %s Pièces Tetris" />
+		<s k="kTetrisCash" v="%s Cash Tetris" />
+		<s k="kYourRank" v="Votre rang est désormais : %s." />
+		<s k="kToRank" v="Vers le Rang %s ?" />
+		<s k="kGameIsPlaying" v="[m]Cette partie est déjà en cours." />
+		<s k="kSetToNextGame" v="[m]Vous jouerez dans la partie suivante." />
+		<s k="kWaitForNextGame" v="[m]Attendez la prochaine partie dispo." />
+		<s k="kSpectatorCount" v="Spectateurs %s" />
+		<s k="kDataAchieved" v="Date meilleur score" />
+		<s k="kHighScore" v="Meilleur score" />
+		<s k="kSong" v="Chanson" />
+		<s k="kRank" v="Rang" />
+		<s k="kWins" v="Victoires" />
+		<s k="kLevel" v="Level" />
+		<s k="kCouldNotLoadInfo" v="Impossible de charger ces informations pour le moment.\nNous sommes désolés pour le désagrément." />
+		<s k="kCurrentOnline" v="Actuellement en ligne" />
+		<s k="kGameStat" v="Stats de la partie" />
+		<s k="kNoRank" v="0 rang" />
+		<s k="kLoading" v="Chargem." />
+		<s k="kInvite" v="INVITER" />
+		<s k="kPlayToRank" v="Jouer pour rang !" />
+		<s k="kFriendCount" v="%s sur %s AMIS" />
+		<s k="kMoreIn" v="Plus dans" />
+		<s k="kExpireIn" v="Expire dans" />
+		<s k="kMsgHostCancelInvite" v="L'hôte a annulé l'invitation." />
+		<s k="kMsgAlreadyHavePants" v="You already have that pair of pants!" />
+		<s k="kMsgNumberNotZero" v="Put Number not zero" />
+		<s k="kMsgReasonNotZero" v="Put Reason not zero" />
+		<s k="kMsgReasonCoinStart" v="Reason code for coin starts with 1" />
+		<s k="kMsgReasonCashStart" v="Reason code for cash starts with 2" />
+		<s k="kMsgNoMapGame" v="Ne prend pas en charge les grilles prédéfinies !" />
+		<s k="kMsgNotEnoughRecord" v="Pas assez de données !" />
+		<s k="kMsgErrGetUserList" v="Erreur de récupération de la liste des utilisateurs." />
+		<s k="kMsgErrGetReplay" v="Erreur de récupération des replays." />
+		<s k="kMsgHaveNot" v="You don't have that" />
+		<s k="kMsgRefreshBrowser" v="Vous devez actualiser le navigateur." />
+		<s k="kMsgDoInRoom" v="Do it in room" />
+		<s k="kMsgOnlyForB2P" v="Tentative uniquement dans Battle 2P" />
+		<s k="kMsgReplayFirst" v="Put replay string first" />
+		<s k="kMsgReplayHaveError" v="Replay string seems to have errors" />
+		<s k="kMsgError" v="Erreur : %s" />
+		<s k="kMsgErrUnknown" v="Erreur et je ne sais pas pourquoi" />
+		<s k="kMsgErrAPICall" v="Erreur d'appel API" />
+		<s k="kMsgRankChanged" v="Changement de rang effectué" />
+		<s k="kMsgConnectionClosed" v="Connexion fermée" />
+		<s k="kAutoStartMsgNotReadyList" v="[m]Utilisateurs pas prêts : %s" />
+		<s k="kAutoStartMsgAllReady" v="[m]Tous les utilisateurs sont prêts" />
+		<s k="kAutoStartMsgTimer" v="[m]Cette partie va démarrer dans %s sec" />
+		<s k="kAutoStartMsg1NotReady" v="[m]1 joueur n'est pas prêt" />
+		<s k="kAutoStartMsgXNotReady" v="[m]%s joueurs ne sont pas prêts" />
+		<s k="kAutoStartMsgAlone" v="[m]En attente d'autres joueurs" />
+		<s k="kShopIntroNormal" v="Achetez des objets pour améliorer votre jeu !" />
+		<s k="kShopIntroSync" v="La partie va bientôt commencer !" />
+		<s k="kShopIntroSyncWaiting" v="En attente d'autres joueurs" />
+		<s k="kAssetFeatured" v="Au choix" />
+		<s k="kAssetAvatar" v="Avatar" />
+		<s k="kAssetDecor" v="Déco" />
+		<s k="kAssetTuning" v="Réglage" />
+		<s k="kAssetMyStuff" v="Mes trucs" />
+		<s k="kAssetMinos" v="Minos" />
+		<s k="kAssetGhosts" v="Fantômes" />
+		<s k="kAssetColorGhosts" v="Fantômes colorés" />
+		<s k="kAssetBombs" v="Bombes" />
+		<s k="kAssetAll" v="Tous" />
+		<s k="kAssetOther" v="Autres" />
+		<s k="kAssetMsgBuyTickets" v="Achetez des objets pour améliorer votre jeu !" />
+		<s k="kAssetMsgBuyTicketsB" v="Acheter des tickets pour obtenir de l'Énergie illimitée" />
+		<s k="kAssetMsgTune" v="Régler votre jeu" />
+		<s k="kAssetNeedCoin" v="Besoin de Pièces !" />
+		<s k="kAssetNeedCash" v="Besoin de Cash !" />
+		<s k="kAssetMsgBuyCash" v="Acheter Cash Tetris" />
+		<s k="kMSG_DEFAULT" v="Souhaitez-vous activer cet objet\nmaintenant ?" />
+		<s k="kMSG_NO_ACTIVATION" v="Achat terminé !\nMerci de soutenir notre jeu !" />
+		<s k="kMSG_ARMOR1" v="Vous venez d'acheter " />
+		<s k="kMSG_ARMOR2" v=" armure(s) ! Vous êtes maintenant protégé par " />
+		<s k="kMSG_ARMOR3" v=" armure(s) !" />
+		<s k="kMSG_QUAKE1" v="Vous venez d'acheter " />
+		<s k="kMSG_QUAKE2" v=" séisme(s) !\nVous avez " />
+		<s k="kMSG_QUAKE3" v=" séisme(s) au total." />
+		<s k="kMSG_CUT1" v="Vous venez d'acheter " />
+		<s k="kMSG_CUT2" v=" coupe(s) !\nVous avez " />
+		<s k="kMSG_CUT3" v=" coupe(s) au total." />
+		<s k="kMSG_BUY_COINS_ENABLE" v="Débloquer\npendant 7 jours" />
+		<s k="kMSG_BUY_COINS_DISABLE" v="Impossible d'acheter avec des Pièces Tetris" />
+		<s k="kMSG_BUY_CASH_ENABLE" v="[m]Acheter définitivement" />
+		<s k="kMSG_BUY_CASH_DISABLE" v="Impossible d'acheter avec du Cash Tetris" />
+		<s k="kMSG_BUY_ENERGY" v="Rechargez complètement votre énergie !" />
+		<s k="kMSG_BUY_TICKET" v="Jouez en illimité à Tetris Battle !" />
+		<s k="kMSG_BUY_ARMOR" v="Restaurez votre armure !\nProtégez vos étoiles et votre rang !" />
+		<s k="kMSG_BUY_ARMOR_EXPIRE" v="Restaurez votre armure avec %s armures en plus.\nProtégez vos étoiles et votre rang !" />
+		<s k="kMSG_BUY_QUAKE" v="Achetez pour vous protéger des KO !\nLes séismes secouent votre matrice !" />
+		<s k="kMSG_BUY_CUT" v="Achetez pour vous protéger des KO !\nCoupez quelques lignes en haut !" />
+		<s k="kMSG_BUY_TRIPLECOINS" v="Gagnez 3 fois plus de pièces après chaque partie !\nDure 24 heures." />
+		<s k="kMSG_BUY_CASH" v="Achetez avec\ndu Cash Tetris !" />
+		<s k="kMSG_BUY_COIN" v="Débloquez avec\ndes Pièces Tetris !" />
+		<s k="kMSG_BUY_COIN_LOCKED" v="Débloquer au \n niveau " />
+		<s k="kAssetUnlock" v="Débloquer" />
+		<s k="kAssetBuy" v="Acheter" />
+		<s k="kAssetActivate" v="Activer" />
+		<s k="kAssetUpgrade" v="Améliorer" />
+		<s k="kAssetMax" v="Max" />
+		<s k="kOutOfItem" v="À court de %s" />
+		<s k="kPromotionMatch" v="Les parties en tant que" />
+		<s k="kPromotionEasy" v="semblent faciles pour vous." />
+		<s k="kPromotionPromote" v="Aimeriez-vous être promu" />
+		<s k="kPromotionAccept" v="Accepter" />
+		<s k="kPromotionDecline" v="Refuser" />
+		<s k="kDebugWaitingReplay" v="En attente des replays" />
+		<s k="kShopItemUnlimited" v="Illimité" />
+		<s k="kShopItemError" v="Erreur" />
+		<s k="kShopItemLocked" v="Bloqué" />
+		<s k="kInviteTimer" v="Chrono : %s" />
+		<s k="kPopupAlreadyOwnItem" v="[m]Vous possédez déjà cet objet !" />
+		<s k="kPopupPurchaseProblem" v="[m]Il y a eu un problème avec votre achat. Veuillez réessayer plus tard." />
+		<s k="kLeaderboardNoResult" v="Aucun résultat..." />
+		<s k="kLotteryMon" v="Lundi" />
+		<s k="kLotteryTue" v="Mardi" />
+		<s k="kLotteryWed" v="Mercredi" />
+		<s k="kLotteryThu" v="Jeudi" />
+		<s k="kLotteryFri" v="Vendredi" />
+		<s k="kLotterySat" v="Samedi" />
+		<s k="kLotterySun" v="Dimanche" />
+		<s k="kLotteryToday" v="Aujourd'hui" />
+		<s k="kLotteryComeback" v="Revenez\n%s" />
+		<s k="kLotteryBonus" v="Bonus !" />
+		<s k="kMsgCouldNotLoadInfo" v="\nImpossible de charger ces informations pour le moment.\n\nNous sommes désolés pour le désagrément." />
+		<s k="kMinoLeftTime" v="%s restant(s)" />
+		<s k="kDateMonth" v="%s mois" />
+		<s k="kDateDay" v="%s jours" />
+		<s k="kDateHour" v="%s heures" />
+		<s k="kDateMin" v="%s minutes" />
+		<s k="kDateSec" v="%s sec" />
+		<s k="kDateSecs" v="%s secs" />
+		<s k="kERROR_MSG_DEFAULT" v="[m]Il y a eu un problème lors de la vérification du mot de passe Arena. Veuillez réessayer plus tard." />
+		<s k="kERROR_MSG_WRONG_PW" v="[m]Mot de passe invalide. Veuillez réessayer ou consultez @tetrisbattle sur Twitter pour les mots de passe les plus à jour !" />
+		<s k="kUnlockMode" v="Débloquer %s" />
+		<s k="kUnlockMoreFriends" v="[m]Il vous faut %s amis Tetris Battle en plus pour débloquer ce mode. Invitez vos amis pour vous amuser ensemble" />
+		<s k="kUnlockWithCash" v=" ou débloquez-le avec %s Cash Tetris." />
+		<s k="kAssetNoThankyou" v="Non, merci" />
+		<s k="kAssetNoThanks" v="Non, merci" />
+		<s k="kAssetOK" v="OK" />
+		<s k="kAssetBuyNow" v="Acheter" />
+		<s k="kAssetBuyMore" v="Acheter plus" />
+		<s k="kGradeStarNoMax" v="Même étoile\nVous avez atteint le maximum ! Saurez-vous rester à ce niveau ?" />
+		<s k="kGradeStarNoDefault" v="Même étoile\n" />
+		<s k="kGradeStarNoMin" v="Même étoile\nContinuez à vous entraîner et vous vous améliorerez !" />
+		<s k="kGradeStarDoubleUp1" v="Vous avez gagné une étoile !\nVous avez dominé l'adversaire !" />
+		<s k="kGradeStarDoubleUp2" v="Vous avez gagné deux étoiles !\nVous avez dominé l'adversaire !" />
+		<s k="kGradeStarDoubleUp3" v="Vous avez gagné trois étoiles !\nVous avez dominé l'adversaire !" />
+		<s k="kGradeStarBonusDoubleUp1" v="Bonus Earned!\nYou earned a star!" />
+		<s k="kGradeStarBonusDoubleUp2" v="Bonus Earned!\nYou earned two stars!" />
+		<s k="kGradeStarBonusDoubleUp3" v="Bonus Earned!\nYou earned three stars!" />
+		<s k="kGradeStarDefaultUp" v="Vous avez gagné des étoiles." />
+		<s k="kGradeStarUp1" v="Vous avez gagné une demi-étoile." />
+		<s k="kGradeStarUp2" v="Vous avez gagné une étoile." />
+		<s k="kGradeStarUp3" v="Vous avez gagné une étoile et demie." />
+		<s k="kGradeStarDown1" v="Vous avez perdu une demi-étoile." />
+		<s k="kGradeStarDown2" v="Vous avez perdu une étoile." />
+		<s k="kGradeStarDown3" v="Vous avez perdu une étoile et demie." />
+		<s k="kGradeStarDefaultDown" v="Vous avez perdu des étoiles." />
+		<s k="kGradeStarNoStarsAwarded" v="Aucune étoile reçue" />
+		<s k="kGradeStarHandicapOff" v="Vous recevez des étoiles avec un handicap ACTIF." />
+		<s k="kLeaderBoardFilterFriends" v="Amis Facebook" />
+		<s k="kLeaderBoardFilterAllFacebook" v="Tout Facebook" />
+		<s k="kLeaderBoardFilterAllTime" v="Tout le temps" />
+		<s k="kLeaderBoardFilter30Days" v="30 derniers jours" />
+		<s k="kLeaderBoardName" v="%s" />
+		<s k="kLeaderBoardFilter7Days" v="7 derniers jours" />
+		<s k="kAssetPlace" v="Place" />
+		<s k="kAssetName" v="Nom" />
+		<s k="kFacebookErrorPage" v="Oh, une erreur s'est produite avec Facebook.\nVeuillez essayez d'actualiser cette page pour continuer." />
+		<s k="kOptionTitle" v="Options" />
+		<s k="kOptionMusic" v="Vol. musique" />
+		<s k="kOptionFX" v="Volume effets" />
+		<s k="kOptionGhost" v="Pièce fantôme" />
+		<s k="kOptionBomb" v="Bombes" />
+		<s k="kOptionControl" v="Commandes" />
+		<s k="kOptionOn" v="Oui" />
+		<s k="kOptionOff" v="Non" />
+		<s k="kOptionDefault" v="Défaut" />
+		<s k="kOptionCustom" v="Personn." />
+		<s k="kKeyRotateL" v="Pivoter gauche" />
+		<s k="kKeyRotateR" v="Pivoter droite" />
+		<s k="kKeyMoveL" v="Gauche" />
+		<s k="kKeyMoveR" v="Droite" />
+		<s k="kKeySoftDrop" v="Chute rapide" />
+		<s k="kKeyHardDrop" v="Chute libre" />
+		<s k="kKeyPause" v="Pause" />
+		<s k="kKeyHold" v="Hold" />
+		<s k="kAssetClose" v="Fermer" />
+		<s k="kAssetSpin" v="TOURNER" />
+		<s k="kLotteryNotice" v="Revenez CHAQUE JOUR pour débloquer plus de tours bonus !" />
+		<s k="kLotteryCongratz" v="Félicitations !" />
+		<s k="kLotteryYouWon" v="Vous avez gagné !" />
+		<s k="kToolbarGame" v="Partie" />
+		<s k="kToolbarChallenge" v="Défier" />
+		<s k="kToolbarLeaderboard" v="Classement" />
+		<s k="kToolbarShop" v="Boutique" />
+		<s k="kOptionDescB2P" v="Êtes-vous prêt pour la bagarre ?\nDeux minutes d'action\nnon-stop !" />
+		<s k="kOptionDescB6P" v="Maintenant avec 6 joueurs, le jeu\nde blocs continue de faire rage !\nQue le combat commence !" />
+		<s k="kOptionDescS4P" v="Une course en 40 lignes contre\ntrois adversaires.\nQue le joueur le plus rapide gagne !" />
+		<s k="kOptionDescA6P" v="Jouer dans une mêlée générale en temps réel\navec jusqu'à 5 adversaires ! Qui finira premier ?" />
+		<s k="kOptionDescS1P" v="Un mode frénétique qui\nvous met au défi d'effacer 40 lignes\nle plus vite possible." />
+		<s k="kOptionDescM1P" v="Terminez\nles 15 niveaux de Tetris Marathon\npour crier victoire." />
+		<s k="kPopupIdleTitle" v="Vous semblez être parti." />
+		<s k="kPopupIdleMsg" v="Voulez-vous continuer\nà jouer ?" />
+		<s k="kGames" v="Jeux" />
+		<s k="kDate" v="Date" />
+		<s k="kMessage" v="Message" />
+		<s k="kViewFriends" v="Voir amis" />
+		<s k="kBtnPlayNow" v="Jouer !" />
+		<s k="kVersusGender" v="Sexe" />
+		<s k="kVersusAge" v="Âge" />
+		<s k="kVersusRecord" v="Données" />
+		<s k="kVersusRegion" v="Région" />
+		<s k="kBtnUnlockNow" v="Débloquer maintenant !" />
+		<s k="kHybridRecommanded" v="Riv.\nconseillés" />
+		<s k="kHybridRefresh" v="Actualiser" />
+		<s k="kArenaPasswordTitle" v="Mot de passe Arena" />
+		<s k="kArenaPasswordDesc" v="Entrez le dernier mot de passe pour accéder à Arena.\nDécouvrez le dernier mot de passe en nous rendant visite\nsur Twitter (@Tetrisbattle)." />
+		<s k="kEnter" v="Entrer" />
+		<s k="kVisitTwitter" v="Visiter Twitter" />
+		<s k="kResume" v="Reprendre" />
+		<s k="kForfeit" v="Renoncer" />
+		<s k="kPauseLeft" v="Pauses rest." />
+		<s k="kAutoResume" v="Reprise auto" />
+		<s k="kTipBoxTitle" v="Boîte à astuces" />
+		<s k="kPopupYouGained" v="Vous avez gagné :" />
+		<s k="kPopupReward" v="Récompense :" />
+		<s k="kPopupCoin" v="%s Pièces" />
+		<s k="kPopupSpecialPromoDesc" v="Vous avez surpassé\nvos adversaires !" />
+		<s k="kPopupNextLevelDesc" v="Vous avez atteint le niveau suivant" />
+		<s k="kPopupPostMyGame" v="Publier partie" />
+		<s k="kPopupRankPromoted" v="Rang\nsupérieur !" />
+		<s k="kPopupShare" v="Partager" />
+		<s k="kPopupCancel" v="Annuler" />
+		<s k="kAssetInviteFriends" v="Inviter amis" />
+		<s k="kEnergybagBuyCash" v="Acheter Cash" />
+		<s k="kEnergybagCollectBonus" v="Collecter\nbonus !" />
+		<s k="kEnergybagCollectDesc" v="Collectez les 7 pièces pour obtenir 1 jour d'Énergie illimitée. (Max. pièces : 20)" />
+		<s k="kEnergybagTitle" v="Sac d'énergie" />
+		<s k="kEnergybagUse" v="Utiliser" />
+		<s k="kSeeLeaderboard" v="Voir tout le classement" />
+		<s k="kInviteFriendsMsg1" v="Inviter vos amis à jouer !" />
+		<s k="kInviteFriendsMsg1b" v="Invitez vos amis\nà jouer à Tetris Battle !" />
+		<s k="kInviteFriendsMsg2" v="" />
+		<s k="kInviteFriendsMsg2b" v="Gagnez 200 Pièces Tetris pour chaque NOUVEL ami !" />
+		<s k="kInviteFriendsNoFriends" v="Aucun ami disponible à inviter." />
+		<s k="kInviteFriendsSelectAll" v="Tous" />
+		<s k="kNoMap" v="Aucune Grille" />
+		<s k="kRandomMap" v="Aléatoire" />
+		<s k="kNoMapDesc" v="Aucune grille" />
+		<s k="kRandomMapDesc" v="Grille aléatoire" />
+		<s k="kSendGiftButton" v="Envoyer" />
+		<s k="kSendGiftButtonB" v="Env. cadeau" />
+		<s k="kSendGiftMsg1" v="Envoyez un cadeau à un ami !" />
+		<s k="kSendGiftMsg2" v="Invitez vos amis Facebook à rejoindre \n Tetris Battle et envoyez-leur un cadeau !" />
+		<s k="kSendGiftMsg3" v="Ces amis jouent à Tetris Battle. \n Aidez-les en leur envoyant un cadeau !" />
+		<s k="kSendGiftLocked" v="Débloquer au \n niveau [@giftReqLevel@]" />
+		<s k="kSendGiftAllFriends" v="Tous" />
+		<s k="kSendGiftTBFriends" v="Tetris Battle" />
+		<s k="kSendGiftSelectAll" v="Tous" />
+		<s k="kSendGiftSearchFriends" v="Rechercher amis" />
+		<s k="kErrCodeUnknown" v="Erreur inconnue" />
+		<s k="kErrCodeSyntax" v="Syntaxe non valide" />
+		<s k="kErrCodeParam" v="Paramètre non valide" />
+		<s k="kErrCodePlayer" v="Joueur non valide" />
+		<s k="kErrCodeSession" v="Session non valide" />
+		<s k="kErrCodeLoggedIn" v="Vous êtes déjà connecté." />
+		<s k="kErrCodePID" v="ID joueur non valide" />
+		<s k="kErrCodeInSession" v="Le joueur a déjà rejoint une session." />
+		<s k="kErrCodeNotListed" v="Le joueur n'est pas dans la liste." />
+		<s k="kErrCodeNotOnline" v="Le joueur n'est pas en ligne." />
+		<s k="kErrCodePermission" v="Erreur d'autorisation" />
+		<s k="kErrCodeTooMany" v="Il y a trop de joueurs en ligne." />
+		<s k="kErrCodeConnectionLost" v="Connexion perdue" />
+		<s k="kErrCodeServerErr" v="Erreur serveur interne" />
+		<s k="kErrCodeWait" v="Veuillez patienter avant de réessayer." />
+		<s k="kErrCodeAuthFail" v="Échec d'authentification" />
+		<s k="kErrCodeBusyServer" v="Le serveur est trop occupé." />
+		<s k="kErrCodeUnavailServer" v="Serveur indisponible" />
+		<s k="kSendGiftError" v="Désolé ! Impossible d'accéder aux cadeaux. Veuillez réessayer plus tard." />
+		<s k="kEnergyLimitMessage" v="%s max." />
+		<s k="kHelpTitle1" v="Commandes" />
+		<s k="kHelpMsg1" v="[m]Dans Tetris Battle, vous contrôlez les pièces à l'aide du clavier. \n\n Regardez attentivement l'animation." />
+		<s k="kHelpTitle2" v="Bombes" />
+		<s k="kHelpMsg2" v="[m]Faites tomber votre bloc sur la bombe pour éliminer les Lignes d'attaque ! \n\n En faisant cela, vous envoyez également des Lignes d'attaque à votre adversaire." />
+		<s k="kHelpTitle3" v="Envoyer des lignes" />
+		<s k="kHelpMsg3a" v="[m]Effacez au moins 2 lignes pour envoyer des Lignes d'attaque à votre adversaire." />
+		<s k="kHelpMsg3b" v="[m]Effacez 4 lignes simultanément pour effectuer un Tetris et envoyer un total de 4 Lignes d'attaque à l'adversaire !" />
+		<s k="kHelpTitle4" v="Gagner des KO" />
+		<s k="kHelpMsg4" v="[m]Vous pouvez faire sortir votre adversaire en lui envoyant régulièrement des Lignes d'attaque, ce qui provoquera un KO." />
+		<s k="kHelpTitle5" v="Combos" />
+		<s k="kHelpMsg5" v="[m]Vous pouvez envoyer des lignes supplémentaires quand vous effacez plusieurs lignes consécutives (combo). \n Plus les combos sont grands, plus vous envoyez de lignes !" />
+		<s k="kHelpTitle6" v="Grilles" />
+		<s k="kHelpMsg6" v="[m]Découvrez différentes façons de vous affronter avec des grilles de départ prédéfinies." />
+		<s k="kHelpTitle7" v="Cibler" />
+		<s k="kHelpMsg7" v="[m]Seule la personne visée recevra vos Lignes d'attaque. Vous pouvez ainsi placer plus de KO en vous concentrant sur une seule personne." />
+		<s k="kHelpTitle8" v="L'objectif" />
+		<s k="kHelpMsg8" v="[m]La première personne à effacer 40 lignes gagne la partie. Essayez d'être le plus rapide à terminer." />
+		<s k="kHelpTitle9" v="Interface utilisateur" />
+		<s k="kHelpMsg9" v="[m]La barre bleue à gauche indique le nombre de lignes restant à effacer." />
+		<s k="kHelpTitle10" v="Gagner des étoiles" />
+		<s k="kHelpMsg10" v="[m]Si vous gagnez une partie, vous gagnez une étoile. Les étoiles vous permettent de monter en niveau et de rencontrer des joueurs plus expérimentés." />
+		<s k="kHelpTitle11" v="Gagner/Perdre un rang" />
+		<s k="kHelpMsg11" v="[m]Si vous perdez toutes vos étoiles, vous perdrez un rang. Si vous gagnez 5 étoiles, vous gagnez un rang." />
+		<s k="kHelpTitle12" v="L'objectif" />
+		<s k="kHelpMsg12" v="[m]Obtenez le meilleur score avant la fin de la partie." />
+		<s k="kHelpTitle13" v="Fin de partie" />
+		<s k="kHelpMsg13a" v="[m]La partie se termine à la fin des 15 niveaux." />
+		<s k="kHelpMsg13b" v="[m]Ou lorsque votre pile de blocs dépasse la zone de jeu." />
+		<s k="kHelpTitle14" v="Niveau supérieur !" />
+		<s k="kHelpMsg14" v="[m]Effacez le nombre de lignes requis pour gagner un niveau." />
+		<s k="kHelpTitle15" v="Difficulté accrue" />
+		<s k="kHelpMsg15" v="[m]Plus vous gagnez de niveaux, plus les blocs tombent vite et plus le nombre de lignes requis augmente." />
+		<s k="kHelpTitle16" v="Marquez plus de points !" />
+		<s k="kHelpMsg16a" v="[m]Gagnez plus de points bonus en effaçant plusieurs lignes simultanément." />
+		<s k="kHelpMsg16b" v="[m]Des techniques spéciales telles que des Tetris ou des T-Spins vous permettront de gagner plus de points bonus !" />
+		<s k="kHelpTitle17" v="L'objectif" />
+		<s k="kHelpMsg17" v="[m]Effacez 40 lignes aussi vite que possible." />
+		<s k="kHelpTitle18" v="Dépasser la zone" />
+		<s k="kHelpMsg18" v="[m]Vous perdez la partie si votre pile de blocs dépasse la zone de jeu." />
+		<s k="kMessageCenterGiftGroup" v="%s cadeaux" />
+		<s k="kMessageCenterRequestGroup" v="%s demandes" />
+		<s k="kMessageCenterShowMore" v="Cliquer pour afficher plus" />
+		<s k="kMessageCenterAcceptTxt1" v="[1]%s vous a envoyé : %s" />
+		<s k="kMessageCenterAcceptTxt2" v="Acceptez le cadeau et renvoyez-en un à %s !" />
+		<s k="kMessageCenterAcceptButton" v="Accepter" />
+		<s k="kMessageCenterAcceptSend" v="Accepter/envoyer" />
+		<s k="kMessageCenterAcceptOnly" v="Accepter" />
+		<s k="kMessageCenterSendbackTxt1" v="[1]Vous avez accepté : %s" />
+		<s k="kMessageCenterSendbackTxt2" v="Envoyer un cadeau de remerciement à %s ?" />
+		<s k="kMessageCenterSendbackButton" v="Renvoyer cadeau" />
+		<s k="kMessageCenterNoSendbackTxt1" v="[1]Vous avez accepté : %s" />
+		<s k="kMessageCenterNoSendbackTxt2" v="" />
+		<s k="kMessageCenterNoSendbackButton" v="OK" />
+		<s k="kMessageCenterRequestTxt1" v="[1]%s a besoin de votre aide !" />
+		<s k="kMessageCenterRequestTxt2" v="Tu peux m'aider en m'envoyant : %s ?" />
+		<s k="kMessageCenterRequestButton" v="Aide" />
+		<s k="kMessageCenterNoMessageTxt" v="Vous n'avez aucun message pour le moment.\nEt si vous envoyiez des cadeaux à vos amis\npour en avoir en retour !" />
+		<s k="kMarathonBetaMessage" v="*Tetris Marathon est en version bêta fermée. Les règles et les scores sont susceptibles d'être modifiés ou réinitialisés." />
+		<s k="kSprintBetaMessage" v="*Tetris Sprint est en version bêta fermée. Les règles et les scores sont susceptibles d'être modifiés ou réinitialisés." />
+		<s k="kBogoMsg1" v="The Heart Bomb is now in your inventory!" />
+		<s k="kBogoMsg2" v="Select to whom you wish to send the Heart Bomb" />
+		<s k="kBogoShareMsg1" v="[#firstName#] sent this\nHeart Bomb your way!" />
+		<s k="kBogoShareMsg2" v="Share the news with your friends!" />
+		<s k="kHelpControls" v="Commandes par défaut" />
+		<s k="kHelpRotateRight" v="Pivoter droite" />
+		<s k="kHelpMoveRight" v="Droite" />
+		<s k="kHelpSoftDrop" v="Chute rapide" />
+		<s k="kHelpMoveLeft" v="Gauche" />
+		<s k="kHelpHardDrop" v="Chute libre" />
+		<s k="kHelpNew" v="Nouveau !" />
+		<s k="kHelpSetMap" v="Grille" />
+		<s k="kErrorRetrieveRank" v="Erreur de récupération du rang. La session de jeu ne sera pas sauvegardée." />
+		<s k="kErrSavingOff" v="[m]Impossible de récupérer les \nstats de la partie. La partie ne sera pas \nsauvegardée." />
+		<s k="kErrSavingOff2" v="[m]Cliquez sur Réessayer pour rafraîchir ou sur Fermer pour continuer la partie sans sauvegarder." />
+		<s k="kAssetRetry" v="Réessayer" />
+		<s k="kNoticeSaleStarted" v="Bonne nouvelle, cet objet est désormais disponible ! Cliquez sur Acheter pour bénéficier de la promo !" />
+		<s k="kNoticeSaleEnded" v="Désolé, la promo est terminée." />
+		<s k="kSaleTag" v="Promo" />
+		<s k="kHelpName" v="Aide" />
+		<s k="kGamblingResult1" v="Vous avez récupéré" />
+		<s k="kGamblingResult2" v="%s Énergie" />
+		<s k="kGamblingResult3" v="Récupérez de l'Énergie en gagnant !" />
+		<s k="kItemExpired" v="Objet expiré" />
+		<s k="kFlashQualityHigh" v="Élevée" />
+		<s k="kFlashQualityMid" v="Moyenne" />
+		<s k="kFlashQualityLow" v="Faible" />
+		<s k="kItemMaxTitle" v="Max. d'%s !" />
+		<s k="kItemMaxDesc" v="Vous avez atteint le nombre\n maximum d'%s.\nVotre achat a été annulé." />
+		<s k="kInviteFriendNum1" v="Envoyer à " />
+		<s k="kInviteFriendNum2" v=" amis" />
+		<s k="kCoinMaxTitle" v="Max. de pièces !" />
+		<s k="kCoinMaxDesc" v="Vous avez atteint le nombre maximum de pièces.\nVotre achat a été annulé." />
+		<s k="kCoinCreditMsg1" v="Achat Pièces Tetris" />
+		<s k="kCoinCreditMsg2" v="[@shopItemAmount@] Pïèces" />
+		<s k="kCoinCreditMsg3" v="Cash insuffisant.\n Utiliser Crédits Facebook ?" />
+		<s k="kShield" v="Bouclier" />
+		<s k="kFinalRush" v="Dernier assaut" />
+		<s k="kTwinBomb" v="Bombe jumelle" />
+		<s k="kGameItemTutorialUI" v="Les objets pimentent le jeu !\n Cliquez sur une icône pour utiliser l'objet !" />
+		<s k="kGameItemTutorialShield" v="Bloque occasionnellement jusqu'à 15 lignes d'attaque !" />
+		<s k="kGameItemTutorialFinalRush" v="Envoie jusqu'à 15 lignes d'attaque en plus\npendant les 40 dernières secondes." />
+		<s k="kGameItemTutorialTwinBomb" v="Les bombes apparaissent par deux pour une meilleure efficacité !" />
+		<s k="kGameItemTutorialToss1" v="Use HOLD to \&quot;toss\&quot; the Tetrimino into the garbage!" />
+		<s k="kGameItemTutorialTry" v="Nous vous donnons 3 objets [[fiItemName]] à essayer !" />
+		<s k="kEnergyGambleTutorialTitle" v="Energy Reward Promo" />
+		<s k="kEnergyGambleTutorialSubtitle" v="More Wins = More Energy!" />
+		<s k="kEnergyGambleTutorialDesc" v="Energy cost per game = 10\nbut place 1st &amp; get +10 energy back!\nThe higher you place, the more Energy you'll earn!" />
+		<s k="kTripleCoinResultUpsell" v="Plus de Pièces\navec les Triple pièces !" />
+		<s k="kAssetNotEnoughCoins" v="Pas assez de Pièces" />
+		<s k="kGameItemUnlockTitle" v="Vous avez débloqué [[fiItemName]] !" />
+		<s k="kGameItemUnlockSubtitle" v="Découvrez-les dans Battle 2P et 6P !" />
+		<s k="kTetrisCapsule" v="Capsule Tetris" />
+		<s k="kCapsuleMessage" v="Tentez votre chance !\nRemportez différents prix !" />
+		<s k="kCapsuleFreeCapsule" v="Tour gratuit x %s" />
+		<s k="kCapsuleSkip" v="Skip" />
+		<s k="kCapsuleTwist" v="Clic : tourner" />
+		<s k="kCapsuleWon" v="GAGNÉ !" />
+		<s k="kCapsuleAgain" v="Recommencer" />
+		<s k="kCapsuleDailyReward" v="Récompense jour" />
+		<s k="kCapsuleFriendsBonus" v="Bonus amis" />
+		<s k="kCapsuleFree" v="Gratis" />
+		<s k="kCapsuleFriends" v="Amis" />
+		<s k="KCapsuleInviteFriends" v="Invitez plus d'amis" />
+		<s k="KCapsuleComeBack" v="Revenez demain !" />
+		<s k="kGameStartFail" v="Échec du démarrage. Veuillez réessayer." />
+		<s k="kTetrisServerConnect" v="Connexion au serveur Tetris..." />
+		<s k="kCapsuleFBBuyDesc" v="Jouez à Tetris Capsule et gagnez Pièces, Cash, Énergie et objets !" />
+		<s k="kPlayTetrisBattle" v="Jouer à Tetris Battle" />
+		<s k="kClaimTetrisCoins" v="Demander des Pièces" />
+		<s k="kSearchingForFriends" v="Recherche d'amis" />
+		<s k="kErrorAccessToken" v="Error validating Access Token: Please refresh the application" />
+		<s k="kWatch" v="Regarder" />
+		<s k="kGameItemActivateTitle" v="Vous recevez [[fiItemName]] !" />
+		<s k="kGameMenuStart" v="Go !" />
+		<s k="kGameMenuMap" v="Grille" />
+		<s k="kGameMenuOption" v="Options" />
+		<s k="kGameMenuQuit" v="Quitter" />
+		<s k="kGameMenuChangeRoom" v="Autre salle" />
+		<s k="kGameMenuRefresh" v="Actualiser" />
+		<s k="kGameMenuResult" v="Résultats" />
+		<s k="kGameMenuContinue" v="Continuer" />
+		<s k="kGameMenuForfeit" v="Renoncer" />
+		<s k="kGameMenuChallenge" v="Défier" />
+		<s k="kGameItemPromotionTitle" v="Game Item 1/2 Off Day!" />
+		<s k="kGameDecorPromotionTitle" v="You Can Now Win Decor\nItems With 'PLAY TO EARN'" />
+		<s k="kGameItemBoostPromotionTitle" v="Boost to all items!" />
+		<s k="kGameItemBoostMissionTitle" v="Reach Goal Below\nfor an item boost!" />
+		<s k="kGameMissionTitle" v="Perform Tetris Line Clears\nTo Earn A Shield!" />
+		<s k="kHolidayMissionTitle" v="Use Holiday Decors\nFor An Added Boost" />
+		<s k="kSpotSaleShield" v="Gagner partie suiv. avec Bouclier" />
+		<s k="kSpotSaleFinalrush" v="Gagner partie suiv. avec Dernier assaut" />
+		<s k="kSpotSaleTwinbomb" v="Gagner partie suiv. avec Bombe jumelle" />
+		<s k="kGiftLiteTitle" v="Aidez votre ami\nen lui envoyant : [itemName] !" />
+		<s k="kPlayRewardTitle" v="Jouez, gagnez" />
+		<s k="kSurveyTitle" v="Player’s Poll" />
+		<s k="kSurveyQ1" v="What do you think of game items like Shield,\nFinal Rush, and Twin Bomb?" />
+		<s k="kSurveyQ1_C1" v="I use them all the time" />
+		<s k="kSurveyQ1_C2" v="I would use them more but they are too expensive" />
+		<s k="kSurveyQ1_C3" v="I tried them but they weren’t helpful" />
+		<s k="kSurveyQ1_C4" v="I won’t use them because they make the game unfair" />
+		<s k="kSurveyQ1_C5" v="Don’t know what they are" />
+		<s k="kSurveyQ1_C6" v="Never tried them" />
+		<s k="kGameItemClickToActivate" v="Cliquez pour activer" />
+		<s k="kPlayRewardGotItem" v="Vous avez gagné : \n[[itemName]] !" />
+		<s k="kPlayRewardKeepPlaying" v="Jouez pour gagner plus d'objets !" />
+		<s k="kEnergy" v="Énergie" />
+		<s k="kReportMainTitle" v="Contacter assistance" />
+		<s k="kReportMainDesc" v="Vous avez besoin d'aide ?" />
+		<s k="kReportPlayer" v="Signaler joueur" />
+		<s k="kReportIssue" v="Signal. Problème" />
+		<s k="kReportFAQLink" v="Consulter la Foire Aux Questions" />
+		<s k="kReportUserListTitle" v="Signaler un joueur" />
+		<s k="kReportUserListDesc" v="Cliquez sur le joueur à signaler" />
+		<s k="kReportUserFormTitle" v="Signaler [[playerName]] " />
+		<s k="kReportUserFormDesc" v="Le signalement sera envoyé à notre équipe d'assistance.\nNous ne fournirons aucun détail à ce sujet, mais\nnous vous contacterons peut-être\npour vous demander des informations supplémentaires." />
+		<s k="kReportIssueFormTitle" v="Fiche de signalement" />
+		<s k="kReportIssueFormDesc" v="Veuillez décrire votre problème ci-dessous.\nPlus vous fournirez d'informations,\nplus il sera facile pour nous\nde répondre à votre demande !" />
+		<s k="kReportUserFormEmail" v="e-mail :" />
+		<s k="kReportUserFormComment" v="Laissez votre commentaire (5 caractères minimum)" />
+		<s k="kReportUserFormSubmit" v="Envoyer" />
+		<s k="kComboDefault" v="Veuillez faire un choix" />
+		<s k="kReportThankYouTitle" v="Signalement envoyé !" />
+		<s k="kReportThankYouDesc" v="Merci pour ce signalement !" />
+		<s k="kReportThankYouDesc2" v="Notre équipe d'assistance\nvous répondra par e-mail\nà l'adresse [[email]]." />
+		<s k="kQuickSend" v="Envoi rapide" />
+		<s k="kQuickInvite" v="Invit. rapide" />
+		<s k="kReceivedEnergy" v="Vous avez reçu de l'énergie de\n %s ami(s) !" />
+		<s k="kErrorChatLoad" v="Chargerment impossible.  Veuillez réessayer." />
+		<s k="kErrorGeneric" v="Oups, il y a eu un problème. \nVeuillez réessayer plus tard." />
+		<s k="kPauseShortcut" v="Echap ou P pour pause et voir/modifier commandes." />
+		<s k="kGiftRequestText" v="Voici : %s. Tu peux l'utiliser dans Tetris Battle." />
+		<s k="kGiftRequestTitle" v="Demande d'énergie" />
+		<s k="kTournamentTitle" v="Tournoi hebdomadaire" />
+		<s k="kRemaining" v="Reste : %s" />
+		<s k="kTournamentMainDesc" v="Accédez au Classement Mondial !\nGagnez des prix !" />
+		<s k="kTournamentChestGoalSmall" v="Prix du\nTournoi" />
+		<s k="kTournamentChestGoalTop" v="Top %s" />
+		<s k="kTournamentChestGoalRanking" v="Classement\n%s" />
+		<s k="kChestSmall" v="Petit coffre" />
+		<s k="kChestMedium" v="Coffre moyen" />
+		<s k="kChestLarge" v="Grand coffre" />
+		<s k="kChestGold" v="Coffre doré" />
+		<s k="kTournamentYouHave" v="Vous avez" />
+		<s k="kTournamentPoints" v="%s points" />
+		<s k="kTournamentPoints2" v="points" />
+		<s k="kTournamentInPercentile" v="et dans le top" />
+		<s k="kTournamentFreeEntry" v="1 entrée GRATIS/jour !" />
+		<s k="kFriends" v="Amis" />
+		<s k="kAll" v="Top 100" />
+		<s k="kTournamentLBSendTickets" v="Envoyez des Coupons\nà vos amis !" />
+		<s k="kAskFriends" v="Demande amis" />
+		<s k="kTournamentYouEarned" v="Gagné :" />
+		<s k="kShareNewsAndCoins" v="Envoyez des pièces à vos amis !" />
+		<s k="kTournamentCongratulations" v="Félicitations" />
+		<s k="kTournamentYouSurpassed" v="Vous avez dépassé %s amis !" />
+		<s k="kTournamentConsecutiveBonus" v="Bonus %s victoires à la suite" />
+		<s k="kTournamentChestResultSmall" v="Reçu : un %s !" />
+		<s k="kTournamentChestResultTop" v="Votre Classement : %s !\nObtenu : %s !" />
+		<s k="kTournamentLBCongratulate" v="Cliquez pour féliciter\nvos amis !" />
+		<s k="kTournamentCountDown" v="Prochain match\ndans\n%s secondes" />
+		<s k="kOfferUpSellTitle" v="Du Cash !" />
+		<s k="kOfferUpSellDesc" v="Gagnez du Cash GRATIS\ngrâce aux offres !" />
+		<s k="kMyStuffButton" v="Mes\ntrucs" />
+		<s k="kTournamentPurchaseTitle" v="Pas assez de Coupons" />
+		<s k="kTournamentPurchaseAsk" v="Plus de[@endl@]Coupons !" />
+		<s k="kTournamentPurchaseStart" v="Passez et[@endl@]Jouez !" />
+		<s k="kTournamentCarriedOver" v="Transférés :" />
+		<s k="kTournamentCarriedOver2" v="points (semaine passée)." />
+		<s k="kTournamentViral_result_msg1" v="[#firstName#] a gagné %s points lors du Tournoi hebdomadaire Tetris Battle !" />
+		<s k="kTournamentViral_result_msg2" v="Participez au Tournoi hebdomadaire pour gagner des points et des récompenses !" />
+		<s k="kTournamentViral_surpassed_msg1" v="[#firstName#] vous a dépassé dans le Tournoi hebdomadaire !" />
+		<s k="kTournamentViral_surpassed_msg2" v="[#firstName#] a gagné %s points et vous a dépassé dans le Tournoi hebdomadaire. Récupérez votre position !" />
+		<s k="kTournamentViral_surpassedMulti_msg1" v="[#firstName#] vient de dépasser %s amis lors du Tournoi hebdomadaire !" />
+		<s k="kTournamentViral_surpassedMulti_msg2" v="[#firstName#] a gagné %s points et grimpé dans le Tournoi hebdomadaire. Participez vous aussi !" />
+		<s k="kTournamentViral_goldChest_msg1" v="[#firstName#] a atteint la position %s du Classement et gagné un Coffre doré lors du Tournoi hebdomadaire !" />
+		<s k="kTournamentViral_goldChest_msg2" v="Cliquez pour fêter ça et récupérer des Pièces Tetris !" />
+		<s k="kTournamentViral_largeChest_msg1" v="[#firstName#] a atteint la position %s du Classement et gagné un Large coffre lors du Tournoi hebdomadaire !" />
+		<s k="kTournamentViral_largeChest_msg2" v="Cliquez pour obtenir un Coupon et participer au Tournoi hebdomadaire Tetris Battle !" />
+		<s k="kTournamentViral_mediumChest_msg1" v="[#firstName#] a atteint la position %s du Classement et gagné un Coffre moyen lors du Tournoi hebdomadaire !" />
+		<s k="kTournamentViral_mediumChest_msg2" v="Cliquez pour obtenir un Coupon et participer au Tournoi hebdomadaire Tetris Battle !" />
+		<s k="kTournamentViral_smallChest_msg1" v="[#firstName#] a gagné un Petit coffre lors du Tournoi hebdomadaire !" />
+		<s k="kTournamentViral_smallChest_msg2" v="Cliquez pour obtenir un Coupon et participer au Tournoi hebdomadaire Tetris Battle !" />
+		<s k="kTournamentRequest_token_title" v="Demande Coupon" />
+		<s k="kTournamentRequest_token_desc" v="Voici un Coupon !  Aidez-moi en en renvoyant un !" />
+		<s k="kTournamentRequest_congratz_title" v="Cadeau de remerciement" />
+		<s k="kTournamentRequest_congratz_desc" v="Voici 100 Pièces pour fêter votre succès !" />
+		<s k="kTournamentButton" v="Participez" />
+		<s k="kGameMenuEquipped" v="Activé" />
+		<s k="kGameMenuTitle" v="Obtenez vos objets !" />
+		<s k="kTotalPoints" v="Total Points" />
+		<s k="kWorldRanking" v="Class. Mondial" />
+		<s k="kEntryFee" v="Entrée" />
+		<s k="kTournamentLBNotReady" v="Non disponible pour le moment." />
+		<s k="kTournamentLBNotReady2" v="Veuillez vérifier plus tard." />
+		<s k="kResults" v="Résultat" />
+		<s k="kClaimToken" v="Obtenir Coupon" />
+		<s k="kTournamentResultsSoon" v="Résultat à venir" />
+		<s k="kTournamentRewardActivate" v="Your 1 Day Ticket has been activated![@endl@]Enjoy unlimited energy for 24 hours!" />
+		<s k="kVersionMismatchTitle" v="Version Mismatch" />
+		<s k="kVersionMismatchMessage" v="New version is available.\n Please refresh the browser." />
+		<s k="kAsyncHashInvalid" v="Country Hash String Error" />
+		<s k="kSendGiftNoFriends" v="There are no available friends\nto send gifts." />
+		<s k="kMissionRewardTitle" v="Progress" />
+		<s k="kBingoNoteItemRestriction" v="Note: Item can only be used in Battle 2P+ / Friend Battle" />
+	</TableList>
+	<TableList type="reportAbuse.xml">
+		<s k="reportAbuse_Combo01" v="Offense" />
+		<s k="reportAbuse_Combo02" v="Abus/triche" />
+		<s k="reportAbuse_Combo01-01" v="Commentaire inapproprié" />
+		<s k="reportAbuse_Combo01-02" v="Langage grossier" />
+		<s k="reportAbuse_Combo01-03" v="Spam" />
+		<s k="reportAbuse_Combo01-04" v="Menace physique" />
+		<s k="reportAbuse_Combo01-05" v="Demande de Cash/Pièce" />
+		<s k="reportAbuse_Combo02-01" v="Nombre de lignes envoyées anormal" />
+		<s k="reportAbuse_Combo02-02" v="L'adversaire se déplace beaucoup trop vite" />
+		<s k="reportAbuse_Combo02-03" v="L'adversaire commence en avance ou en retard" />
+		<s k="reportAbuse_Combo02-04" v="Pièces de Tetrimino anormales" />
+		<s k="reportAbuse_Combo02-05" v="Bombes anormales" />
+		<s k="reportAbuse_Combo02-06" v="Autre" />
+		<s k="reportIssue_Combo01" v="Cash Tetris ou Pièces" />
+		<s k="reportIssue_Combo02" v="Erreur ou problème de jeu" />
+		<s k="reportIssue_Combo03" v="Commentaires ou questions" />
+		<s k="reportIssue_Combo01-01" v="Achat accidentel d'objet" />
+		<s k="reportIssue_Combo01-02" v="Cash Tetris manquant" />
+		<s k="reportIssue_Combo01-03" v="Pièces Tetris manquantes" />
+		<s k="reportIssue_Combo01-04" v="Autre (problèmes de Cash ou Pièces)" />
+		<s k="reportIssue_Combo02-01" v="Publicité" />
+		<s k="reportIssue_Combo02-02" v="Problème d'affichage" />
+		<s k="reportIssue_Combo02-03" v="Problème d'énergie" />
+		<s k="reportIssue_Combo02-04" v="Message d'erreur en jeu" />
+		<s k="reportIssue_Combo02-05" v="Incident ou plantage" />
+		<s k="reportIssue_Combo02-06" v="Commandes du jeu" />
+		<s k="reportIssue_Combo02-07" v="Problème de partage ou d'invitation" />
+		<s k="reportIssue_Combo02-08" v="Problème en ligne" />
+		<s k="reportIssue_Combo02-09" v="Problème de rang ou de classement" />
+		<s k="reportIssue_Combo02-10" v="Chargement ralenti" />
+		<s k="reportIssue_Combo02-11" v="Impossible de jouer" />
+		<s k="reportIssue_Combo02-12" v="Autre (erreur ou problème de jeu)" />
+		<s k="reportIssue_Combo03-01" v="Suggestion" />
+		<s k="reportIssue_Combo03-02" v="Question sur le jeu" />
+		<s k="reportIssue_Combo03-03" v="Commentaire général" />
+		<s k="reportIssue_Combo03-04" v="Autre (commentaire)" />
+	</TableList>
+	<TableList type="global.xml">
+		<s k="global_rankDesc_000" v="Bleu" />
+		<s k="global_rankDesc_001" v="Débutant" />
+		<s k="global_rankDesc_002" v="Novice" />
+		<s k="global_rankDesc_003" v="Néophyte" />
+		<s k="global_rankDesc_004" v="Stagiaire" />
+		<s k="global_rankDesc_005" v="Amateur" />
+		<s k="global_rankDesc_006" v="Adepte" />
+		<s k="global_rankDesc_007" v="Concurrent" />
+		<s k="global_rankDesc_008" v="Candidat" />
+		<s k="global_rankDesc_009" v="Apprenti" />
+		<s k="global_rankDesc_010" v="Compagnon" />
+		<s k="global_rankDesc_011" v="Intermédiaire" />
+		<s k="global_rankDesc_012" v="Crack" />
+		<s k="global_rankDesc_013" v="Capitaine" />
+		<s k="global_rankDesc_014" v="Meneur" />
+		<s k="global_rankDesc_015" v="Pionnier" />
+		<s k="global_rankDesc_016" v="As" />
+		<s k="global_rankDesc_017" v="Pro" />
+		<s k="global_rankDesc_018" v="Spécialiste" />
+		<s k="global_rankDesc_019" v="Vétéran" />
+		<s k="global_rankDesc_020" v="Élite" />
+		<s k="global_rankDesc_021" v="Artiste" />
+		<s k="global_rankDesc_022" v="Star" />
+		<s k="global_rankDesc_023" v="Superstar" />
+		<s k="global_rankDesc_024" v="Expert" />
+		<s k="global_rankDesc_025" v="Virtuose" />
+		<s k="global_rankDesc_026" v="Génie" />
+		<s k="global_rankDesc_027" v="Intouchable" />
+		<s k="global_rankDesc_028" v="Prodige" />
+		<s k="global_rankDesc_029" v="Vainqueur" />
+		<s k="global_rankDesc_030" v="Héros" />
+		<s k="global_rankDesc_031" v="Roi" />
+		<s k="global_rankDesc_032" v="Animal" />
+		<s k="global_rankDesc_033" v="Champion" />
+		<s k="global_rankDesc_034" v="Mentor" />
+		<s k="global_rankDesc_035" v="Sage" />
+		<s k="global_rankDesc_036" v="Maître" />
+		<s k="global_rankDesc_037" v="Grand maître" />
+		<s k="global_rankDesc_038" v="Légende" />
+		<s k="global_rankDesc_039" v="Phénomène" />
+		<s k="global_rankDesc_040" v="Surhumain" />
+		<s k="global_rankDesc_041" v="Immortel" />
+		<s k="global_rankDesc_042" v="Demi-dieu" />
+		<s k="global_rankDesc_043" v="Dieu de Tetris" />
+		<s k="global_chat_log_invited" v="[#hostFirstName#] has invited [playerX] to join the game." />
+		<s k="global_chat_log_rejected" v="[playerX] has rejected the invitation." />
+		<s k="global_chat_log_timedout" v="Invitation to [playerX] timed out." />
+		<s k="global_chat_log_joined" v="[playerX] has joined the game." />
+		<s k="global_chat_log_won" v="[playerX] has won the game." />
+		<s k="global_chat_log_place" v="[playerX] has earned [@gameResult@] place in the game." />
+		<s k="global_chat_log_left" v="[playerX] has left the game." />
+		<s k="global_gameMode_error" v="Erreur de chargement de ce mode de jeu.[@endl@]Veuillez réessayer plus tard." />
+		<s k="global_gameMode_bomb2p" v="Mettez l'adversaire KO autant de fois que possible\nen 2 minutes." />
+		<s k="global_gameMode_toss2p_tournament" v="Mettez l'adversaire KO autant de fois que possible\nen 2 minutes." />
+		<s k="global_gameMode_slim2p_tournament" v="Mettez l'adversaire KO autant de fois que possible\nen 2 minutes." />
+		<s k="global_gameMode_slim2p" v="Mettez l'adversaire KO autant de fois que possible\nen 2 minutes." />
+		<s k="global_gameMode_toss2p" v="Mettez l'adversaire KO autant de fois que possible\nen 2 minutes." />
+		<s k="global_gameMode_elo2p" v="ALL-NEW MODE! 2-KO MAX FOR FASTER BATTLES\nAND IMPROVED RANKING SYSTEM" />
+		<s k="global_gameMode_friend2p" v="CHOOSE A FRIEND\nBELOW TO BATTLE AGAINST!" />
+		<s k="global_gameMode_battle2p" v="CLASSIC MODE. KNOCK OUT YOUR OPPONENT AS\nMUCH AS POSSIBLE WITHIN 2 MINUTES" />
+		<s k="global_gameMode_battle6p" v="Mettez les adversaires KO autant de fois que possible\nen 2 minutes." />
+		<s k="global_gameMode_sprint4p" v="Effacez 40 lignes plus vite que vos adversaires." />
+		<s k="global_gameMode_marathon" v="Terminez 15 niveaux pour gagner la partie." />
+		<s k="global_gameMode_1989" v="Terminez 15 niveaux pour gagner la partie." />
+		<s k="global_gameMode_sprint" v="Effacez 40 lignes aussi vite que vous le pouvez." />
+		<s k="global_gameMode_arena" v="Devenez le champion Arena dans une mêlée générale\nde 2 minutes !" />
+		<s k="global_showGifting_title" v="Pendant votre absence..." />
+		<s k="global_showGifting_msg1" v="Grande énergie reçue !" />
+		<s k="global_showGifting_msg2" v="Renvoyer de l'Énergie max ?" />
+		<s k="global_postReplayPopup_mostGarbage_title" v="Max. lignes envoyées !" />
+		<s k="global_postReplayPopup_mostGarbage_msg" v="Vous avez envoyé un total de\n[#] lignes dans cette partie !\nMontrer à vos amis ?" />
+		<s k="global_postReplayPopup_koRecord_title" v="Record de KO !" />
+		<s k="global_postReplayPopup_koRecord_msg" v="Vous avez marqué\n[#] KO dans cette partie !\nMontrer à vos amis ?" />
+		<s k="global_postReplayPopup_detonator_title" v="Détonateur !" />
+		<s k="global_postReplayPopup_detonator_msg" v="Boum ! Vous avez fait sauter\n[#] bombes dans cette partie !\nMontrer à vos amis ?" />
+		<s k="global_postReplayPopup_specialPromo_title" v="Promotion spéciale !" />
+		<s k="global_postReplayPopup_specialPromo_msg" v="Partie de Tetris incroyable !\nVous avez gagné une promotion\nspéciale ! Montrer à vos amis ?" />
+		<s k="global_postReplayPopup_doubleStar_title" v="Double étoile !" />
+		<s k="global_postReplayPopup_doubleStar_msg" v="Vous avez gagné le double d'étoiles\ndans cette partie ! Incroyable !\nMontrer à vos amis ?" />
+		<s k="global_postReplayPopup_comboRecord_title" v="Roi du combo !" />
+		<s k="global_postReplayPopup_comboRecord_msg" v="Vous avez effectué un combo de [#]\ndans cette partie !\nMontrer à vos amis ?" />
+		<s k="global_postReplayPopup_closeGame_title" v="Partie serrée !" />
+		<s k="global_postReplayPopup_closeGame_msg" v="Ouah, c'était limite !\nPartager votre enthousiasme avec\nvos amis ?" />
+		<s k="global_postReplayPopup_perfectClear_title" v="Perfect Clear !" />
+		<s k="global_postReplayPopup_perfectClear_msg" v="Vous avez effectué un\nPerfect Clear dans cette partie !\nMontrer à vos amis ?" />
+		<s k="global_postReplayPopup_topRank_title" v="Top position !" />
+		<s k="global_postReplayPopup_topRank_battle_msg" v="Vous avez réussi à\nvous placer en première place !\nPartager la bonne nouvelle ?" />
+		<s k="global_postReplayPopup_topRank_sprint_msg" v="Vous avez foncé\njusqu'à la première place !\nPartager la bonne nouvelle ?" />
+		<s k="global_postReplayPopup_highScore_title" v="Score : [#]" />
+		<s k="global_postReplayPopup_highScore_msg" v="Bravo !\nPartager votre score avec vos amis ?" />
+		<s k="global_postReplayPopup_bestTime_title" v="Temps : [#]" />
+		<s k="global_postReplayPopup_bestTime_msg" v="Vous avez terminé le sprint !\nPartager avec vos amis ?" />
+		<s k="global_post_viralPublish_textbox_defaultMsg" v="Partagez vos pensées avec vos amis !" />
+		<s k="global_post_viralPublish_promoteMsg_rank" v="Rang [@rank@]" />
+		<s k="global_post_viralPublish_promoteMsg_level" v="Niveau [@level@]" />
+		<s k="global_post_viralPublish_promoteMsg_score" v="Score : [@gameScore@]" />
+		<s k="global_post_viralPublish_promoteMsg_time" v="Temps : [@GameTime@]" />
+		<s k="global_post_viralPublish_rankUp_attachmentMsg" v="[#firstName#] a atteint le rang [@rank@] dans Tetris [@modeName@] !" />
+		<s k="global_post_viralPublish_rankUp_captionMsg" v="Avez-vous ce qu'il faut pour devenir un Dieu de Tetris ? Essayez ! Voici des Pièces Tetris pour l'occasion !" />
+		<s k="global_post_viralPublish_rankUp_shareMsg" v="Vous avez gagné un rang !\n Partager la bonne nouvelle ?" />
+		<s k="global_post_viralPublish_specialPromo_attachmentMsg" v="[#firstName#] a fait preuve d'un talent exceptionnel et a dépassé tout le monde dans Tetris [@modeName@] !" />
+		<s k="global_post_viralPublish_specialPromo_captionMsg" v="J'ai obtenu une promotion spéciale au rang [@rank@] grâce à ma maîtrise inégalée de Tetris.   Voici des Pièces Tetris pour l'occasion !" />
+		<s k="global_post_viralPublish_specialPromo_shareMsg" v="Vous avez eu une promotion !\nPartager la bonne nouvelle ?" />
+		<s k="global_post_viralPublish_level_attachmentMsg" v="[#firstName#] montre des aptitudes sérieuses à Tetris et a atteint le niveau [@level@] dans Tetris Battle !" />
+		<s k="global_post_viralPublish_level_captionMsg" v="[#firstName#] fait d'énormes progrès dans Tetris Battle ! Voici des Pièces Tetris pour l'occasion !" />
+		<s k="global_post_viralPublish_level_congratMsg" v="Vous avez atteint un nouveau niveau !" />
+		<s k="global_post_viralPublish_level_shareMsg" v="Vous avez atteint un nouveau\nniveau ! Partager la bonne\nnouvelle ?" />
+		<s k="global_post_viralPublish_scoreMarathon_attachmentMsg" v="Pouvez-vous battre le score de : [@gameScore@] ?" />
+		<s k="global_post_viralPublish_scoreMarathon_captionMsg" v="[#firstName#] vient de marquer [@ gameScore@] à Marathon. Venez vous aussi vous amuser !" />
+		<s k="global_post_viralPublish_scoreMarathon_congratMsg" v="Merci de jouer à Marathon !" />
+		<s k="global_post_viralPublish_scoreSprint_attachmentMsg" v="Pouvez-vous battre le temps de : [@gameTime@] ?" />
+		<s k="global_post_viralPublish_scoreSprint_captionMsg" v="[#firstName#] a terminé le mode Sprint avec un temps de [@gameTime@]." />
+		<s k="global_post_viralPublish_scoreSprint_congratMsg" v="Vous avez terminé le mode Sprint !" />
+		<s k="global_post_viralPublish_helpEnergy_attachmentMsg" v="J'ai besoin de plus d'énergie pour jouer à Tetris Battle !" />
+		<s k="global_post_viralPublish_helpEnergy_captionMsg" v="Aide-moi à remplir mon énergie. J'essaierai de te rendre la pareille." />
+		<s k="global_post_viralPublish_helpUnlock_attachmentMsg" v="J'ai besoin de ton aide pour débloquer un nouveau jeu de Tetris !" />
+		<s k="global_post_viralPublish_helpUnlock_captionMsg" v="Aide-moi à débloquer ce jeu plus rapidement ! Qui sait, tu auras peut-être un cadeau en retour !" />
+		<s k="global_post_viralPublish_battleBest_attachmentMsg" v="[#firstName#] vient de réaliser un nouveau record personnel dans Tetris Battle !" />
+		<s k="global_post_viralPublish_battleBest_captionMsg" v="[#firstName#] est en train de devenir un bon joueur de Tetris à Battle 2P ! Cliquez sur le bouton de lecture voir le replay !" />
+		<s k="global_post_viralPublish_koRecord_attachmentMsg" v="[#firstName#] a mis plusieurs fois KO son adversaire dans Tetris Battle !" />
+		<s k="global_post_viralPublish_koRecord_captionMsg" v="[#firstName#] élimine tous ses adversaires ! Est-ce vous qui allez réussir à le mettre KO ?" />
+		<s k="global_post_viralPublish_detonator_attachmentMsg" v="[#firstName#] a su désarmer ces satanées bombes dans Tetris Battle !" />
+		<s k="global_post_viralPublish_detonator_captionMsg" v="[#firstName#] affiche de vraies compétences de déminage dans Battle 2P !\nCliquez sur le bouton de lecture voir le replay !" />
+		<s k="global_post_viralPublish_specialPromo2_attachmentMsg" v="[#firstName#] vient de gagner un rang !" />
+		<s k="global_post_viralPublish_specialPromo2_captionMsg" v="[#firstName#] gravit très vite les échelons dans Tetris Battle ! Arriverez-vous à suivre ?  Voici des Pièces Tetris pour l'occasion !" />
+		<s k="global_post_viralPublish_comboRecord_attachmentMsg" v="[#firstName#] s'y connaît en combos !" />
+		<s k="global_post_viralPublish_comboRecord_captionMsg" v="[#firstName#] sait enchaîner les combos à la perfection dans Tetris Battle ! Et vous ?\nCliquez sur le bouton de lecture voir le replay !" />
+		<s k="global_post_viralPublish_closeGame_attachmentMsg" v="[#firstName#] a remporté de justesse la partie !" />
+		<s k="global_post_viralPublish_closeGame_captionMsg" v="[#firstName#] a ce qu'il faut pour gagner à Battle 2P ! Pouvez-vous relever le défi ?\nCliquez sur le bouton de lecture voir le replay !" />
+		<s k="global_post_viralPublish_perfectClear_attachmentMsg" v="[#firstName#] vient de vider la matrice avec un Perfect Clear ! Incroyable !" />
+		<s k="global_post_viralPublish_perfectClear_captionMsg" v="[#firstName#] a atteint la perfection dans Tetris Battle !\nCliquez sur le bouton de lecture voir le replay !" />
+		<s k="global_post_viralPublish_topRank6p_attachmentMsg" v="[#firstName#] a envoyé [#] lignes à ses adversaires et a atteint la première place dans Battle 6P !" />
+		<s k="global_post_viralPublish_topRank6p_captionMsg" v="[#firstName#] a lutté jusqu'au bout et a raflé la première place. Vous êtes de taille à l'affronter ? Montrez qui est le boss à Battle 6P !" />
+		<s k="global_post_viralPublish_topRank4p_attachmentMsg" v="[#firstName#] a terminé à la première place dans Sprint 4P." />
+		<s k="global_post_viralPublish_topRank4p_captionMsg" v="[#firstName#] a terminé la partie en [#] et a atteint la première place à Sprint 4P. Venez vous joindre à la course et passez la ligne d'arrivée !" />
+		<s k="global_post_viralPublish_highScore_attachmentMsg" v="Pouvez-vous battre le score de : [#] ?" />
+		<s k="global_post_viralPublish_highScore_captionMsg" v="[#firstName#] vient de marquer [#] à Marathon. Venez vous aussi vous amuser !" />
+		<s k="global_post_viralPublish_bestTime_attachmentMsg" v="Pouvez-vous effacer les 40 lignes en [#] ?" />
+		<s k="global_post_viralPublish_bestTime_captionMsg" v="[#firstName#] a terminé le mode Sprint en [#]." />
+		<s k="global_post_viralPublish_bogo1_attachmentMsg" v="[#firstName#] sent you a special gift in Tetris Battle!" />
+		<s k="global_post_viralPublish_bogo1_captionMsg" v="Here's a special Heart Bomb for you ;) Click to accept!" />
+		<s k="global_post_viralPublish_bogo2_attachmentMsg" v="[#firstName#] received a special Gift!" />
+		<s k="global_post_viralPublish_bogo2_captionMsg" v="For a limited time, send a Heart Bomb FREE with any purchase of Tetris Cash!" />
+		<s k="global_post_viralPublish_capsule_attachmentMsg" v="[#firstName#] a rejoint [@gameItem@] Tetris Battle !" />
+		<s k="global_post_viralPublish_capsule_captionMsg" v="[#firstName#] veut partager les récompenses avec vous ! Vous n'avez qu'à cliquer !" />
+		<s k="global_post_viralPublish_replay_attachmentMsg" v="Watch My Stellar Performance in Tetris Battle!" />
+		<s k="global_post_viralPublish_replay_captionMsg" v="Click the play button to watch my game and join the fun in Tetris Battle!" />
+		<s k="global_lottery_minoI_notice" v="Every earned bonus in\nthe Daily Spin wins you\nan I-Tetrimino\nfor your energy bag!" />
+		<s k="global_lottery_shield_notice" v="Every earned bonus in\nthe Daily Spin wins you\na Shield\nfor Battle Modes!" />
+		<s k="global_lottery_twinBomb_notice" v="Every earned bonus in\nthe Daily Spin wins you\na Twin Bomb\nfor Battle Modes!" />
+		<s k="global_lottery_finalRush_notice" v="Every earned bonus in\nthe Daily Spin wins you\na Final Rush\nfor Battle Modes!" />
+		<s k="global_lottery_item_notice" v="Every earned bonus in\nthe Daily Spin wins you\na game item\nfor Battle Modes!" />
+		<s k="global_lottery_tetrimino_notice" v="Every earned bonus in\nthe Daily Spin wins you\na tetrimino\nfor your energy bag!" />
+		<s k="global_lottery_week_notice_msg1" v="\nReturn five consecutive days this week to earn a free armor item!" />
+		<s k="global_gameitemboost_notice_msg0" v="Item Boost!!" />
+		<s k="global_gameitemboost_notice_msg1" v="Final Rush" />
+		<s k="global_gameitemboost_notice_msg2" v="Active Time 40 &gt; 60 sec!" />
+		<s k="global_gameitemboost_notice_msg3" v="Shield" />
+		<s k="global_gameitemboost_notice_msg4" v="Defense Line 15 &gt; 30!" />
+		<s k="global_gameitemboost_notice_msg5" v="Twin Bombs" />
+		<s k="global_gameitemboost_notice_msg6" v="&gt; Triple Bombs" />
+		<s k="global_gameitemboost_notice_msg7" v="On Sept 20!" />
+		<s k="global_gameitemboost_notice_today_msg7" v="Today Only!" />
+		<s k="global_energydiscount_notice_msg0" v="Play more for less!" />
+		<s k="global_energydiscount_notice_msg1" v="Games require less energy\ntoday only!" />
+		<s k="global_boostmission_notice_msg0" v="Earn a free item boost!" />
+		<s k="global_boostmission_notice_msg1" v="Achieve the 'Play to Earn' goal in Battle 2P and we'll give one of your items a powerful boost!" />
+		<s k="global_boostmission_notice_msg2" v="Tomorrow!" />
+		<s k="global_boostmission_notice_today_msg2" v="Today Only!" />
+		<s k="global_xmas_notice0_msg0" v="BE SURE TO VISIT DAILY DURING CHRISTMAS WEEK FOR SPECIAL GIFTS AND PROMOTIONS!" />
+		<s k="global_xmas_notice0_msg1" v="HAPPY\nHOLIDAYS!" />
+		<s k="global_xmas_notice1_msg0" v="RETURN BACK EVERY DAY FOR A CHANCE TO WIN FREE HOLIDAY DECOR ITEMS IN BATTLE 2P!" />
+		<s k="global_xmas_notice1_msg1" v="\nGOOD LUCK!" />
+		<s k="global_xmas_notice2_msg0" v="DID YOU EARN ANY HOLIDAY DECOR ITEMS IN BATTLE 2P? EQUIP ONE TODAY FOR FREE BOOSTS AND BONUSES!" />
+		<s k="global_xmas_notice2_msg1" v="MERRY\nCHRISTMAS!" />
+		<s k="global_xmas_notice3_msg0" v="HAPPY HOLIDAYS!" />
+		<s k="global_xmas_notice3_msg1" v="'TIS THE SEASON TO BE JOYFUL!" />
+		<s k="global_xmas_notice3_msg2" v="THE COUNTDOWN TO NEW YEARS STARTS ON DEC. 28. STAY TUNED!" />
+		<s k="global_newyear_notice0_msg0" v="THANK YOU FOR ANOTHER GREAT YEAR! BE SURE TO TRY THE BONUS SPIN AS WE HAVE INCREASED THE CHANCES TO WIN ENERGY TICKETS!" />
+		<s k="global_newyear_notice1_msg0" v="HAPPY NEW YEAR! EQUIP YOUR HOLIDAY DECOR ITEMS TODAY FOR FREE BOOSTS AND BONUSES IN BATTLE MODES!" />
+		<s k="global_newyear_notice1_msg1" v="2014\nHERE WE COME!" />
+		<s k="global_mission_notice_msg0" v="Special Mission" />
+		<s k="global_mission_notice_msg1" v="Perform Tetris Line Clears\nTo Earn A Shield!" />
+		<s k="global_mission_notice_msg2" v="Click Me!" />
+		<s k="global_mission_notice_msg3" v="Ends In:" />
+		<s k="global_mission_notice_test" v="Completions: [@mission_completions@]\nCurrent Goal: [@mission_goal@]" />
+		<s k="global_mission_tetris_title" v="Perform Tetris Line Clears\nTo Earn A Shield!" />
+		<s k="global_mission_combo_title" v="Perform Combos\nTo Earn A Twin Bomb!" />
+		<s k="global_energy_freefriend2p" v="PLAY FOR A\nLIMITED TIME!" />
+	</TableList>
+	<TableList type="tooltip.xml">
+		<s k="tooltip_buy_coins" v="Pièces Tetris : [@coins@]" />
+		<s k="tooltip_buy_cash" v="Cash Tetris :" />
+		<s k="tooltip_getTetrisCash" v="Achetez du Cash Tetris !" />
+		<s k="tooltip_energy1" v="Énergie restante :[@endl@][@energy@] sur [@energyMax@][@endl@]Plus dans : [@energyTime@]" />
+		<s k="tooltip_energy2" v="Énergie illimitée ![@endl@]Expire dans : [@energyPassTime@]" />
+		<s k="tooltip_energy3" v="Ouvrir le Sac d'énergie" />
+		<s k="tooltip_xp" v="XP actuelle : [@exp@] [@endl@] [@expNext@] XP requise pour monter de niveau" />
+		<s k="tooltip_visual_settings" v="Régler la qualité d'affichage: [@flashQuality@]" />
+		<s k="tooltip_sound_settings" v="Effets sonores Oui/Non" />
+		<s k="tooltip_music_settings" v="Musique Oui/Non" />
+		<s k="tooltip_unlock_game" v="Vous devez atteindre le niveau [@revealLevel@][@endl@]pour débloquer ce jeu !" />
+		<s k="tooltip_unlock_game2" v="Invitez [@unlockFriends@] autre(s) ami(s) pour débloquer ce jeu[@endl@]ou dépensez [@unlockCostCash@] Cash Tetris pour le débloquer immédiatement !" />
+		<s k="tooltip_arena_password" v="Entrez le mot de passe pour un nouveau défi !" />
+		<s k="tooltip_click_to_play" v="Cliquer pour jouer" />
+		<s k="tooltip_game_options" v="Options de jeu" />
+		<s k="tooltip_return_menu" v="Retour au menu principal" />
+		<s k="tooltip_surrender" v="Capituler devant votre adversaire" />
+		<s k="tooltip_shop_energy1" v="Recharger complètement votre énergie !" />
+		<s k="tooltip_shop_ticket1" v="Temps de jeu illimité pour une journée !" />
+		<s k="tooltip_shop_ticket2" v="Temps de jeu illimité pour une journée !" />
+		<s k="tooltip_shop_ticket3" v="Temps de jeu illimité pendant 7 jours !" />
+		<s k="tooltip_shop_ticket4" v="Temps de jeu illimité pendant 30 jours !" />
+		<s k="tooltip_shop_ticket5" v="Temps de jeu illimité pendant 90 jours !" />
+		<s k="tooltip_shop_energy2" v="Recharger complètement votre énergie !" />
+		<s k="tooltip_shop_default_mino" v="Le Mino par défaut" />
+		<s k="tooltip_shop_holiday1" v="Joyeuses Pâques !" />
+		<s k="tooltip_shop_holiday2" v="Joyeuses fêtes !" />
+		<s k="tooltip_shop_holiday3" v="Spécial Saint-Valentin !" />
+		<s k="tooltip_shop_holiday4" v="Spécial Saint-Patrick !" />
+		<s k="tooltip_shop_inspire1" v="Inspiré de[@endl@]Tetris Party" />
+		<s k="tooltip_shop_inspire2" v="Inspiré de[@endl@]Tetris Splash" />
+		<s k="tooltip_shop_inspire3" v="Inspiré de[@endl@]Tetris sur NES" />
+		<s k="tooltip_shop_inspire4" v="Essayer pour[@endl@]un nouveau défi" />
+		<s k="tooltip_shop_inspire5" v="Inspiré de[@endl@]Tetris Zone" />
+		<s k="tooltip_shop_inspire6" v="Inspiré de[@endl@]Tetris Online Japan" />
+		<s k="tooltip_shop_inspire7" v="Inspiré de[@endl@]Tetris à Burning Man" />
+		<s k="tooltip_shop_inspire8" v="Inspiré de[@endl@]Tetris DS" />
+		<s k="tooltip_shop_inspire9" v="Inspiré de[@endl@]Tetris sur borne d'arcade" />
+		<s k="tooltip_shop_inspire10" v="Inspiré de[@endl@]Tetris sur téléphone mobile" />
+		<s k="tooltip_shop_inspire11" v="Inspiré de[@endl@]Tetris en couleur sur téléphone mobile" />
+		<s k="tooltip_shop_inspire12" v="Inspiré de[@endl@]Sega Tetris" />
+		<s k="tooltip_shop_inspire13" v="Inspiré de[@endl@]Sega Tetris" />
+		<s k="tooltip_shop_inspire14" v="Inspiré de[@endl@]Hangame Tetris" />
+		<s k="tooltip_shop_inspire15" v="Inspiré de[@endl@]Tetris Grandmaster" />
+		<s k="tooltip_shop_inspire16" v="Inspiré de[@endl@]Tetris Grandmaster en couleur" />
+		<s k="tooltip_shop_inspire17" v="Inspiré de[@endl@]GB Tetris" />
+		<s k="tooltip_shop_inspire18" v="Inspiré de[@endl@]GB Tetris en couleur" />
+		<s k="tooltip_shop_inspire19" v="Inspiré de[@endl@]Atari Tetris" />
+		<s k="tooltip_shop_inspire20" v="Inspiré de[@endl@]Atari Tetris en couleur" />
+		<s k="tooltip_shop_inspire21" v="Inspiré du[@endl@]Défi Old Navy" />
+		<s k="tooltip_shop_inspire22" v="Inspiré du[@endl@]Défi Old Navy en couleur" />
+		<s k="tooltip_shop_default_ghost" v="Le fantôme par défaut" />
+		<s k="tooltip_shop_default_ghostColor" v="Fantôme par défaut[@endl@] en couleur !" />
+		<s k="tooltip_shop_default_bomb" v="La bombe par défaut" />
+		<s k="tooltip_shop_holiday20" v="Inspiré du[@endl@]Défi Old Navy" />
+		<s k="tooltip_shop_armor" v="Une armure permet[@endl@]de protéger vos étoiles !" />
+		<s k="tooltip_shop_quake" v="Un séisme mélange la grille [@endl@]lorsque vous allez perdre !" />
+		<s k="tooltip_shop_cut" v="Une coupe supprime des lignes[@endl@]lorsque vous allez perdre !" />
+		<s k="tooltip_shop_cut2" v="Une coupe supprime 5 lignes en haut[@endl@]lorsque vous allez être KO !" />
+		<s k="tooltip_shop_triple_coins" v="Gagnez 3 fois plus de pièces[@endl@]par jour après chaque jeu !" />
+		<s k="tooltip_shop_armor_left" v="Vous avez [@armor@] armure(s) restante(s). [@endl@]Une armure permet de protéger vos étoiles." />
+		<s k="tooltip_shop_armor_left_buy" v="Vous avez [@armor@] armure(s) restante(s). [@endl@]Une armure permet de protéger vos étoiles.[@endl@]Cliquez pour ajouter une armure !" />
+		<s k="tooltip_shop_quake_left" v="Vous avez [@quake@] séisme(s). [@endl@]Un séisme mélange votre grille [@endl@]lorsque allez perdre !" />
+		<s k="tooltip_shop_cut_left" v="Vous avez [@cut@] coupes. [@endl@]Une coupe supprime des lignes[@endl@]lorsque vous allez perdre !" />
+		<s k="tooltip_shop_coins_desc" v="Gagnez 3 fois plus de pièces[@endl@]par jour après chaque jeu !" />
+		<s k="tooltip_tuning" v="Acheter une amélioration !" />
+		<s k="tooltip_avatar" v="Partie avatar" />
+		<s k="tooltip_nextQueueUnlock" v="Cliquez pour débloquer !" />
+		<s k="tooltip_gameItem_d" v="Choisir un objet défensif." />
+		<s k="tooltip_gameItem_d_shield" v="Bloque aléatoirement jusqu'à 15 lignes." />
+		<s k="tooltip_gameItem_d_mirror" v="Renvoyer 20% des lignes d'attaque." />
+		<s k="tooltip_gameItem_d_cut" v="Supprimer 5 lignes pour empêcher les KO." />
+		<s k="tooltip_gameItem_d_quake" v="Déclencher une cascade pour empêcher les KO." />
+		<s k="tooltip_gameItem_d_toss1" v="Toss 20 pieces from next queue." />
+		<s k="tooltip_gameItem_d_toss2" v="Toss 40 pieces from next queue." />
+		<s k="tooltip_gameItem_d_toss3" v="Toss 100 pieces from next queue." />
+		<s k="tooltip_gameItem_d_slim8" v="Reduces matrix with to 8 wide." />
+		<s k="tooltip_gameItem_d_slim6" v="Reduces matrix with to 6 wide." />
+		<s k="tooltip_gameItem_d_slim4" v="Reduces matrix with to 4 wide." />
+		<s k="tooltip_gameItem_s_ko1" v="Triggers a win after 1 KO." />
+		<s k="tooltip_gameItem_noInventory" v="No items remaining." />
+		<s k="tooltip_gameItem_o" v="Choisir un objet offensif." />
+		<s k="tooltip_gameItem_o_finalRush" v="Envoie jusqu'à 15 lignes d'attaque[@endl@]au dernier moment." />
+		<s k="tooltip_gameItem_o_tetris1" v="Envoyer 1 ligne d'attaque supplémentaire par Tetris." />
+		<s k="tooltip_gameItem_o_tspin1" v="Envoyer 1 ligne d'attaque supplémentaire par T-Spin." />
+		<s k="tooltip_gameItem_s" v="Choisir un objet de soutien." />
+		<s k="tooltip_gameItem_s_extraBomb" v="Bonus bombs appear [@endl@]for easier detonation." />
+		<s k="tooltip_gameItem_s_twinBomb" v="Les bombes apparaîtront[@endl@]par deux." />
+		<s k="tooltip_gameItem_s_fireBomb" v="Une bombe de feu[@endl@]effacera plusieurs lignes." />
+		<s k="tooltip_gameItem_s_speed1" v="Augmente la vitesse d'effacement." />
+		<s k="tooltip_gameItem_unlock_d" v="Débloquer au[@endl@] niveau 4" />
+		<s k="tooltip_gameItem_unlock_o" v="Débloquer au[@endl@] niveau 5" />
+		<s k="tooltip_gameItem_unlock_s" v="Débloquer au[@endl@] niveau 6" />
+		<s k="tooltip_gameItem_nonbomb" v="Objet non utilisable[@endl@] dans ce mode de jeu" />
+		<s k="tooltip_gameItem_d_shieldPromotion" v="Randomly blocks up to [@del]15[del@] 30 Lines." />
+		<s k="tooltip_gameItem_o_finalRushPromotion" v="Sends extra garbage lines[@endl@]in the final [@del]40[del@] 60 seconds." />
+		<s k="tooltip_gameItem_s_twinBombPromotion" v="Bombs appear in [@del]pairs[del@] triplets[@endl@]for easier detonation." />
+		<s k="tooltip_gameItem_d_shieldBoost" v="Randomly blocks up to [@del]15[del@] 30 Lines." />
+		<s k="tooltip_gameItem_o_finalRushBoost" v="Sends extra garbage lines[@endl@]in the final [@del]40[del@] 60 seconds." />
+		<s k="tooltip_gameItem_s_twinBombBoost" v="Bombs appear in [@del]pairs[del@] triplets[@endl@]for easier detonation." />
+		<s k="tooltip_handicap" v="Ne s'applique qu'aux parties jouées[@endl@]en ligne avec des amis.[@endl@]Vous ne gagnerez pas d'étoiles si[@endl@]cette fonction est désactivée." />
+		<s k="tooltip_addCoins" v="Ajouter des pièces" />
+		<s k="tooltip_tripleCoins_hud" v="Tetris Coins: [@coins@][@endl@]Triple Coins will[@endl@]expire in [@tripleCoinExpiration@]" />
+		<s k="tooltip_buy_tripleCoins" v="Tetris Coins: [@coins@][@endl@]Click to get Triple Coins!" />
+		<s k="tooltip_contact_support" v="Contacter l'assistance" />
+		<s k="tooltip_report_issue" v="Signalez tout problème, erreur,[@endl@]question ou commentaire." />
+		<s k="tooltip_report_user2" v="Disponible uniquement en[@endl@]mode multijoueur.[@endl@]Limite : 7 signalements par jour." />
+		<s k="tooltip_report_user" v="Signaler utilisateur" />
+		<s k="tooltip_help" v="Aide" />
+		<s k="tooltip_settings" v="Settings" />
+		<s k="tooltip_noad" v="Jouez sans publicité[@endl@]pour tout achat effectué[@endl@]avec 10 Crédits FB ou plus !" />
+		<s k="tooltip_playReward" v="Jouez pour remplir la barre[@endl@] et gagnez un prix !" />
+		<s k="tooltip_tournamentRankNotReady" v="Le classement n'est pas prêt.[@endl@]Revenez plus tard !" />
+		<s k="tooltip_tournamentWorldRanking" v="Votre Total de Points est supérieur[@endl@]à %s du monde" />
+		<s k="tooltip_tournamentWorldRankingTop" v="Your Total Points are in[@endl@]%s of the world" />
+		<s k="tooltip_shop_token" v="Use to enter the Weekly Tournament" />
+		<s k="tooltip_rankbar_current" v="Current Rank" />
+		<s k="tooltip_rankbar_max" v="Max Rank" />
+		<s k="tooltip_rankbar" v="Rank" />
+		<s k="tooltip_missionReward" v="Perform Tetrises to fill the bar[@endl@] and win a prize!" />
+		<s k="tooltip_achievement1" v="Win  Battle 2P or Battle 2P Plus Within 40 Seconds" />
+		<s k="tooltip_achievement2" v="Play Arena" />
+		<s k="tooltip_achievement3" v="Play Battle 2P" />
+		<s k="tooltip_achievement4" v="Play Battle 2P Plus" />
+		<s k="tooltip_achievement5" v="Play Battle 6P" />
+		<s k="tooltip_achievement6" v="Play Marathon" />
+		<s k="tooltip_achievement7" v="Play Sprint" />
+		<s k="tooltip_achievement8" v="Play Sprint 4P" />
+		<s k="tooltip_achievement9" v="Perform Tetrises" />
+		<s k="tooltip_achievement10" v="Perform T-Spins" />
+		<s k="tooltip_achievement11" v="Perform Back-to-Backs" />
+		<s k="tooltip_achievement12" v="Perform Line Clears" />
+		<s k="tooltip_achievement13" v="Detonate Bombs" />
+		<s k="tooltip_achievement14" v="Perform a 6+ Combo" />
+		<s k="tooltip_achievement15" v="Use Shield Item" />
+		<s k="tooltip_achievement16" v="Use Final Rush Item" />
+		<s k="tooltip_achievement17" v="Use Twin Bomb" />
+		<s k="tooltip_achievement18" v="Use Custom Mino" />
+		<s k="tooltip_achievement19" v="Use Custom Ghost" />
+		<s k="tooltip_achievement20" v="Use Custom Color Ghost" />
+		<s k="tooltip_achievement21" v="Use Custom Bomb" />
+		<s k="tooltip_achievement22" v="Use a map" />
+		<s k="tooltip_achievement23" v="Rank Up" />
+		<s k="tooltip_achievement24" v="Invite a friend" />
+		<s k="tooltip_achievement25" v="Use 1 KO Item" />
+		<s k="tooltip_achievement999" v="Free Piece!" />
+	</TableList>
+	<TableList type="friend2p.xml">
+		<s k="battle2p_tips1" v="[m]Utilisez les touches fléchées du clavier pour déplacer le Tetrimino." />
+		<s k="battle2p_tips2" v="[m]Vous pouvez mettre un Tetrimino en réserve en appuyant sur [Maj] ou [C]." />
+		<s k="battle2p_tips3" v="[m]Appuyez sur [Barre d'espace] pour faire tomber instantanément le Tetrimino à sa place." />
+		<s k="battle2p_tips4" v="[m]Effacez au moins 2 lignes pour envoyer une Ligne d'attaque à l'adversaire." />
+		<s k="battle2p_tips5" v="[m]Faites tomber un Tetrimino sur une bombe pour la faire exploser." />
+	</TableList>
+	<TableList type="elo2p.xml">
+		<s k="battle2p_tips1" v="[m]Utilisez les touches fléchées du clavier pour déplacer le Tetrimino." />
+		<s k="battle2p_tips2" v="[m]Vous pouvez mettre un Tetrimino en réserve en appuyant sur [Maj] ou [C]." />
+		<s k="battle2p_tips3" v="[m]Appuyez sur [Barre d'espace] pour faire tomber instantanément le Tetrimino à sa place." />
+		<s k="battle2p_tips4" v="[m]Effacez au moins 2 lignes pour envoyer une Ligne d'attaque à l'adversaire." />
+		<s k="battle2p_tips5" v="[m]Faites tomber un Tetrimino sur une bombe pour la faire exploser." />
+	</TableList>
+	<TableList type="toss2p.xml">
+		<s k="battle2p_tips1" v="[m]Utilisez les touches fléchées du clavier pour déplacer le Tetrimino." />
+		<s k="battle2p_tips2" v="[m]Vous pouvez mettre un Tetrimino en réserve en appuyant sur [Maj] ou [C]." />
+		<s k="battle2p_tips3" v="[m]Appuyez sur [Barre d'espace] pour faire tomber instantanément le Tetrimino à sa place." />
+		<s k="battle2p_tips4" v="[m]Effacez au moins 2 lignes pour envoyer une Ligne d'attaque à l'adversaire." />
+		<s k="battle2p_tips5" v="[m]Faites tomber un Tetrimino sur une bombe pour la faire exploser." />
+	</TableList>
+	<TableList type="battle2p_tournament.xml">
+		<s k="battle2p_tips1" v="[m]Utilisez les touches fléchées du clavier pour déplacer le Tetrimino." />
+		<s k="battle2p_tips2" v="[m]Vous pouvez mettre un Tetrimino en réserve en appuyant sur [Maj] ou [C]." />
+		<s k="battle2p_tips3" v="[m]Appuyez sur [Barre d'espace] pour faire tomber instantanément le Tetrimino à sa place." />
+		<s k="battle2p_tips4" v="[m]Effacez au moins 2 lignes pour envoyer une Ligne d'attaque à l'adversaire." />
+		<s k="battle2p_tips5" v="[m]Faites tomber un Tetrimino sur une bombe pour la faire exploser." />
+	</TableList>
+	<TableList type="battle2p_tournament_map.xml">
+		<s k="battle2p_map_name1" v="Classique" />
+		<s k="battle2p_map_desc1" v="Une grille classique pour\nles gens classiques." />
+		<s k="battle2p_map_name2" v="Smiley" />
+		<s k="battle2p_map_desc2" v="Nous espérons que vous\naurez autant de plaisir\nà jouer que nous à le créer." />
+		<s k="battle2p_map_name3" v="Roi combo" />
+		<s k="battle2p_map_desc3" v="Effectuez le meilleur combo.\nEt la couronne sera à vous." />
+		<s k="battle2p_map_name4" v="Danse égyptienne" />
+		<s k="battle2p_map_desc4" v="Faites la danse du soleil !" />
+		<s k="battle2p_map_name5" v="Panier-repas" />
+		<s k="battle2p_map_desc5" v="Qu'allez-vous manger\naujourd'hui ?" />
+		<s k="battle2p_map_name6" v="Monstre" />
+		<s k="battle2p_map_desc6" v="Soyez un héros. Combattez le\nmonstre." />
+		<s k="battle2p_map_name7" v="Brise-combo" />
+		<s k="battle2p_map_desc7" v="Pouvez-vous tout effacer\nsans rompre le combo ?" />
+		<s k="battle2p_map_name8" v="Triple Spins" />
+		<s k="battle2p_map_desc8" v="Vous ne connaissez pas\nles T-Spins ? Entraînez-vous ici." />
+		<s k="battle2p_map_name9" v="Tortue" />
+		<s k="battle2p_map_desc9" v="Rien ne sert de courir, \nil faut gagner la course !" />
+		<s k="battle2p_map_name10" v="Creuser" />
+		<s k="battle2p_map_desc10" v="Creusez au fond aussi vite que\npossible !" />
+		<s k="battle2p_map_name11" v="Mini-course" />
+		<s k="battle2p_map_desc11" v="C'est une course rapide\npour toucher le fond !\n Ne vous laissez pas\ndistancer !" />
+		<s k="battle2p_map_name12" v="Feu et eau" />
+		<s k="battle2p_map_desc12" v="Vous pouvez avoir chaud et\nfroid en même temps." />
+	</TableList>
+	<TableList type="slim2p_tournament.xml">
+		<s k="battle2p_tips1" v="[m]Utilisez les touches fléchées du clavier pour déplacer le Tetrimino." />
+		<s k="battle2p_tips2" v="[m]Vous pouvez mettre un Tetrimino en réserve en appuyant sur [Maj] ou [C]." />
+		<s k="battle2p_tips3" v="[m]Appuyez sur [Barre d'espace] pour faire tomber instantanément le Tetrimino à sa place." />
+		<s k="battle2p_tips4" v="[m]Effacez au moins 2 lignes pour envoyer une Ligne d'attaque à l'adversaire." />
+		<s k="battle2p_tips5" v="[m]Faites tomber un Tetrimino sur une bombe pour la faire exploser." />
+	</TableList>
+	<TableList type="toss2p_tournament.xml">
+		<s k="battle2p_tips1" v="[m]Utilisez les touches fléchées du clavier pour déplacer le Tetrimino." />
+		<s k="battle2p_tips2" v="[m]Vous pouvez mettre un Tetrimino en réserve en appuyant sur [Maj] ou [C]." />
+		<s k="battle2p_tips3" v="[m]Appuyez sur [Barre d'espace] pour faire tomber instantanément le Tetrimino à sa place." />
+		<s k="battle2p_tips4" v="[m]Effacez au moins 2 lignes pour envoyer une Ligne d'attaque à l'adversaire." />
+		<s k="battle2p_tips5" v="[m]Faites tomber un Tetrimino sur une bombe pour la faire exploser." />
+	</TableList>
+	<TableList type="bomb2p.xml">
+		<s k="battle2p_tips1" v="[m]Utilisez les touches fléchées du clavier pour déplacer le Tetrimino." />
+		<s k="battle2p_tips2" v="[m]Vous pouvez mettre un Tetrimino en réserve en appuyant sur [Maj] ou [C]." />
+		<s k="battle2p_tips3" v="[m]Appuyez sur [Barre d'espace] pour faire tomber instantanément le Tetrimino à sa place." />
+		<s k="battle2p_tips4" v="[m]Effacez au moins 2 lignes pour envoyer une Ligne d'attaque à l'adversaire." />
+		<s k="battle2p_tips5" v="[m]Faites tomber un Tetrimino sur une bombe pour la faire exploser." />
+	</TableList>
+	<TableList type="slim2p.xml">
+		<s k="battle2p_tips1" v="[m]Utilisez les touches fléchées du clavier pour déplacer le Tetrimino." />
+		<s k="battle2p_tips2" v="[m]Vous pouvez mettre un Tetrimino en réserve en appuyant sur [Maj] ou [C]." />
+		<s k="battle2p_tips3" v="[m]Appuyez sur [Barre d'espace] pour faire tomber instantanément le Tetrimino à sa place." />
+		<s k="battle2p_tips4" v="[m]Effacez au moins 2 lignes pour envoyer une Ligne d'attaque à l'adversaire." />
+		<s k="battle2p_tips5" v="[m]Faites tomber un Tetrimino sur une bombe pour la faire exploser." />
+	</TableList>
+	<TableList type="battle2p.xml">
+		<s k="battle2p_tips1" v="[m]Utilisez les touches fléchées du clavier pour déplacer le Tetrimino." />
+		<s k="battle2p_tips2" v="[m]Vous pouvez mettre un Tetrimino en réserve en appuyant sur [Maj] ou [C]." />
+		<s k="battle2p_tips3" v="[m]Appuyez sur [Barre d'espace] pour faire tomber instantanément le Tetrimino à sa place." />
+		<s k="battle2p_tips4" v="[m]Effacez au moins 2 lignes pour envoyer une Ligne d'attaque à l'adversaire." />
+		<s k="battle2p_tips5" v="[m]Faites tomber un Tetrimino sur une bombe pour la faire exploser." />
+	</TableList>
+	<TableList type="battle2p_map.xml">
+		<s k="battle2p_map_name1" v="Classique" />
+		<s k="battle2p_map_desc1" v="Une grille classique pour\nles gens classiques." />
+		<s k="battle2p_map_name2" v="Smiley" />
+		<s k="battle2p_map_desc2" v="Nous espérons que vous\naurez autant de plaisir\nà jouer que nous à le créer." />
+		<s k="battle2p_map_name3" v="Roi combo" />
+		<s k="battle2p_map_desc3" v="Effectuez le meilleur combo.\nEt la couronne sera à vous." />
+		<s k="battle2p_map_name4" v="Danse égyptienne" />
+		<s k="battle2p_map_desc4" v="Faites la danse du soleil !" />
+		<s k="battle2p_map_name5" v="Panier-repas" />
+		<s k="battle2p_map_desc5" v="Qu'allez-vous manger\naujourd'hui ?" />
+		<s k="battle2p_map_name6" v="Monstre" />
+		<s k="battle2p_map_desc6" v="Soyez un héros. Combattez le\nmonstre." />
+		<s k="battle2p_map_name7" v="Brise-combo" />
+		<s k="battle2p_map_desc7" v="Pouvez-vous tout effacer\nsans rompre le combo ?" />
+		<s k="battle2p_map_name8" v="Triple Spins" />
+		<s k="battle2p_map_desc8" v="Vous ne connaissez pas\nles T-Spins ? Entraînez-vous ici." />
+		<s k="battle2p_map_name9" v="Tortue" />
+		<s k="battle2p_map_desc9" v="Rien ne sert de courir, \nil faut gagner la course !" />
+		<s k="battle2p_map_name10" v="Creuser" />
+		<s k="battle2p_map_desc10" v="Creusez au fond aussi vite que\npossible !" />
+		<s k="battle2p_map_name11" v="Mini-course" />
+		<s k="battle2p_map_desc11" v="C'est une course rapide\npour toucher le fond !\n Ne vous laissez pas\ndistancer !" />
+		<s k="battle2p_map_name12" v="Feu et eau" />
+		<s k="battle2p_map_desc12" v="Vous pouvez avoir chaud et\nfroid en même temps." />
+	</TableList>
+	<TableList type="battle6p_map.xml">
+		<s k="battle6p_map_name1" v="Classique" />
+		<s k="battle6p_map_desc1" v="Une grille classique pour\nles gens classiques." />
+		<s k="battle6p_map_name2" v="Smiley" />
+		<s k="battle6p_map_desc2" v="Nous espérons que vous\naurez autant de plaisir\nà jouer que nous à le créer." />
+		<s k="battle6p_map_name3" v="Roi combo" />
+		<s k="battle6p_map_desc3" v="Effectuez le meilleur combo.\nEt la couronne sera à vous." />
+		<s k="battle6p_map_name4" v="Danse égyptienne" />
+		<s k="battle6p_map_desc4" v="Faites la danse du soleil !" />
+		<s k="battle6p_map_name5" v="Panier-repas" />
+		<s k="battle6p_map_desc5" v="Qu'allez-vous manger\naujourd'hui ?" />
+		<s k="battle6p_map_name6" v="Monstre" />
+		<s k="battle6p_map_desc6" v="Soyez un héros. Combattez le\nmonstre." />
+		<s k="battle6p_map_name7" v="Brise-combo" />
+		<s k="battle6p_map_desc7" v="Pouvez-vous tout effacer\nsans rompre le combo ?" />
+		<s k="battle6p_map_name8" v="Triple Spins" />
+		<s k="battle6p_map_desc8" v="Vous ne connaissez pas\nles T-Spins ? Entraînez-vous ici." />
+		<s k="battle6p_map_name9" v="Tortue" />
+		<s k="battle6p_map_desc9" v="Rien ne sert de courir, \nil faut gagner la course !" />
+		<s k="battle6p_map_name10" v="Creuser" />
+		<s k="battle6p_map_desc10" v="Creusez au fond aussi vite que\npossible !" />
+		<s k="battle6p_map_name11" v="Mini-course" />
+		<s k="battle6p_map_desc11" v="C'est une course rapide\npour toucher le fond !\n Ne vous laissez pas\ndistancer !" />
+		<s k="battle6p_map_name12" v="Feu et eau" />
+		<s k="battle6p_map_desc12" v="Vous pouvez avoir chaud et\nfroid en même temps." />
+	</TableList>
+	<TableList type="shop.xml">
+		<s k="shop_mystery_gift" v="Cadeau mystère " />
+		<s k="shop_valentines_box" v="Valentine's Box" />
+		<s k="shop_l_coins" v="200 pièces" />
+		<s k="shop_m_coins" v="100 pièces" />
+		<s k="shop_s_coins" v="50 pièces" />
+		<s k="shop_s_cash" v="1 Cash" />
+		<s k="shop_energy_small" v="Petite énergie" />
+		<s k="shop_energy_medium" v="Énergie moyenne" />
+		<s k="shop_energy_large" v="Grande énergie" />
+		<s k="shop_energy_refill" v="Recharge énergie" />
+		<s k="shop_ticket0" v="30 Min Token" />
+		<s k="shop_ticket1" v="Ticket 1 jour" />
+		<s k="shop_ticket2" v="Ticket 7 jours" />
+		<s k="shop_ticket3" v="Ticket 30 jours" />
+		<s k="shop_ticket4" v="Ticket 90 jours" />
+		<s k="shop_default" v="Par défaut" />
+		<s k="shop_lrspeed" v="Vitesse gauche/droite" />
+		<s k="shop_lrspeed_desc" v="Déplacez plus rapidement vos pièce\ns à gauche et à droite !" />
+		<s k="shop_linespeed" v="Vitesse d'effacement" />
+		<s k="shop_linespeed_desc" v="Effacez plus rapidement les\nlignes pour garder un rythme\nd'attaque endiablé !" />
+		<s k="shop_softdrop" v="Vitesse de chute rapide" />
+		<s k="shop_shoftdrop_desc" v="Faites tomber plus rapidement\nvos pièces !" />
+		<s k="shop_nextpiece" v="Case Next" />
+		<s k="shop_nextpiece_desc" v="Vous pouvez voir un plus\nàgrand nombre de pièces venir !" />
+		<s k="shop_armor" v="Armure" />
+		<s k="shop_quake" v="Séisme" />
+		<s k="shop_cut" v="Coupe" />
+		<s k="shop_tripleCoins" v="Triple pièces" />
+		<s k="items_desc_minoGift" v="Récupérez-en 7 pour gagner un bonus spécial !" />
+		<s k="items_desc_mystery" v="Surprise, surprise !" />
+		<s k="items_desc_shop" v="Achetez des objets dans la boutique ! " />
+		<s k="items_desc_energyS" v="Restaure un peu d'énergie. " />
+		<s k="items_desc_energyM" v="Restaure de l'énergie. " />
+		<s k="items_desc_energyL" v="Restaure beaucoup d'énergie. " />
+		<s k="items_desc_energyF" v="Restaure un maximum d'énergie. " />
+		<s k="items_desc_mino" v="Un ensemble de Tetriminos" />
+		<s k="items_desc_ghost" v="Un ensemble de Fantômes" />
+		<s k="items_desc_easter" v="Joyeuses Pâques ! " />
+		<s k="items_desc_valentine" v="Édition limitée Saint-Valentin" />
+		<s k="items_desc_stPatrick" v="Bonne Saint-Patrick ! " />
+		<s k="items_desc_halloween" v="Bonne fête d'Halloween !" />
+		<s k="items_desc_thanksgiving" v="Bonne fête de Thanksgiving !" />
+		<s k="shop_shield" v="Bouclier" />
+		<s k="shop_finalrush" v="Dernier assaut" />
+		<s k="shop_twinbomb" v="Bombe jumelle" />
+		<s k="shop_cash" v="Cash" />
+		<s k="shop_coins" v="Pièces" />
+		<s k="shop_token" v="Coupon" />
+		<s k="items_desc_ph_energy" v="Buy Energy Refill to play more games on Tetris Battle!" />
+		<s k="items_desc_ph_1dayticket" v="Buy 1 Day Ticket to play unlimited games for a day on Tetris Battle!" />
+		<s k="items_desc_ph_7dayticket" v="Buy 7 Day Ticket to play unlimited games for 7 days on Tetris Battle!" />
+	</TableList>
+	<TableList type="popups">
+		<s k="needEnergy_msg1" v="Il vous faut plus d'énergie[@endl@]pour jouer à Tetris Battle." />
+		<s k="needEnergy_msg2" v="Choisissez un pack !" />
+		<s k="needEnergy_full" v="Énergie max" />
+		<s k="needEnergy_large" v="Grande énergie" />
+		<s k="needEnergy_medium" v="Énergie moyenne" />
+		<s k="needEnergy_small" v="Petite énergie" />
+		<s k="needEnergy_energy" v="Énergie" />
+		<s k="needEnergyBtn_ask" v="Demander" />
+		<s k="needEnergyBtn_Use" v="Utiliser" />
+		<s k="needEnergyBtn_Buy" v="Acheter" />
+		<s k="needEnergyBtn_Ticket" v="Ticket" />
+		<s k="kTwinBomb" v="Bombe jumelle" />
+		<s k="kGameItemTutorialUI" v="Les objets pimentent le jeu !\n Cliquez sur une icône pour utiliser l'objet !" />
+		<s k="kGameItemTutorialShield" v="Bloque occasionnellement jusqu'à 15 lignes d'attaque !" />
+		<s k="kGameItemTutorialFinalRush" v="Envoie jusqu'à 15 lignes d'attaque en plus\npendant les 40 dernières secondes." />
+		<s k="kGameItemTutorialTwinBomb" v="Les bombes apparaissent par deux pour une meilleure efficacité !" />
+		<s k="coinPopup_buyTetrisCoins" v="Achat Pièces Tetris" />
+		<s k="coinPopup_notEnoughCoins" v="Pas assez de Pièces" />
+		<s k="coinPopup_BuyNow" v="Acheter" />
+		<s k="gamePopup_armor_msg1" v="Marre de perdre vos étoiles ?" />
+		<s k="gamePopup_armor_msg2" v="Protégez votre Rang avec une amélioration[@endl@]d'Armure ! Disponible en Boutique !" />
+		<s k="gamePopup_1DayTicket_title" v="Ticket 1 jour" />
+		<s k="gamePopup_1DayTicket_msg1" v="Jouez à des parties illimitées !" />
+		<s k="gamePopup_1DayTicket_msg2" v="Achetez un ticket 1 jour pour jouer à des parties[@endl@]illimitées toute une journée !" />
+		<s k="gamePopup_buyNow" v="Acheter" />
+		<s k="gamePopup_armor" v="Armure" />
+		<s k="gamePopup_buyArmor" v="Restaurez votre armure ![@endl@]Protégez vos étoiles et votre rang !" />
+		<s k="gamePopup_buyArmor_sale" v="Restaurez votre armure ![@endl@]Protégez vos étoiles et votre rang !" />
+		<s k="gamePopup_bustersale" v="Tetris Battle Buster!" />
+		<s k="gamePopup_7DayTicket_title" v="7 Day Ticket" />
+		<s k="gamePopup_1DayTicket_sale" v="Unlimited Energy for 1 Day!" />
+		<s k="gamePopup_7DayTicket_sale" v="Unlimited Energy for 7 Days!" />
+		<s k="gamePopup_limitedTimeOffer" v="Offre limitée !" />
+		<s k="gamePopup_goToShop" v="Boutique" />
+		<s k="gamePopup_triplecoinstitle" v="Triple Coins" />
+		<s k="gamePopup_triplecointext1" v="Dure 24 heures" />
+		<s k="gamePopup_triplecointext2" v="Gagnez chaque jour 3 x pièces[@endl@]après chaque partie !" />
+		<s k="gamePopup_video_armor1" v="Gagnez 1 armure" />
+		<s k="gamePopup_video_armor2" v="Regardez une publicité et gagnez 1 armure ![@endl@]C'est GRATUIT !" />
+		<s k="gamePopup_shield" v="Bouclier" />
+		<s k="gamePopup_finalRush" v="Dernier assaut" />
+		<s k="gamePopup_twinBomb" v="Bombe jumelle" />
+		<s k="gamePopup_shield_title" v="Bloquez les lignes adverses" />
+		<s k="gamePopup_finalRush_title" v="Augmentez votre puissance" />
+		<s k="gamePopup_twinBomb_title" v="Pour une meilleure détonation" />
+		<s k="gamePopup_shield_desc" v="Bloque occasionnellement[@endl@]jusqu'à 15 lignes d'attaque !" />
+		<s k="gamePopup_finalRush_desc" v="Envoie jusqu'à 15 lignes d'attaque en plus[@endl@]pendant les 40 dernières secondes." />
+		<s k="gamePopup_twinBomb_desc" v="Les bombes apparaissent par deux[@endl@]pour une meilleure efficacité !" />
+		<s k="gamePopup_promoEndIn2" v="La promotion se termine dans :" />
+		<s k="gamePopup_KnockOutDeal_msg2" v="Only Available through this pop-up!" />
+		<s k="gamePopup_SpecialOffer" v="Offre spéciale" />
+		<s k="gamePopup_SaveBigNow" v="Profitez-en !" />
+		<s k="gamePopup_energyrefilltitle" v="Recharge énergie" />
+		<s k="gamePopup_energyrefilltext1" v="Refill Your Energy with Tetris Coins! " />
+		<s k="mmPopup_gift_msg1" v="Le don de donner !" />
+		<s k="mmPopup_gift_msg2" v="Aidez vos amis en leur offrant de l'énergie et des pièces !" />
+		<s k="mmPopup_gift_btn" v="Cadeaux" />
+		<s k="mmPopup_armor_msg1" v="Marre de perdre des étoiles ?[@endl@]Protégez votre rang et améliorez votre armure dès aujourd'hui !" />
+		<s k="mmPopup_goToShop" v="Boutique" />
+		<s k="mmPopup_invite_msg1" v="Agrandissez votre monde Tetris Battle ![@endl@]Invitez vos amis pour plus de défis." />
+		<s k="mmPopup_invite_btn" v="Inviter" />
+		<s k="mmPopup_like_msg1" v="Devenez fan de ..." />
+		<s k="mmPopup_like_btn" v="J'aime" />
+		<s k="mmPopup_buy_cash" v="Acheter Cash" />
+		<s k="mmPopup_SpringSale_msg1" v="Spring Cleaning Item Sale!" />
+		<s k="mmPopup_SpringSale_msg2" v="Get 'em while you still can!" />
+		<s k="mmPopup_SpringSale_msg3" v="Promotion will end in:" />
+		<s k="mmPopup_tetrisCashSale" v="Promo Cash Tetris" />
+		<s k="mmPopup_cashSPDPromo_msg" v="Buy Tetris Cash and celebrate St. Patrick's Day[@endl@]with some style!" />
+		<s k="mmPopup_limitedTimeOffer" v="Offre limitée" />
+		<s k="mmPopup_SpringDeco_msg1" v="New Spring Decor!" />
+		<s k="mmPopup_SpringDeco_msg2" v="Now available for harvesting!" />
+		<s k="mmPopup_Arena_msg1" v="Arena en bêta fermée" />
+		<s k="mmPopup_Arena_msg2" v="Retrouvez Tetris Battle sur Twitter pour obtenir[@endl@]le dernier mot de passe et accéder à Arena !" />
+		<s k="mmPopup_Tuning_msg1" v="Plus de réglages !" />
+		<s k="mmPopup_Tuning_msg2" v="Mettez vos compétences à l'épreuve dans Sprint et tentez[@endl@]de battre vos anciens records avec deux nouveaux réglages !" />
+		<s k="mmPopup_easterSale_msg1" v="Easter Special!" />
+		<s k="mmPopup_easterSale_msg2" v="Buy any amount of Tetris Cash and get a[@endl@]FREE Easter Egg Bomb for you and a friend!" />
+		<s k="mmPopup_easterSale_msg2B" v="Last Chance to get a FREE Easter Egg Bomb for you[@endl@]and a friend with any purchase of Tetris Cash!" />
+		<s k="mmPopup_promoEndIn" v="La promotion[@endl@]se termine dans :" />
+		<s k="mmPopup_lastDay" v="Dernier jour" />
+		<s k="mmPopup_SpecialOffer" v="Offre spéciale" />
+		<s k="mmPopup_SpecialOffer_msg1" v="Obtenez tout le Cash Tetris que vous voulez à[@endl@]un prix spécial !" />
+		<s k="mmPopup_SpecialOffer_msg2" v="Félicitations ! Vous avez été[@endl@]sélectionné pour la promo spéciale !" />
+		<s k="mmPopup_KnockOutDeal_msg2" v="Only Available through this pop-up!" />
+		<s k="mmPopup_tripleCoins" v="Triple pièces" />
+		<s k="mmPopup_tripleCoins_desc" v="Gagnez 3 fois plus de pièces par jour après chaque jeu !" />
+		<s k="mmEnergyGambleTutorialTitle" v="Energy Reward Promo" />
+		<s k="mmEnergyGambleTutorialSubtitle" v="More Wins = More Energy!" />
+		<s k="mmEnergyGambleTutorialDesc1" v="Energy cost per game = 10" />
+		<s k="mmEnergyGambleTutorialDesc2" v="Place 1st &amp; get[@endl@]+10 energy back!" />
+		<s k="mmEnergyGambleTutorialDesc3" v="The higher you place,[@endl@]the more Energy you'll earn!" />
+		<s k="mmOK" v="OK" />
+		<s k="mmBuyNow" v="Acheter" />
+		<s k="mmPopup_StarterPack" v="Kit démarrage" />
+		<s k="mmPopup_SaveBigNow" v="Profitez-en !" />
+		<s k="mmPopup_summerItemSale1" v="Sizzlin' Summer Décor Sale!" />
+		<s k="mmPopup_summerItemSale2" v="Get them while they're hot!" />
+		<s k="mmPopup_summerCashSale1" v="Sizzlin' Summer Cash Sale!" />
+		<s k="mmPopup_summerCashSale2" v="Get a Star Bomb for you and one to give[@endl@]to a friend FREE with any purchase!" />
+		<s k="mmPopup_promoEndIn2" v="La promotion se termine dans :" />
+		<s k="mmPopup_genericCashSale" v="Obtenez tout le Cash Tetris que vous voulez à[@endl@]un prix spécial !" />
+		<s k="mmPopup_invite2_msg1" v="Plus d'amis, plus de fun !" />
+		<s k="mmPopup_invite2_msg2" v="Gagnez 200 pièces pour chaque nouvel ami !" />
+		<s k="mmPopup_invite3_msg1" v="Invite your friends!" />
+		<s k="mmPopup_invite3_msg2" v="Earn\nup to" />
+		<s k="mmPopup_invite3_msg3" v="10,000 Coins" />
+		<s k="mmPopup_halloweenCashSale" v="A deal this scary won't last for long!" />
+	</TableList>
+	<TableList type="popups_out_of_energy.xml">
+		<s k="needEnergy_msg1" v="Il vous faut plus d'énergie[@endl@]pour jouer à Tetris Battle." />
+		<s k="needEnergy_msg2" v="Choisissez un pack !" />
+		<s k="needEnergy_full" v="Énergie max" />
+		<s k="needEnergy_large" v="Grande énergie" />
+		<s k="needEnergy_medium" v="Énergie moyenne" />
+		<s k="needEnergy_small" v="Petite énergie" />
+		<s k="needEnergy_energy" v="Énergie" />
+		<s k="needEnergyBtn_ask" v="Demander" />
+		<s k="needEnergyBtn_Use" v="Utiliser" />
+		<s k="needEnergyBtn_Buy" v="Acheter" />
+		<s k="needEnergyBtn_Ticket" v="Ticket" />
+		<s k="needEnergyBtn_HowTo" v="How do I get credits?" />
+		<s k="needEnergyBtn_Redeem" v="Redeem gift cards" />
+	</TableList>
+	<TableList type="popups_tutorial_game_items.xml">
+		<s k="kNewFeature" v="Nouveauté !" />
+		<s k="kShield" v="Bouclier" />
+		<s k="kFinalRush" v="Dernier assaut" />
+		<s k="kTwinBomb" v="Bombe jumelle" />
+		<s k="kGameItemTutorialUI" v="Les objets pimentent le jeu !\n Cliquez sur une icône pour utiliser l'objet !" />
+		<s k="kGameItemTutorialShield" v="Bloque occasionnellement jusqu'à 15 lignes d'attaque !" />
+		<s k="kGameItemTutorialFinalRush" v="Envoie jusqu'à 15 lignes d'attaque en plus\npendant les 40 dernières secondes." />
+		<s k="kGameItemTutorialTwinBomb" v="Les bombes apparaissent par deux pour une meilleure efficacité !" />
+	</TableList>
+	<TableList type="popups_out_of_coin.xml">
+		<s k="coinPopup_buyTetrisCoins" v="Achat Pièces Tetris" />
+		<s k="coinPopup_notEnoughCoins" v="Pas assez de Pièces" />
+		<s k="coinPopup_BuyNow" v="Acheter" />
+		<s k="coinPopup_header_coin" v="Échangez des Crédits Facebook contre du Pièces Tetris !" />
+		<s k="coinPopup_buyToDisableAds" v="* Un achat désactive les publicités pour 30 jours" />
+		<s k="coinPopup_bestValue" v="Best value!" />
+		<s k="coinPopup_mostPopular" v="Populaires" />
+	</TableList>
+	<TableList type="popups_announcement.xml">
+		<s k="mmPopup_gift_msg1" v="Le don de donner !" />
+		<s k="mmPopup_gift_msg2" v="Aidez vos amis en leur offrant de l'énergie et des pièces !" />
+		<s k="mmPopup_gift_btn" v="Cadeaux" />
+		<s k="mmPopup_armor_msg1" v="Marre de perdre des étoiles ?[@endl@]Protégez votre rang et améliorez votre armure dès aujourd'hui !" />
+		<s k="mmPopup_goToShop" v="Boutique" />
+		<s k="mmPopup_invite_msg1" v="Agrandissez votre monde Tetris Battle ![@endl@]Invitez vos amis pour plus de défis." />
+		<s k="mmPopup_invite_btn" v="Inviter" />
+		<s k="mmPopup_like_msg1" v="Devenez fan de ..." />
+		<s k="mmPopup_like_btn" v="J'aime" />
+		<s k="mmPopup_buy_cash" v="Acheter Cash" />
+		<s k="mmPopup_SpringSale_msg1" v="Spring Cleaning Item Sale!" />
+		<s k="mmPopup_SpringSale_msg2" v="Get 'em while you still can!" />
+		<s k="mmPopup_SpringSale_msg3" v="Promotion will end in:" />
+		<s k="mmPopup_tetrisCashSale" v="Cash Tetris promo" />
+		<s k="mmPopup_cashSPDPromo_msg" v="Buy Tetris Cash and celebrate St. Patrick's Day[@endl@]with some style!" />
+		<s k="mmPopup_limitedTimeOffer" v="Limited Time Offer" />
+		<s k="mmPopup_SpringDeco_msg1" v="New Spring Decor!" />
+		<s k="mmPopup_SpringDeco_msg2" v="Now available for harvesting!" />
+		<s k="mmPopup_Arena_msg1" v="Arena en bêta fermée" />
+		<s k="mmPopup_Arena_msg2" v="Retrouvez Tetris Battle sur Twitter pour obtenir[@endl@]le dernier mot de passe et accéder à Arena !" />
+		<s k="mmPopup_Tuning_msg1" v="Plus de réglages !" />
+		<s k="mmPopup_Tuning_msg2" v="Mettez vos compétences à l'épreuve dans Sprint et tentez[@endl@]de battre vos anciens records avec deux nouveaux réglages !" />
+		<s k="mmPopup_easterSale_msg1" v="Easter Special!" />
+		<s k="mmPopup_easterSale_msg2" v="Buy any amount of Tetris Cash and get a[@endl@]FREE Easter Egg Bomb for you and a friend!" />
+		<s k="mmPopup_easterSale_msg2B" v="Last Chance to get a FREE Easter Egg Bomb for you[@endl@]and a friend with any purchase of Tetris Cash!" />
+		<s k="mmPopup_promoEndIn" v="La promotion[@endl@]se termine dans :" />
+		<s k="mmPopup_lastDay" v="Dernier jour" />
+		<s k="mmPopup_SpecialOffer" v="Offre spéciale" />
+		<s k="mmPopup_SpecialOffer_msg1" v="Obtenez tout le Cash Tetris que vous voulez à[@endl@]un prix spécial !" />
+		<s k="mmPopup_SpecialOffer_msg2" v="Félicitations ! Vous avez été[@endl@]sélectionné pour la promo spéciale !" />
+		<s k="mmPopup_KnockOutDeal_msg2" v="Only Available through this pop-up!" />
+		<s k="mmPopup_tripleCoins" v="Triple pièces" />
+		<s k="mmPopup_tripleCoins_desc" v="Gagnez 3 fois plus de pièces par jour après chaque jeu !" />
+		<s k="mmEnergyGambleTutorialTitle" v="Energy Reward Promo" />
+		<s k="mmEnergyGambleTutorialSubtitle" v="More Wins = More Energy!" />
+		<s k="mmEnergyGambleTutorialDesc1" v="Energy cost per game = 10" />
+		<s k="mmEnergyGambleTutorialDesc2" v="Place 1st &amp; get[@endl@]+10 energy back!" />
+		<s k="mmEnergyGambleTutorialDesc3" v="The higher you place,[@endl@]the more Energy you'll earn!" />
+		<s k="mmOK" v="OK" />
+		<s k="mmBuyNow" v="Acheter" />
+		<s k="mmPopup_StarterPack" v="Kit démarrage" />
+		<s k="mmPopup_SaveBigNow" v="Profitez-en !" />
+		<s k="mmPopup_summerItemSale1" v="Sizzlin' Summer Décor Sale!" />
+		<s k="mmPopup_summerItemSale2" v="Get them while they're hot!" />
+		<s k="mmPopup_summerCashSale1" v="Sizzlin' Summer Cash Sale!" />
+		<s k="mmPopup_summerCashSale2" v="Get a Star Bomb for you and one to give[@endl@]to a friend FREE with any purchase!" />
+		<s k="mmPopup_promoEndIn2" v="La promotion se termine dans :" />
+		<s k="mmPopup_genericCashSale" v="Obtenez tout le Cash Tetris que vous voulez à[@endl@]un prix spécial !" />
+		<s k="mmPopup_invite2_msg1" v="Plus d'amis, plus de fun !" />
+		<s k="mmPopup_invite2_msg2" v="Gagnez 200 pièces pour chaque nouvel ami !" />
+		<s k="mmPopup_invite3_msg1" v="Invite your friends!" />
+		<s k="mmPopup_invite3_msg2" v="Earn\nup to" />
+		<s k="mmPopup_invite3_msg3" v="10,000 Coins" />
+		<s k="mmPopup_halloweenCashSale" v="A deal this scary won't last for long!" />
+		<s k="mmPopup_fallDecorSale" v="Fall Décor Sale!" />
+		<s k="mmPopup_biggestSaleSeason" v="Biggest sale of the season!" />
+		<s k="mmPopup_itemsGoneIn" v="Items will be gone in:" />
+		<s k="mmPopup_xmasBOGO_msg1" v="Holiday Special" />
+		<s k="mmPopup_xmasBOGO_msg2" v="Get up to 40% off Tetris Cash + a free Ornament[@endl@]Bomb for you and a friend with purchase!" />
+		<s k="mmPopup_offerEndsIn" v="Offer Ends In:" />
+		<s k="mmPopup_coinSale" v="Pièces Tetris promo" />
+		<s k="mmPopup_coinSaleDesc" v="Stock up on Coins before this[@endl@]deal slips away!" />
+		<s k="mmPopup_buyCoins" v="Acheter Pièces" />
+		<s k="mmPopup_valentineBOGO_msg1" v="Valentines Special!" />
+		<s k="mmPopup_valentineBOGO_msg2" v="Get a FREE Heart Bomb for you + 1 friend[@endl@]with any purchase of Tetris Cash!" />
+	</TableList>
+	<TableList type="popups_game_room.xml">
+		<s k="gamePopup_armor_msg1" v="Marre de perdre vos étoiles ?" />
+		<s k="gamePopup_armor_msg2" v="Protégez votre Rang avec une amélioration[@endl@]d'Armure ! Disponible en Boutique !" />
+		<s k="gamePopup_1DayTicket_title" v="Ticket 1 jour" />
+		<s k="gamePopup_1DayTicket_msg1" v="Jouez à des parties illimitées !" />
+		<s k="gamePopup_1DayTicket_msg2" v="Achetez un ticket 1 jour pour jouer à des parties[@endl@]illimitées toute une journée !" />
+		<s k="gamePopup_buyNow" v="Acheter" />
+		<s k="gamePopup_armor" v="Armure" />
+		<s k="gamePopup_buyArmor" v="Restaurez votre armure ![@endl@]Protégez vos étoiles et votre rang !" />
+		<s k="gamePopup_buyArmor_sale" v="Restaurez votre armure ![@endl@]Protégez vos étoiles et votre rang !" />
+		<s k="gamePopup_bustersale" v="Tetris Battle Buster!" />
+		<s k="gamePopup_7DayTicket_title" v="7 Day Ticket" />
+		<s k="gamePopup_1DayTicket_sale" v="Unlimited Energy for 1 Day!" />
+		<s k="gamePopup_7DayTicket_sale" v="Unlimited Energy for 7 Days!" />
+		<s k="gamePopup_limitedTimeOffer" v="Offre limitée !" />
+		<s k="gamePopup_goToShop" v="Boutique" />
+		<s k="gamePopup_triplecoinstitle" v="Triple Coins" />
+		<s k="gamePopup_triplecointext1" v="Dure 24 heures" />
+		<s k="gamePopup_triplecointext2" v="Gagnez chaque jour 3 x pièces[@endl@]après chaque partie !" />
+		<s k="gamePopup_video_armor1" v="Gagnez 1 armure" />
+		<s k="gamePopup_video_armor2" v="Regardez une publicité et gagnez 1 armure ![@endl@]C'est GRATUIT !" />
+		<s k="gamePopup_shield" v="Bouclier" />
+		<s k="gamePopup_finalRush" v="Dernier assaut" />
+		<s k="gamePopup_twinBomb" v="Bombe jumelle" />
+		<s k="gamePopup_shield_title" v="Bloquez les lignes adverses" />
+		<s k="gamePopup_finalRush_title" v="Augmentez votre puissance" />
+		<s k="gamePopup_twinBomb_title" v="Pour une meilleure détonation" />
+		<s k="gamePopup_shield_desc" v="Bloque occasionnellement[@endl@]jusqu'à 15 lignes d'attaque !" />
+		<s k="gamePopup_finalRush_desc" v="Envoie jusqu'à 15 lignes d'attaque en plus[@endl@]pendant les 40 dernières secondes." />
+		<s k="gamePopup_twinBomb_desc" v="Les bombes apparaissent par deux[@endl@]pour une meilleure efficacité !" />
+		<s k="gamePopup_promoEndIn2" v="La promotion se termine dans :" />
+		<s k="gamePopup_KnockOutDeal_msg2" v="Only Available through this pop-up!" />
+		<s k="gamePopup_SpecialOffer" v="Offre spéciale" />
+		<s k="gamePopup_SaveBigNow" v="Profitez-en !" />
+		<s k="gamePopup_energyrefilltitle" v="Recharge énergie" />
+		<s k="gamePopup_energyrefilltext1" v="Refill Your Energy with Tetris Coins! " />
+		<s k="gamePopup_buy_cash" v="Acheter Cash" />
+		<s k="gamePopup_tetrisCashSale" v="Promo Cash Tetris" />
+		<s k="gamePopup_genericCashSale" v="Obtenez tout le Cash Tetris que vous voulez à[@endl@]un prix spécial !" />
+		<s k="gamePopup_offerEndsIn" v="Offer Ends In:" />
+		<s k="gamePopup_coinSale" v="Pièces Tetris promo" />
+		<s k="gamePopup_coinSaleDesc" v="Stock up on Coins before this[@endl@]deal slips away!" />
+		<s k="gamePopup_buyCoins" v="Acheter Pièces" />
+	</TableList>
+</StringTable>

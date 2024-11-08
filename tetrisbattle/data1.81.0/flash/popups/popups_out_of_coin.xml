@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <popup name="needCoin">
+    <popupType>mc_popup_coin02</popupType>
+    <autoclose>0</autoclose>
+    <msgs>
+      <msg>@coinPopup_buyTetrisCoins</msg>
+	  <msg>@coinPopup_header_coin</msg>
+	  <msg>@coinPopup_buyToDisableAds</msg>
+    </msgs>
+    <content>
+	  <c instance="alert_mc">
+        <msgs>
+          <msg>@coinPopup_notEnoughCoins</msg>
+        </msgs>
+      </c>
+	  <c instance="slot0_new_mc">
+		<content>
+			<c instance="bg_mc" label="normal"/>
+			<c instance="label_mc" label="normal"><msgs><msg></msg></msgs></c>
+			<c instance="fbPriceSale_mc" visible="false">
+				<content>
+					<c instance="prev_mc"><msgs><msg type="raw">$ 100</msg></msgs></c>
+					<c instance="now_mc"><msgs><msg type="raw">$ 99</msg></msgs></c>
+				</content>
+			</c>			
+			<c instance="fbPrice_mc" visible="true"><msgs><msg type="raw">$ 100</msg></msgs></c>
+		</content>
+        <msgs><msg type="raw">250,000</msg></msgs>
+        <btns><btn linkage="btn_buy01" text="@coinPopup_BuyNow" param1="7045" param2="fbcredit">purchase</btn></btns>
+      </c>
+	  <c instance="slot1_new_mc">
+		<content>
+			<c instance="bg_mc" label="normal"/>
+			<c instance="label_mc" label="normal"><msgs><msg></msg></msgs></c>
+			<c instance="fbPriceSale_mc" visible="false">
+				<content>
+					<c instance="prev_mc"><msgs><msg type="raw">$ 100</msg></msgs></c>
+					<c instance="now_mc"><msgs><msg type="raw">$ 99</msg></msgs></c>
+				</content>
+			</c>			
+			<c instance="fbPrice_mc" visible="true"><msgs><msg type="raw">$ 100</msg></msgs></c>
+		</content>
+        <msgs><msg type="raw">80,000</msg></msgs>
+        <btns><btn linkage="btn_buy01" text="@coinPopup_BuyNow" param1="7044" param2="fbcredit">purchase</btn></btns>
+      </c>
+	  <c instance="slot2_new_mc">
+		<content>
+			<c instance="bg_mc" label="normal"/>
+			<c instance="label_mc" label="normal"><msgs><msg></msg></msgs></c>
+			<c instance="fbPriceSale_mc" visible="false">
+				<content>
+					<c instance="prev_mc"><msgs><msg type="raw">$ 100</msg></msgs></c>
+					<c instance="now_mc"><msgs><msg type="raw">$ 99</msg></msgs></c>
+				</content>
+			</c>			
+			<c instance="fbPrice_mc" visible="true"><msgs><msg type="raw">$ 100</msg></msgs></c>
+		</content>
+        <msgs><msg type="raw">30,000</msg></msgs>
+        <btns><btn linkage="btn_buy01" text="@coinPopup_BuyNow" param1="7043" param2="fbcredit">purchase</btn></btns>
+      </c>
+	  <c instance="slot3_new_mc">
+		<content>
+			<c instance="bg_mc" label="normal"/>
+			<c instance="label_mc" label="normal"><msgs><msg></msg></msgs></c>
+			<c instance="fbPriceSale_mc" visible="false">
+				<content>
+					<c instance="prev_mc"><msgs><msg type="raw">$ 100</msg></msgs></c>
+					<c instance="now_mc"><msgs><msg type="raw">$ 99</msg></msgs></c>
+				</content>
+			</c>			
+			<c instance="fbPrice_mc" visible="true"><msgs><msg type="raw">$ 100</msg></msgs></c>
+		</content>
+        <msgs><msg type="raw">12,000</msg></msgs>
+        <btns><btn linkage="btn_buy01" text="@coinPopup_BuyNow" param1="7042" param2="fbcredit">purchase</btn></btns>
+      </c>
+	  <c instance="slot4_new_mc">
+		<content>
+			<c instance="bg_mc" label="normal"/>
+			<c instance="label_mc" label="normal"><msgs><msg></msg></msgs></c>
+			<c instance="fbPriceSale_mc" visible="false">
+				<content>
+					<c instance="prev_mc"><msgs><msg type="raw">$ 100</msg></msgs></c>
+					<c instance="now_mc"><msgs><msg type="raw">$ 99</msg></msgs></c>
+				</content>
+			</c>			
+			<c instance="fbPrice_mc" visible="true"><msgs><msg type="raw">$ 100</msg></msgs></c>
+		</content>
+        <msgs><msg type="raw">3,200</msg></msgs>
+        <btns><btn linkage="btn_buy01" text="@coinPopup_BuyNow" param1="7041" param2="fbcredit">purchase</btn></btns>
+      </c>
+	  <c instance="slot5_new_mc">
+		<content>
+			<c instance="bg_mc" label="normal"/>
+			<c instance="label_mc" label="normal"><msgs><msg></msg></msgs></c>
+			<c instance="fbPriceSale_mc" visible="false">
+				<content>
+					<c instance="prev_mc"><msgs><msg type="raw">$ 100</msg></msgs></c>
+					<c instance="now_mc"><msgs><msg type="raw">$ 99</msg></msgs></c>
+				</content>
+			</c>			
+			<c instance="fbPrice_mc" visible="true"><msgs><msg type="raw">$ 100</msg></msgs></c>
+		</content>
+        <msgs><msg type="raw">1,000</msg></msgs>
+        <btns><btn linkage="btn_buy01" text="@coinPopup_BuyNow" param1="7040" param2="fbcredit">purchase</btn></btns>
+      </c>
+    </content>
+  </popup>

@@ -1,0 +1,29 @@
+<theme>
+	<set date_from="2016/12/31 22:00:00" date_to="2017/01/19 21:59:59">
+		loading_battle_newyear01.swf,loading_battle_newyear02.swf
+	</set>
+	<set date_from="2016/11/30 22:00:00" date_to="2016/12/26 21:59:59">
+		loading_battle_xmas01.swf,loading_battle_xmas02.swf,loading_battle_xmas03.swf,loading_battle_xmas04.swf,loading_battle_xmas05.swf
+	</set>
+	<set date_from="2016/10/31 22:00:00" date_to="2016/11/28 21:59:59">
+		loading_battle_thanksgiving01.swf,loading_battle_thanksgiving02.swf,loading_battle_thanksgiving04.swf,loading_battle_thanksgiving05.swf
+	</set>
+	<set date_from="2016/09/30 22:00:00" date_to="2016/10/31 21:59:59">
+		loading_battle_halloween01.swf,loading_battle_halloween02.swf,loading_battle_halloween03.swf,loading_battle_halloween04.swf
+	</set>
+	<set date_from="2016/03/31 22:00:00" date_to="2016/04/14 21:59:59">
+		loading_battle_easter01.swf,loading_battle_easter02.swf
+	</set>
+	<set date_from="2016/02/28 22:00:00" date_to="2016/03/17 21:59:59">
+		loading_battle_spd01.swf,loading_battle_spd02.swf
+	</set>
+	<set date_from="2016/01/31 22:00:00" date_to="2016/02/15 21:59:59">
+		loading_battle_valentine01.swf,loading_battle_valentine02.swf
+	</set>
+	<set date_from="2020/01/25 18:00:00" date_to="2020/02/04 21:59:59">
+		loading_battle_lunar01.swf,loading_battle_lunar02.swf,loading_battle_lunar03.swf,loading_battle_lunar04.swf,loading_battle_lunar05.swf
+	</set>
+	<set>
+		loading_battle_default01.swf,loading_battle_default02.swf,loading_battle_default03.swf,loading_battle_default04.swf,loading_battle_default05.swf
+	</set>
+</theme>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<popupTable popupType="mc_event_help">
+	<startPopupName>p1</startPopupName>
+	<autoclose>0</autoclose>
+
+	<popup name="p1">
+		<images>
+			<img>misc/help_0</img>
+		</images>
+    <btns>
+    </btns>
+    <msgs>
+    	<msg>kHelpName</msg>
+    	<msg>kHelpTitle1</msg>
+    </msgs>
+    <helpMsgs>
+    	<msg>kHelpMsg1</msg>
+    </helpMsgs>
+  </popup>
+  <popup name="p2">
+    <images>
+			<img>misc/help_m1p_1</img>
+    </images>
+		<msgs>
+    	<msg>kHelpName</msg>
+    	<msg>kHelpTitle12</msg>
+    </msgs>
+    <helpMsgs>
+    	<msg>kHelpMsg12</msg>
+    </helpMsgs>
+  </popup>
+  <popup name="p3">
+    <images>
+			<img>misc/help_m1p_2</img>
+    </images>
+		<msgs>
+    	<msg>kHelpName</msg>
+    	<msg>kHelpTitle13</msg>
+		</msgs>
+    <helpMsgs>
+    	<msg>kHelpMsg13a</msg>
+		<msg>kHelpMsg13b</msg>
+    </helpMsgs>
+  </popup>
+  <popup name="p4">
+    <images>
+			<img>misc/help_m1p_3</img>
+    </images>
+		<msgs>
+    	<msg>kHelpName</msg>
+    	<msg>kHelpTitle14</msg>
+	  </msgs>
+    <helpMsgs>
+    	<msg>kHelpMsg14</msg>
+    </helpMsgs>
+  </popup>
+  <popup name="p5">
+    <images>
+			<img>misc/help_m1p_4</img>
+    </images>
+		<msgs>
+    	<msg>kHelpName</msg>
+    	<msg>kHelpTitle15</msg>
+    </msgs>
+    <helpMsgs>
+    	<msg>kHelpMsg15</msg>
+    </helpMsgs>
+  </popup>
+  <popup name="p6">
+    <images>
+			<img>misc/help_m1p_5</img>
+    </images>
+    <btns>
+    </btns>
+    <msgs>
+    	<msg>kHelpName</msg>
+    	<msg>kHelpTitle16</msg>
+    </msgs>
+    <helpMsgs>
+    	<msg>kHelpMsg16a</msg>
+			<msg>kHelpMsg16b</msg>
+    </helpMsgs>
+  </popup>
+</popupTable>

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<popupTable debugPopup="">
+	<startPopupName></startPopupName>
+	
+	<condition value="level greaterequal 4 and (varient = 'elo2p' OR varient = 'battle2p' OR varient = 'battle6p' OR varient = 'sprint4p' OR varient = 'sprint1p' OR varient = 'marathon1p')">
+		<condition value="((nGames + 7) % 9 == 0 and nGames &gt; 3) or ((nGames + 3) % 9 == 0 and nGames &gt; 1) or isIdle = true">
+			<!-- Standard in-game popups -->
+			<condition value="prevResult == 'lose' OR prevResult == 'draw' OR isIdle = true">
+				<condition value="isnotactive 'shield' and level greaterequal itemlevelreq 'shield' AND (varient = 'battle2p' OR varient = 'battle6p')">gameitem_shield</condition>
+				<condition value="isnotactive 'finalrush' and level greaterequal itemlevelreq 'finalrush' AND (varient = 'battle2p' OR varient = 'battle6p')">gameitem_finalrush</condition>
+				<condition value="isnotactive 'twinbomb' and level greaterequal itemlevelreq 'twinbomb' AND (varient = 'battle2p' OR varient = 'battle6p')">gameitem_twinbomb</condition>
+				<condition value="videolimitarmor greater 0 AND varient != 'marathon1p' AND varient != 'sprint1p' AND varient != 'menu'" >video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor</condition>	
+				<condition value="date greaterequal '2013/02/17 21:00:00' videolimitarmor == 0 AND varient != 'marathon1p' AND varient != 'sprint1p' AND varient != 'menu'">armor</condition>
+			</condition>
+			<condition value="prevResult == 'win' OR isIdle = true OR varient = 'marathon1p' OR varient = 'sprint1p'">
+				<condition value="videolimitarmor greater 0 AND varient != 'marathon1p' AND varient != 'sprint1p' AND varient != 'menu'" >video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor,video_ad_armor</condition>
+				<condition value="date greaterequal '2012/11/02 22:00:00' and nothave 7030">triple_coin</condition>
+				<condition value="date greaterequal '2013/03/20 22:00:00'">
+					<condition value="nothave 6005">decor_thunder_bomb</condition>
+					<condition value="nothave 2034">decor_checkmate_mino</condition>
+					<condition value="nothave 2003">decor_oldskool_mino</condition>
+					<condition value="nothave 4036">decor_patches_cghost</condition>
+					<condition value="nothave 2927">decor_easterhunt_mino</condition>
+					<condition value="nothave 2006">decor_kooler_mino</condition>
+					<condition value="nothave 4001">decor_box_cghost</condition>
+					<condition value="nothave 6006">decor_rainbow_bomb</condition>
+					<condition value="have 7030 and have 6005 and have 2034 and have 2003 and have 4036 and have 2927 and have 2006 and have 4001 and have 6006 and menuid != 3">check_out_shop</condition>
+				</condition>
+			</condition>
+		</condition>
+	</condition>
+
+<!-- bundle/KO deals -->
+
+<!-- end of bundle/KO deals -->
+
+
+	<popup name="gameitem_shield">
+		<popupType>mc_popup_basic</popupType>
+		<autoclose>0</autoclose>
+		<images>
+			<img>shop/gameItem_shieldx5</img>
+		</images>
+		<msgs>
+			<msg>@gamePopup_shield</msg>
+			<msg>@gamePopup_shield_title</msg>
+			<msg>@gamePopup_shield_desc</msg>
+		</msgs>
+		<btns>
+			<btn linkage="btn_green01" text="@gamePopup_buyNow" param1="7501" param2="coin">purchase</btn>
+		</btns>
+	</popup>
+	
+	<popup name="gameitem_finalrush">
+		<popupType>mc_popup_basic</popupType>
+		<autoclose>0</autoclose>
+		<images>
+			<img>shop/gameItem_finalrushx5</img>
+		</images>
+		<msgs>
+			<msg>@gamePopup_finalRush</msg>
+			<msg>@gamePopup_finalRush_title</msg>
+			<msg>@gamePopup_finalRush_desc</msg>
+		</msgs>
+		<btns>
+			<btn linkage="btn_green01" text="@gamePopup_buyNow" param1="7511" param2="coin">purchase</btn>
+		</btns>
+	</popup>
+	
+	<popup name="gameitem_twinbomb">
+		<popupType>mc_popup_basic</popupType>
+		<autoclose>0</autoclose>
+		<images>
+			<img>shop/gameItem_twinbombx5</img>
+		</images>
+		<msgs>
+			<msg>@gamePopup_twinBomb</msg>
+			<msg>@gamePopup_twinBomb_title</msg>
+			<msg>@gamePopup_twinBomb_desc</msg>
+		</msgs>
+		<btns>
+			<btn linkage="btn_green01" text="@gamePopup_buyNow" param1="7521" param2="coin">purchase</btn>
+		</btns>
+	</popup>
+
+  <popup name="check_out_shop">
+    <popupType>mc_popup_basic</popupType>
+    <autoclose>30</autoclose>
+	<images>
+		<img>popups/announcement/checkOutShop</img>
+	</images>
+		<content>
+			<c image="0">
+				<msgs>
+					<msg>Find your Tetris style in the Shop!</msg>
+				</msgs>
+			</c>
+		</content>
+    <btns>
+      <btn linkage="btn_green01" text="@gamePopup_goToShop" param1="1001">shop</btn>
+    </btns>
+  </popup>
+
+  <popup name="armor">
+	<popupType>mc_popup_basic2</popupType>
+	<autoclose>0</autoclose>
+	<images>
+	  <img>shop/item_armor</img>
+	</images>
+	<msgs>
+	  <msg>@gamePopup_armor</msg>
+	  <msg>@gamePopup_buyArmor</msg>
+	</msgs>
+	<content>
+	  <c instance="opt0_mc">
+	    <msgs>
+	      <msg>[@shopItemAmount@] @gamePopup_armor</msg>
+	    </msgs>
+	    <btns>
+	      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="7001" param2="cash">purchase</btn>
+	    </btns>
+	  </c>
+	  <c instance="opt1_mc">
+	    <msgs>
+	      <msg>[@shopItemAmount@] @gamePopup_armor</msg>
+	    </msgs>
+	    <btns>
+	      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="7000" param2="cash">purchase</btn>
+	    </btns>
+	  </c>
+	</content>
+  </popup>
+  
+  <popup name="armor_sale">
+	<popupType>mc_popup_basic2</popupType>
+	<autoclose>0</autoclose>
+	<item>7001</item>
+	<images>
+	  <img>shop/item_armor</img>
+	</images>
+	<msgs>
+	  <msg>@gamePopup_armor</msg>
+	  <msg>@gamePopup_buyArmor_sale</msg>
+	</msgs>
+	<content>
+	  <c instance="opt0_mc">
+	    <msgs>
+	      <msg>[@shopItemAmount@] @gamePopup_armor</msg>
+	    </msgs>
+	    <btns>
+	      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="7001" param2="cash">purchase</btn>
+	    </btns>
+	  </c>
+	  <c instance="opt1_mc">
+	    <msgs>
+	      <msg>[@shopItemAmount@] @gamePopup_armor</msg>
+	    </msgs>
+	    <btns>
+	      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="7000" param2="cash">purchase</btn>
+	    </btns>
+	  </c>
+	</content>
+  </popup>
+  
+  <popup name="ticket">
+    <popupType>mc_popup_basic</popupType>
+    <autoclose>30</autoclose>
+	<images>
+	<img>shop/energy_1dayCash</img>
+	</images>
+    <msgs>
+	   <msg>@gamePopup_1DayTicket_title</msg>
+	   <msg>@gamePopup_1DayTicket_msg1</msg>
+	   <msg>@gamePopup_1DayTicket_msg2</msg>
+    </msgs>
+    <btns>
+      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="1001" param2="cash">purchase</btn>
+    </btns>
+  </popup>
+  
+  <popup name="ticket_1day_sale">
+    <popupType>mc_popup_basic</popupType>
+    <autoclose>30</autoclose>
+	<item>1001</item>
+	<images>
+	<img>shop/energy_1dayCash</img>
+	</images>
+    <msgs>
+	   <msg>@gamePopup_1DayTicket_title</msg>
+	   <msg>@gamePopup_bustersale</msg>
+	   <msg>@gamePopup_1DayTicket_sale</msg>
+    </msgs>
+    <btns>
+      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="1001" param2="cash">purchase</btn>
+    </btns>
+  </popup>
+  
+  <popup name="ticket_7day_sale">
+    <popupType>mc_popup_basic</popupType>
+    <autoclose>30</autoclose>
+	<item>1003</item>
+	<images>
+	<img>shop/energy_7day</img>
+	</images>
+    <msgs>
+	   <msg>@gamePopup_7DayTicket_title</msg>
+	   <msg>@gamePopup_bustersale</msg>
+	   <msg>@gamePopup_7DayTicket_sale</msg>
+    </msgs>
+    <btns>
+      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="1003" param2="cash">purchase</btn>
+    </btns>
+  </popup>
+  
+   <popup name="energy_refill_coin">
+    <popupType>mc_popup_basic</popupType>
+    <autoclose>30</autoclose>
+	<item>1006</item>
+	<images>
+	<img>shop/energy_full</img>
+	</images>
+    <msgs>
+	   <msg>@gamePopup_energyrefilltitle</msg>
+	   <msg>@gamePopup_limitedTimeOffer</msg>
+	   <msg>@gamePopup_energyrefilltext1</msg>
+    </msgs>
+    <btns>
+      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="1006" param2="coin">purchase</btn>
+    </btns>
+  </popup>
+  
+  <popup name="triple_coin">
+    <popupType>mc_popup_basic</popupType>
+    <autoclose>30</autoclose>
+	<item>7030</item>
+	<images>
+	<img>shop/item_triplecoin</img>
+	</images>
+    <msgs>
+	   <msg>@gamePopup_triplecoinstitle</msg>
+	   <msg>@gamePopup_triplecointext1</msg>
+	   <msg>@gamePopup_triplecointext2</msg>
+    </msgs>
+    <btns>
+      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="7030" param2="cash">purchase</btn>
+    </btns>
+  </popup>
+  
+  <popup name="triple_coin_sale">
+    <popupType>mc_popup_spotsale</popupType>
+    <autoclose>30</autoclose>
+	<item>7030</item>
+	<images>
+	<img>shop/item_triplecoin</img>
+	</images>
+    <msgs>
+	   <msg>@gamePopup_triplecoinstitle</msg>
+	   <msg>@gamePopup_triplecointext1</msg>
+	   <msg>@gamePopup_triplecointext2</msg>
+	   <msg>@gamePopup_limitedTimeOffer</msg>
+    </msgs>
+    <btns>
+      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="7030" param2="cash">purchase</btn>
+    </btns>
+  </popup>
+  
+  <popup name="decor_oldskool_mino">
+    <popupType>mc_popup_basic</popupType>
+    <autoclose>30</autoclose>
+    <msgs>
+	   <msg>Oldskool Mino</msg>
+	   <msg>Unlock Today!</msg>
+	   <msg>Customize your gameplay with[@endl@]Oldskool Minos!</msg>
+    </msgs>
+    <btns>
+      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="2003" param2="cash">purchase</btn>
+    </btns>
+  </popup>
+ 
+  <popup name="decor_turkey_bomb">
+	<popupType>mc_popup_basic</popupType>
+	<autoclose>30</autoclose>
+	<images>
+			<img>popups/announcement/turkeyBomb</img>
+	</images>
+	<content>
+		<c image="0">
+			<images>
+				<img>shop/bomb_turkey</img>
+			</images>
+			<msgs>
+				<msg>Turkey Bomb</msg>
+	   			<msg>Get 'em while you still can!</msg>
+	 			<msg>This Turkey's about to explode!</msg>
+			</msgs>
+    			<btns>
+     				 <btn linkage="btn_green" text="@gamePopup_buyNow" param1="6901" param2="cash">purchase</btn>
+    			</btns>
+		</c>
+	</content>
+  </popup>    
+ 
+  <popup name="decor_kooler_mino">
+    <popupType>mc_popup_basic</popupType>
+    <autoclose>30</autoclose>
+    <msgs>
+	   <msg>Kooler Minos</msg>
+	   <msg>Unlock Today!</msg>
+	   <msg>Customize your gameplay with[@endl@]Kooloer Minos!</msg>
+    </msgs>
+    <btns>
+      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="2006" param2="cash">purchase</btn>
+    </btns>
+  </popup>
+   
+  <popup name="decor_patches_cghost">
+    <popupType>mc_popup_basic</popupType>
+    <autoclose>30</autoclose>
+    <msgs>
+	   <msg>Patches Color Ghost</msg>
+	   <msg>Unlock Today!</msg>
+	   <msg>Customize your gameplay with the Patches Color Ghost set!</msg>
+    </msgs>
+    <btns>
+      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="4036" param2="cash">purchase</btn>
+    </btns>
+  </popup>
+  
+  <popup name="decor_box_cghost">
+    <popupType>mc_popup_basic</popupType>
+    <autoclose>30</autoclose>
+    <msgs>
+	   <msg>Box Color Ghost</msg>
+	   <msg>Unlock Today!</msg>
+	   <msg>Customize your gameplay with[@endl@]Box Color Ghosts!</msg>
+    </msgs>
+    <btns>
+      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="4001" param2="cash">purchase</btn>
+    </btns>
+  </popup>
+   
+  <popup name="decor_rainbow_bomb">
+	<popupType>mc_popup_basic</popupType>
+    <autoclose>30</autoclose>
+	<images>
+	<img>shop/bomb_rainbow</img>
+	</images>
+    <msgs>
+	   <msg>Rainbow Bomb</msg>
+	   <msg>Unlock Today!</msg>
+	   <msg>Taste the rainbow with each exploding bomb!</msg>
+    </msgs>
+    <btns>
+      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="6006" param2="cash">purchase</btn>
+    </btns>
+  </popup>
+  
+  <popup name="decor_checkmate_mino">
+    <popupType>mc_popup_basic</popupType>
+    <autoclose>30</autoclose>
+    <msgs>
+	   <msg>Checkmate Mino</msg>
+	   <msg>Unlock Today!</msg>
+	   <msg>Customize your gameplay with[@endl@]Checkmate Minos!</msg>
+    </msgs>
+    <btns>
+      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="2034" param2="cash">purchase</btn>
+    </btns>
+  </popup>
+ 
+  <popup name="decor_thunder_bomb">
+    <popupType>mc_popup_basic</popupType>
+    <autoclose>30</autoclose>
+	<images>
+	<img>shop/bomb_thunder</img>
+	</images>
+    <msgs>
+	   <msg>Thunder Bomb</msg>
+	   <msg>Unlock Today!</msg>
+	   <msg>Explode each bomb with a thunderous roar!</msg>
+    </msgs>
+    <btns>
+      <btn linkage="btn_green" text="@gamePopup_buyNow" param1="6005" param2="cash">purchase</btn>
+    </btns>
+  </popup> 
+
+  <popup name="decor_easterhunt_mino">
+    <popupType>mc_popup_spotsale</popupType>
+    <autoclose>30</autoclose>
+    <msgs>
+	   <msg>Easter Hunt Mino</msg>
+	   <msg>Unlock Today!</msg>
+	   <msg>Customize your gameplay with[@endl@]Easterhunt Minos!</msg>
+	   <msg>Limited Time</msg>
+    </msgs>
+    <btns>
+      <btn linkage="btn_green" text="Buy Now" param1="2927" param2="cash">purchase</btn>
+    </btns>
+  </popup>  
+	
+	<popup name="video_ad_armor">
+		<popupType>mc_popup_basic</popupType>
+		<disableExit>0</disableExit>
+		<autoclose>30</autoclose>
+		<images>
+			<img>popups/announcement/armorVideo</img>
+		</images>
+		<content>
+			<c image="0">
+				<msgs>
+					<msg>@gamePopup_video_armor1</msg>
+					<msg>@gamePopup_limitedTimeOffer</msg>
+					<msg>@gamePopup_video_armor2</msg>
+				</msgs>
+			</c>
+		</content>
+	</popup>
+
+	
+	<!-- Placeholder for special popups -->
+	<popup name="^giftingLite"/>
+	<popup name="^survey_2012/07"/>
+
+</popupTable>
